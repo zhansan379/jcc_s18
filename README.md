@@ -231,5 +231,6 @@ jcc_s18/
 ## 维护
 
 - 本项目没有测试框架和 CI；改动后用样例截图跑 `scan.py` 人工核对，见 [development](docs/development.md#验证方式)。
-- 当前目录不是 git 仓库，删除/重构前请自行备份。
+- 代码仓库：<https://github.com/zhansan379/jcc_s18>（public，`main` 为默认分支），授权见 [LICENSE](LICENSE)。
+- 提交前用样例截图跑一遍 `python scan.py 图.png` 人工核对；`.gitignore` 已排除打包产物与运行缓存。
 - 2026-11-02 做过一次深度清理：`data/s18db/raw/`、`data/s18db/images/`、`output/` 未引用调试产物已移到临时备份。清单见 [docs/data.md](docs/data.md#本次清理2026-11-02)。

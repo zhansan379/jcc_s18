@@ -12,7 +12,8 @@
 - [`data/s18db/INDEX.md`](data/s18db/INDEX.md) / [`GAPS.md`](data/s18db/GAPS.md)：静态库字段与缺口。
 - [`labeler/README.md`](labeler/README.md)：标注器。
 
-当前目录**不是 git 仓库**，没有 CI、测试框架、`requirements.txt`；别执行分支/提交/推送流程。
+仓库是 git：<https://github.com/zhansan379/jcc_s18>（public，`main` 为默认分支）。没有 CI、测试框架、`requirements.txt`；提交前用样例图跑一遍 `python scan.py` 人工核对。
+**不要提交** `labeler/*.exe`（82MB）、`output/advisor_cache/`、`output/crops_sample/`、`.opencode/`，`.gitignore` 已排除；密钥走环境变量 `DASHSCOPE_API_KEY`，代码里不要写回默认值。
 
 ## 环境与命令
 
