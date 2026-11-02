@@ -54,7 +54,7 @@ OCR 文本字段 ──┐
 - OpenAI 兼容接口：`https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions`
 - 模型：`qwen3-vl-plus`
 - `temperature=0`，`max_tokens` 按分区卡死，避免长输出。
-- API key：`DASHSCOPE_API_KEY` 环境变量；源码内有硬编码默认 key，不要打印或外传。
+- API key：只从环境变量 `DASHSCOPE_API_KEY` 读取，**仓库不内置任何 key**；没设置时 VLM 调用直接返回 `no-key`，`--backend ocr` 不受影响。
 - 每个分区单独裁剪、缩放到 `scale`、最长边 900px、JPEG q82，再 base64。
 - `deadline` 是单次请求的剩余预算；超时直接返回错误字符串，不重试。
 - `parse_json` 容错 Markdown 代码围栏包裹和前后杂字。
