@@ -60,7 +60,7 @@ python advisor/pipeline.py 图.png              # 只跑助手流水线（--no-l
 - `--budget` 只是 VLM 的 deadline，不限制 OCR/CV；冷启动总耗时可能超过 budget。
 - `--no-units` 在 hybrid/vlm 下**反而会发一次棋盘 VLM 请求**（改用 VLM 数数量）。
 - 固定框对 2px 偏差极敏感（金币框多带图标就会读错）。先出裁剪预览再改；换分辨率/UI/语言必须重标。
-- `DASHSCOPE_API_KEY` 可覆盖 VLM key；`core/vlm_board_scan.py` 内有硬编码默认 key，不要打印/外传。
+- VLM/LLM 的 key 只从 `DASHSCOPE_API_KEY` 读，**仓库里没有默认 key**；没设置时 VLM 返回 `no-key`、助手回落规则文案。别把 key 写回代码或提交。
 - 多处硬编码 `D:\Download\...`（`tools/build_s18db.py`、`tools/bench_ocr_vs_vlm.py`、`tools/annotate_all.py`、`labeler/app.py`、`core/hero_names.py`）。换机器先改；重建 s18db 还依赖 `D:\Download\browserDownload`。
 - `labeler/英雄标注工具.exe` 必须留在 `labeler/` 下（运行时向 `../data` 找图标/标注）。重新打包：`cd labeler; python build.py`。
 - 源码/JSON 均 UTF-8。PowerShell 默认编码可能显示乱码，别据此「修复」文本。
@@ -68,7 +68,7 @@ python advisor/pipeline.py 图.png              # 只跑助手流水线（--no-l
 - 推荐依赖单位名字：没有 `--labels`/`--names` 时 `recommend.py` 只能给经济建议。当前也没有对手棋盘，无法做克制/对位；评分只是规则分，不是准确率。
 - 推荐参数改 `config/strategy_rules.json`（等级节奏/血量线/搜牌金币/权重），不要散改 `core/comp_match.py` 的默认权重。
 - `advisor/` 的 LLM 只吃压缩文本、输出要过 `llm._validate()`（符文名/牌名必须来自候选池），装备建议是配方算出来的、**不交给 LLM**；别在 prompt 里放开这些约束，会开始编英雄名。
-- `advisor/` 的 10s 预算是这么保的：启动预热（OCR/模板/符文掩膜）+ `output/advisor_cache/` 内容哈希缓存 + LLM 墙钟硬超时 4.5s。改识别参数或缓存 key（`_cache_key` 里的 `v2`）会一起失效，属预期。
+- `advisor/` 的 10s 预算是这么保的：启动预热（OCR/模板/符文掩膜）+ `output/advisor_cache/` 内容哈希缓存 + LLM 墙钟硬超时 3.5s。改识别参数或缓存 key（`_cache_key` 里的 `v2`）会一起失效，属预期。
 - 2026-11-02 深度清理：`data/s18db/raw/`、`data/s18db/images/`、`output/` 未引用调试产物、根目录 `_augarea.png`/`sol.py` 已移到 `C:\Users\feng1\AppData\Local\Temp\jcc_s18_cleanup_20261102\`。不要假设这些路径存在；重建前看 [`docs/data.md`](docs/data.md)。
 
 ## 静态数据重建

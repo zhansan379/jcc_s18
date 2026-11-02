@@ -105,7 +105,7 @@ python tools/make_crop_preview.py 图.png
 
 ## 硬编码与安全
 
-- `core/vlm_board_scan.py` 有硬编码 DashScope 默认 key；可用 `DASHSCOPE_API_KEY` 覆盖。不要打印/外传。
+- `core/vlm_board_scan.py` 只读环境变量 `DASHSCOPE_API_KEY`，仓库不含任何 key；不要把自己的 key 提交上来。
 - `D:\Download\...` 绝对路径出现在：
   `tools/build_s18db.py`、`tools/bench_ocr_vs_vlm.py`、`tools/annotate_all.py`、`labeler/app.py`、`core/hero_names.py`。
   换机器先改路径。
