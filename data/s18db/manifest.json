@@ -1,0 +1,32 @@
+{
+  "set": "S18",
+  "built_from": [
+    "https://jcc.datatft.com/database（金铲铲大数据，18.5c / 2026-10-29）",
+    "https://jcc.datatft.com/wisp-rules（仙灵互斥规则，LittleBuddyBot）",
+    "https://jcc.datatft.com/rate（概率表）",
+    "https://jcc.datatft.com/comp/rank（金铲铲阵容榜单，api.datatft.com/team/rank，18.5b / 2026-10-24）",
+    "https://jcc.datatft.com/augment/tier（强化果实评级，api.datatft.com/augment-tier/config，18.4）"
+  ],
+  "files": {
+    "heroes.json": 212379,
+    "wisps.json": 132341,
+    "traits.json": 75381,
+    "items.json": 144932,
+    "wisp_rules.json": 44768,
+    "augments.json": 306852,
+    "shop_odds.json": 2993,
+    "economy.json": 3201,
+    "item_recipes.json": 9821
+  },
+  "counts": {
+    "heroes": 65,
+    "traits": 36,
+    "items": 151,
+    "augments": 256,
+    "comps": 27,
+    "wisps": 181,
+    "wisp_rules": 181,
+    "augments_rated": 246
+  },
+  "caveat": "全部数据来自金铲铲（datatft）。阵容强度为站点榜单口径，未按段位分桶。"
+}

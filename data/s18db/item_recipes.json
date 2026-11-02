@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "source": "data/EquipmentData.json（项目原有数据）",
+    "totalItems": 139,
+    "withRecipe": 55,
+    "note": "与 items.json 的装备名称有约 13 处翻译差异（如 暴风大剑/暴风之剑、饮血剑/汲取剑），尚未按 id 合并，使用时需先对齐名称。"
+  },
+  "recipes": [
+    {
+      "Name": "死亡之刃",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "暴风大剑",
+        "暴风大剑"
+      ]
+    },
+    {
+      "Name": "巨人杀手",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "暴风大剑",
+        "反曲之弓"
+      ]
+    },
+    {
+      "Name": "海克斯科技枪刃",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "暴风大剑",
+        "无用大棒"
+      ]
+    },
+    {
+      "Name": "朔极之矛",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "暴风大剑",
+        "女神之泪"
+      ]
+    },
+    {
+      "Name": "夜之锋刃",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "暴风大剑",
+        "锁子甲"
+      ]
+    },
+    {
+      "Name": "饮血剑",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "暴风大剑",
+        "负极斗篷"
+      ]
+    },
+    {
+      "Name": "斯特拉克的挑战护手",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "暴风大剑",
+        "巨人腰带"
+      ]
+    },
+    {
+      "Name": "无尽之刃",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "暴风大剑",
+        "拳套"
+      ]
+    },
+    {
+      "Name": "红霸符",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "反曲之弓",
+        "反曲之弓"
+      ]
+    },
+    {
+      "Name": "鬼索的狂暴之刃",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "反曲之弓",
+        "无用大棒"
+      ]
+    },
+    {
+      "Name": "虚空之杖",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "反曲之弓",
+        "女神之泪"
+      ]
+    },
+    {
+      "Name": "泰坦的坚决",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "反曲之弓",
+        "锁子甲"
+      ]
+    },
+    {
+      "Name": "海妖之怒",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "反曲之弓",
+        "负极斗篷"
+      ]
+    },
+    {
+      "Name": "纳什之牙",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "反曲之弓",
+        "巨人腰带"
+      ]
+    },
+    {
+      "Name": "最后的轻语",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "反曲之弓",
+        "拳套"
+      ]
+    },
+    {
+      "Name": "灭世者的死亡之帽",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "无用大棒",
+        "无用大棒"
+      ]
+    },
+    {
+      "Name": "大天使之杖",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "无用大棒",
+        "女神之泪"
+      ]
+    },
+    {
+      "Name": "冕卫",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "无用大棒",
+        "锁子甲"
+      ]
+    },
+    {
+      "Name": "离子火花",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "无用大棒",
+        "负极斗篷"
+      ]
+    },
+    {
+      "Name": "莫雷洛秘典",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "无用大棒",
+        "巨人腰带"
+      ]
+    },
+    {
+      "Name": "珠光护手",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "无用大棒",
+        "拳套"
+      ]
+    },
+    {
+      "Name": "蓝霸符",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "女神之泪",
+        "女神之泪"
+      ]
+    },
+    {
+      "Name": "圣盾使的誓约",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "女神之泪",
+        "锁子甲"
+      ]
+    },
+    {
+      "Name": "适应性头盔",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "女神之泪",
+        "负极斗篷"
+      ]
+    },
+    {
+      "Name": "振奋盔甲",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "女神之泪",
+        "巨人腰带"
+      ]
+    },
+    {
+      "Name": "正义之手",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "女神之泪",
+        "拳套"
+      ]
+    },
+    {
+      "Name": "棘刺背心",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "锁子甲",
+        "锁子甲"
+      ]
+    },
+    {
+      "Name": "石像鬼石板甲",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "锁子甲",
+        "负极斗篷"
+      ]
+    },
+    {
+      "Name": "日炎斗篷",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "锁子甲",
+        "巨人腰带"
+      ]
+    },
+    {
+      "Name": "坚定之心",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "锁子甲",
+        "拳套"
+      ]
+    },
+    {
+      "Name": "巨龙之爪",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "负极斗篷",
+        "负极斗篷"
+      ]
+    },
+    {
+      "Name": "薄暮法袍",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "负极斗篷",
+        "巨人腰带"
+      ]
+    },
+    {
+      "Name": "水银",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "负极斗篷",
+        "拳套"
+      ]
+    },
+    {
+      "Name": "狂徒铠甲",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "巨人腰带",
+        "巨人腰带"
+      ]
+    },
+    {
+      "Name": "强袭者的链枷",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "巨人腰带",
+        "拳套"
+      ]
+    },
+    {
+      "Name": "窃贼手套",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "拳套",
+        "拳套"
+      ]
+    },
+    {
+      "Name": "金铲铲冠冕",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "金铲铲",
+        "金铲铲"
+      ]
+    },
+    {
+      "Name": "金锅锅冠冕",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "金锅锅",
+        "金锅锅"
+      ]
+    },
+    {
+      "Name": "金锅铲冠冕",
+      "EquipmentType": "普通装备",
+      "SyntheticPathway": [
+        "金铲铲",
+        "金锅锅"
+      ]
+    },
+    {
+      "Name": "迅捷射手纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金锅锅",
+        "反曲之弓"
+      ]
+    },
+    {
+      "Name": "地狱火纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金铲铲",
+        "反曲之弓"
+      ]
+    },
+    {
+      "Name": "神谕纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金锅锅",
+        "女神之泪"
+      ]
+    },
+    {
+      "Name": "花仙子纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金铲铲",
+        "暴风大剑"
+      ]
+    },
+    {
+      "Name": "法师纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金锅锅",
+        "无用大棒"
+      ]
+    },
+    {
+      "Name": "约德尔人和朋友纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金铲铲",
+        "负极斗篷"
+      ]
+    },
+    {
+      "Name": "永恒之森纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金铲铲",
+        "锁子甲"
+      ]
+    },
+    {
+      "Name": "野兽之灵纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金铲铲",
+        "拳套"
+      ]
+    },
+    {
+      "Name": "斗士纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金锅锅",
+        "巨人腰带"
+      ]
+    },
+    {
+      "Name": "裁决使纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金锅锅",
+        "拳套"
+      ]
+    },
+    {
+      "Name": "黑荆棘纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金铲铲",
+        "巨人腰带"
+      ]
+    },
+    {
+      "Name": "月蚀骑士纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金铲铲",
+        "女神之泪"
+      ]
+    },
+    {
+      "Name": "猎人纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金锅锅",
+        "暴风大剑"
+      ]
+    },
+    {
+      "Name": "狂战士纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金锅锅",
+        "负极斗篷"
+      ]
+    },
+    {
+      "Name": "重装战士纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金锅锅",
+        "锁子甲"
+      ]
+    },
+    {
+      "Name": "灵魂莲华纹章",
+      "EquipmentType": "转职纹章",
+      "SyntheticPathway": [
+        "金铲铲",
+        "无用大棒"
+      ]
+    }
+  ]
+}

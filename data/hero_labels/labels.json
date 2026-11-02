@@ -1,0 +1,186 @@
+{
+ "version": 1,
+ "items": {
+  "e4232c71e257a9d01c2f8b88d10fe9455fd497f1": {
+   "name": "奥恩",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 1,
+   "star": 2,
+   "area": "board",
+   "box": [
+    736,
+    397,
+    829,
+    403
+   ],
+   "crop": "crops/e4232c71e257a9d01c2f8b88d10fe9455fd497f1.png",
+   "ts": 1793606379
+  },
+  "6dd6445d02fd5b7d1bc1a1226312f5ceb88645b4": {
+   "name": "伊莉丝",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 2,
+   "star": 1,
+   "area": "board",
+   "box": [
+    975,
+    405,
+    1060,
+    411
+   ],
+   "crop": "crops/6dd6445d02fd5b7d1bc1a1226312f5ceb88645b4.png",
+   "ts": 1793606385
+  },
+  "852a1c98a58d333950b7a81362fdffaf2c4fa514": {
+   "name": "瑟庄妮",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 3,
+   "star": 1,
+   "area": "board",
+   "box": [
+    625,
+    576,
+    696,
+    583
+   ],
+   "crop": "crops/852a1c98a58d333950b7a81362fdffaf2c4fa514.png",
+   "ts": 1793606390
+  },
+  "4e6f858bd944bfcbc2c1232b602400615e4de0a2": {
+   "name": "霞",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 4,
+   "star": 2,
+   "area": "board",
+   "box": [
+    958,
+    560,
+    1052,
+    566
+   ],
+   "crop": "crops/4e6f858bd944bfcbc2c1232b602400615e4de0a2.png",
+   "ts": 1793606404
+  },
+  "7bd35afd98835fd8f19b56a3aa62451e52b2a6f2": {
+   "name": "奥恩",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 5,
+   "star": 2,
+   "area": "bench",
+   "box": [
+    439,
+    679,
+    533,
+    685
+   ],
+   "crop": "crops/7bd35afd98835fd8f19b56a3aa62451e52b2a6f2.png",
+   "ts": 1793606407
+  },
+  "217847b2ec8784a4e526f612b42e65034ccd435d": {
+   "name": "洛",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 6,
+   "star": 2,
+   "area": "bench",
+   "box": [
+    546,
+    681,
+    641,
+    687
+   ],
+   "crop": "crops/217847b2ec8784a4e526f612b42e65034ccd435d.png",
+   "ts": 1793606409
+  },
+  "6d1439fba960a9ed4f6cb7b93af3214358d9f4ed": {
+   "name": "洛",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 7,
+   "star": 1,
+   "area": "bench",
+   "box": [
+    688,
+    691,
+    759,
+    697
+   ],
+   "crop": "crops/6d1439fba960a9ed4f6cb7b93af3214358d9f4ed.png",
+   "ts": 1793606411
+  },
+  "dc4d1e9e921bf8c8a0ef3ff06ed8540d7afed542": {
+   "name": "霞",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 8,
+   "star": 1,
+   "area": "bench",
+   "box": [
+    805,
+    696,
+    876,
+    702
+   ],
+   "crop": "crops/dc4d1e9e921bf8c8a0ef3ff06ed8540d7afed542.png",
+   "ts": 1793606412
+  },
+  "5a5848dfedacfea44351a935b399d4499e5e6785": {
+   "name": "霞",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 9,
+   "star": 1,
+   "area": "bench",
+   "box": [
+    918,
+    696,
+    989,
+    703
+   ],
+   "crop": "crops/5a5848dfedacfea44351a935b399d4499e5e6785.png",
+   "ts": 1793606414
+  },
+  "fe46d71da5b966c176846814ac6c21d3e6b8dfbb": {
+   "name": "蕾欧娜",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 10,
+   "star": 1,
+   "area": "bench",
+   "box": [
+    1031,
+    699,
+    1102,
+    705
+   ],
+   "crop": "crops/fe46d71da5b966c176846814ac6c21d3e6b8dfbb.png",
+   "ts": 1793606424
+  },
+  "ef4e199135740bdb298d2bd11519baaae393d07e": {
+   "name": "伊莉丝",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 11,
+   "star": 1,
+   "area": "bench",
+   "box": [
+    1141,
+    683,
+    1212,
+    689
+   ],
+   "crop": "crops/ef4e199135740bdb298d2bd11519baaae393d07e.png",
+   "ts": 1793606426
+  },
+  "e3cbcb4488fea64a3d4ab595215fc3741f5d8428": {
+   "name": "瑟庄妮",
+   "image": "00a5a489-ca7a-4216-bef0-81821a313981.png",
+   "unit": 12,
+   "star": 1,
+   "area": "bench",
+   "box": [
+    1259,
+    701,
+    1330,
+    707
+   ],
+   "crop": "crops/e3cbcb4488fea64a3d4ab595215fc3741f5d8428.png",
+   "ts": 1793606437
+  }
+ },
+ "images": []
+}

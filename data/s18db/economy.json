@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "source": "h5-data-cn-18.json + jcc_rate_tables.json",
+    "set": "S18"
+  },
+  "levelUpExp": [
+    {
+      "fromLevel": 1,
+      "toLevel": 2,
+      "exp": 2
+    },
+    {
+      "fromLevel": 2,
+      "toLevel": 3,
+      "exp": 6
+    },
+    {
+      "fromLevel": 3,
+      "toLevel": 4,
+      "exp": 10
+    },
+    {
+      "fromLevel": 4,
+      "toLevel": 5,
+      "exp": 20
+    },
+    {
+      "fromLevel": 5,
+      "toLevel": 6,
+      "exp": 36
+    },
+    {
+      "fromLevel": 6,
+      "toLevel": 7,
+      "exp": 56
+    },
+    {
+      "fromLevel": 7,
+      "toLevel": 8,
+      "exp": 68
+    },
+    {
+      "fromLevel": 8,
+      "toLevel": 9,
+      "exp": 68
+    }
+  ],
+  "roundGold": [
+    {
+      "round": "1-1",
+      "gold": "-"
+    },
+    {
+      "round": "1-2",
+      "gold": "+2"
+    },
+    {
+      "round": "1-3",
+      "gold": "+2"
+    },
+    {
+      "round": "1-4",
+      "gold": "+3"
+    },
+    {
+      "round": "2-1",
+      "gold": "+4"
+    },
+    {
+      "round": "2-2",
+      "gold": "+5"
+    }
+  ],
+  "interest": [
+    {
+      "goldRange": "0-9",
+      "interest": "-"
+    },
+    {
+      "goldRange": "10-19",
+      "interest": "+1"
+    },
+    {
+      "goldRange": "20-29",
+      "interest": "+2"
+    },
+    {
+      "goldRange": "30-39",
+      "interest": "+3"
+    },
+    {
+      "goldRange": "40-49",
+      "interest": "+4"
+    },
+    {
+      "goldRange": "50+",
+      "interest": "+5"
+    }
+  ],
+  "streakGold": [
+    {
+      "streak": 1,
+      "gold": "-"
+    },
+    {
+      "streak": 2,
+      "gold": "1 金币"
+    },
+    {
+      "streak": 3,
+      "gold": "1 金币"
+    },
+    {
+      "streak": 4,
+      "gold": "1 金币"
+    },
+    {
+      "streak": 5,
+      "gold": "2 金币"
+    },
+    {
+      "streak": 6,
+      "gold": "3 金币"
+    },
+    {
+      "streak": 7,
+      "gold": "3 金币"
+    },
+    {
+      "streak": 8,
+      "gold": "3 金币"
+    }
+  ],
+  "roundGoldNote": "站点只公开 1-1~2-2 六回合，之后回合金币未在数据源中出现。",
+  "stageBaseDamage": [
+    {
+      "stage": 1,
+      "damage": 0
+    },
+    {
+      "stage": 2,
+      "damage": 2
+    },
+    {
+      "stage": 3,
+      "damage": 6
+    },
+    {
+      "stage": 4,
+      "damage": 7
+    },
+    {
+      "stage": 5,
+      "damage": 10
+    },
+    {
+      "stage": 6,
+      "damage": 12
+    },
+    {
+      "stage": 7,
+      "damage": 17
+    },
+    {
+      "stage": 8,
+      "damage": 150
+    }
+  ],
+  "survivorDamage": [
+    {
+      "units": 1,
+      "damage": 1
+    },
+    {
+      "units": 2,
+      "damage": 2
+    },
+    {
+      "units": 3,
+      "damage": 3
+    },
+    {
+      "units": 4,
+      "damage": 4
+    },
+    {
+      "units": 5,
+      "damage": 5
+    },
+    {
+      "units": 6,
+      "damage": 6
+    },
+    {
+      "units": 7,
+      "damage": 7
+    },
+    {
+      "units": 8,
+      "damage": 8
+    }
+  ],
+  "goldStreakRaw": [
+    "-",
+    "1 金币",
+    "1 金币",
+    "1 金币",
+    "2 金币",
+    "3 金币",
+    "3 金币",
+    "3 金币"
+  ]
+}

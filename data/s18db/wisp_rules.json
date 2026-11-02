@@ -1,0 +1,1693 @@
+{
+  "meta": {
+    "source": "https://jcc.datatft.com/wisp-rules",
+    "saved_file": "金铲铲大数据 _ 仙灵互斥规则.html",
+    "title": "仙灵互斥关系",
+    "data_source_note": "LittleBuddyBot",
+    "rules": 181,
+    "extracted_at": "2026-11-01",
+    "note": "页面数据来自浏览器渲染后的 DOM；只含当前视图中已渲染的 181 条（搜索/分类过滤前为全量）。"
+  },
+  "rules": [
+    {
+      "name": "变形术",
+      "category": "冒险",
+      "rounds": "2-1 ~ 4-1",
+      "icon": "risky_tier1.png",
+      "blockers": [
+        "NO SCOUT NO PIVOT"
+      ],
+      "blockerCount": 1,
+      "condition": "阵容中拥有1个2费弈子"
+    },
+    {
+      "name": "打捞术",
+      "category": "杂项",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "misc_tier1.png",
+      "blockers": [
+        "Salvage Bin",
+        "Salvage Bin+",
+        "Crafted Crafting",
+        "NO SCOUT NO PIVOT"
+      ],
+      "blockerCount": 4,
+      "condition": "—"
+    },
+    {
+      "name": "低阶变形术",
+      "category": "冒险",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "risky_tier1.png",
+      "blockers": [
+        "NO SCOUT NO PIVOT"
+      ],
+      "blockerCount": 1,
+      "condition": "阵容中拥有1个1费弈子"
+    },
+    {
+      "name": "独行斗篷",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [
+        "Group Hug I",
+        "Group Hug II",
+        "Hold the Line"
+      ],
+      "blockerCount": 3,
+      "condition": "【永恒之森】、【月蚀骑士】和【翠神】均未激活"
+    },
+    {
+      "name": "钢铁核心",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [
+        "Solo Plate"
+      ],
+      "blockerCount": 1,
+      "condition": "—"
+    },
+    {
+      "name": "高阶变形术",
+      "category": "冒险",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "risky_tier2.png",
+      "blockers": [
+        "NO SCOUT NO PIVOT"
+      ],
+      "blockerCount": 1,
+      "condition": "阵容中拥有1个4费弈子"
+    },
+    {
+      "name": "幻影浪花",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [
+        "Trait Ladder"
+      ],
+      "blockerCount": 1,
+      "condition": "至少有2个已计数但未激活的羁绊"
+    },
+    {
+      "name": "弃船",
+      "category": "冒险",
+      "rounds": "3-1 ~ 3-4",
+      "icon": "risky_tier3.png",
+      "blockers": [
+        "NO SCOUT NO PIVOT",
+        "Worth the Wait",
+        "Worth the Wait II",
+        "Weight The Worth",
+        "Hard Commit",
+        "Luxury Subscription",
+        "Frontline Foundation",
+        "Backline Blueprint",
+        "Unrivaled",
+        "The Trait Tree",
+        "Trait Ladder"
+      ],
+      "blockerCount": 11,
+      "condition": "阵容中没有3星弈子；连胜少于3"
+    },
+    {
+      "name": "神器化",
+      "category": "装备",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "item_tier2.png",
+      "blockers": [
+        "Spirit Of Redemption",
+        "Promised Protection",
+        "Lucky Gloves",
+        "Lucky Gloves+",
+        "Solo Plate",
+        "Seraphim's Staff",
+        "Heart of Steel",
+        "Deadlier Blades",
+        "Deadlier Caps",
+        "Living Forge",
+        "Forged In Strength",
+        "Portable Forge"
+      ],
+      "blockerCount": 12,
+      "condition": "至少拥有3件基础装备（成装按2件基础装备计算）"
+    },
+    {
+      "name": "鲜血与铁",
+      "category": "装备",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "item_tier2.png",
+      "blockers": [
+        "Solo Leveling"
+      ],
+      "blockerCount": 1,
+      "condition": "—"
+    },
+    {
+      "name": "英勇就义",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier3.png",
+      "blockers": [
+        "Makeshift Armor I",
+        "Makeshift Armor II"
+      ],
+      "blockerCount": 2,
+      "condition": "场上及备战席中恰好有2个或3个弈子各携带3件装备"
+    },
+    {
+      "name": "余震",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [
+        "Arcane Viktor-y"
+      ],
+      "blockerCount": 1,
+      "condition": "—"
+    },
+    {
+      "name": "鏖战不休",
+      "category": "弈子",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "champion_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "爆燃",
+      "category": "商店",
+      "rounds": "3-5 ~ 5-7",
+      "icon": "shop_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【地狱火】"
+    },
+    {
+      "name": "爆炸药水",
+      "category": "杂项",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "壁垒",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "上场战斗中至少出战2个坦克"
+    },
+    {
+      "name": "边境村庄",
+      "category": "商店",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "shop_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "不倒翁",
+      "category": "商店",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "shop_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "不祥交易",
+      "category": "杂项",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "misc_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "剩余生命值高于4"
+    },
+    {
+      "name": "超级暴击",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "阵容中至少有2个可造成技能暴击的弈子"
+    },
+    {
+      "name": "炽焰",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "大爆炸",
+      "category": "战斗",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "大器晚成",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "大腕",
+      "category": "弈子",
+      "rounds": "4-2 ~ 4-7",
+      "icon": "champion_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "带一个走",
+      "category": "冒险",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "risky_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "连胜少于3"
+    },
+    {
+      "name": "地动山摇",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "低阶胜负手",
+      "category": "冒险",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "risky_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "连败少于3；未激活【魔女】"
+    },
+    {
+      "name": "抵抗",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "点心时间到！",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【约德尔人和朋友】"
+    },
+    {
+      "name": "镀板护盾",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "对影成三",
+      "category": "弈子",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "champion_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "多样化",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少激活5个非唯一羁绊"
+    },
+    {
+      "name": "法力细雨",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "金币少于10"
+    },
+    {
+      "name": "法力药水",
+      "category": "杂项",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "法术反制",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "繁殖",
+      "category": "弈子",
+      "rounds": "2-1 ~ 4-1",
+      "icon": "champion_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "防微杜渐",
+      "category": "杂项",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "肥料",
+      "category": "冒险",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "risky_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "疯狂掷币人",
+      "category": "冒险",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "risky_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "蜂鸟",
+      "category": "战斗",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "复仇",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "富魔之壤",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "上场战斗中至少出战2个术师；场上及备战席中有1个携带装备的术师"
+    },
+    {
+      "name": "干旱",
+      "category": "冒险",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "risky_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "当前没有连胜/连败，或正处于连败中（任意长度）"
+    },
+    {
+      "name": "高阶胜负手",
+      "category": "冒险",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "risky_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "连败少于3；剩余生命值高于20"
+    },
+    {
+      "name": "孤身站场",
+      "category": "战斗",
+      "rounds": "3-5 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "未激活【永恒之森】；未激活【月蚀骑士】；未激活【翠神】"
+    },
+    {
+      "name": "骨头滚滚",
+      "category": "商店",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "shop_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "雇佣兵",
+      "category": "战斗",
+      "rounds": "6-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "光明化",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "鬼鬼祟祟",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "上场战斗中至少出战3个战士或刺客；场上及备战席中有1个携带装备且定位为刺客或战士的弈子"
+    },
+    {
+      "name": "刽子手的悔恨",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "皓月当空",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【月蚀骑士】"
+    },
+    {
+      "name": "洪涝",
+      "category": "冒险",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "risky_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "未处于连败中"
+    },
+    {
+      "name": "后排之星",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "幻影背心",
+      "category": "战斗",
+      "rounds": "3-1 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "幻影护甲",
+      "category": "战斗",
+      "rounds": "3-1 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "幻影手套",
+      "category": "战斗",
+      "rounds": "3-1 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "幻影纹章",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "焕新之光",
+      "category": "商店",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "shop_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【日蚀骑士】"
+    },
+    {
+      "name": "黄金之路",
+      "category": "冒险",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "risky_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "连败少于3"
+    },
+    {
+      "name": "回复",
+      "category": "战斗",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "回归的好友",
+      "category": "战斗",
+      "rounds": "3-1 ~ 5-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "金币少于10"
+    },
+    {
+      "name": "活体商店",
+      "category": "商店",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "shop_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有12金币"
+    },
+    {
+      "name": "活体土壤",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "加速",
+      "category": "战斗",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上没有携带3件装备的无蓝条弈子"
+    },
+    {
+      "name": "坚硬木材",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "借来的装备",
+      "category": "战斗",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "金钱之力",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有30金币"
+    },
+    {
+      "name": "荆棘环身",
+      "category": "战斗",
+      "rounds": "3-5 ~ 10-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "上场战斗中至少出战2个坦克"
+    },
+    {
+      "name": "巨大化",
+      "category": "战斗",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "巨人光环",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上及备战席中有1个携带装备的坦克"
+    },
+    {
+      "name": "巨型增长",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "克隆弈子",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "老练",
+      "category": "金币经验",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "goldxp_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "泪雨",
+      "category": "战斗",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "梁上君子",
+      "category": "冒险",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "risky_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "猎手的黄金之路",
+      "category": "冒险",
+      "rounds": "2-1 ~ 4-7",
+      "icon": "risky_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【宿敌】"
+    },
+    {
+      "name": "灵龟降临",
+      "category": "战斗",
+      "rounds": "3-5 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "尚未选择【灵龟】野兽之灵增益；已激活【野兽之灵】"
+    },
+    {
+      "name": "零花钱",
+      "category": "金币经验",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "goldxp_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上至少有2个1星弈子"
+    },
+    {
+      "name": "零碎",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上至少有2个未携带装备的弈子"
+    },
+    {
+      "name": "旅行者",
+      "category": "弈子",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "champion_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "绿意盎然",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "金币少于10"
+    },
+    {
+      "name": "蛮熊降临",
+      "category": "战斗",
+      "rounds": "3-5 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "尚未选择【蛮熊】野兽之灵增益；已激活【野兽之灵】"
+    },
+    {
+      "name": "慢速学习",
+      "category": "金币经验",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "goldxp_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "猛虎降临",
+      "category": "战斗",
+      "rounds": "3-5 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "尚未选择【猛虎】野兽之灵增益；已激活【野兽之灵】"
+    },
+    {
+      "name": "迷路的游客",
+      "category": "弈子",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "champion_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "免费刷新术",
+      "category": "商店",
+      "rounds": "2-1 ~ 4-1",
+      "icon": "shop_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "瞄准镜",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "上场战斗中至少出战2个战士；场上及备战席中有1个携带装备的战士"
+    },
+    {
+      "name": "摸些蘑菇",
+      "category": "金币经验",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "goldxp_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "金币少于10"
+    },
+    {
+      "name": "男爵之手",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【峡谷野怪】"
+    },
+    {
+      "name": "抛硬币",
+      "category": "金币经验",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "goldxp_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "盆栽生命花",
+      "category": "战斗",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【永恒之森】"
+    },
+    {
+      "name": "盆栽石皮树",
+      "category": "战斗",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【永恒之森】"
+    },
+    {
+      "name": "拼一把大的！",
+      "category": "杂项",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "misc_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "拼一把小的！",
+      "category": "杂项",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "屏障",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "破盾秘法",
+      "category": "战斗",
+      "rounds": "4-2 ~ 4-7、6-1 ~ 10-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "奇境宗师",
+      "category": "弈子",
+      "rounds": "6-1 ~ 10-1",
+      "icon": "champion_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "强化激素",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上至少有2个1星弈子，或场上有1个携带3件装备的1星5费弈子"
+    },
+    {
+      "name": "倾盆大雨",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "庆功宴",
+      "category": "冒险",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "risky_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "全1费商店",
+      "category": "商店",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "shop_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有5金币"
+    },
+    {
+      "name": "全2费商店",
+      "category": "商店",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "shop_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有5金币"
+    },
+    {
+      "name": "全3费商店",
+      "category": "商店",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "shop_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有5金币"
+    },
+    {
+      "name": "全4费商店",
+      "category": "商店",
+      "rounds": "5-1 ~ 5-7",
+      "icon": "shop_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有8金币"
+    },
+    {
+      "name": "全5费商店",
+      "category": "商店",
+      "rounds": "6-1 ~ 10-1",
+      "icon": "shop_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有15金币"
+    },
+    {
+      "name": "染血之币",
+      "category": "金币经验",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "goldxp_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "日蚀之礼",
+      "category": "弈子",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "champion_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【日蚀骑士】"
+    },
+    {
+      "name": "日炎巫术",
+      "category": "战斗",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "未持有【莫雷洛秘典】、【日炎斗篷】或【红霸符】（普通或光明），或已激活【地狱火】"
+    },
+    {
+      "name": "散件赏金",
+      "category": "冒险",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "risky_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "连败少于3"
+    },
+    {
+      "name": "森林多胞胎",
+      "category": "弈子",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "champion_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "森林魔法师",
+      "category": "杂项",
+      "rounds": "3-5 ~ 10-1",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "备战阶段的前8秒内"
+    },
+    {
+      "name": "森林向导",
+      "category": "弈子",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "champion_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "闪电打击",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "闪电风暴",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "射手标记",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "上场战斗中至少出战2个射手；场上及备战席中有1个携带装备的射手"
+    },
+    {
+      "name": "射手狂风",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "上场战斗中至少出战2个射手；场上及备战席中有1个携带装备的射手"
+    },
+    {
+      "name": "摄魂夺魄",
+      "category": "冒险",
+      "rounds": "2-1 ~ 4-1",
+      "icon": "risky_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【魔女】"
+    },
+    {
+      "name": "生命药水",
+      "category": "杂项",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "生态改造",
+      "category": "杂项",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【翠神】"
+    },
+    {
+      "name": "石化术",
+      "category": "战斗",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "输得漂亮",
+      "category": "冒险",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "risky_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "连胜少于3"
+    },
+    {
+      "name": "树丛铠甲",
+      "category": "战斗",
+      "rounds": "3-1 ~ 5-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "金币少于10"
+    },
+    {
+      "name": "树顶弓箭手",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "树皮护甲",
+      "category": "战斗",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "处于连胜中（任意长度）"
+    },
+    {
+      "name": "顺流而下",
+      "category": "商店",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "shop_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "备战阶段的前20秒内；至少拥有20金币"
+    },
+    {
+      "name": "搜查队",
+      "category": "商店",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "shop_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有10金币"
+    },
+    {
+      "name": "贴贴",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "铜汤匙",
+      "category": "金币经验",
+      "rounds": "2-1 ~ 4-1",
+      "icon": "goldxp_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "屠戮狂暴",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上及备战席中有1个携带装备的战士；上场战斗中至少出战2个战士"
+    },
+    {
+      "name": "未雨绸缪",
+      "category": "战斗",
+      "rounds": "3-1 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "阵容中至少有2件可叠加层数的装备"
+    },
+    {
+      "name": "仙灵的怜悯",
+      "category": "金币经验",
+      "rounds": "2-1 ~ 10-1",
+      "icon": "goldxp_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "闲散工匠",
+      "category": "装备",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "item_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "备战席上至少有1件基础装备"
+    },
+    {
+      "name": "小贩",
+      "category": "装备",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "item_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有10金币"
+    },
+    {
+      "name": "小人国",
+      "category": "弈子",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "champion_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "小饰品包",
+      "category": "杂项",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上及备战席中有1个已携带装备、伤害类型为物理且定位为刺客、术师、射手、战士或专家的弈子；剩余生命值高于20"
+    },
+    {
+      "name": "小饰品袋",
+      "category": "杂项",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "misc_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上及备战席中有1个已携带装备、伤害类型为物理且定位为刺客、术师、射手、战士或专家的弈子；剩余生命值高于20"
+    },
+    {
+      "name": "小饰品罐",
+      "category": "杂项",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上及备战席中有1个已携带装备、伤害类型为物理且定位为刺客、术师、射手、战士或专家的弈子；剩余生命值高于20"
+    },
+    {
+      "name": "小玩具包",
+      "category": "杂项",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "剩余生命值高于20"
+    },
+    {
+      "name": "小玩具袋",
+      "category": "杂项",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "misc_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "剩余生命值高于20"
+    },
+    {
+      "name": "小玩具罐",
+      "category": "杂项",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "剩余生命值高于20"
+    },
+    {
+      "name": "小型血祭",
+      "category": "杂项",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "misc_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "剩余生命值高于3"
+    },
+    {
+      "name": "小装置包",
+      "category": "杂项",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上及备战席中有1个已携带装备、伤害类型为魔法且定位为术师、战士、射手或刺客的弈子；剩余生命值高于20"
+    },
+    {
+      "name": "小装置袋",
+      "category": "杂项",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "misc_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上及备战席中有1个已携带装备、伤害类型为魔法且定位为术师、战士、射手或刺客的弈子；剩余生命值高于20"
+    },
+    {
+      "name": "小装置罐",
+      "category": "杂项",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "misc_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上及备战席中有1个已携带装备、伤害类型为魔法且定位为术师、战士、射手或刺客的弈子；剩余生命值高于20"
+    },
+    {
+      "name": "新手村",
+      "category": "商店",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "shop_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "星落",
+      "category": "商店",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "shop_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有10金币"
+    },
+    {
+      "name": "行云流水",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "幸运7",
+      "category": "商店",
+      "rounds": "6-1 ~ 10-1",
+      "icon": "shop_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "休战",
+      "category": "金币经验",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "goldxp_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "学徒",
+      "category": "弈子",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "champion_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "血祭",
+      "category": "杂项",
+      "rounds": "4-2 ~ 4-7",
+      "icon": "misc_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "剩余生命值高于10"
+    },
+    {
+      "name": "训练场",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "腰带批发",
+      "category": "战斗",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "药学博士",
+      "category": "杂项",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "misc_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "野区",
+      "category": "商店",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "shop_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已激活【峡谷野怪】"
+    },
+    {
+      "name": "衣冠冢",
+      "category": "战斗",
+      "rounds": "3-5 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "衣衫褴褛",
+      "category": "战斗",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "未持有【最后的轻语】、【虚空之杖】、【离子火花】或【薄暮法袍】（普通或光明）"
+    },
+    {
+      "name": "以命为注",
+      "category": "金币经验",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "goldxp_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已损失至少70点生命值"
+    },
+    {
+      "name": "以物易物",
+      "category": "金币经验",
+      "rounds": "3-5 ~ 5-7",
+      "icon": "goldxp_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "剩余生命值高于20"
+    },
+    {
+      "name": "易燃物",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "英雄登场",
+      "category": "战斗",
+      "rounds": "6-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "备战席上至少有1个弈子"
+    },
+    {
+      "name": "萤火虫之家",
+      "category": "战斗",
+      "rounds": "3-5 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "上场战斗中至少出战2个术师"
+    },
+    {
+      "name": "有丝分裂",
+      "category": "弈子",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "champion_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "预言之子",
+      "category": "弈子",
+      "rounds": "6-1 ~ 10-1",
+      "icon": "champion_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有35金币；剩余生命值高于50；等级达到10级或以上"
+    },
+    {
+      "name": "元气满满",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "金币少于10"
+    },
+    {
+      "name": "约德尔之灵",
+      "category": "战斗",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "月光仪式",
+      "category": "战斗",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上或备战席上有1个至少2星的1费或2费弈子"
+    },
+    {
+      "name": "炸鱼行为",
+      "category": "弈子",
+      "rounds": "3-5 ~ 4-1",
+      "icon": "champion_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "占卜水晶球",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "长大",
+      "category": "金币经验",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "goldxp_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "长者之环",
+      "category": "弈子",
+      "rounds": "6-1 ~ 10-1",
+      "icon": "champion_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "招财猫",
+      "category": "金币经验",
+      "rounds": "4-2 ~ 5-7",
+      "icon": "goldxp_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "剩余生命值高于20"
+    },
+    {
+      "name": "找个朋友",
+      "category": "战斗",
+      "rounds": "2-1 ~ 2-7",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "处于连胜中（任意长度）"
+    },
+    {
+      "name": "折磨",
+      "category": "战斗",
+      "rounds": "5-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "未持有【最后的轻语】、【虚空之杖】、【离子火花】或【薄暮法袍】（普通或光明）；未持有【莫雷洛秘典】、【日炎斗篷】或【红霸符】（普通或光明），或已激活【地狱火】"
+    },
+    {
+      "name": "珍品摆摊车",
+      "category": "装备",
+      "rounds": "3-1 ~ 4-7",
+      "icon": "item_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "至少拥有10金币"
+    },
+    {
+      "name": "治疗池",
+      "category": "杂项",
+      "rounds": "2-1 ~ 3-4",
+      "icon": "misc_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "已损失至少10点生命值"
+    },
+    {
+      "name": "掷骰子",
+      "category": "金币经验",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "goldxp_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "中央大道",
+      "category": "商店",
+      "rounds": "3-5 ~ 4-7",
+      "icon": "shop_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "终极飞升",
+      "category": "战斗",
+      "rounds": "3-1 ~ 4-1",
+      "icon": "combat_tier1.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    },
+    {
+      "name": "自然之怒",
+      "category": "战斗",
+      "rounds": "6-1 ~ 10-1",
+      "icon": "combat_tier3.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "场上及备战席中至少有5个各携带1件或更多装备的弈子；未激活【永恒之森】"
+    },
+    {
+      "name": "自然之友",
+      "category": "战斗",
+      "rounds": "4-2 ~ 10-1",
+      "icon": "combat_tier2.png",
+      "blockers": [],
+      "blockerCount": 0,
+      "condition": "—"
+    }
+  ]
+}

@@ -1,0 +1,3896 @@
+{
+  "meta": {
+    "source": "jcc.datatft.com/database#charm（站点「仙灵」tab）+ h5-data-cn-18.json#charms18",
+    "count": 181,
+    "note": "仙灵（charms）。注意：这与「强化符文」是两套数据，别混用。"
+  },
+  "wisps": [
+    {
+      "key": "DA_18_MinorPolymorph",
+      "name": "低阶变形术",
+      "category": "冒险",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [
+        "阵容中拥有1个1费弈子"
+      ],
+      "effect": "你拥有的1个随机1费弈子永久变形为1个2费弈子。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "你拥有的那个星级最高的1费弈子永久变形为1个2费弈子。",
+        "effectText": "你拥有的那个星级最高的1费弈子永久变形为1个2费弈子。"
+      },
+      "mutex": [
+        "NO SCOUT NO PIVOT"
+      ],
+      "mutexCondition": "阵容中拥有1个1费弈子",
+      "effectText": "你拥有的1个随机1费弈子永久变形为1个2费弈子。"
+    },
+    {
+      "key": "DA_18_MinorGambit",
+      "name": "低阶胜负手",
+      "category": "冒险",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [
+        "连败少于3",
+        "未激活【魔女】"
+      ],
+      "effect": "如果你赢得下一场玩家对战，获得2金币。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "如果你赢得下一场玩家对战，获得3金币。",
+        "effectText": "如果你赢得下一场玩家对战，获得3金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "连败少于3；未激活【魔女】",
+      "effectText": "如果你赢得下一场玩家对战，获得2金币。"
+    },
+    {
+      "key": "DA_18_Polymorph",
+      "name": "变形术",
+      "category": "冒险",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 4-1"
+      ],
+      "requires": [
+        "阵容中拥有1个2费弈子"
+      ],
+      "effect": "你拥有的1个随机2费弈子永久变形为1个3费弈子。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "你拥有的那个星级最高的2费弈子永久变形为1个3费弈子。",
+        "effectText": "你拥有的那个星级最高的2费弈子永久变形为1个3费弈子。"
+      },
+      "mutex": [
+        "NO SCOUT NO PIVOT"
+      ],
+      "mutexCondition": "阵容中拥有1个2费弈子",
+      "effectText": "你拥有的1个随机2费弈子永久变形为1个3费弈子。"
+    },
+    {
+      "key": "DA_TakeOneWithYa18",
+      "name": "带一个走",
+      "category": "冒险",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [
+        "连胜少于3"
+      ],
+      "effect": "如果你失败但至少击杀了1名敌人，获得4经验值。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "如果你失败但至少击杀了1名敌人，获得6经验值。",
+        "effectText": "如果你失败但至少击杀了1名敌人，获得6经验值。"
+      },
+      "mutex": [],
+      "mutexCondition": "连胜少于3",
+      "effectText": "如果你失败但至少击杀了1名敌人，获得4经验值。"
+    },
+    {
+      "key": "DA_Drought18",
+      "name": "干旱",
+      "category": "冒险",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [
+        "当前没有连胜/连败，或正处于连败中（任意长度）"
+      ],
+      "effect": "你的连败数加2。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "你的连败数加3。",
+        "effectText": "你的连败数加3。"
+      },
+      "mutex": [],
+      "mutexCondition": "当前没有连胜/连败，或正处于连败中（任意长度）",
+      "effectText": "你的连败数加2。"
+    },
+    {
+      "key": "DA_EssenceTheft18",
+      "name": "摄魂夺魄",
+      "category": "冒险",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "2-1 ~ 4-1"
+      ],
+      "requires": [
+        "已激活【魔女】"
+      ],
+      "effect": "本场对战额外获得50%【女巫精粹】。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "本场对战额外获得90%【女巫精粹】。",
+        "effectText": "本场对战额外获得90%【女巫精粹】。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【魔女】",
+      "effectText": "本场对战额外获得50%【女巫精粹】。"
+    },
+    {
+      "key": "DA_ComponentBounty",
+      "name": "散件赏金",
+      "category": "冒险",
+      "tier": 1,
+      "cost": 4,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [
+        "连败少于3"
+      ],
+      "effect": "如果你赢得下一个玩家对战回合，获得1个随机基础装备。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "如果你赢得下一个玩家对战回合，获得1个随机基础装备。",
+        "effectText": "如果你赢得下一个玩家对战回合，获得1个随机基础装备。"
+      },
+      "mutex": [],
+      "mutexCondition": "连败少于3",
+      "effectText": "如果你赢得下一个玩家对战回合，获得1个随机基础装备。"
+    },
+    {
+      "key": "DA_Flood18",
+      "name": "洪涝",
+      "category": "冒险",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [
+        "未处于连败中"
+      ],
+      "effect": "你的连胜数加1。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "你的连胜数加2。",
+        "effectText": "你的连胜数加2。"
+      },
+      "mutex": [],
+      "mutexCondition": "未处于连败中",
+      "effectText": "你的连胜数加1。"
+    },
+    {
+      "key": "DA_TrophyHunter18",
+      "name": "猎手的黄金之路",
+      "category": "冒险",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "2-1 ~ 4-7"
+      ],
+      "requires": [
+        "已激活【宿敌】"
+      ],
+      "effect": "下一场玩家对战，你的【宿敌】获得双倍参与击杀数。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "下一场玩家对战，你的【宿敌】获得双倍参与击杀数。",
+        "effectText": "下一场玩家对战，你的【宿敌】获得双倍参与击杀数。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【宿敌】",
+      "effectText": "下一场玩家对战，你的【宿敌】获得双倍参与击杀数。"
+    },
+    {
+      "key": "DA_18_Fertilize",
+      "name": "肥料",
+      "category": "冒险",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [],
+      "effect": "每有1名阵亡的敌人，获得1经验值。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "每有1名阵亡的敌人，获得1经验值。获得2经验值。",
+        "effectText": "每有1名阵亡的敌人，获得1经验值。获得2经验值。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每有1名阵亡的敌人，获得1经验值。"
+    },
+    {
+      "key": "DA_18_Payday",
+      "name": "庆功宴",
+      "category": "冒险",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "每有1个己方弈子在战斗中存活，获得2金币。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "每有1个己方弈子在战斗中存活，获得3金币。",
+        "effectText": "每有1个己方弈子在战斗中存活，获得3金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每有1个己方弈子在战斗中存活，获得2金币。"
+    },
+    {
+      "key": "DA_Cutpurse18",
+      "name": "梁上君子",
+      "category": "冒险",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "每过5秒，你的弈子们就有20%几率掉落1金币。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "每过4秒，你的弈子们就有20%几率掉落1金币。",
+        "effectText": "每过4秒，你的弈子们就有20%几率掉落1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每过5秒，你的弈子们就有20%几率掉落1金币。"
+    },
+    {
+      "key": "DA_FlipFrenzy18",
+      "name": "疯狂掷币人",
+      "category": "冒险",
+      "tier": 2,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "抛掷1枚硬币，如果硬币正面朝上，获得1金币。重复抛掷，直至你抛掷的硬币反面朝上。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "抛掷1枚硬币，如果硬币正面朝上，获得1金币。重复抛掷，直至你抛掷的硬币反面朝上。",
+        "effectText": "抛掷1枚硬币，如果硬币正面朝上，获得1金币。重复抛掷，直至你抛掷的硬币反面朝上。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "抛掷1枚硬币，如果硬币正面朝上，获得1金币。重复抛掷，直至你抛掷的硬币反面朝上。"
+    },
+    {
+      "key": "DA_GoodLoss18",
+      "name": "输得漂亮",
+      "category": "冒险",
+      "tier": 2,
+      "cost": 4,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [
+        "连胜少于3"
+      ],
+      "effect": "在接下来的3场玩家对战回合，你每输掉一场就会获得4经验值。",
+      "upgrade": {
+        "cost": 4,
+        "effect": "在接下来的3场玩家对战回合，你每输掉一场就会获得6经验值。",
+        "effectText": "在接下来的3场玩家对战回合，你每输掉一场就会获得6经验值。"
+      },
+      "mutex": [],
+      "mutexCondition": "连胜少于3",
+      "effectText": "在接下来的3场玩家对战回合，你每输掉一场就会获得4经验值。"
+    },
+    {
+      "key": "DA_18_MajorPolymorph",
+      "name": "高阶变形术",
+      "category": "冒险",
+      "tier": 2,
+      "cost": 0,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "阵容中拥有1个4费弈子"
+      ],
+      "effect": "你拥有的1个随机4费弈子会永久变形为1个5费弈子。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "你拥有的那个星级最高的4费弈子永久变形为1个5费弈子。",
+        "effectText": "你拥有的那个星级最高的4费弈子永久变形为1个5费弈子。"
+      },
+      "mutex": [
+        "NO SCOUT NO PIVOT"
+      ],
+      "mutexCondition": "阵容中拥有1个4费弈子",
+      "effectText": "你拥有的1个随机4费弈子会永久变形为1个5费弈子。"
+    },
+    {
+      "key": "DA_18_MajorGambit",
+      "name": "高阶胜负手",
+      "category": "冒险",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "连败少于3",
+        "剩余生命值高于20"
+      ],
+      "effect": "如果你赢得下一场玩家对战，获得8金币。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "如果你赢得下一场对战，获得10金币。",
+        "effectText": "如果你赢得下一场对战，获得10金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "连败少于3；剩余生命值高于20",
+      "effectText": "如果你赢得下一场玩家对战，获得8金币。"
+    },
+    {
+      "key": "DA_GoldenRoad18",
+      "name": "黄金之路",
+      "category": "冒险",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [
+        "连败少于3"
+      ],
+      "effect": "在3场玩家对战后，获得2x期间胜场数的金币。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "在3场玩家对战回合后，获得2x期间胜场数的金币外加1金币。",
+        "effectText": "在3场玩家对战回合后，获得2x期间胜场数的金币外加1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "连败少于3",
+      "effectText": "在3场玩家对战后，获得2x期间胜场数的金币。"
+    },
+    {
+      "key": "DA_AbandonShip18",
+      "name": "弃船",
+      "category": "冒险",
+      "tier": 3,
+      "cost": 2,
+      "rounds": [
+        "3-1 ~ 3-4"
+      ],
+      "requires": [
+        "阵容中没有3星弈子",
+        "弈子出售价值的累计值在15金币以上",
+        "连胜少于3",
+        "备战阶段的前2秒内"
+      ],
+      "effect": "出售你棋盘上和备战席的所有弈子，获得6金币和8次刷新。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "出售你棋盘上和备战席的所有弈子，获得10金币和10次刷新。",
+        "effectText": "出售你棋盘上和备战席的所有弈子，获得10金币和10次刷新。"
+      },
+      "mutex": [
+        "NO SCOUT NO PIVOT",
+        "Worth the Wait",
+        "Worth the Wait II",
+        "Weight The Worth",
+        "Hard Commit",
+        "Luxury Subscription",
+        "Frontline Foundation",
+        "Backline Blueprint",
+        "Unrivaled",
+        "The Trait Tree",
+        "Trait Ladder"
+      ],
+      "mutexCondition": "阵容中没有3星弈子；连胜少于3",
+      "effectText": "出售你棋盘上和备战席的所有弈子，获得6金币和8次刷新。"
+    },
+    {
+      "key": "DA_18_Freeroller",
+      "name": "免费刷新术",
+      "category": "商店",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "2-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "获得2次刷新。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "获得3次刷新。",
+        "effectText": "获得3次刷新。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得2次刷新。"
+    },
+    {
+      "key": "DA_18_AllOnes",
+      "name": "全1费商店",
+      "category": "商店",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [
+        "至少拥有5金币"
+      ],
+      "effect": "刷新你的商店，使其充满1费弈子。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "刷新你的商店，使其充满1费弈子。获得1金币。",
+        "effectText": "刷新你的商店，使其充满1费弈子。获得1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有5金币",
+      "effectText": "刷新你的商店，使其充满1费弈子。"
+    },
+    {
+      "key": "DA_18_AllTwos",
+      "name": "全2费商店",
+      "category": "商店",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [
+        "至少拥有5金币"
+      ],
+      "effect": "刷新你的商店，使其充满2费弈子。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "刷新你的商店，使其充满2费弈子。获得1金币。",
+        "effectText": "刷新你的商店，使其充满2费弈子。获得1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有5金币",
+      "effectText": "刷新你的商店，使其充满2费弈子。"
+    },
+    {
+      "key": "DA_18_AllThrees",
+      "name": "全3费商店",
+      "category": "商店",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [
+        "至少拥有5金币"
+      ],
+      "effect": "刷新你的商店，使其充满3费弈子。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "刷新你的商店，使其充满3费弈子。获得2金币。",
+        "effectText": "刷新你的商店，使其充满3费弈子。获得2金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有5金币",
+      "effectText": "刷新你的商店，使其充满3费弈子。"
+    },
+    {
+      "key": "DA_18_AllFours",
+      "name": "全4费商店",
+      "category": "商店",
+      "tier": 1,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 5-7"
+      ],
+      "requires": [
+        "至少拥有8金币"
+      ],
+      "effect": "刷新你的商店，使其充满4费弈子。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "刷新你的商店，使其充满4费弈子。获得2金币。",
+        "effectText": "刷新你的商店，使其充满4费弈子。获得2金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有8金币",
+      "effectText": "刷新你的商店，使其充满4费弈子。"
+    },
+    {
+      "key": "DA_SearchParty18",
+      "name": "搜查队",
+      "category": "商店",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [
+        "至少拥有10金币"
+      ],
+      "effect": "在本回合内，你每次刷新商店都会出现1个4费弈子，直到你购买其中一名为止。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "在本回合内，你每次刷新商店都会出现1个4费弈子，直到你购买其中一名为止。",
+        "effectText": "在本回合内，你每次刷新商店都会出现1个4费弈子，直到你购买其中一名为止。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有10金币",
+      "effectText": "在本回合内，你每次刷新商店都会出现1个4费弈子，直到你购买其中一名为止。"
+    },
+    {
+      "key": "DA_18_Starfall",
+      "name": "星落",
+      "category": "商店",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [
+        "至少拥有10金币"
+      ],
+      "effect": "这回合你前6次刷新商店时，会使费用最低的那个弈子会变为2星。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "这回合你前8次刷新商店时，会使费用最低的那个弈子变为2星。",
+        "effectText": "这回合你前8次刷新商店时，会使费用最低的那个弈子变为2星。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有10金币",
+      "effectText": "这回合你前6次刷新商店时，会使费用最低的那个弈子会变为2星。"
+    },
+    {
+      "key": "DA_FlashFire18",
+      "name": "爆燃",
+      "category": "商店",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-5 ~ 5-7"
+      ],
+      "requires": [
+        "已激活【地狱火】"
+      ],
+      "effect": "刷新你的商店。【地狱火】引燃2个商店栏位，将其升级。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "刷新你的商店。【地狱火】引燃3个商店栏位，将其升级。",
+        "effectText": "刷新你的商店。【地狱火】引燃3个商店栏位，将其升级。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【地狱火】",
+      "effectText": "刷新你的商店。【地狱火】引燃2个商店栏位，将其升级。"
+    },
+    {
+      "key": "DA_RolyPolys18",
+      "name": "不倒翁",
+      "category": "商店",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "在18秒后，每有1名存活的友军，获得1次刷新。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "在16秒后，每有1名存活的友军，获得1次刷新。",
+        "effectText": "在16秒后，每有1名存活的友军，获得1次刷新。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "在18秒后，每有1名存活的友军，获得1次刷新。"
+    },
+    {
+      "key": "DA_MiddlePath18",
+      "name": "中央大道",
+      "category": "商店",
+      "tier": 2,
+      "cost": 4,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "刷新你的商店，使其充满2星3费弈子。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "刷新你的商店，使其充满2星3费弈子。",
+        "effectText": "刷新你的商店，使其充满2星3费弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "刷新你的商店，使其充满2星3费弈子。"
+    },
+    {
+      "key": "DA_Lucky718",
+      "name": "幸运7",
+      "category": "商店",
+      "tier": 2,
+      "cost": 7,
+      "rounds": [
+        "6-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "获得7次商店刷新。",
+      "upgrade": {
+        "cost": 7,
+        "effect": "获得10次商店刷新。",
+        "effectText": "获得10次商店刷新。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得7次商店刷新。"
+    },
+    {
+      "key": "DA_AnimateShop18",
+      "name": "活体商店",
+      "category": "商店",
+      "tier": 2,
+      "cost": 8,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "至少拥有12金币"
+      ],
+      "effect": "在18秒的持续时间内，你的商店每2秒免费刷新1次。",
+      "upgrade": {
+        "cost": 8,
+        "effect": "在24秒的持续时间里，你的商店每2秒免费刷新一次。",
+        "effectText": "在24秒的持续时间里，你的商店每2秒免费刷新一次。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有12金币",
+      "effectText": "在18秒的持续时间内，你的商店每2秒免费刷新1次。"
+    },
+    {
+      "key": "DA_RefreshingLight18",
+      "name": "焕新之光",
+      "category": "商店",
+      "tier": 2,
+      "cost": 6,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [
+        "已激活【日蚀骑士】"
+      ],
+      "effect": "你的【日蚀骑士】弈子每有1星级(相同弈子不重复计数)，获得1次免费重随。",
+      "upgrade": {
+        "cost": 5,
+        "effect": "你的【日蚀骑士】弈子每有1星级(相同弈子不重复计数)，获得1次免费重随。",
+        "effectText": "你的【日蚀骑士】弈子每有1星级(相同弈子不重复计数)，获得1次免费重随。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【日蚀骑士】",
+      "effectText": "你的【日蚀骑士】弈子每有1星级(相同弈子不重复计数)，获得1次免费重随。"
+    },
+    {
+      "key": "DA_Jungling18",
+      "name": "野区",
+      "category": "商店",
+      "tier": 2,
+      "cost": 4,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [
+        "已激活【峡谷野怪】"
+      ],
+      "effect": "让【峡谷野怪】占据你的商店。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "让【峡谷野怪】占据你的商店。",
+        "effectText": "让【峡谷野怪】占据你的商店。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【峡谷野怪】",
+      "effectText": "让【峡谷野怪】占据你的商店。"
+    },
+    {
+      "key": "DA_RollingBones18",
+      "name": "骨头滚滚",
+      "category": "商店",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "每获得1次击杀，你都有50%几率获得1次免费刷新。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "每获得1次击杀，你都有60%几率获得1次刷新，如果获胜该几率提升1。",
+        "effectText": "每获得1次击杀，你都有60%几率获得1次刷新，如果获胜该几率提升1。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每获得1次击杀，你都有50%几率获得1次免费刷新。"
+    },
+    {
+      "key": "DA_18_AllFives",
+      "name": "全5费商店",
+      "category": "商店",
+      "tier": 3,
+      "cost": 8,
+      "rounds": [
+        "6-1 ~ 10-1"
+      ],
+      "requires": [
+        "至少拥有15金币"
+      ],
+      "effect": "刷新你的商店，使其充满5费弈子。",
+      "upgrade": {
+        "cost": 8,
+        "effect": "刷新你的商店，使其充满5费弈子。获得5金币。",
+        "effectText": "刷新你的商店，使其充满5费弈子。获得5金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有15金币",
+      "effectText": "刷新你的商店，使其充满5费弈子。"
+    },
+    {
+      "key": "DA_StartingTown18",
+      "name": "新手村",
+      "category": "商店",
+      "tier": 3,
+      "cost": 2,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [],
+      "effect": "刷新你的商店，使其充满2星1费弈子。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "刷新你的商店，使其充满2星1费弈子。",
+        "effectText": "刷新你的商店，使其充满2星1费弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "刷新你的商店，使其充满2星1费弈子。"
+    },
+    {
+      "key": "DA_BorderVillage18",
+      "name": "边境村庄",
+      "category": "商店",
+      "tier": 3,
+      "cost": 3,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "刷新你的商店，使其充满2星2费弈子。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "刷新你的商店，使其充满2星2费弈子。",
+        "effectText": "刷新你的商店，使其充满2星2费弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "刷新你的商店，使其充满2星2费弈子。"
+    },
+    {
+      "key": "DA_RideTheWave18",
+      "name": "顺流而下",
+      "category": "商店",
+      "tier": 3,
+      "cost": 3,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "备战阶段的前20秒内",
+        "至少拥有20金币"
+      ],
+      "effect": "在本回合内，在上场对战中登场的2+个弈子会出现在你的下2次刷新的商店中。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "在本回合内，在上场对战中登场的2+个弈子会出现在你的下3次刷新的商店中。",
+        "effectText": "在本回合内，在上场对战中登场的2+个弈子会出现在你的下3次刷新的商店中。"
+      },
+      "mutex": [],
+      "mutexCondition": "备战阶段的前20秒内；至少拥有20金币",
+      "effectText": "在本回合内，在上场对战中登场的2+个弈子会出现在你的下2次刷新的商店中。"
+    },
+    {
+      "key": "DA_18_Mitosis",
+      "name": "有丝分裂",
+      "category": "弈子",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [],
+      "effect": "获得1个【微型英雄复制器】。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "获得1个【微型英雄复制器】。",
+        "effectText": "获得1个【微型英雄复制器】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个【微型英雄复制器】。"
+    },
+    {
+      "key": "DA_18_LostTravelers",
+      "name": "迷路的游客",
+      "category": "弈子",
+      "tier": 1,
+      "cost": 3,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [],
+      "effect": "获得总价值3金币的随机弈子。",
+      "upgrade": {
+        "cost": 4,
+        "effect": "获得总价值4金币的随机弈子。",
+        "effectText": "获得总价值4金币的随机弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得总价值3金币的随机弈子。"
+    },
+    {
+      "key": "DA_18_HeatedRivalry",
+      "name": "鏖战不休",
+      "category": "弈子",
+      "tier": 1,
+      "cost": 3,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [],
+      "effect": "获得1个【雷恩加尔】或1个【卡兹克】。其获得+3参与击杀数。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "获得1个【雷恩加尔】或1个【卡兹克】。其获得+5参与击杀数。",
+        "effectText": "获得1个【雷恩加尔】或1个【卡兹克】。其获得+5参与击杀数。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个【雷恩加尔】或1个【卡兹克】。其获得+3参与击杀数。"
+    },
+    {
+      "key": "DA_BigGuns18",
+      "name": "大腕",
+      "category": "弈子",
+      "tier": 2,
+      "cost": 8,
+      "rounds": [
+        "4-2 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "获得2个随机1星4费弈子。",
+      "upgrade": {
+        "cost": 7,
+        "effect": "获得2个随机1星4费弈子。",
+        "effectText": "获得2个随机1星4费弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得2个随机1星4费弈子。"
+    },
+    {
+      "key": "DA_Apprentice18",
+      "name": "学徒",
+      "category": "弈子",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [],
+      "effect": "获得1个随机2星1费弈子。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "获得1个随机2星1费弈子。",
+        "effectText": "获得1个随机2星1费弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个随机2星1费弈子。"
+    },
+    {
+      "key": "DA_ThreeMe18",
+      "name": "对影成三",
+      "category": "弈子",
+      "tier": 2,
+      "cost": 10,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "获得1个随机2星3费弈子。",
+      "upgrade": {
+        "cost": 8,
+        "effect": "获得1个随机2星3费弈子。",
+        "effectText": "获得1个随机2星3费弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个随机2星3费弈子。"
+    },
+    {
+      "key": "DA_18_FieldofMice",
+      "name": "小人国",
+      "category": "弈子",
+      "tier": 2,
+      "cost": 8,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "上回合每登场1个不同的1费弈子，获得1个【微型英雄复制器】。",
+      "upgrade": {
+        "cost": 8,
+        "effect": "上回合每登场1个不同的1费弈子，获得1个【微型英雄复制器】和1金币。",
+        "effectText": "上回合每登场1个不同的1费弈子，获得1个【微型英雄复制器】和1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "上回合每登场1个不同的1费弈子，获得1个【微型英雄复制器】。"
+    },
+    {
+      "key": "DA_Journeyman18",
+      "name": "旅行者",
+      "category": "弈子",
+      "tier": 2,
+      "cost": 6,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [],
+      "effect": "获得1个随机2星2费弈子。",
+      "upgrade": {
+        "cost": 5,
+        "effect": "获得1个随机2星2费弈子。",
+        "effectText": "获得1个随机2星2费弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个随机2星2费弈子。"
+    },
+    {
+      "key": "DA_SolarGift18",
+      "name": "日蚀之礼",
+      "category": "弈子",
+      "tier": 2,
+      "cost": 6,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [
+        "已激活【日蚀骑士】"
+      ],
+      "effect": "获得1个【蕾欧娜】、1个【瑟庄妮】和1个【凯尔】。",
+      "upgrade": {
+        "cost": 4,
+        "effect": "获得1个【蕾欧娜】、1个【瑟庄妮】和1个【凯尔】。",
+        "effectText": "获得1个【蕾欧娜】、1个【瑟庄妮】和1个【凯尔】。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【日蚀骑士】",
+      "effectText": "获得1个【蕾欧娜】、1个【瑟庄妮】和1个【凯尔】。"
+    },
+    {
+      "key": "DA_ForestTwins18",
+      "name": "森林多胞胎",
+      "category": "弈子",
+      "tier": 2,
+      "cost": 4,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [],
+      "effect": "获得2个相同的弈子，他们是其中一个你尚未拥有的2费弈子的复制体。",
+      "upgrade": {
+        "cost": 5,
+        "effect": "获得3个相同的弈子，他们是你尚未拥有的2费弈子的其中一个的复制体。",
+        "effectText": "获得3个相同的弈子，他们是你尚未拥有的2费弈子的其中一个的复制体。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得2个相同的弈子，他们是其中一个你尚未拥有的2费弈子的复制体。"
+    },
+    {
+      "key": "DA_18_Propagate",
+      "name": "繁殖",
+      "category": "弈子",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "2-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "获得第1名阵亡的友军的1个复制体。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "获得第1个阵亡的友军的1个复制体。",
+        "effectText": "获得第1个阵亡的友军的1个复制体。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得第1名阵亡的友军的1个复制体。"
+    },
+    {
+      "key": "DA_Grandmaster18",
+      "name": "奇境宗师",
+      "category": "弈子",
+      "tier": 3,
+      "cost": 18,
+      "rounds": [
+        "6-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "获得1个随机2星5费弈子。",
+      "upgrade": {
+        "cost": 14,
+        "effect": "获得1个随机2星5费弈子。",
+        "effectText": "获得1个随机2星5费弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个随机2星5费弈子。"
+    },
+    {
+      "key": "DA_ForestGuide18",
+      "name": "森林向导",
+      "category": "弈子",
+      "tier": 3,
+      "cost": 6,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [],
+      "effect": "获得1个随机4费弈子。",
+      "upgrade": {
+        "cost": 5,
+        "effect": "获得1个随机4费弈子。",
+        "effectText": "获得1个随机4费弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个随机4费弈子。"
+    },
+    {
+      "key": "DA_Smurfing18",
+      "name": "炸鱼行为",
+      "category": "弈子",
+      "tier": 3,
+      "cost": 6,
+      "rounds": [
+        "3-5 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "获得1个随机5费弈子。",
+      "upgrade": {
+        "cost": 5,
+        "effect": "获得1个随机5费弈子。",
+        "effectText": "获得1个随机5费弈子。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个随机5费弈子。"
+    },
+    {
+      "key": "DA_18_CircleofElders",
+      "name": "长者之环",
+      "category": "弈子",
+      "tier": 3,
+      "cost": 45,
+      "rounds": [
+        "6-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "获得每个5费弈子各1个。",
+      "upgrade": {
+        "cost": 40,
+        "effect": "获得每个5费弈子各1个。",
+        "effectText": "获得每个5费弈子各1个。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得每个5费弈子各1个。"
+    },
+    {
+      "key": "DA_HeroOfProphecy18",
+      "name": "预言之子",
+      "category": "弈子",
+      "tier": 3,
+      "cost": 35,
+      "rounds": [
+        "6-1 ~ 10-1"
+      ],
+      "requires": [
+        "至少拥有35金币",
+        "剩余生命值高于50",
+        "等级达到10级或以上"
+      ],
+      "effect": "获得1个5费弈子。每回合都会再获得1个该弈子(永远！直至游戏结束)。",
+      "upgrade": {
+        "cost": 33,
+        "effect": "获得1个5费弈子。每回合都会再获得1个该弈子(永远！直至游戏结束)。",
+        "effectText": "获得1个5费弈子。每回合都会再获得1个该弈子(永远！直至游戏结束)。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有35金币；剩余生命值高于50；等级达到10级或以上",
+      "effectText": "获得1个5费弈子。每回合都会再获得1个该弈子(永远！直至游戏结束)。"
+    },
+    {
+      "key": "DA_BorrowedGear18",
+      "name": "借来的装备",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "战斗开始时，1个弈子获得1件临时的推荐装备。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "战斗开始时，1个弈子获得1件临时的推荐装备和250生命值。",
+        "effectText": "战斗开始时，1个弈子获得1件临时的推荐装备和250生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "战斗开始时，1个弈子获得1件临时的推荐装备。"
+    },
+    {
+      "key": "DA_18_ProlificPower",
+      "name": "元气满满",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [
+        "金币少于10"
+      ],
+      "effect": "你的弈子们获得4%物理加成和法术加成。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "你的弈子们获得6%物理加成和法术加成。",
+        "effectText": "你的弈子们获得6%物理加成和法术加成。"
+      },
+      "mutex": [],
+      "mutexCondition": "金币少于10",
+      "effectText": "你的弈子们获得4%物理加成和法术加成。"
+    },
+    {
+      "key": "DA_Quicken18",
+      "name": "加速",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [
+        "场上没有携带3件装备的无蓝条弈子"
+      ],
+      "effect": "施放技能时，你的弈子们获得30%攻击速度，持续4秒。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "施放技能时，你的弈子们获得40%攻击速度，持续5秒。",
+        "effectText": "施放技能时，你的弈子们获得40%攻击速度，持续5秒。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上没有携带3件装备的无蓝条弈子",
+      "effectText": "施放技能时，你的弈子们获得30%攻击速度，持续4秒。"
+    },
+    {
+      "key": "DA_CrystalBall18",
+      "name": "占卜水晶球",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "揭示你的下一个对手。你的队伍获得12%攻击速度。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "揭示你的下一个对手。你的队伍获得18%攻击速度。",
+        "effectText": "揭示你的下一个对手。你的队伍获得18%攻击速度。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "揭示你的下一个对手。你的队伍获得12%攻击速度。"
+    },
+    {
+      "key": "DA_ReturningFriend",
+      "name": "回归的好友",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "3-1 ~ 5-7"
+      ],
+      "requires": [
+        "金币少于10"
+      ],
+      "effect": "获得1个携带着2个【巨人腰带】的临时【训练假人】。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "获得1个携带着3个【巨人腰带】的【训练假人】。",
+        "effectText": "获得1个携带着3个【巨人腰带】的【训练假人】。"
+      },
+      "mutex": [],
+      "mutexCondition": "金币少于10",
+      "effectText": "获得1个携带着2个【巨人腰带】的临时【训练假人】。"
+    },
+    {
+      "key": "DA_BigBoom18",
+      "name": "大爆炸",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "第一名阵亡的友军会产生爆炸，造成25%最大生命值魔法伤害。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "最先阵亡的2名友军会产生爆炸，造成25%最大生命值魔法伤害。",
+        "effectText": "最先阵亡的2名友军会产生爆炸，造成25%最大生命值魔法伤害。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "第一名阵亡的友军会产生爆炸，造成25%最大生命值魔法伤害。"
+    },
+    {
+      "key": "DA_Hugify18",
+      "name": "巨大化",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "你生命值最高的那个单位成长，获得350生命值。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "你生命值最高的那个单位成长，获得500生命值。",
+        "effectText": "你生命值最高的那个单位成长，获得500生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你生命值最高的那个单位成长，获得350生命值。"
+    },
+    {
+      "key": "DA_FoundFriend18",
+      "name": "找个朋友",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [
+        "处于连胜中（任意长度）"
+      ],
+      "effect": "获得1个携带着1个【巨人腰带】的【训练假人】。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "获得1个携带着1个【日炎斗篷】的【训练假人】。",
+        "effectText": "获得1个携带着1个【日炎斗篷】的【训练假人】。"
+      },
+      "mutex": [],
+      "mutexCondition": "处于连胜中（任意长度）",
+      "effectText": "获得1个携带着1个【巨人腰带】的【训练假人】。"
+    },
+    {
+      "key": "DA_18_Resistant",
+      "name": "抵抗",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "【坦克】使即将到来的每段伤害减少10。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "【坦克】使即将到来的每段伤害减少18。",
+        "effectText": "【坦克】使即将到来的每段伤害减少18。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "【坦克】使即将到来的每段伤害减少10。"
+    },
+    {
+      "key": "DA_18_SunfireSorcery",
+      "name": "日炎巫术",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [
+        "未持有【莫雷洛秘典】、【日炎斗篷】或【红霸符】（普通或光明），或已激活【地狱火】"
+      ],
+      "effect": "对敌人施加持续10秒的灼烧和重伤效果。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "对敌人施加持续15秒的灼烧和重伤效果。",
+        "effectText": "对敌人施加持续15秒的灼烧和重伤效果。"
+      },
+      "mutex": [],
+      "mutexCondition": "未持有【莫雷洛秘典】、【日炎斗篷】或【红霸符】（普通或光明），或已激活【地狱火】",
+      "effectText": "对敌人施加持续10秒的灼烧和重伤效果。"
+    },
+    {
+      "key": "DA_18_GroveArmor",
+      "name": "树丛铠甲",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "3-1 ~ 5-7"
+      ],
+      "requires": [
+        "金币少于10"
+      ],
+      "effect": "你的生命值最高的那个弈子获得15护甲和15魔抗。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "你的生命值最高的那个弈子获得25护甲和25魔抗。",
+        "effectText": "你的生命值最高的那个弈子获得25护甲和25魔抗。"
+      },
+      "mutex": [],
+      "mutexCondition": "金币少于10",
+      "effectText": "你的生命值最高的那个弈子获得15护甲和15魔抗。"
+    },
+    {
+      "key": "DA_18_BarkArmor",
+      "name": "树皮护甲",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [
+        "处于连胜中（任意长度）"
+      ],
+      "effect": "你的弈子们获得150护盾值，持续10秒。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "你的弈子们获得225护盾值，持续10秒。",
+        "effectText": "你的弈子们获得225护盾值，持续10秒。"
+      },
+      "mutex": [],
+      "mutexCondition": "处于连胜中（任意长度）",
+      "effectText": "你的弈子们获得150护盾值，持续10秒。"
+    },
+    {
+      "key": "DA_18_Drizzle",
+      "name": "法力细雨",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "金币少于10"
+      ],
+      "effect": "在战斗8秒之后，你的队伍获得10法力值。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "在战斗8秒之后，你的队伍获得15法力值。",
+        "effectText": "在战斗8秒之后，你的队伍获得15法力值。"
+      },
+      "mutex": [],
+      "mutexCondition": "金币少于10",
+      "effectText": "在战斗8秒之后，你的队伍获得10法力值。"
+    },
+    {
+      "key": "DA_Rain18",
+      "name": "泪雨",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "你的队伍获得1法力回复。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "你的队伍获得2法力回复。",
+        "effectText": "你的队伍获得2法力回复。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你的队伍获得1法力回复。"
+    },
+    {
+      "key": "DA_18_Moonrise",
+      "name": "皓月当空",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "已激活【月蚀骑士】"
+      ],
+      "effect": "在8秒后，提升100%【月蚀骑士】羁绊效果。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "在8秒后，提升175%【月蚀骑士】羁绊效果。",
+        "effectText": "在8秒后，提升175%【月蚀骑士】羁绊效果。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【月蚀骑士】",
+      "effectText": "在8秒后，提升100%【月蚀骑士】羁绊效果。"
+    },
+    {
+      "key": "DA_PetrifiedDummy18",
+      "name": "石化术",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "你第1个阵亡的弈子在阵亡时，会转化为1个拥有其防御属性和900生命值的【训练假人】。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "你第1个阵亡的弈子在阵亡时，会转化为1个拥有其防御属性和1350生命值的【训练假人】。",
+        "effectText": "你第1个阵亡的弈子在阵亡时，会转化为1个拥有其防御属性和1350生命值的【训练假人】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你第1个阵亡的弈子在阵亡时，会转化为1个拥有其防御属性和900生命值的【训练假人】。"
+    },
+    {
+      "key": "DA_PetrifyShields18",
+      "name": "破盾秘法",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "4-2 ~ 4-7",
+        "6-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "使敌人缓速10%，并将其护盾值削减20%，持续10秒。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "使敌人缓速10%，并将其护盾值削减30%，持续10秒。",
+        "effectText": "使敌人缓速10%，并将其护盾值削减30%，持续10秒。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "使敌人缓速10%，并将其护盾值削减20%，持续10秒。"
+    },
+    {
+      "key": "DA_18_UltraAscension",
+      "name": "终极飞升",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "在25秒后，友军获得300%伤害增幅。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "在23秒后，友军获得300%伤害增幅。",
+        "effectText": "在23秒后，友军获得300%伤害增幅。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "在25秒后，友军获得300%伤害增幅。"
+    },
+    {
+      "key": "DA_18_VerdantVitality",
+      "name": "绿意盎然",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [
+        "金币少于10"
+      ],
+      "effect": "你的弈子们获得50生命值。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "你的弈子们获得75生命值。",
+        "effectText": "你的弈子们获得75生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "金币少于10",
+      "effectText": "你的弈子们获得50生命值。"
+    },
+    {
+      "key": "DA_BunchOBelts18",
+      "name": "腰带批发",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "你的友军获得7个无法移除的临时【巨人腰带】。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "你的友军获得10个无法移除的临时【巨人腰带】。",
+        "effectText": "你的友军获得10个无法移除的临时【巨人腰带】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你的友军获得7个无法移除的临时【巨人腰带】。"
+    },
+    {
+      "key": "DA_WrappedInThorns18",
+      "name": "荆棘环身",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "3-5 ~ 10-1"
+      ],
+      "requires": [
+        "上场战斗中至少出战2个坦克"
+      ],
+      "effect": "你的【坦克】每4秒将承受伤害的12%反射给邻格的敌人。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "你的【坦克】每4秒将所受伤害的18%反射给邻格的敌人。",
+        "effectText": "你的【坦克】每4秒将所受伤害的18%反射给邻格的敌人。"
+      },
+      "mutex": [],
+      "mutexCondition": "上场战斗中至少出战2个坦克",
+      "effectText": "你的【坦克】每4秒将承受伤害的12%反射给邻格的敌人。"
+    },
+    {
+      "key": "DA_18_Hummingbird",
+      "name": "蜂鸟",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "你攻击速度最高的那个单位变小，获得20%攻击速度。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "你攻击速度最高的那个单位变小，获得35%攻击速度。",
+        "effectText": "你攻击速度最高的那个单位变小，获得35%攻击速度。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你攻击速度最高的那个单位变小，获得20%攻击速度。"
+    },
+    {
+      "key": "DA_Flow18",
+      "name": "行云流水",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 3,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "你的弈子们获得持续10秒的不可阻挡效果和15%攻击速度。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "你的弈子们获得持续15秒的不可阻挡效果和15%攻击速度。",
+        "effectText": "你的弈子们获得持续15秒的不可阻挡效果和15%攻击速度。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你的弈子们获得持续10秒的不可阻挡效果和15%攻击速度。"
+    },
+    {
+      "key": "DA_18_TatteredArmor",
+      "name": "衣衫褴褛",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [
+        "未持有【最后的轻语】、【虚空之杖】、【离子火花】或【薄暮法袍】（普通或光明）"
+      ],
+      "effect": "对敌人施加30%魔抗击碎与护甲击碎，持续10秒。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "对敌人施加30%魔抗击碎与护甲击碎，持续15秒。",
+        "effectText": "对敌人施加30%魔抗击碎与护甲击碎，持续15秒。"
+      },
+      "mutex": [],
+      "mutexCondition": "未持有【最后的轻语】、【虚空之杖】、【离子火花】或【薄暮法袍】（普通或光明）",
+      "effectText": "对敌人施加30%魔抗击碎与护甲击碎，持续10秒。"
+    },
+    {
+      "key": "DA_18_LightningStrike",
+      "name": "闪电打击",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [],
+      "effect": "对所有敌人造成10%最大生命值真实伤害。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "对所有敌人造成18%最大生命值真实伤害。",
+        "effectText": "对所有敌人造成18%最大生命值真实伤害。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "对所有敌人造成10%最大生命值真实伤害。"
+    },
+    {
+      "key": "DA_Stealthy18",
+      "name": "鬼鬼祟祟",
+      "category": "战斗",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "上场战斗中至少出战3个战士或刺客",
+        "场上及备战席中有1个携带装备且定位为刺客或战士的弈子"
+      ],
+      "effect": "你最强大的3个【战士】或【刺客】获得持续8秒的不可被选取效果。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "你后排的3个随机弈子获得持续12秒的不可被选取效果。",
+        "effectText": "你后排的3个随机弈子获得持续12秒的不可被选取效果。"
+      },
+      "mutex": [],
+      "mutexCondition": "上场战斗中至少出战3个战士或刺客；场上及备战席中有1个携带装备且定位为刺客或战士的弈子",
+      "effectText": "你最强大的3个【战士】或【刺客】获得持续8秒的不可被选取效果。"
+    },
+    {
+      "key": "DA_18_AfterShock",
+      "name": "余震",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "在8秒后，晕眩所有敌人1.5秒。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "在8和18秒后，晕眩所有敌人1.5秒。",
+        "effectText": "在8和18秒后，晕眩所有敌人1.5秒。"
+      },
+      "mutex": [
+        "Arcane Viktor-y"
+      ],
+      "mutexCondition": "—",
+      "effectText": "在8秒后，晕眩所有敌人1.5秒。"
+    },
+    {
+      "key": "DA_Downpour18",
+      "name": "倾盆大雨",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "你的队伍获得2法力回复。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "你的队伍获得3法力回复。",
+        "effectText": "你的队伍获得3法力回复。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你的队伍获得2法力回复。"
+    },
+    {
+      "key": "DA_18_BackrowStar",
+      "name": "后排之星",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 1,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "1个随机后排弈子获得100%攻击速度，持续7秒。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "1个随机后排弈子获得130%攻击速度，持续8秒。",
+        "effectText": "1个随机后排弈子获得130%攻击速度，持续8秒。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "1个随机后排弈子获得100%攻击速度，持续7秒。"
+    },
+    {
+      "key": "DA_Regeneration18",
+      "name": "回复",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "你的队伍每秒治疗1%最大生命值。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "你的队伍每秒治疗2%最大生命值。",
+        "effectText": "你的队伍每秒治疗2%最大生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你的队伍每秒治疗1%最大生命值。"
+    },
+    {
+      "key": "DA_Ironwood18",
+      "name": "坚硬木材",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "敌人攻击你生命值最高的那个弈子时，造成的伤害降低14%。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "敌人攻击你生命值最高的那个弈子时，造成的伤害降低20%。",
+        "effectText": "敌人攻击你生命值最高的那个弈子时，造成的伤害降低20%。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "敌人攻击你生命值最高的那个弈子时，造成的伤害降低14%。"
+    },
+    {
+      "key": "DA_Bulwark18",
+      "name": "壁垒",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [
+        "上场战斗中至少出战2个坦克"
+      ],
+      "effect": "你的【坦克】在生命值降至50%时，会获得20%最大生命值护盾。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "你的【坦克】在生命值降至50%时，会获得30%最大生命值护盾。",
+        "effectText": "你的【坦克】在生命值降至50%时，会获得30%最大生命值护盾。"
+      },
+      "mutex": [],
+      "mutexCondition": "上场战斗中至少出战2个坦克",
+      "effectText": "你的【坦克】在生命值降至50%时，会获得20%最大生命值护盾。"
+    },
+    {
+      "key": "DA_Revenge18",
+      "name": "复仇",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "每当1名友军阵亡时，你的弈子们获得4%可叠加的伤害增幅。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "每当1名友军阵亡时，你的弈子们获得6%可叠加的伤害增幅。",
+        "effectText": "每当1名友军阵亡时，你的弈子们获得6%可叠加的伤害增幅。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每当1名友军阵亡时，你的弈子们获得4%可叠加的伤害增幅。"
+    },
+    {
+      "key": "DA_Diversified18",
+      "name": "多样化",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "至少激活5个非唯一羁绊"
+      ],
+      "effect": "每有1个已激活的非唯一羁绊，你的队伍获得30生命值。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "每有1个已激活的非唯一羁绊，你的队伍获得45生命值。",
+        "effectText": "每有1个已激活的非唯一羁绊，你的队伍获得45生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少激活5个非唯一羁绊",
+      "effectText": "每有1个已激活的非唯一羁绊，你的队伍获得30生命值。"
+    },
+    {
+      "key": "DA_StandAlone18",
+      "name": "孤身站场",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "3-5 ~ 10-1"
+      ],
+      "requires": [
+        "未激活【永恒之森】",
+        "未激活【月蚀骑士】",
+        "未激活【翠神】"
+      ],
+      "effect": "独自处于所在排的弈子们获得15%生命值和15%伤害增幅。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "独自处于所在排的弈子们获得20%生命值和20%伤害增幅。",
+        "effectText": "独自处于所在排的弈子们获得20%生命值和20%伤害增幅。"
+      },
+      "mutex": [],
+      "mutexCondition": "未激活【永恒之森】；未激活【月蚀骑士】；未激活【翠神】",
+      "effectText": "独自处于所在排的弈子们获得15%生命值和15%伤害增幅。"
+    },
+    {
+      "key": "DA_ManaRichSoil18",
+      "name": "富魔之壤",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "上场战斗中至少出战2个术师",
+        "场上及备战席中有1个携带装备的术师"
+      ],
+      "effect": "你的【术师】最大法力值减少15%。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "你的【术师】最大法力值减少20%。",
+        "effectText": "你的【术师】最大法力值减少20%。"
+      },
+      "mutex": [],
+      "mutexCondition": "上场战斗中至少出战2个术师；场上及备战席中有1个携带装备的术师",
+      "effectText": "你的【术师】最大法力值减少15%。"
+    },
+    {
+      "key": "DA_MarksmensMarks18",
+      "name": "射手标记",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "上场战斗中至少出战2个射手",
+        "场上及备战席中有1个携带装备的射手"
+      ],
+      "effect": "你的【射手】有30%几率双重攻击。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "你的【射手】有45%几率双重攻击。",
+        "effectText": "你的【射手】有45%几率双重攻击。"
+      },
+      "mutex": [],
+      "mutexCondition": "上场战斗中至少出战2个射手；场上及备战席中有1个携带装备的射手",
+      "effectText": "你的【射手】有30%几率双重攻击。"
+    },
+    {
+      "key": "DA_MarksmensGale18",
+      "name": "射手狂风",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [
+        "上场战斗中至少出战2个射手",
+        "场上及备战席中有1个携带装备的射手"
+      ],
+      "effect": "你【射手】的攻击提供3%可叠加的攻击速度。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "你【射手】的攻击提供5%可叠加的攻击速度。",
+        "effectText": "你【射手】的攻击提供5%可叠加的攻击速度。"
+      },
+      "mutex": [],
+      "mutexCondition": "上场战斗中至少出战2个射手；场上及备战席中有1个携带装备的射手",
+      "effectText": "你【射手】的攻击提供3%可叠加的攻击速度。"
+    },
+    {
+      "key": "DA_Barrier18",
+      "name": "屏障",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "友军获得1250护盾值，在6秒内持续衰减。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "友军获得1250护盾值，在9秒内持续衰减。",
+        "effectText": "友军获得1250护盾值，在9秒内持续衰减。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "友军获得1250护盾值，在6秒内持续衰减。"
+    },
+    {
+      "key": "DA_18_KillingFrenzy",
+      "name": "屠戮狂暴",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "场上及备战席中有1个携带装备的战士",
+        "上场战斗中至少出战2个战士"
+      ],
+      "effect": "【战士】会处决生命值低于12%的目标。他们在完成击杀时获得30%攻击速度。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "【战士】会处决生命值低于15%的目标。他们在完成击杀时获得60%攻击速度。",
+        "effectText": "【战士】会处决生命值低于15%的目标。他们在完成击杀时获得60%攻击速度。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上及备战席中有1个携带装备的战士；上场战斗中至少出战2个战士",
+      "effectText": "【战士】会处决生命值低于12%的目标。他们在完成击杀时获得30%攻击速度。"
+    },
+    {
+      "key": "DA_PhantomGloves18",
+      "name": "幻影手套",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "3-1 ~ 5-7"
+      ],
+      "requires": [],
+      "effect": "获得1个临时的【窃贼手套】。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "获得1个临时的【连指手套】。",
+        "effectText": "获得1个临时的【连指手套】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个临时的【窃贼手套】。"
+    },
+    {
+      "key": "DA_PhantomArmor18",
+      "name": "幻影护甲",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "3-1 ~ 5-7"
+      ],
+      "requires": [],
+      "effect": "获得1个临时的【狂徒铠甲】。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "获得1个临时的【顽强不屈】。",
+        "effectText": "获得1个临时的【顽强不屈】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个临时的【狂徒铠甲】。"
+    },
+    {
+      "key": "DA_PhantomSplash18",
+      "name": "幻影浪花",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [
+        "至少有2个已计数但未激活的羁绊"
+      ],
+      "effect": "战斗开始时：最多2个未激活的羁绊会以最低等级激活。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "战斗开始时：至多有4个未激活的羁绊会以最低层级激活。",
+        "effectText": "战斗开始时：至多有4个未激活的羁绊会以最低层级激活。"
+      },
+      "mutex": [
+        "Trait Ladder"
+      ],
+      "mutexCondition": "至少有2个已计数但未激活的羁绊",
+      "effectText": "战斗开始时：最多2个未激活的羁绊会以最低等级激活。"
+    },
+    {
+      "key": "DA_PhantomVest18",
+      "name": "幻影背心",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "3-1 ~ 5-7"
+      ],
+      "requires": [],
+      "effect": "获得1个临时的【棘刺背心】。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "获得1个临时的【黎明圣盾】。",
+        "effectText": "获得1个临时的【黎明圣盾】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个临时的【棘刺背心】。"
+    },
+    {
+      "key": "DA_BoosterShot18",
+      "name": "强化激素",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 6,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "场上至少有2个1星弈子，或场上有1个携带3件装备的1星5费弈子"
+      ],
+      "effect": "最多2个1星弈子会在战斗期间暂时获得升星。",
+      "upgrade": {
+        "cost": 6,
+        "effect": "至多3个1星弈子会在战斗期间暂时升星。",
+        "effectText": "至多3个1星弈子会在战斗期间暂时升星。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上至少有2个1星弈子，或场上有1个携带3件装备的1星5费弈子",
+      "effectText": "最多2个1星弈子会在战斗期间暂时获得升星。"
+    },
+    {
+      "key": "DA_MoonlightRitual18",
+      "name": "月光仪式",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [
+        "场上或备战席上有1个至少2星的1费或2费弈子"
+      ],
+      "effect": "在战斗期间，你最低星级的那个1费或2费弈子将会升星。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "在战斗期间，你最低星级的2个1费或2费弈子将会升星。",
+        "effectText": "在战斗期间，你最低星级的2个1费或2费弈子将会升星。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上或备战席上有1个至少2星的1费或2费弈子",
+      "effectText": "在战斗期间，你最低星级的那个1费或2费弈子将会升星。"
+    },
+    {
+      "key": "DA_18_Preppers",
+      "name": "未雨绸缪",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "3-1 ~ 5-7"
+      ],
+      "requires": [
+        "阵容中至少有2件可叠加层数的装备"
+      ],
+      "effect": "你的叠层型装备在下次战斗开始时，拥有部分初始层数。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "你的叠层型装备在下次战斗开始时，拥有额外初始层数。",
+        "effectText": "你的叠层型装备在下次战斗开始时，拥有额外初始层数。"
+      },
+      "mutex": [],
+      "mutexCondition": "阵容中至少有2件可叠加层数的装备",
+      "effectText": "你的叠层型装备在下次战斗开始时，拥有部分初始层数。"
+    },
+    {
+      "key": "DA_18_Counterspell",
+      "name": "法术反制",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "使所有敌人的最大法力值提高15，直至敌人下一次施放技能。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "使所有敌人的最大法力值提高22，直至敌人下一次施放技能。",
+        "effectText": "使所有敌人的最大法力值提高22，直至敌人下一次施放技能。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "使所有敌人的最大法力值提高15，直至敌人下一次施放技能。"
+    },
+    {
+      "key": "DA_LivingSoil18",
+      "name": "活体土壤",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [],
+      "effect": "每过4秒，根须会晕眩1名敌人1秒。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "每过4秒，根须会晕眩2名敌人1秒。",
+        "effectText": "每过4秒，根须会晕眩2名敌人1秒。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每过4秒，根须会晕眩1名敌人1秒。"
+    },
+    {
+      "key": "DA_TurtlesVisit18",
+      "name": "灵龟降临",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "3-5 ~ 5-7"
+      ],
+      "requires": [
+        "尚未选择【灵龟】野兽之灵增益",
+        "已激活【野兽之灵】"
+      ],
+      "effect": "本场对战获得【野兽之灵】的【灵龟】增益。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "本场对战获得【野兽之灵】的【灵龟】增益。",
+        "effectText": "本场对战获得【野兽之灵】的【灵龟】增益。"
+      },
+      "mutex": [],
+      "mutexCondition": "尚未选择【灵龟】野兽之灵增益；已激活【野兽之灵】",
+      "effectText": "本场对战获得【野兽之灵】的【灵龟】增益。"
+    },
+    {
+      "key": "DA_Snacktime18",
+      "name": "点心时间到！",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [
+        "已激活【约德尔人和朋友】"
+      ],
+      "effect": "【毛茸茸大朋友】会吃掉最大生命值低于16%且受过其伤害的敌人。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "【毛茸茸大朋友】会吃掉最大生命值低于22%且受过其伤害的敌人。",
+        "effectText": "【毛茸茸大朋友】会吃掉最大生命值低于22%且受过其伤害的敌人。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【约德尔人和朋友】",
+      "effectText": "【毛茸茸大朋友】会吃掉最大生命值低于16%且受过其伤害的敌人。"
+    },
+    {
+      "key": "DA_SolitudesCloak18",
+      "name": "独行斗篷",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "【永恒之森】、【月蚀骑士】和【翠神】均未激活"
+      ],
+      "effect": "邻格无友军的弈子们获得10%最大生命值和10%伤害增幅。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "邻格无友军的弈子们获得15%最大生命值和15%伤害增幅。",
+        "effectText": "邻格无友军的弈子们获得15%最大生命值和15%伤害增幅。"
+      },
+      "mutex": [
+        "Group Hug I",
+        "Group Hug II",
+        "Hold the Line"
+      ],
+      "mutexCondition": "【永恒之森】、【月蚀骑士】和【翠神】均未激活",
+      "effectText": "邻格无友军的弈子们获得10%最大生命值和10%伤害增幅。"
+    },
+    {
+      "key": "DA_TigersVisit18_Wisp",
+      "name": "猛虎降临",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "3-5 ~ 5-7"
+      ],
+      "requires": [
+        "尚未选择【猛虎】野兽之灵增益",
+        "已激活【野兽之灵】"
+      ],
+      "effect": "本场对战获得【野兽之灵】的【猛虎】增益。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "本场对战获得【野兽之灵】的【猛虎】增益。",
+        "effectText": "本场对战获得【野兽之灵】的【猛虎】增益。"
+      },
+      "mutex": [],
+      "mutexCondition": "尚未选择【猛虎】野兽之灵增益；已激活【野兽之灵】",
+      "effectText": "本场对战获得【野兽之灵】的【猛虎】增益。"
+    },
+    {
+      "key": "DA_PottedLifebloom18",
+      "name": "盆栽生命花",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [
+        "已激活【永恒之森】"
+      ],
+      "effect": "获得1株临时的【生命花】。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "获得1株临时的【生命花】。",
+        "effectText": "获得1株临时的【生命花】。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【永恒之森】",
+      "effectText": "获得1株临时的【生命花】。"
+    },
+    {
+      "key": "DA_PottedStonebark18",
+      "name": "盆栽石皮树",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [
+        "已激活【永恒之森】"
+      ],
+      "effect": "获得1颗临时的【石皮树】。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "获得1颗临时的【石皮树】。",
+        "effectText": "获得1颗临时的【石皮树】。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【永恒之森】",
+      "effectText": "获得1颗临时的【石皮树】。"
+    },
+    {
+      "key": "DA_ImprovedReach18",
+      "name": "瞄准镜",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 1,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "上场战斗中至少出战2个战士",
+        "场上及备战席中有1个携带装备的战士"
+      ],
+      "effect": "你的【战士】获得+1攻击距离。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "你的【战士】获得+2攻击距离。",
+        "effectText": "你的【战士】获得+2攻击距离。"
+      },
+      "mutex": [],
+      "mutexCondition": "上场战斗中至少出战2个战士；场上及备战席中有1个携带装备的战士",
+      "effectText": "你的【战士】获得+1攻击距离。"
+    },
+    {
+      "key": "DA_18_YordleSpirit",
+      "name": "约德尔之灵",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [],
+      "effect": "友军有99%几率闪避攻击，持续4秒。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "友军有99%几率闪避攻击，持续5秒。",
+        "effectText": "友军有99%几率闪避攻击，持续5秒。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "友军有99%几率闪避攻击，持续4秒。"
+    },
+    {
+      "key": "DA_NaturesAlly18",
+      "name": "自然之友",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "每有3名友军阵亡，召唤1个随机【峡谷野怪】。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "每有3名友军阵亡，召唤1个随机【峡谷野怪】 有时会召唤出2星的版本。",
+        "effectText": "每有3名友军阵亡，召唤1个随机【峡谷野怪】 有时会召唤出2星的版本。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每有3名友军阵亡，召唤1个随机【峡谷野怪】。"
+    },
+    {
+      "key": "DA_HomingFireflies18",
+      "name": "萤火虫之家",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "3-5 ~ 10-1"
+      ],
+      "requires": [
+        "上场战斗中至少出战2个术师"
+      ],
+      "effect": "你的【术师】每消耗20法力值，召唤1只萤火虫。每只造成110魔法伤害。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "你的【术师】每消耗15法力值，召唤1只萤火虫。每只造成110魔法伤害。",
+        "effectText": "你的【术师】每消耗15法力值，召唤1只萤火虫。每只造成110魔法伤害。"
+      },
+      "mutex": [],
+      "mutexCondition": "上场战斗中至少出战2个术师",
+      "effectText": "你的【术师】每消耗20法力值，召唤1只萤火虫。每只造成110魔法伤害。"
+    },
+    {
+      "key": "DA_BearsVisit18",
+      "name": "蛮熊降临",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "3-5 ~ 5-7"
+      ],
+      "requires": [
+        "尚未选择【蛮熊】野兽之灵增益",
+        "已激活【野兽之灵】"
+      ],
+      "effect": "本场对战获得【野兽之灵】的【蛮熊】增益。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "本场对战获得【野兽之灵】的【猛虎】增益。",
+        "effectText": "本场对战获得【野兽之灵】的【猛虎】增益。"
+      },
+      "mutex": [],
+      "mutexCondition": "尚未选择【蛮熊】野兽之灵增益；已激活【野兽之灵】",
+      "effectText": "本场对战获得【野兽之灵】的【蛮熊】增益。"
+    },
+    {
+      "key": "DA_MemorialDummy18",
+      "name": "衣冠冢",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "3-5 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "你最先阵亡的携带着装备的那个坦克，在阵亡时会召唤1个携带着其装备的【训练假人】。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "你最先阵亡的2个坦克，在阵亡时会召唤1个携带着其装备的【训练假人】。",
+        "effectText": "你最先阵亡的2个坦克，在阵亡时会召唤1个携带着其装备的【训练假人】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你最先阵亡的携带着装备的那个坦克，在阵亡时会召唤1个携带着其装备的【训练假人】。"
+    },
+    {
+      "key": "DA_TrainingYard18",
+      "name": "训练场",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [],
+      "effect": "获得2个携带着1件随机坦克装备的【训练假人】。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "获得3个携带着1件随机坦克装备的【训练假人】。",
+        "effectText": "获得3个携带着1件随机坦克装备的【训练假人】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得2个携带着1件随机坦克装备的【训练假人】。"
+    },
+    {
+      "key": "DA_18_Fellowship",
+      "name": "贴贴",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "每有1名相邻的友军，弈子们就会获得4%最大生命值护盾和4%伤害增幅。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "每有1名相邻的友军，弈子们就会获得6%最大生命值护盾和6%伤害增幅。",
+        "effectText": "每有1名相邻的友军，弈子们就会获得6%最大生命值护盾和6%伤害增幅。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每有1名相邻的友军，弈子们就会获得4%最大生命值护盾和4%伤害增幅。"
+    },
+    {
+      "key": "DA_18_Supercritical",
+      "name": "超级暴击",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [
+        "阵容中至少有2个可造成技能暴击的弈子"
+      ],
+      "effect": "拥有【技能暴击】的友军获得25%暴击伤害。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "拥有【技能暴击】的友军获得40%暴击伤害。",
+        "effectText": "拥有【技能暴击】的友军获得40%暴击伤害。"
+      },
+      "mutex": [],
+      "mutexCondition": "阵容中至少有2个可造成技能暴击的弈子",
+      "effectText": "拥有【技能暴击】的友军获得25%暴击伤害。"
+    },
+    {
+      "key": "DA_18_MercenaryForce",
+      "name": "金钱之力",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "至少拥有30金币"
+      ],
+      "effect": "每拥有10金币，获得3%伤害增幅。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "每拥有10金币，获得4%伤害增幅。",
+        "effectText": "每拥有10金币，获得4%伤害增幅。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有30金币",
+      "effectText": "每拥有10金币，获得3%伤害增幅。"
+    },
+    {
+      "key": "DA_IronCore18",
+      "name": "钢铁核心",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 1,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [],
+      "effect": "每有1个位于前排的单位，你前排中心的那个弈子就会获得6%最大生命值。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "每有1个位于前排的单位，你前排中心的那个弈子就会获得8%最大生命值。",
+        "effectText": "每有1个位于前排的单位，你前排中心的那个弈子就会获得8%最大生命值。"
+      },
+      "mutex": [
+        "Solo Plate"
+      ],
+      "mutexCondition": "—",
+      "effectText": "每有1个位于前排的单位，你前排中心的那个弈子就会获得6%最大生命值。"
+    },
+    {
+      "key": "DA_PlatedShields18",
+      "name": "镀板护盾",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "护盾强度提升15%。友军获得持续10秒的150护盾值。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "护盾强度提升20%。友军获得持续10秒的300护盾值。",
+        "effectText": "护盾强度提升20%。友军获得持续10秒的300护盾值。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "护盾强度提升15%。友军获得持续10秒的150护盾值。"
+    },
+    {
+      "key": "DA_Scrappy18",
+      "name": "零碎",
+      "category": "战斗",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "场上至少有2个未携带装备的弈子"
+      ],
+      "effect": "战斗开始时：未携带任何装备的2个弈子会获得1件临时的推荐装备。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "战斗开始时：未携带任何装备的3个弈子会获得1件临时的推荐装备。",
+        "effectText": "战斗开始时：未携带任何装备的3个弈子会获得1件临时的推荐装备。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上至少有2个未携带装备的弈子",
+      "effectText": "战斗开始时：未携带任何装备的2个弈子会获得1件临时的推荐装备。"
+    },
+    {
+      "key": "DA_18_Radiantize",
+      "name": "光明化",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "在8秒后，1件被携带着的随机装备暂时变为光明版。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "在5秒后，1件被携带着的随机装备暂时变为光明版。",
+        "effectText": "在5秒后，1件被携带着的随机装备暂时变为光明版。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "在8秒后，1件被携带着的随机装备暂时变为光明版。"
+    },
+    {
+      "key": "DA_CloneCompanion18",
+      "name": "克隆弈子",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 5,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "复制你伤害最高的弈子。复制体造成20%伤害。",
+      "upgrade": {
+        "cost": 5,
+        "effect": "复制你伤害最高的弈子。复制体造成30%伤害。",
+        "effectText": "复制你伤害最高的弈子。复制体造成30%伤害。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "复制你伤害最高的弈子。复制体造成20%伤害。"
+    },
+    {
+      "key": "DA_KillersRegret18",
+      "name": "刽子手的悔恨",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 1,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "你最先阵亡的3个弈子会将其击杀者晕眩1.5秒。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "你最先阵亡的4个弈子会将其击杀者晕眩1.75秒。",
+        "effectText": "你最先阵亡的4个弈子会将其击杀者晕眩1.75秒。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你最先阵亡的3个弈子会将其击杀者晕眩1.5秒。"
+    },
+    {
+      "key": "DA_18_Tremors",
+      "name": "地动山摇",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "每8秒，晕眩敌人1秒。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "每8秒，晕眩敌人1.5秒。",
+        "effectText": "每8秒，晕眩敌人1.5秒。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每8秒，晕眩敌人1秒。"
+    },
+    {
+      "key": "DA_LateBloomer18",
+      "name": "大器晚成",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 4,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [],
+      "effect": "一个临时的3星1费弈子加入你的队伍。",
+      "upgrade": {
+        "cost": 4,
+        "effect": "一名携带着 1件推荐装备的临时3星1费弈子加入己方队伍。",
+        "effectText": "一名携带着 1件推荐装备的临时3星1费弈子加入己方队伍。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "一个临时的3星1费弈子加入你的队伍。"
+    },
+    {
+      "key": "DA_GiantsAura18",
+      "name": "巨人光环",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "场上及备战席中有1个携带装备的坦克"
+      ],
+      "effect": "你生命值最高的那名友军，每秒在一片区域内造成2%最大生命值伤害。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "你生命值最高的那名友军，每秒在一片区域内造成3%最大生命值伤害。",
+        "effectText": "你生命值最高的那名友军，每秒在一片区域内造成3%最大生命值伤害。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上及备战席中有1个携带装备的坦克",
+      "effectText": "你生命值最高的那名友军，每秒在一片区域内造成2%最大生命值伤害。"
+    },
+    {
+      "key": "DA_18_GiantGrowth",
+      "name": "巨型增长",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 4,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "你生命值最高的那个单位成长，获得800生命值。",
+      "upgrade": {
+        "cost": 4,
+        "effect": "你生命值最高的2个单位成长，获得800生命值。",
+        "effectText": "你生命值最高的2个单位成长，获得800生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你生命值最高的那个单位成长，获得800生命值。"
+    },
+    {
+      "key": "DA_PhantomEmblem18",
+      "name": "幻影纹章",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 2,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "获得1个你层级最高羁绊的临时的纹章。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "获得1个你层级最高羁绊的临时的纹章。",
+        "effectText": "获得1个你层级最高羁绊的临时的纹章。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个你层级最高羁绊的临时的纹章。"
+    },
+    {
+      "key": "DA_18_Infliction",
+      "name": "折磨",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 4,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "未持有【最后的轻语】、【虚空之杖】、【离子火花】或【薄暮法袍】（普通或光明）",
+        "未持有【莫雷洛秘典】、【日炎斗篷】或【红霸符】（普通或光明），或已激活【地狱火】"
+      ],
+      "effect": "对所有敌人施加持续8秒的缓速、灼烧、魔抗击碎与护甲击碎效果。",
+      "upgrade": {
+        "cost": 4,
+        "effect": "对所有敌人施加持续12秒的缓速、灼烧、魔抗击碎与护甲击碎效果。",
+        "effectText": "对所有敌人施加持续12秒的缓速、灼烧、魔抗击碎与护甲击碎效果。"
+      },
+      "mutex": [],
+      "mutexCondition": "未持有【最后的轻语】、【虚空之杖】、【离子火花】或【薄暮法袍】（普通或光明）；未持有【莫雷洛秘典】、【日炎斗篷】或【红霸符】（普通或光明），或已激活【地狱火】",
+      "effectText": "对所有敌人施加持续8秒的缓速、灼烧、魔抗击碎与护甲击碎效果。"
+    },
+    {
+      "key": "DA_Combust18",
+      "name": "易燃物",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "你的弈子们在阵亡时产生爆炸，造成15%最大生命值魔法伤害。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "你的弈子们在阵亡时产生爆炸，造成18%最大生命值魔法伤害。",
+        "effectText": "你的弈子们在阵亡时产生爆炸，造成18%最大生命值魔法伤害。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "你的弈子们在阵亡时产生爆炸，造成15%最大生命值魔法伤害。"
+    },
+    {
+      "key": "DA_TreetopArchers",
+      "name": "树顶弓箭手",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "弓箭手自林间放箭，每3秒造成500物理伤害。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "弓箭手自林间放箭，每3秒造成900物理伤害。",
+        "effectText": "弓箭手自林间放箭，每3秒造成900物理伤害。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "弓箭手自林间放箭，每3秒造成500物理伤害。"
+    },
+    {
+      "key": "DA_Blaze18",
+      "name": "炽焰",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "火焰席卷整个棋盘，对敌人造成持续递增的真实伤害。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "火焰席卷整个棋盘，对敌人造成更高的真实伤害。",
+        "effectText": "火焰席卷整个棋盘，对敌人造成更高的真实伤害。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "火焰席卷整个棋盘，对敌人造成持续递增的真实伤害。"
+    },
+    {
+      "key": "DA_HandOfBaron18",
+      "name": "男爵之手",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 4,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "已激活【峡谷野怪】"
+      ],
+      "effect": "你的队伍获得【纳什男爵】增益，提升他们的属性。",
+      "upgrade": {
+        "cost": 4,
+        "effect": "你的队伍获得【纳什男爵】增益，极大提升他们的属性。",
+        "effectText": "你的队伍获得【纳什男爵】增益，极大提升他们的属性。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【峡谷野怪】",
+      "effectText": "你的队伍获得【纳什男爵】增益，提升他们的属性。"
+    },
+    {
+      "key": "DA_NaturesWrath18",
+      "name": "自然之怒",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 1,
+      "rounds": [
+        "6-1 ~ 10-1"
+      ],
+      "requires": [
+        "场上及备战席中至少有5个各携带1件或更多装备的弈子",
+        "未激活【永恒之森】"
+      ],
+      "effect": "在10秒后，将所有未携带装备的单位击杀。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "在8秒后，将所有未携带装备的单位击杀。",
+        "effectText": "在8秒后，将所有未携带装备的单位击杀。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上及备战席中至少有5个各携带1件或更多装备的弈子；未激活【永恒之森】",
+      "effectText": "在10秒后，将所有未携带装备的单位击杀。"
+    },
+    {
+      "key": "DA_18_HeroicSacrifice",
+      "name": "英勇就义",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 5,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "场上及备战席中恰好有2个或3个弈子各携带3件装备"
+      ],
+      "effect": "你最强大的3个弈子获得史！诗！级！强！化！，但其他友军将会牺牲。",
+      "upgrade": {
+        "cost": 5,
+        "effect": "你最强大的3个弈子获得史！诗！级！强！化！，但其他友军将会牺牲。",
+        "effectText": "你最强大的3个弈子获得史！诗！级！强！化！，但其他友军将会牺牲。"
+      },
+      "mutex": [
+        "Makeshift Armor I",
+        "Makeshift Armor II"
+      ],
+      "mutexCondition": "场上及备战席中恰好有2个或3个弈子各携带3件装备",
+      "effectText": "你最强大的3个弈子获得史！诗！级！强！化！，但其他友军将会牺牲。"
+    },
+    {
+      "key": "DA_HerosEntrance18",
+      "name": "英雄登场",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 2,
+      "rounds": [
+        "6-1 ~ 10-1"
+      ],
+      "requires": [
+        "备战席上至少有1个弈子"
+      ],
+      "effect": "在8秒后，备战席最左侧的弈子加入战斗，并获得2件推荐装备。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "在5秒后，备战席最左侧的弈子加入战斗，并获得2件推荐装备。",
+        "effectText": "在5秒后，备战席最左侧的弈子加入战斗，并获得2件推荐装备。"
+      },
+      "mutex": [],
+      "mutexCondition": "备战席上至少有1个弈子",
+      "effectText": "在8秒后，备战席最左侧的弈子加入战斗，并获得2件推荐装备。"
+    },
+    {
+      "key": "DA_18_LightningStorm",
+      "name": "闪电风暴",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "每过1秒，对1名敌人造成5%最大生命值真实伤害。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "每过1秒，对1名敌人造成7%最大生命值真实伤害。",
+        "effectText": "每过1秒，对1名敌人造成7%最大生命值真实伤害。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每过1秒，对1名敌人造成5%最大生命值真实伤害。"
+    },
+    {
+      "key": "DA_Hireling18",
+      "name": "雇佣兵",
+      "category": "战斗",
+      "tier": 3,
+      "cost": 5,
+      "rounds": [
+        "6-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "1个携带着1件推荐装备的临时1星5费弈子加入你的队伍。",
+      "upgrade": {
+        "cost": 5,
+        "effect": "1个携带着2件推荐装备的临时1星5费弈子加入你的队伍。",
+        "effectText": "1个携带着2件推荐装备的临时1星5费弈子加入你的队伍。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "1个携带着1件推荐装备的临时1星5费弈子加入你的队伍。"
+    },
+    {
+      "key": "DA_DoodadBag18",
+      "name": "小玩具包",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [
+        "剩余生命值高于20"
+      ],
+      "effect": "获得2个消耗品，其能提供永久的护甲与魔抗或生命值。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "获得3个消耗品，其能提供永久的护甲与魔抗或生命值。",
+        "effectText": "获得3个消耗品，其能提供永久的护甲与魔抗或生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "剩余生命值高于20",
+      "effectText": "获得2个消耗品，其能提供永久的护甲与魔抗或生命值。"
+    },
+    {
+      "key": "DA_DoodadJar18",
+      "name": "小玩具罐",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [
+        "剩余生命值高于20"
+      ],
+      "effect": "获得1个消耗品，其能提供永久的护甲与魔抗或生命值。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "获得2个消耗品，其能提供永久的护甲与魔抗或生命值。",
+        "effectText": "获得2个消耗品，其能提供永久的护甲与魔抗或生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "剩余生命值高于20",
+      "effectText": "获得1个消耗品，其能提供永久的护甲与魔抗或生命值。"
+    },
+    {
+      "key": "DA_ThingamajigBag18",
+      "name": "小装置包",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [
+        "场上及备战席中有1个已携带装备、伤害类型为魔法且定位为术师、战士、射手或刺客的弈子",
+        "剩余生命值高于20"
+      ],
+      "effect": "获得2个消耗品，其能提供永久的法术加成或法力回复。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "获得3个消耗品，其能提供永久的法术加成或法力回复。",
+        "effectText": "获得3个消耗品，其能提供永久的法术加成或法力回复。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上及备战席中有1个已携带装备、伤害类型为魔法且定位为术师、战士、射手或刺客的弈子；剩余生命值高于20",
+      "effectText": "获得2个消耗品，其能提供永久的法术加成或法力回复。"
+    },
+    {
+      "key": "DA_ThingamajigJar18",
+      "name": "小装置罐",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [
+        "场上及备战席中有1个已携带装备、伤害类型为魔法且定位为术师、战士、射手或刺客的弈子",
+        "剩余生命值高于20"
+      ],
+      "effect": "获得1个消耗品，其能提供永久的法术加成或法力回复。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "获得2个消耗品，其能提供永久的法术加成或法力回复。",
+        "effectText": "获得2个消耗品，其能提供永久的法术加成或法力回复。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上及备战席中有1个已携带装备、伤害类型为魔法且定位为术师、战士、射手或刺客的弈子；剩余生命值高于20",
+      "effectText": "获得1个消耗品，其能提供永久的法术加成或法力回复。"
+    },
+    {
+      "key": "DA_KnickKnackBag18",
+      "name": "小饰品包",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [
+        "场上及备战席中有1个已携带装备、伤害类型为物理且定位为刺客、术师、射手、战士或专家的弈子",
+        "剩余生命值高于20"
+      ],
+      "effect": "获得2个消耗品，其能提供永久的物理加成或攻击速度。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "获得3个消耗品，其能提供永久的物理加成或攻击速度。",
+        "effectText": "获得3个消耗品，其能提供永久的物理加成或攻击速度。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上及备战席中有1个已携带装备、伤害类型为物理且定位为刺客、术师、射手、战士或专家的弈子；剩余生命值高于20",
+      "effectText": "获得2个消耗品，其能提供永久的物理加成或攻击速度。"
+    },
+    {
+      "key": "DA_KnickKnackJar18",
+      "name": "小饰品罐",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [
+        "场上及备战席中有1个已携带装备、伤害类型为物理且定位为刺客、术师、射手、战士或专家的弈子",
+        "剩余生命值高于20"
+      ],
+      "effect": "获得1个消耗品，其能提供永久的物理加成或攻击速度。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "获得2个消耗品，其能提供永久的物理加成或攻击速度。",
+        "effectText": "获得2个消耗品，其能提供永久的物理加成或攻击速度。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上及备战席中有1个已携带装备、伤害类型为物理且定位为刺客、术师、射手、战士或专家的弈子；剩余生命值高于20",
+      "effectText": "获得1个消耗品，其能提供永久的物理加成或攻击速度。"
+    },
+    {
+      "key": "DA_Salvager18",
+      "name": "打捞术",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [],
+      "effect": "你备战席的任何弈子都会被移除装备，且这些装备会被拆解。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "你备战席的任何弈子都会被移除装备，且这些装备会被拆解。获得2金币。",
+        "effectText": "你备战席的任何弈子都会被移除装备，且这些装备会被拆解。获得2金币。"
+      },
+      "mutex": [
+        "Salvage Bin",
+        "Salvage Bin+",
+        "Crafted Crafting",
+        "NO SCOUT NO PIVOT"
+      ],
+      "mutexCondition": "—",
+      "effectText": "你备战席的任何弈子都会被移除装备，且这些装备会被拆解。"
+    },
+    {
+      "key": "DA_LesserChaos18",
+      "name": "拼一把小的！",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [],
+      "effect": "随机施放1个【自然仙灵】。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "随机施放1个价值在1或以上金币的【自然仙灵】。",
+        "effectText": "随机施放1个价值在1或以上金币的【自然仙灵】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "随机施放1个【自然仙灵】。"
+    },
+    {
+      "key": "DA_18_ForestMage",
+      "name": "森林魔法师",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-5 ~ 10-1"
+      ],
+      "requires": [
+        "备战阶段的前8秒内"
+      ],
+      "effect": "用【自然仙灵】填满你的商店。但你只能购买1个。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "用升级后的【自然仙灵】填满你的商店。但你只能购买1个。",
+        "effectText": "用升级后的【自然仙灵】填满你的商店。但你只能购买1个。"
+      },
+      "mutex": [],
+      "mutexCondition": "备战阶段的前8秒内",
+      "effectText": "用【自然仙灵】填满你的商店。但你只能购买1个。"
+    },
+    {
+      "key": "DA_ManaPotion18_Charm",
+      "name": "法力药水",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "获得1个临时的、可装备的【法力药水】。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "获得1个临时的、可装备的【光明版法力药水】。",
+        "effectText": "获得1个临时的、可装备的【光明版法力药水】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个临时的、可装备的【法力药水】。"
+    },
+    {
+      "key": "DA_BlastPotion18_Charm",
+      "name": "爆炸药水",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "获得1个临时的、可装备的【爆炸药水】。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "获得1个临时的、可装备的【光明版爆炸药水】。",
+        "effectText": "获得1个临时的、可装备的【光明版爆炸药水】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个临时的、可装备的【爆炸药水】。"
+    },
+    {
+      "key": "DA_HealthPotion18_Charm",
+      "name": "生命药水",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "获得1个临时的、可装备的【生命药水】。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "获得1个临时的、可装备的【光明版生命药水】。",
+        "effectText": "获得1个临时的、可装备的【光明版生命药水】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个临时的、可装备的【生命药水】。"
+    },
+    {
+      "key": "DA_Terraforming18",
+      "name": "生态改造",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "4-2 ~ 10-1"
+      ],
+      "requires": [
+        "已激活【翠神】"
+      ],
+      "effect": "战斗开始时，获得7颗种子。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "战斗开始时，获得10颗种子。",
+        "effectText": "战斗开始时，获得10颗种子。"
+      },
+      "mutex": [],
+      "mutexCondition": "已激活【翠神】",
+      "effectText": "战斗开始时，获得7颗种子。"
+    },
+    {
+      "key": "DA_18_EarlyFix",
+      "name": "防微杜渐",
+      "category": "杂项",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [],
+      "effect": "获得1个【装备重铸器】",
+      "upgrade": {
+        "cost": 0,
+        "effect": "获得2个【装备重铸器】。",
+        "effectText": "获得2个【装备重铸器】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1个【装备重铸器】"
+    },
+    {
+      "key": "DA_18_SinisterDeal",
+      "name": "不祥交易",
+      "category": "杂项",
+      "tier": 2,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [
+        "剩余生命值高于4"
+      ],
+      "effect": "失去4玩家生命值。获得2金币。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "失去2玩家生命值。获得2金币。",
+        "effectText": "失去2玩家生命值。获得2金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "剩余生命值高于4",
+      "effectText": "失去4玩家生命值。获得2金币。"
+    },
+    {
+      "key": "DA_18_MinorBloodRitual",
+      "name": "小型血祭",
+      "category": "杂项",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [
+        "剩余生命值高于3"
+      ],
+      "effect": "失去3玩家生命值。获得1个【次级英雄复制器】。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "失去1玩家生命值。获得1个【次级英雄复制器】。",
+        "effectText": "失去1玩家生命值。获得1个【次级英雄复制器】。"
+      },
+      "mutex": [],
+      "mutexCondition": "剩余生命值高于3",
+      "effectText": "失去3玩家生命值。获得1个【次级英雄复制器】。"
+    },
+    {
+      "key": "DA_DoodadSack18",
+      "name": "小玩具袋",
+      "category": "杂项",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "剩余生命值高于20"
+      ],
+      "effect": "获得3个消耗品，其能提供永久的护甲与魔抗或生命值。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "获得4个消耗品，其能提供永久的护甲与魔抗或生命值。",
+        "effectText": "获得4个消耗品，其能提供永久的护甲与魔抗或生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "剩余生命值高于20",
+      "effectText": "获得3个消耗品，其能提供永久的护甲与魔抗或生命值。"
+    },
+    {
+      "key": "DA_ThingamajigSack18",
+      "name": "小装置袋",
+      "category": "杂项",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "场上及备战席中有1个已携带装备、伤害类型为魔法且定位为术师、战士、射手或刺客的弈子",
+        "剩余生命值高于20"
+      ],
+      "effect": "获得3个消耗品，其能提供永久的法术加成或法力回复。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "获得4个消耗品，其能提供永久的法术加成或法力回复。",
+        "effectText": "获得4个消耗品，其能提供永久的法术加成或法力回复。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上及备战席中有1个已携带装备、伤害类型为魔法且定位为术师、战士、射手或刺客的弈子；剩余生命值高于20",
+      "effectText": "获得3个消耗品，其能提供永久的法术加成或法力回复。"
+    },
+    {
+      "key": "DA_KnickKnackSack18",
+      "name": "小饰品袋",
+      "category": "杂项",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "场上及备战席中有1个已携带装备、伤害类型为物理且定位为刺客、术师、射手、战士或专家的弈子",
+        "剩余生命值高于20"
+      ],
+      "effect": "获得3个消耗品，其能提供永久的物理加成或攻击速度。",
+      "upgrade": {
+        "cost": 3,
+        "effect": "获得4个消耗品，其能提供永久的物理加成或攻击速度。",
+        "effectText": "获得4个消耗品，其能提供永久的物理加成或攻击速度。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上及备战席中有1个已携带装备、伤害类型为物理且定位为刺客、术师、射手、战士或专家的弈子；剩余生命值高于20",
+      "effectText": "获得3个消耗品，其能提供永久的物理加成或攻击速度。"
+    },
+    {
+      "key": "DA_18_HealingPool",
+      "name": "治疗池",
+      "category": "杂项",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [
+        "已损失至少10点生命值"
+      ],
+      "effect": "获得5玩家生命值。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "获得7玩家生命值。",
+        "effectText": "获得7玩家生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "已损失至少10点生命值",
+      "effectText": "获得5玩家生命值。"
+    },
+    {
+      "key": "DA_Potioncraft18",
+      "name": "药学博士",
+      "category": "杂项",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "获得3个临时的、可装备的【药水】。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "获得3个临时的、可装备的【光明版药水】。",
+        "effectText": "获得3个临时的、可装备的【光明版药水】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得3个临时的、可装备的【药水】。"
+    },
+    {
+      "key": "DA_GreaterChaos18",
+      "name": "拼一把大的！",
+      "category": "杂项",
+      "tier": 3,
+      "cost": 4,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "随机施放2个【自然仙灵】。",
+      "upgrade": {
+        "cost": 4,
+        "effect": "随机施放2个价值在2或以上金币的【自然仙灵】。",
+        "effectText": "随机施放2个价值在2或以上金币的【自然仙灵】。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "随机施放2个【自然仙灵】。"
+    },
+    {
+      "key": "DA_18_BloodRitual",
+      "name": "血祭",
+      "category": "杂项",
+      "tier": 3,
+      "cost": 6,
+      "rounds": [
+        "4-2 ~ 4-7"
+      ],
+      "requires": [
+        "剩余生命值高于10"
+      ],
+      "effect": "失去10玩家生命值。获得1个【英雄复制器】。",
+      "upgrade": {
+        "cost": 6,
+        "effect": "失去8玩家生命值。获得1个【英雄复制器】。",
+        "effectText": "失去8玩家生命值。获得1个【英雄复制器】。"
+      },
+      "mutex": [],
+      "mutexCondition": "剩余生命值高于10",
+      "effectText": "失去10玩家生命值。获得1个【英雄复制器】。"
+    },
+    {
+      "key": "DA_Peddler18",
+      "name": "小贩",
+      "category": "装备",
+      "tier": 2,
+      "cost": 0,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "至少拥有10金币"
+      ],
+      "effect": "开启1个随机装备商店。随机装备的费用在0到14金币之间。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "开启1个随机装备商店。随机装备的费用在0到14金币之间。获得2金币。",
+        "effectText": "开启1个随机装备商店。随机装备的费用在0到14金币之间。获得2金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有10金币",
+      "effectText": "开启1个随机装备商店。随机装备的费用在0到14金币之间。"
+    },
+    {
+      "key": "DA_CurioCart18",
+      "name": "珍品摆摊车",
+      "category": "装备",
+      "tier": 2,
+      "cost": 0,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [
+        "至少拥有10金币"
+      ],
+      "effect": "开启1个装备商店。装备的费用在0到15金币之间。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "开启1个装备商店。装备的费用在0到15金币之间。获得1金币。",
+        "effectText": "开启1个装备商店。装备的费用在0到15金币之间。获得1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "至少拥有10金币",
+      "effectText": "开启1个装备商店。装备的费用在0到15金币之间。"
+    },
+    {
+      "key": "DA_Artifactinate18",
+      "name": "神器化",
+      "category": "装备",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "2-1 ~ 3-4"
+      ],
+      "requires": [
+        "至少拥有3件基础装备（成装按2件基础装备计算）"
+      ],
+      "effect": "失去3个基础装备，包括已合成为成装的基础装备。获得1个【神器锻造器】。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "失去3个基础装备，包括已合成为成装的基础装备。获得1个【神器锻造器】和1个【装备重铸器】。",
+        "effectText": "失去3个基础装备，包括已合成为成装的基础装备。获得1个【神器锻造器】和1个【装备重铸器】。"
+      },
+      "mutex": [
+        "Spirit Of Redemption",
+        "Promised Protection",
+        "Lucky Gloves",
+        "Lucky Gloves+",
+        "Solo Plate",
+        "Seraphim's Staff",
+        "Heart of Steel",
+        "Deadlier Blades",
+        "Deadlier Caps",
+        "Living Forge",
+        "Forged In Strength",
+        "Portable Forge"
+      ],
+      "mutexCondition": "至少拥有3件基础装备（成装按2件基础装备计算）",
+      "effectText": "失去3个基础装备，包括已合成为成装的基础装备。获得1个【神器锻造器】。"
+    },
+    {
+      "key": "DA_IdleCraftsman18",
+      "name": "闲散工匠",
+      "category": "装备",
+      "tier": 2,
+      "cost": 4,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [
+        "备战席上至少有1件基础装备"
+      ],
+      "effect": "将你备战席的1件基础装备转化为它可合成的1件成装。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "将你备战席的1件基础装备转化为它可合成的1件成装。",
+        "effectText": "将你备战席的1件基础装备转化为它可合成的1件成装。"
+      },
+      "mutex": [],
+      "mutexCondition": "备战席上至少有1件基础装备",
+      "effectText": "将你备战席的1件基础装备转化为它可合成的1件成装。"
+    },
+    {
+      "key": "DA_BloodAndIron18",
+      "name": "鲜血与铁",
+      "category": "装备",
+      "tier": 2,
+      "cost": 4,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "在20个弈子阵亡后，获得1个【基础装备锻造器】。",
+      "upgrade": {
+        "cost": 4,
+        "effect": "在16个弈子阵亡后，获得1个【基础装备锻造器】。",
+        "effectText": "在16个弈子阵亡后，获得1个【基础装备锻造器】。"
+      },
+      "mutex": [
+        "Solo Leveling"
+      ],
+      "mutexCondition": "—",
+      "effectText": "在20个弈子阵亡后，获得1个【基础装备锻造器】。"
+    },
+    {
+      "key": "DA_BeggarsWisp18",
+      "name": "仙灵的怜悯",
+      "category": "金币经验",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 10-1"
+      ],
+      "requires": [],
+      "effect": "本次刷新未能使你在自然奇境中寻找到【自然仙灵】。获得2金币。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "本次刷新未能使你在自然奇境中寻找到【自然仙灵】。获得3金币。",
+        "effectText": "本次刷新未能使你在自然奇境中寻找到【自然仙灵】。获得3金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "本次刷新未能使你在自然奇境中寻找到【自然仙灵】。获得2金币。"
+    },
+    {
+      "key": "DA_Barter18",
+      "name": "以物易物",
+      "category": "金币经验",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "3-5 ~ 5-7"
+      ],
+      "requires": [
+        "剩余生命值高于20"
+      ],
+      "effect": "在本回合内，你下次出售的弈子将以200%金币卖出。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "在本回合内，你下次出售的弈子将以250%金币卖出。",
+        "effectText": "在本回合内，你下次出售的弈子将以250%金币卖出。"
+      },
+      "mutex": [],
+      "mutexCondition": "剩余生命值高于20",
+      "effectText": "在本回合内，你下次出售的弈子将以200%金币卖出。"
+    },
+    {
+      "key": "DA_Truce18",
+      "name": "休战",
+      "category": "金币经验",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [],
+      "effect": "获得1金币。你的对手获得1金币。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "获得2金币。你的对手获得1金币。",
+        "effectText": "获得2金币。你的对手获得1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得1金币。你的对手获得1金币。"
+    },
+    {
+      "key": "DA_CoinFlip18",
+      "name": "抛硬币",
+      "category": "金币经验",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [],
+      "effect": "抛掷1枚硬币，如果硬币正面朝上，获得1金币。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "抛掷2枚硬币，如果硬币正面朝上，获得1金币。",
+        "effectText": "抛掷2枚硬币，如果硬币正面朝上，获得1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "抛掷1枚硬币，如果硬币正面朝上，获得1金币。"
+    },
+    {
+      "key": "DA_DieRoll18",
+      "name": "掷骰子",
+      "category": "金币经验",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "投掷1个6面体骰子。获得相当于结果点数的金币。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "投掷2个6面体骰子。获得相当于结果点数的金币。",
+        "effectText": "投掷2个6面体骰子。获得相当于结果点数的金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "投掷1个6面体骰子。获得相当于结果点数的金币。"
+    },
+    {
+      "key": "DA_RoomForAShroom",
+      "name": "摸些蘑菇",
+      "category": "金币经验",
+      "tier": 1,
+      "cost": 0,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "金币少于10"
+      ],
+      "effect": "获得2个随机蘑菇。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "获得3个随机蘑菇。",
+        "effectText": "获得3个随机蘑菇。"
+      },
+      "mutex": [],
+      "mutexCondition": "金币少于10",
+      "effectText": "获得2个随机蘑菇。"
+    },
+    {
+      "key": "DA_18_BloodMoney",
+      "name": "染血之币",
+      "category": "金币经验",
+      "tier": 1,
+      "cost": 2,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "每击杀1个弈子，获得1金币。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "每击杀1个弈子，获得1金币。获得1金币。",
+        "effectText": "每击杀1个弈子，获得1金币。获得1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "每击杀1个弈子，获得1金币。"
+    },
+    {
+      "key": "DA_18_Experienced",
+      "name": "老练",
+      "category": "金币经验",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "2-1 ~ 2-7"
+      ],
+      "requires": [],
+      "effect": "获得2经验值。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "获得2经验值。",
+        "effectText": "获得2经验值。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得2经验值。"
+    },
+    {
+      "key": "DA_18_PocketChange",
+      "name": "零花钱",
+      "category": "金币经验",
+      "tier": 1,
+      "cost": 1,
+      "rounds": [
+        "3-1 ~ 4-1"
+      ],
+      "requires": [
+        "场上至少有2个1星弈子"
+      ],
+      "effect": "你的1星弈子们在阵亡时掉落1金币。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "你的1星弈子们在阵亡时掉落1金币。获得1金币。",
+        "effectText": "你的1星弈子们在阵亡时掉落1金币。获得1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "场上至少有2个1星弈子",
+      "effectText": "你的1星弈子们在阵亡时掉落1金币。"
+    },
+    {
+      "key": "DA_18_LifeDebt",
+      "name": "以命为注",
+      "category": "金币经验",
+      "tier": 2,
+      "cost": 0,
+      "rounds": [
+        "5-1 ~ 10-1"
+      ],
+      "requires": [
+        "已损失至少70点生命值"
+      ],
+      "effect": "每失去12玩家生命值，获得1金币。",
+      "upgrade": {
+        "cost": 0,
+        "effect": "每失去12玩家生命值，获得1金币。然后治疗3生命值。",
+        "effectText": "每失去12玩家生命值，获得1金币。然后治疗3生命值。"
+      },
+      "mutex": [],
+      "mutexCondition": "已损失至少70点生命值",
+      "effectText": "每失去12玩家生命值，获得1金币。"
+    },
+    {
+      "key": "DA_SlowStudy18",
+      "name": "慢速学习",
+      "category": "金币经验",
+      "tier": 2,
+      "cost": 2,
+      "rounds": [
+        "3-5 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "在15秒后，每有1名存活的友军，获得2经验值。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "在12秒后，每有1名存活的友军，获得2经验值。",
+        "effectText": "在12秒后，每有1名存活的友军，获得2经验值。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "在15秒后，每有1名存活的友军，获得2经验值。"
+    },
+    {
+      "key": "DA_GoldenGoose18",
+      "name": "招财猫",
+      "category": "金币经验",
+      "tier": 2,
+      "cost": 1,
+      "rounds": [
+        "4-2 ~ 5-7"
+      ],
+      "requires": [
+        "剩余生命值高于20"
+      ],
+      "effect": "你造成伤害最高的那个弈子，每造成1700伤害，获得1金币。",
+      "upgrade": {
+        "cost": 1,
+        "effect": "你造成伤害最高的那个弈子，每造成1000伤害，获得1金币。",
+        "effectText": "你造成伤害最高的那个弈子，每造成1000伤害，获得1金币。"
+      },
+      "mutex": [],
+      "mutexCondition": "剩余生命值高于20",
+      "effectText": "你造成伤害最高的那个弈子，每造成1700伤害，获得1金币。"
+    },
+    {
+      "key": "DA_18_BronzeSpoon",
+      "name": "铜汤匙",
+      "category": "金币经验",
+      "tier": 2,
+      "cost": 3,
+      "rounds": [
+        "2-1 ~ 4-1"
+      ],
+      "requires": [],
+      "effect": "获得4经验值。",
+      "upgrade": {
+        "cost": 2,
+        "effect": "获得4经验值。",
+        "effectText": "获得4经验值。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得4经验值。"
+    },
+    {
+      "key": "DA_GrowUp18",
+      "name": "长大",
+      "category": "金币经验",
+      "tier": 2,
+      "cost": 7,
+      "rounds": [
+        "3-1 ~ 4-7"
+      ],
+      "requires": [],
+      "effect": "获得10经验值。",
+      "upgrade": {
+        "cost": 7,
+        "effect": "获得12经验值。",
+        "effectText": "获得12经验值。"
+      },
+      "mutex": [],
+      "mutexCondition": "—",
+      "effectText": "获得10经验值。"
+    }
+  ]
+}

@@ -1,0 +1,1855 @@
+{
+  "meta": {
+    "source": "data/s18db/heroes.json（技能描述与数值）",
+    "method": "LLM 人工规则标注，未使用外部模型 API",
+    "extracted": "2026-11-02",
+    "count": 65,
+    "status": "draft，需抽检",
+    "schemas": {
+      "damageType": [
+        "magic",
+        "physical",
+        "true",
+        "mixed",
+        "none"
+      ],
+      "targeting": [
+        "single",
+        "aoe",
+        "line",
+        "multi",
+        "self",
+        "ally",
+        "summon"
+      ],
+      "cc.type": [
+        "stun",
+        "knockup",
+        "taunt",
+        "slow",
+        "sleep",
+        "shred_armor",
+        "shred_mr",
+        "burn",
+        "wound",
+        "ignite"
+      ],
+      "utility": [
+        "shield",
+        "heal",
+        "buff_as",
+        "buff_ad",
+        "buff_ap",
+        "damage_reduction",
+        "cleanse",
+        "untargetable",
+        "execute",
+        "mana_regen"
+      ],
+      "scaling": [
+        "AP",
+        "AD",
+        "HP",
+        "none"
+      ]
+    },
+    "note": "被动+主动混在一个技能里的（约里克/凯尔/沃里克/阿狸等）按主要效果归类；数值只标 1 星档位。"
+  },
+  "skills": [
+    {
+      "id": 918043,
+      "hero": "卡尔玛",
+      "cost": 1,
+      "role": "魔法术师",
+      "traits": [
+        "灵魂莲华",
+        "法师"
+      ],
+      "skill": "宿业羁绊",
+      "mana": "0/40",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [
+        {
+          "type": "slow",
+          "value": 30,
+          "duration": 2
+        }
+      ],
+      "utility": [],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "AOE",
+        "持续伤害",
+        "减速"
+      ],
+      "note": "拴锁目标+范围爆发"
+    },
+    {
+      "id": 918045,
+      "hero": "维迦",
+      "cost": 1,
+      "role": "魔法术师",
+      "traits": [
+        "黑荆棘",
+        "约德尔人和朋友",
+        "法师"
+      ],
+      "skill": "能量爆裂",
+      "mana": "0/30",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "execute"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "条件增伤"
+      ],
+      "note": "低血增伤，击杀叠法强"
+    },
+    {
+      "id": 918083,
+      "hero": "约里克",
+      "cost": 1,
+      "role": "物理坦克",
+      "traits": [
+        "灵魂莲华",
+        "主宰",
+        "召唤师"
+      ],
+      "skill": "临终仪式",
+      "mana": "50/110",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [
+        {
+          "type": "taunt",
+          "value": null,
+          "duration": null
+        }
+      ],
+      "utility": [
+        "heal"
+      ],
+      "summon": true,
+      "scaling": "AD",
+      "tags": [
+        "召唤",
+        "治疗",
+        "坦克"
+      ],
+      "note": "阵亡召唤嘲讽幽灵"
+    },
+    {
+      "id": 918084,
+      "hero": "阿卡丽",
+      "cost": 1,
+      "role": "物理战士",
+      "traits": [
+        "地狱火",
+        "魔战士",
+        "狂战士"
+      ],
+      "skill": "苦无打击",
+      "mana": "0/25",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "条件增伤"
+      ],
+      "note": "对灼烧目标额外伤害"
+    },
+    {
+      "id": 918089,
+      "hero": "蕾欧娜",
+      "cost": 1,
+      "role": "魔法坦克",
+      "traits": [
+        "日蚀骑士",
+        "护卫"
+      ],
+      "skill": "护盾猛击",
+      "mana": "30/90",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [
+        {
+          "type": "stun",
+          "value": null,
+          "duration": 1.5
+        }
+      ],
+      "utility": [
+        "shield"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "控制",
+        "坦度"
+      ],
+      "note": "眩晕+开场双抗"
+    },
+    {
+      "id": 918110,
+      "hero": "韦鲁斯",
+      "cost": 1,
+      "role": "物理术师",
+      "traits": [
+        "地狱火",
+        "迅捷射手"
+      ],
+      "skill": "穿刺之箭",
+      "mana": "20/110",
+      "damageType": "physical",
+      "targeting": "line",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "直线",
+        "AOE",
+        "穿透"
+      ],
+      "note": "穿透直线，逐目标衰减"
+    },
+    {
+      "id": 918164,
+      "hero": "卡蜜尔",
+      "cost": 1,
+      "role": "物理战士",
+      "traits": [
+        "魔女",
+        "狂战士"
+      ],
+      "skill": "防御横扫",
+      "mana": "0/25",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "shield"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "护盾"
+      ],
+      "note": "单体伤害+2秒护盾"
+    },
+    {
+      "id": 918421,
+      "hero": "雷克塞",
+      "cost": 1,
+      "role": "魔法坦克",
+      "traits": [
+        "黑荆棘",
+        "斗士"
+      ],
+      "skill": "破土而出",
+      "mana": "40/100",
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [
+        {
+          "type": "stun",
+          "value": null,
+          "duration": 1.0
+        }
+      ],
+      "utility": [
+        "heal"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "AOE",
+        "控制",
+        "回复"
+      ],
+      "note": "邻格眩晕+被动回血"
+    },
+    {
+      "id": 918497,
+      "hero": "洛",
+      "cost": 1,
+      "role": "魔法坦克",
+      "traits": [
+        "花仙子",
+        "主宰",
+        "重装战士"
+      ],
+      "skill": "登场之舞",
+      "mana": "35/105",
+      "damageType": "none",
+      "targeting": "ally",
+      "cc": [],
+      "utility": [
+        "shield",
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "none",
+      "tags": [
+        "护盾",
+        "增益",
+        "辅助"
+      ],
+      "note": "护盾+友军攻速"
+    },
+    {
+      "id": 918498,
+      "hero": "霞",
+      "cost": 1,
+      "role": "物理射手",
+      "traits": [
+        "永恒之森",
+        "花仙子",
+        "迅捷射手"
+      ],
+      "skill": "致死羽衣",
+      "mana": "0/50",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [
+        {
+          "type": "shred_armor",
+          "value": 2,
+          "duration": null
+        }
+      ],
+      "utility": [
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "破甲",
+        "攻速"
+      ],
+      "note": "5次强化普攻削甲"
+    },
+    {
+      "id": 918516,
+      "hero": "奥恩",
+      "cost": 1,
+      "role": "魔法坦克",
+      "traits": [
+        "永恒之森",
+        "护卫"
+      ],
+      "skill": "风箱炎息",
+      "mana": "40/100",
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [],
+      "utility": [
+        "shield"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "AOE",
+        "护盾",
+        "锥形"
+      ],
+      "note": "锥形伤害+护盾，任务攒神器"
+    },
+    {
+      "id": 918954,
+      "hero": "可酷伯",
+      "cost": 1,
+      "role": "魔法坦克",
+      "traits": [
+        "约德尔人和朋友",
+        "斗士"
+      ],
+      "skill": "生命之舞",
+      "mana": "30/90",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "heal"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "治疗"
+      ],
+      "note": "持续回血+强化普攻"
+    },
+    {
+      "id": 918989,
+      "hero": "苍蓝哨戒",
+      "cost": 1,
+      "role": "魔法术师",
+      "traits": [
+        "峡谷野怪",
+        "神谕"
+      ],
+      "skill": "蔚蓝激光",
+      "mana": "30/70",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [
+        {
+          "type": "shred_mr",
+          "value": 3,
+          "duration": null
+        }
+      ],
+      "utility": [],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "持续伤害",
+        "破魔抗"
+      ],
+      "note": "引导激光，持续削魔抗"
+    },
+    {
+      "id": 918990,
+      "hero": "绯红树怪",
+      "cost": 1,
+      "role": "物理术师",
+      "traits": [
+        "峡谷野怪",
+        "猎人"
+      ],
+      "skill": "刃叶",
+      "mana": "0/50",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [
+        {
+          "type": "wound",
+          "value": 20,
+          "duration": 4
+        },
+        {
+          "type": "burn",
+          "value": 1,
+          "duration": null
+        }
+      ],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "重伤",
+        "灼烧"
+      ],
+      "note": "五叶聚拢，附重伤灼烧"
+    },
+    {
+      "id": 918007,
+      "hero": "乐芙兰",
+      "cost": 2,
+      "role": "魔法术师",
+      "traits": [
+        "永恒之森",
+        "法师"
+      ],
+      "skill": "镜花水月",
+      "mana": "0/40",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "AOE",
+        "复制"
+      ],
+      "note": "主目标+邻格溅射，可复制友军"
+    },
+    {
+      "id": 918010,
+      "hero": "凯尔",
+      "cost": 2,
+      "role": "魔法专家",
+      "traits": [
+        "日蚀骑士",
+        "迅捷射手"
+      ],
+      "skill": "太阳裁决",
+      "mana": null,
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [
+        {
+          "type": "shred_mr",
+          "value": 20,
+          "duration": 2
+        }
+      ],
+      "utility": [
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "持续",
+        "AOE",
+        "成长"
+      ],
+      "note": "四次飞升逐步解锁效果"
+    },
+    {
+      "id": 918012,
+      "hero": "阿利斯塔",
+      "cost": 2,
+      "role": "魔法坦克",
+      "traits": [
+        "永恒之森",
+        "斗士"
+      ],
+      "skill": "凯旋怒吼",
+      "mana": "30/90",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [
+        {
+          "type": "stun",
+          "value": null,
+          "duration": 1.5
+        }
+      ],
+      "utility": [
+        "heal",
+        "cleanse"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "控制",
+        "治疗"
+      ],
+      "note": "群疗+净化+眩晕"
+    },
+    {
+      "id": 918017,
+      "hero": "提莫",
+      "cost": 2,
+      "role": "魔法术师",
+      "traits": [
+        "约德尔人和朋友",
+        "神谕"
+      ],
+      "skill": "内有真菌",
+      "mana": "0/50",
+      "damageType": "magic",
+      "targeting": "multi",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "多目标",
+        "单体",
+        "资源"
+      ],
+      "note": "蘑菇AOE+巨型蘑菇，可采集"
+    },
+    {
+      "id": 918019,
+      "hero": "沃里克",
+      "cost": 2,
+      "role": "物理战士",
+      "traits": [
+        "黑荆棘",
+        "狂战士"
+      ],
+      "skill": "野兽之口",
+      "mana": "0/40",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "heal",
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "吸血",
+        "攻速"
+      ],
+      "note": "撕咬+吸血+永久攻速"
+    },
+    {
+      "id": 918051,
+      "hero": "凯特琳",
+      "cost": 2,
+      "role": "物理专家",
+      "traits": [
+        "魔女",
+        "猎人"
+      ],
+      "skill": "爆头",
+      "mana": "0/3",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "被动"
+      ],
+      "note": "每第三击爆头"
+    },
+    {
+      "id": 918060,
+      "hero": "伊莉丝",
+      "cost": 2,
+      "role": "魔法坦克",
+      "traits": [
+        "魔女",
+        "重装战士"
+      ],
+      "skill": "蜘蛛女皇",
+      "mana": "20/70",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "heal",
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "变身",
+        "治疗"
+      ],
+      "note": "变身加血+回血+攻速"
+    },
+    {
+      "id": 918098,
+      "hero": "慎",
+      "cost": 2,
+      "role": "魔法坦克",
+      "traits": [
+        "地狱火",
+        "护卫"
+      ],
+      "skill": "忍法！气合盾",
+      "mana": "30/90",
+      "damageType": "magic",
+      "targeting": "ally",
+      "cc": [],
+      "utility": [
+        "shield",
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "护盾",
+        "增益",
+        "辅助"
+      ],
+      "note": "自身与友军护盾+攻速"
+    },
+    {
+      "id": 918113,
+      "hero": "瑟庄妮",
+      "cost": 2,
+      "role": "魔法坦克",
+      "traits": [
+        "日蚀骑士",
+        "主宰"
+      ],
+      "skill": "烈阳之怒",
+      "mana": "40/100",
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [],
+      "utility": [
+        "shield"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "AOE",
+        "护盾",
+        "直线"
+      ],
+      "note": "锥形+直线双段"
+    },
+    {
+      "id": 918804,
+      "hero": "芸阿娜",
+      "cost": 2,
+      "role": "物理术师",
+      "traits": [
+        "灵魂莲华",
+        "裁决使"
+      ],
+      "skill": "灵蕴拳",
+      "mana": "0/35",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "分裂"
+      ],
+      "note": "法球分裂2目标"
+    },
+    {
+      "id": 918991,
+      "hero": "魔沼蛙",
+      "cost": 2,
+      "role": "魔法术师",
+      "traits": [
+        "峡谷野怪",
+        "魔战士"
+      ],
+      "skill": "打嗝泡泡",
+      "mana": "0/45",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "AOE",
+        "持续伤害"
+      ],
+      "note": "毒泡爆炸+范围持续"
+    },
+    {
+      "id": 918992,
+      "hero": "暗影狼",
+      "cost": 2,
+      "role": "物理刺客",
+      "traits": [
+        "峡谷野怪",
+        "狂战士"
+      ],
+      "skill": "撕裂之爪",
+      "mana": "0/40",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "突进",
+        "攻速"
+      ],
+      "note": "跃向低血目标+强化普攻"
+    },
+    {
+      "id": 918994,
+      "hero": "峡谷迅捷蟹",
+      "cost": 2,
+      "role": "物理坦克",
+      "traits": [
+        "峡谷野怪",
+        "主宰"
+      ],
+      "skill": "这种快乐你懂吗？",
+      "mana": "40/100",
+      "damageType": "physical",
+      "targeting": "aoe",
+      "cc": [],
+      "utility": [
+        "heal",
+        "damage_reduction"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "AOE",
+        "减伤",
+        "治疗"
+      ],
+      "note": "邻格伤害+钻地回复"
+    },
+    {
+      "id": 918009,
+      "hero": "费德提克",
+      "cost": 3,
+      "role": "魔法坦克",
+      "traits": [
+        "绝命花妖",
+        "护卫",
+        "法师"
+      ],
+      "skill": "收获",
+      "mana": "30/90",
+      "damageType": "magic",
+      "targeting": "multi",
+      "cc": [
+        {
+          "type": "shred_mr",
+          "value": 10,
+          "duration": null
+        }
+      ],
+      "utility": [
+        "heal"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "多目标",
+        "吸血",
+        "破魔抗"
+      ],
+      "note": "三目标汲取生命"
+    },
+    {
+      "id": 918011,
+      "hero": "易",
+      "cost": 3,
+      "role": "物理专家",
+      "traits": [
+        "灵魂莲华",
+        "魔战士"
+      ],
+      "skill": "无极剑道",
+      "mana": "0/3",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "被动",
+        "攻速",
+        "持续"
+      ],
+      "note": "第三击双重打击"
+    },
+    {
+      "id": 918018,
+      "hero": "崔丝塔娜",
+      "cost": 3,
+      "role": "物理射手",
+      "traits": [
+        "花仙子",
+        "约德尔人和朋友",
+        "猎人"
+      ],
+      "skill": "爆炸火花",
+      "mana": "0/50",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "AOE",
+        "攻速"
+      ],
+      "note": "火花爆炸+无限射程"
+    },
+    {
+      "id": 918033,
+      "hero": "拉莫斯",
+      "cost": 3,
+      "role": "物理坦克",
+      "traits": [
+        "约德尔人和朋友",
+        "护卫"
+      ],
+      "skill": "尖刺防御",
+      "mana": "30/80",
+      "damageType": "physical",
+      "targeting": "aoe",
+      "cc": [
+        {
+          "type": "taunt",
+          "value": null,
+          "duration": null
+        }
+      ],
+      "utility": [
+        "shield"
+      ],
+      "summon": false,
+      "scaling": "none",
+      "tags": [
+        "控制",
+        "护盾",
+        "AOE"
+      ],
+      "note": "嘲讽+护盾破碎伤害"
+    },
+    {
+      "id": 918069,
+      "hero": "卡西奥佩娅",
+      "cost": 3,
+      "role": "魔法术师",
+      "traits": [
+        "魔女",
+        "法师"
+      ],
+      "skill": "瘟毒爆炸",
+      "mana": "0/30",
+      "damageType": "magic",
+      "targeting": "multi",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "持续伤害",
+        "多目标",
+        "叠层"
+      ],
+      "note": "15秒中毒，可叠加"
+    },
+    {
+      "id": 918096,
+      "hero": "克格莫",
+      "cost": 3,
+      "role": "物理术师",
+      "traits": [
+        "帝王斑蝶",
+        "魔战士",
+        "神谕"
+      ],
+      "skill": "天降重炮",
+      "mana": "15/55",
+      "damageType": "physical",
+      "targeting": "multi",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "多目标",
+        "条件增伤"
+      ],
+      "note": "双目标酸液，低血增伤"
+    },
+    {
+      "id": 918107,
+      "hero": "雷恩加尔",
+      "cost": 3,
+      "role": "物理战士",
+      "traits": [
+        "宿敌"
+      ],
+      "skill": "残忍无情",
+      "mana": "10/50",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "heal"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "突进",
+        "治疗"
+      ],
+      "note": "跳斩+已损生命回血"
+    },
+    {
+      "id": 918120,
+      "hero": "赫卡里姆",
+      "cost": 3,
+      "role": "魔法坦克",
+      "traits": [
+        "永恒之森",
+        "重装战士"
+      ],
+      "skill": "恐惧之灵",
+      "mana": "50/110",
+      "damageType": "magic",
+      "targeting": "multi",
+      "cc": [
+        {
+          "type": "stun",
+          "value": null,
+          "duration": 1.5
+        }
+      ],
+      "utility": [
+        "heal"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "多目标",
+        "控制",
+        "治疗"
+      ],
+      "note": "三目标眩晕+回血"
+    },
+    {
+      "id": 918121,
+      "hero": "卡兹克",
+      "cost": 3,
+      "role": "魔法刺客",
+      "traits": [
+        "宿敌"
+      ],
+      "skill": "品尝恐惧",
+      "mana": "0/25",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "突进",
+        "条件增伤"
+      ],
+      "note": "跳最远目标，孤立增伤"
+    },
+    {
+      "id": 918131,
+      "hero": "黛安娜",
+      "cost": 3,
+      "role": "魔法战士",
+      "traits": [
+        "月蚀骑士",
+        "狂战士",
+        "重装战士"
+      ],
+      "skill": "苍白屏障",
+      "mana": "0/40",
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [],
+      "utility": [
+        "shield"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "AOE",
+        "护盾"
+      ],
+      "note": "6颗法球分摊+护盾"
+    },
+    {
+      "id": 918254,
+      "hero": "蔚",
+      "cost": 3,
+      "role": "物理坦克",
+      "traits": [
+        "野兽之灵",
+        "主宰"
+      ],
+      "skill": "狂怒之拳",
+      "mana": "0/60",
+      "damageType": "none",
+      "targeting": "self",
+      "cc": [],
+      "utility": [
+        "heal",
+        "buff_as",
+        "damage_reduction"
+      ],
+      "summon": false,
+      "scaling": "none",
+      "tags": [
+        "增益",
+        "治疗",
+        "免控"
+      ],
+      "note": "回血+攻速+减伤+不可阻挡"
+    },
+    {
+      "id": 918268,
+      "hero": "阿兹尔",
+      "cost": 3,
+      "role": "魔法射手",
+      "traits": [
+        "黑荆棘",
+        "裁决使",
+        "召唤师"
+      ],
+      "skill": "沙兵现身",
+      "mana": "0/35",
+      "damageType": "magic",
+      "targeting": "multi",
+      "cc": [],
+      "utility": [],
+      "summon": true,
+      "scaling": "AP",
+      "tags": [
+        "召唤",
+        "多目标",
+        "攻速"
+      ],
+      "note": "召唤沙兵代替普攻"
+    },
+    {
+      "id": 918993,
+      "hero": "远古石甲虫",
+      "cost": 3,
+      "role": "物理坦克",
+      "traits": [
+        "峡谷野怪",
+        "斗士"
+      ],
+      "skill": "岩之摇滚",
+      "mana": "80/135",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [
+        {
+          "type": "taunt",
+          "value": null,
+          "duration": null
+        }
+      ],
+      "utility": [
+        "shield"
+      ],
+      "summon": true,
+      "scaling": "AD",
+      "tags": [
+        "坦克",
+        "召唤",
+        "控制"
+      ],
+      "note": "阵亡分裂小石甲虫并嘲讽"
+    },
+    {
+      "id": 918995,
+      "hero": "深红锋喙鸟",
+      "cost": 3,
+      "role": "物理射手",
+      "traits": [
+        "峡谷野怪",
+        "召唤师",
+        "迅捷射手"
+      ],
+      "skill": "鸟群之家",
+      "mana": "20/60",
+      "damageType": "physical",
+      "targeting": "multi",
+      "cc": [],
+      "utility": [],
+      "summon": true,
+      "scaling": "AD",
+      "tags": [
+        "召唤",
+        "多目标"
+      ],
+      "note": "召唤4只小鸟协同攻击"
+    },
+    {
+      "id": 918015,
+      "hero": "希维尔",
+      "cost": 4,
+      "role": "物理术师",
+      "traits": [
+        "野兽之灵",
+        "猎人"
+      ],
+      "skill": "回旋之刃",
+      "mana": "0/40",
+      "damageType": "physical",
+      "targeting": "multi",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "弹射",
+        "AOE"
+      ],
+      "note": "十字刃弹跳8次"
+    },
+    {
+      "id": 918016,
+      "hero": "索拉卡",
+      "cost": 4,
+      "role": "魔法术师",
+      "traits": [
+        "绝命花妖",
+        "裁决使"
+      ],
+      "skill": "流星坠落",
+      "mana": "0/30",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "AOE"
+      ],
+      "note": "重复命中追加星落"
+    },
+    {
+      "id": 918025,
+      "hero": "莫甘娜",
+      "cost": 4,
+      "role": "魔法战士",
+      "traits": [
+        "魔女",
+        "神谕"
+      ],
+      "skill": "枯萎诅咒",
+      "mana": "0/65",
+      "damageType": "magic",
+      "targeting": "multi",
+      "cc": [],
+      "utility": [
+        "heal"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "AOE",
+        "持续伤害",
+        "吸血"
+      ],
+      "note": "诅咒+枯萎地带"
+    },
+    {
+      "id": 918032,
+      "hero": "阿木木",
+      "cost": 4,
+      "role": "魔法坦克",
+      "traits": [
+        "地狱火",
+        "主宰"
+      ],
+      "skill": "勃然大怒",
+      "mana": "30/125",
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [
+        {
+          "type": "stun",
+          "value": null,
+          "duration": 1.0
+        }
+      ],
+      "utility": [
+        "heal"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "AOE",
+        "控制",
+        "持续伤害"
+      ],
+      "note": "2格眩晕，灼烧延长"
+    },
+    {
+      "id": 918054,
+      "hero": "墨菲特",
+      "cost": 4,
+      "role": "魔法坦克",
+      "traits": [
+        "黑荆棘",
+        "魔岩巨兽"
+      ],
+      "skill": "石化树皮",
+      "mana": "30/80",
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [],
+      "utility": [
+        "shield"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "护盾",
+        "AOE",
+        "控制"
+      ],
+      "note": "石化护盾，破碎放波"
+    },
+    {
+      "id": 918076,
+      "hero": "奈德丽",
+      "cost": 4,
+      "role": "魔法射手",
+      "traits": [
+        "野兽之灵",
+        "魔战士"
+      ],
+      "skill": "标枪投掷",
+      "mana": "0/45",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "单体",
+        "攻速",
+        "远程"
+      ],
+      "note": "标枪三连，末击打后排"
+    },
+    {
+      "id": 918081,
+      "hero": "伊泽瑞尔",
+      "cost": 4,
+      "role": "物理术师",
+      "traits": [
+        "永恒之森",
+        "裁决使"
+      ],
+      "skill": "自然之怒",
+      "mana": "0/30",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "位移",
+        "直线"
+      ],
+      "note": "闪烁拉开+四段穿透"
+    },
+    {
+      "id": 918103,
+      "hero": "阿狸",
+      "cost": 4,
+      "role": "魔法术师",
+      "traits": [
+        "灵魂莲华",
+        "法师"
+      ],
+      "skill": "灵魄炸弹",
+      "mana": "20/100",
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "AOE",
+        "远程",
+        "衰减"
+      ],
+      "note": "3格大范围，距离衰减"
+    },
+    {
+      "id": 918143,
+      "hero": "婕拉",
+      "cost": 4,
+      "role": "魔法术师",
+      "traits": [
+        "荆棘之兴",
+        "召唤师"
+      ],
+      "skill": "狂野生长",
+      "mana": "0/45",
+      "damageType": "magic",
+      "targeting": "multi",
+      "cc": [],
+      "utility": [],
+      "summon": true,
+      "scaling": "AP",
+      "tags": [
+        "召唤",
+        "多目标",
+        "持续"
+      ],
+      "note": "召唤植物攻击10次"
+    },
+    {
+      "id": 918523,
+      "hero": "厄斐琉斯",
+      "cost": 4,
+      "role": "物理射手",
+      "traits": [
+        "月蚀骑士",
+        "迅捷射手"
+      ],
+      "skill": "月光对影",
+      "mana": "20/70",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "AOE",
+        "连击"
+      ],
+      "note": "6连斩+月光分摊"
+    },
+    {
+      "id": 918875,
+      "hero": "瑟提",
+      "cost": 4,
+      "role": "物理坦克",
+      "traits": [
+        "灵魂莲华",
+        "斗士"
+      ],
+      "skill": "蓄意轰拳",
+      "mana": "60/135",
+      "damageType": "physical",
+      "targeting": "aoe",
+      "cc": [],
+      "utility": [
+        "heal"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "AOE",
+        "治疗",
+        "坦克"
+      ],
+      "note": "锥形重拳+回血"
+    },
+    {
+      "id": 918876,
+      "hero": "莉莉娅",
+      "cost": 4,
+      "role": "魔法坦克",
+      "traits": [
+        "花仙子",
+        "护卫"
+      ],
+      "skill": "夜阑谣",
+      "mana": "40/140",
+      "damageType": "magic",
+      "targeting": "multi",
+      "cc": [
+        {
+          "type": "sleep",
+          "value": null,
+          "duration": 1.5
+        }
+      ],
+      "utility": [
+        "heal"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "多目标",
+        "控制",
+        "治疗"
+      ],
+      "note": "蝴蝶昏睡+回血"
+    },
+    {
+      "id": 918996,
+      "hero": "绯红印记树怪",
+      "cost": 4,
+      "role": "物理战士",
+      "traits": [
+        "峡谷野怪",
+        "狂战士"
+      ],
+      "skill": "猩红之怒",
+      "mana": "0/40",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [
+        {
+          "type": "shred_armor",
+          "value": 40,
+          "duration": null
+        }
+      ],
+      "utility": [
+        "buff_ad"
+      ],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "增益",
+        "破甲"
+      ],
+      "note": "跃击+攻击力加成+无视护甲"
+    },
+    {
+      "id": 918997,
+      "hero": "苍蓝雕纹魔像",
+      "cost": 4,
+      "role": "魔法坦克",
+      "traits": [
+        "峡谷野怪",
+        "重装战士",
+        "神谕"
+      ],
+      "skill": "蔚蓝冲击波",
+      "mana": "60/150",
+      "damageType": "magic",
+      "targeting": "line",
+      "cc": [
+        {
+          "type": "knockup",
+          "value": null,
+          "duration": 0.5
+        }
+      ],
+      "utility": [
+        "shield"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "直线",
+        "控制",
+        "护盾"
+      ],
+      "note": "裂隙击飞+全队法力回复"
+    },
+    {
+      "id": 918022,
+      "hero": "艾希",
+      "cost": 5,
+      "role": "物理术师",
+      "traits": [
+        "灵魂莲华",
+        "猎人"
+      ],
+      "skill": "灵魂裂隙",
+      "mana": "20/80",
+      "damageType": "physical",
+      "targeting": "line",
+      "cc": [
+        {
+          "type": "slow",
+          "value": 20,
+          "duration": null
+        }
+      ],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "直线",
+        "持续伤害",
+        "减速"
+      ],
+      "note": "穿透箭+缓速裂隙"
+    },
+    {
+      "id": 918044,
+      "hero": "塔里克",
+      "cost": 5,
+      "role": "魔法坦克",
+      "traits": [
+        "宝石骑士",
+        "重装战士"
+      ],
+      "skill": "翡翠辉耀",
+      "mana": "0/65",
+      "damageType": "magic",
+      "targeting": "ally",
+      "cc": [],
+      "utility": [
+        "shield",
+        "heal"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "护盾",
+        "治疗",
+        "辅助"
+      ],
+      "note": "绑定友军翡翠护盾"
+    },
+    {
+      "id": 918057,
+      "hero": "茂凯",
+      "cost": 5,
+      "role": "魔法坦克",
+      "traits": [
+        "远古树精",
+        "主宰"
+      ],
+      "skill": "播种",
+      "mana": "30/100",
+      "damageType": "magic",
+      "targeting": "single",
+      "cc": [],
+      "utility": [
+        "heal"
+      ],
+      "summon": true,
+      "scaling": "HP",
+      "tags": [
+        "持续伤害",
+        "治疗",
+        "召唤"
+      ],
+      "note": "树苗按格挡反伤，阵亡炸开"
+    },
+    {
+      "id": 918085,
+      "hero": "凯南",
+      "cost": 5,
+      "role": "魔法刺客",
+      "traits": [
+        "地狱火",
+        "裁决使"
+      ],
+      "skill": "火焰风暴",
+      "mana": "0/40",
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [],
+      "utility": [
+        "shield"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "AOE",
+        "护盾",
+        "突进"
+      ],
+      "note": "冲刺+火焰风暴"
+    },
+    {
+      "id": 918099,
+      "hero": "拉克丝",
+      "cost": 5,
+      "role": "魔法术师",
+      "traits": [
+        "自然之力！大元素使"
+      ],
+      "skill": "终极闪光",
+      "mana": "20/70",
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [],
+      "utility": [
+        "mana_regen"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "AOE",
+        "直线",
+        "辅助"
+      ],
+      "note": "激光主炮，同羁绊回蓝"
+    },
+    {
+      "id": 918119,
+      "hero": "德莱文",
+      "cost": 5,
+      "role": "物理射手",
+      "traits": [
+        "赏金猎人"
+      ],
+      "skill": "冷血追命",
+      "mana": "0/110",
+      "damageType": "physical",
+      "targeting": "single",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "单体",
+        "持续伤害",
+        "流血"
+      ],
+      "note": "流血叠层+双斧回收"
+    },
+    {
+      "id": 918150,
+      "hero": "纳尔",
+      "cost": 5,
+      "role": "物理专家",
+      "traits": [
+        "永恒之森",
+        "约德尔人和朋友",
+        "斗士"
+      ],
+      "skill": "狂怒基因",
+      "mana": "0/70",
+      "damageType": "physical",
+      "targeting": "aoe",
+      "cc": [
+        {
+          "type": "stun",
+          "value": null,
+          "duration": 1.0
+        },
+        {
+          "type": "shred_armor",
+          "value": 15,
+          "duration": null
+        },
+        {
+          "type": "shred_mr",
+          "value": 15,
+          "duration": null
+        }
+      ],
+      "utility": [],
+      "summon": false,
+      "scaling": "AD",
+      "tags": [
+        "AOE",
+        "控制",
+        "变形"
+      ],
+      "note": "变形跳大+削双抗"
+    },
+    {
+      "id": 918427,
+      "hero": "艾翁",
+      "cost": 5,
+      "role": "魔法术师",
+      "traits": [
+        "翠神"
+      ],
+      "skill": "种豆得瓜",
+      "mana": "50/80",
+      "damageType": "magic",
+      "targeting": "aoe",
+      "cc": [],
+      "utility": [
+        "shield",
+        "buff_ap",
+        "buff_as"
+      ],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "护盾",
+        "增益",
+        "AOE"
+      ],
+      "note": "群体护盾+伤害增幅"
+    },
+    {
+      "id": 918955,
+      "hero": "拉露恩",
+      "cost": 5,
+      "role": "魔法术师",
+      "traits": [
+        "月华神女",
+        "月蚀骑士",
+        "法师"
+      ],
+      "skill": "月之降临",
+      "mana": "0/35",
+      "damageType": "magic",
+      "targeting": "multi",
+      "cc": [],
+      "utility": [],
+      "summon": false,
+      "scaling": "AP",
+      "tags": [
+        "多目标",
+        "AOE",
+        "爆发"
+      ],
+      "note": "9枚碎片+满月大伤"
+    },
+    {
+      "id": 918998,
+      "hero": "远古巨龙",
+      "cost": 5,
+      "role": "物理战士",
+      "traits": [
+        "顶级掠食者",
+        "峡谷野怪"
+      ],
+      "skill": "绝伦火热",
+      "mana": "20/60",
+      "damageType": "physical",
+      "targeting": "aoe",
+      "cc": [
+        {
+          "type": "stun",
+          "value": null,
+          "duration": 1.25
+        },
+        {
+          "type": "ignite",
+          "value": null,
+          "duration": 3
+        }
+      ],
+      "utility": [
+        "heal",
+        "execute",
+        "untargetable"
+      ],
+      "summon": false,
+      "scaling": "HP",
+      "tags": [
+        "AOE",
+        "控制",
+        "持续伤害",
+        "斩杀"
+      ],
+      "note": "飞天眩晕+引燃+处决"
+    }
+  ]
+}

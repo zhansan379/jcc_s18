@@ -1,0 +1,8352 @@
+{
+  "meta": {
+    "source": "https://jcc.datatft.com/database",
+    "saved_file": "金铲铲大数据 _ 资料库.html",
+    "set": "S18",
+    "data_version": "18.5c",
+    "updated": "2026/10/29 14:47",
+    "hero_count": 65,
+    "extracted_at": "2026-11-02",
+    "note": "名称/费用/羁绊/定位/射程/技能描述与技能数值全部来自 HTML；基础数值（生命/攻击/护甲/魔抗/攻速/暴击）、称号、英雄推荐装备取自站点公开数据包 h5-data-cn-18.json（HTML 未渲染这些数字）。源数据的推荐装备有重复 id（如 565,619,619），已去重。",
+    "starScalingNote": "skill.starScaling[].byStar 为各星级数值；1~2 费数组长度 4（含 4 星），3 费以上长度 3。由 skill.breakdown 的 [x/y/z] 原文拆分，未做插值。",
+    "starScalingRows": 156
+  },
+  "heroes": [
+    {
+      "id": 918043,
+      "name": "卡尔玛",
+      "title": "天启者",
+      "cost": 1,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "灵魂莲华",
+          "icon": "custom-trait-DA_18_Blossom",
+          "type": null
+        },
+        {
+          "name": "法师",
+          "icon": "custom-trait-DA_18_Spellweaver",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "宿业羁绊",
+        "mana": "0/40",
+        "startMana": 0,
+        "maxMana": 40,
+        "description": "系住当前目标，在1.5秒里持续造成280/420/630/1070 魔法伤害。随后在其周围释放一道能量爆裂，对半径1格内的所有敌人造成125/185/300/515 魔法伤害，并施加持续2秒的30%的缓速效果。缓速：降低攻击速度",
+        "breakdown": [
+          {
+            "label": "伤害：420",
+            "array": "[280/420/630/1070]"
+          },
+          {
+            "label": "爆发伤害：185",
+            "array": "[125/185/300/515]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 280.0,
+              "2": 420.0,
+              "3": 630.0,
+              "4": 1070.0
+            }
+          },
+          {
+            "label": "爆发伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 125.0,
+              "2": 185.0,
+              "3": 300.0,
+              "4": 515.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "500/900/1620",
+        "attackDamage": "25/38/56",
+        "armor": 25,
+        "magicResist": 25,
+        "attackSpeed": "0.7",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 40,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918043",
+      "skillImage": "918043(1)"
+    },
+    {
+      "id": 918045,
+      "name": "维迦",
+      "title": "邪恶小法师",
+      "cost": 1,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "黑荆棘",
+          "icon": "custom-trait-DA_18_Blackthorn",
+          "type": null
+        },
+        {
+          "name": "约德尔人和朋友",
+          "icon": "custom-trait-DA_18_Sprykin",
+          "type": null
+        },
+        {
+          "name": "法师",
+          "icon": "custom-trait-DA_18_Spellweaver",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "能量爆裂",
+        "mana": "0/30",
+        "startMana": 0,
+        "maxMana": 30,
+        "description": "向目标发射一记巨大震波，造成190/285/430/725 魔法伤害，若其生命值低于30%最大生命值，则提升至285/430/640/1000 。若目标阵亡，则永久获得2%法术加成。当前加成：%",
+        "breakdown": [
+          {
+            "label": "伤害：285",
+            "array": "[190/285/430/725]"
+          },
+          {
+            "label": "低生命值伤害：430",
+            "array": "[285/430/640/1000]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 190.0,
+              "2": 285.0,
+              "3": 430.0,
+              "4": 725.0
+            }
+          },
+          {
+            "label": "低生命值伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 285.0,
+              "2": 430.0,
+              "3": 640.0,
+              "4": 1000.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "500/900/1620",
+        "attackDamage": "25/38/56",
+        "armor": 25,
+        "magicResist": 25,
+        "attackSpeed": "0.7",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 30,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918045",
+      "skillImage": "918045(1)"
+    },
+    {
+      "id": 918083,
+      "name": "约里克",
+      "title": "牧魂人",
+      "cost": 1,
+      "role": "物理坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "灵魂莲华",
+          "icon": "custom-trait-DA_18_Blossom",
+          "type": null
+        },
+        {
+          "name": "主宰",
+          "icon": "custom-trait-DA_Juggernaut18",
+          "type": null
+        },
+        {
+          "name": "召唤师",
+          "icon": "custom-trait-DA_18_Summoner",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "临终仪式",
+        "mana": "50/110",
+        "startMana": 50,
+        "maxMana": 110,
+        "description": "被动：阵亡时，生成一个拥有330/530/880/1748 最大生命值的【夜幽游灵】，并且它会立即进行嘲讽从而迫使敌人们对其进行攻击。主动：回复280/325/435/545 生命值并打击目标，造成150/225/340/575 物理伤害。",
+        "breakdown": [
+          {
+            "label": "【夜幽游灵】生命值：530 = 20% + 400",
+            "array": "[200/400/750/1100]"
+          },
+          {
+            "label": "伤害：225",
+            "array": "[150/225/340/575]"
+          },
+          {
+            "label": "治疗量：325",
+            "array": "[280/325/435/545]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "【夜幽游灵】生命值",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 200.0,
+              "2": 400.0,
+              "3": 750.0,
+              "4": 1100.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 150.0,
+              "2": 225.0,
+              "3": 340.0,
+              "4": 575.0
+            }
+          },
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 280.0,
+              "2": 325.0,
+              "3": 435.0,
+              "4": 545.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "650/1170/2106",
+        "attackDamage": "50/75/113",
+        "armor": 35,
+        "magicResist": 35,
+        "attackSpeed": "0.6",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 110,
+        "startMana": 50
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "623",
+          "name": "薄暮法袍"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918083",
+      "skillImage": "918083(1)"
+    },
+    {
+      "id": 918084,
+      "name": "阿卡丽",
+      "title": "离群之刺",
+      "cost": 1,
+      "role": "物理战士",
+      "roleDesc": "每次攻击获得10法力值。 获得5-30%攻击速度（基于阶段）。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "地狱火",
+          "icon": "custom-trait-DA_18_Inferno",
+          "type": null
+        },
+        {
+          "name": "魔战士",
+          "icon": "custom-trait-DA_18_Adaptor",
+          "type": null
+        },
+        {
+          "name": "狂战士",
+          "icon": "custom-trait-DA_18_Slayer",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "苦无打击",
+        "mana": "0/25",
+        "startMana": 0,
+        "maxMana": 25,
+        "description": "【魔战士】：对目标发射一连串苦无，造成155/235/405/685 物理伤害。如果目标处于灼烧状态，则额外造成35/52/80/135 伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：",
+            "array": "[10/15/25/40]"
+          },
+          {
+            "label": "伤害：235 = 220 + 15",
+            "array": "[145/220/380/645]"
+          },
+          {
+            "label": "额外伤害：52",
+            "array": "[35/52/80/135]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 10.0,
+              "2": 15.0,
+              "3": 25.0,
+              "4": 40.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 145.0,
+              "2": 220.0,
+              "3": 380.0,
+              "4": 645.0
+            }
+          },
+          {
+            "label": "额外伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 35.0,
+              "2": 52.0,
+              "3": 80.0,
+              "4": 135.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "650/1170/2106",
+        "attackDamage": "40/60/90",
+        "armor": 35,
+        "magicResist": 35,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 25,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "529",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        },
+        {
+          "id": "595",
+          "name": "水银"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        }
+      ],
+      "image": "918084",
+      "skillImage": "918084(1)"
+    },
+    {
+      "id": 918089,
+      "name": "蕾欧娜",
+      "title": "曙光女神",
+      "cost": 1,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "日蚀骑士",
+          "icon": "custom-trait-DA_18_Solar",
+          "type": null
+        },
+        {
+          "name": "护卫",
+          "icon": "custom-trait-DA_18_Defender",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "护盾猛击",
+        "mana": "30/90",
+        "startMana": 30,
+        "maxMana": 90,
+        "description": "被动：在战斗开始时获得60/80/100/130 额外护甲和魔抗，在12秒内持续衰减。主动：猛击当前目标，造成60/108/162/320 魔法伤害和1.5秒晕眩。",
+        "breakdown": [
+          {
+            "label": "衰减双抗：80",
+            "array": "[60/80/100/130]"
+          },
+          {
+            "label": "伤害：108",
+            "array": "[60/108/162/320]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "衰减双抗",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 60.0,
+              "2": 80.0,
+              "3": 100.0,
+              "4": 130.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 60.0,
+              "2": 108.0,
+              "3": 162.0,
+              "4": 320.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "750/1350/2430",
+        "attackDamage": "50/75/113",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.65",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 90,
+        "startMana": 30
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918089",
+      "skillImage": "918089(1)"
+    },
+    {
+      "id": 918110,
+      "name": "韦鲁斯",
+      "title": "惩戒之箭",
+      "cost": 1,
+      "role": "物理术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "地狱火",
+          "icon": "custom-trait-DA_18_Inferno",
+          "type": null
+        },
+        {
+          "name": "迅捷射手",
+          "icon": "custom-trait-DA_18_Rapidfire",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "穿刺之箭",
+        "mana": "20/110",
+        "startMana": 20,
+        "maxMana": 110,
+        "description": "蓄力，然后向目标所在且敌人最多的一条直线射出箭矢。它对命中的敌人造成445/670/1070/1815 物理伤害，每穿过一个敌人，该伤害降低40%(最低为40%)。",
+        "breakdown": [
+          {
+            "label": "伤害：",
+            "array": "[30/45/70/115]"
+          },
+          {
+            "label": "伤害：670 = 625 + 45",
+            "array": "[415/625/1000/1700]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 30.0,
+              "2": 45.0,
+              "3": 70.0,
+              "4": 115.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 415.0,
+              "2": 625.0,
+              "3": 1000.0,
+              "4": 1700.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "500/900/1620",
+        "attackDamage": "40/60/90",
+        "armor": 25,
+        "magicResist": 25,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 110,
+        "startMana": 20
+      },
+      "recommendedEquips": [
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        }
+      ],
+      "image": "918110",
+      "skillImage": "918110(1)"
+    },
+    {
+      "id": 918164,
+      "name": "卡蜜尔",
+      "title": "青钢影",
+      "cost": 1,
+      "role": "物理战士",
+      "roleDesc": "每次攻击获得10法力值。 获得5-30%攻击速度（基于阶段）。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "魔女",
+          "icon": "custom-trait-DA_18_Coven",
+          "type": null
+        },
+        {
+          "name": "狂战士",
+          "icon": "custom-trait-DA_18_Slayer",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "防御横扫",
+        "mana": "0/25",
+        "startMana": 0,
+        "maxMana": 25,
+        "description": "切割目标，造成160/240/425/705 物理伤害，并获得持续2秒的60/90/200/310护盾值。",
+        "breakdown": [
+          {
+            "label": "伤害：",
+            "array": "[10/15/25/40]"
+          },
+          {
+            "label": "伤害：240 = 225 + 15",
+            "array": "[150/225/400/665]"
+          },
+          {
+            "label": "护盾：90",
+            "array": "[60/90/200/310]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 10.0,
+              "2": 15.0,
+              "3": 25.0,
+              "4": 40.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 150.0,
+              "2": 225.0,
+              "3": 400.0,
+              "4": 665.0
+            }
+          },
+          {
+            "label": "护盾",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 60.0,
+              "2": 90.0,
+              "3": 200.0,
+              "4": 310.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "700/1260/2268",
+        "attackDamage": "40/60/90",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 25,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "529",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        },
+        {
+          "id": "595",
+          "name": "水银"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        }
+      ],
+      "image": "918164",
+      "skillImage": "918164(1)"
+    },
+    {
+      "id": 918421,
+      "name": "雷克塞",
+      "title": "虚空遁地兽",
+      "cost": 1,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "黑荆棘",
+          "icon": "custom-trait-DA_18_Blackthorn",
+          "type": null
+        },
+        {
+          "name": "斗士",
+          "icon": "custom-trait-DA_18_Brawler",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "破土而出",
+        "mana": "40/100",
+        "startMana": 40,
+        "maxMana": 100,
+        "description": "被动：每秒回复17/21/27/61 生命值，施放技能后的3秒内该效果变为3倍。主动：冲出地面，使邻格的敌人晕眩1秒并对其造成70/105/160/270 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "治疗量：21 = 1% + 14",
+            "array": "[10/14/20/26]"
+          },
+          {
+            "label": "伤害：105",
+            "array": "[70/105/160/270]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 10.0,
+              "2": 14.0,
+              "3": 20.0,
+              "4": 26.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 70.0,
+              "2": 105.0,
+              "3": 160.0,
+              "4": 270.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "700/1260/2268",
+        "attackDamage": "50/75/113",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.55",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 100,
+        "startMana": 40
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918421",
+      "skillImage": "918421(1)"
+    },
+    {
+      "id": 918497,
+      "name": "洛",
+      "title": "幻翎",
+      "cost": 1,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "花仙子",
+          "icon": "custom-trait-DA_18_Fae",
+          "type": null
+        },
+        {
+          "name": "主宰",
+          "icon": "custom-trait-DA_Juggernaut18",
+          "type": null
+        },
+        {
+          "name": "重装战士",
+          "icon": "custom-trait-DA_18_Vanguard",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "登场之舞",
+        "mana": "35/105",
+        "startMana": 35,
+        "maxMana": 105,
+        "description": "获得持续4秒的290/340/435/510 护盾值。然后为本回合造成伤害最高的友军提供在4秒内持续衰减的90%/100%/130%/160% 攻击速度。",
+        "breakdown": [
+          {
+            "label": "护盾值：340",
+            "array": "[290/340/435/510]"
+          },
+          {
+            "label": "攻击速度：100%",
+            "array": "[90%/100%/130%/160%]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "护盾值",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 290.0,
+              "2": 340.0,
+              "3": 435.0,
+              "4": 510.0
+            }
+          },
+          {
+            "label": "攻击速度",
+            "percent": true,
+            "starCount": 4,
+            "byStar": {
+              "1": 90.0,
+              "2": 100.0,
+              "3": 130.0,
+              "4": 160.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "700/1260/2268",
+        "attackDamage": "45/68/101",
+        "armor": 35,
+        "magicResist": 35,
+        "attackSpeed": "0.6",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 105,
+        "startMana": 35
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918497",
+      "skillImage": "918497(1)"
+    },
+    {
+      "id": 918498,
+      "name": "霞",
+      "title": "逆羽",
+      "cost": 1,
+      "role": "物理射手",
+      "roleDesc": "每次攻击获得10法力值。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "永恒之森",
+          "icon": "custom-trait-DA_18_Elderwood",
+          "type": null
+        },
+        {
+          "name": "花仙子",
+          "icon": "custom-trait-DA_18_Fae",
+          "type": null
+        },
+        {
+          "name": "迅捷射手",
+          "icon": "custom-trait-DA_18_Rapidfire",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "致死羽衣",
+        "mana": "0/50",
+        "startMana": 0,
+        "maxMana": 50,
+        "description": "下5次攻击获得50%攻击速度。这些攻击会被替换为羽刃，造成73/108/165/280 物理伤害和2 护甲削减。",
+        "breakdown": [
+          {
+            "label": "伤害：108",
+            "array": "[73/108/165/280]"
+          },
+          {
+            "label": "护甲削减：2",
+            "array": ""
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 73.0,
+              "2": 108.0,
+              "3": 165.0,
+              "4": 280.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "450/810/1458",
+        "attackDamage": "45/68/101",
+        "armor": 25,
+        "magicResist": 25,
+        "attackSpeed": "0.7",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 50,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        }
+      ],
+      "image": "918498",
+      "skillImage": "918498(1)"
+    },
+    {
+      "id": 918516,
+      "name": "奥恩",
+      "title": "山隐之焰",
+      "cost": 1,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "永恒之森",
+          "icon": "custom-trait-DA_18_Elderwood",
+          "type": null
+        },
+        {
+          "name": "护卫",
+          "icon": "custom-trait-DA_18_Defender",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "风箱炎息",
+        "mana": "40/100",
+        "startMana": 40,
+        "maxMana": 100,
+        "description": "主动：获得持续4秒的400/460/550/640 护盾，并对一个锥形范围内的敌人造成200/300/450/765 魔法伤害。任务：每场玩家对战，【奥恩】将已格挡的伤害储存为【锻炉能量】，在3星时提升85%。他每次获得足够的【锻炉能量】时，就会获得1个【神器锻造器】。(锻炉能量：/)",
+        "breakdown": [
+          {
+            "label": "护盾值：460",
+            "array": "[400/460/550/640]"
+          },
+          {
+            "label": "伤害：300",
+            "array": "[200/300/450/765]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "护盾值",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 400.0,
+              "2": 460.0,
+              "3": 550.0,
+              "4": 640.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 200.0,
+              "2": 300.0,
+              "3": 450.0,
+              "4": 765.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "700/1260/2268",
+        "attackDamage": "40/60/90",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.6",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 100,
+        "startMana": 40
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918516",
+      "skillImage": "918516(1)"
+    },
+    {
+      "id": 918954,
+      "name": "可酷伯",
+      "title": "可酷伯",
+      "cost": 1,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "约德尔人和朋友",
+          "icon": "custom-trait-DA_18_Sprykin",
+          "type": null
+        },
+        {
+          "name": "斗士",
+          "icon": "custom-trait-DA_18_Brawler",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "生命之舞",
+        "mana": "30/90",
+        "startMana": 30,
+        "maxMana": 90,
+        "description": "在2秒内持续回复334/384/529/838 生命值。下一次攻击被替换为猛击，造成140/175/220/348 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "治疗量：384 = 7% + 335",
+            "array": "[285/335/480/595]"
+          },
+          {
+            "label": "伤害：175 = 10% + 105",
+            "array": "[70/105/150/0]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 285.0,
+              "2": 335.0,
+              "3": 480.0,
+              "4": 595.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 70.0,
+              "2": 105.0,
+              "3": 150.0,
+              "4": 0.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "700/1260/2268",
+        "attackDamage": "55/83/124",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.65",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 90,
+        "startMana": 30
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918954",
+      "skillImage": "918954(1)"
+    },
+    {
+      "id": 918989,
+      "name": "苍蓝哨戒",
+      "title": "驻灵",
+      "cost": 1,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "峡谷野怪",
+          "icon": "custom-trait-DA_Riftbeast18",
+          "type": null
+        },
+        {
+          "name": "神谕",
+          "icon": "custom-trait-DA_18_Invoker",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "蔚蓝激光",
+        "mana": "30/70",
+        "startMana": 30,
+        "maxMana": 70,
+        "description": "开始每秒消耗35%最大法力值，并对目标引导一道激光。引导期间，每秒对其造成160/240/360/615 魔法伤害，并使其魔抗降低3。青霸符：每引导4秒，就会获得2法力回复。",
+        "breakdown": [
+          {
+            "label": "伤害：240",
+            "array": "[160/240/360/615]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 160.0,
+              "2": 240.0,
+              "3": 360.0,
+              "4": 615.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "500/900/1620",
+        "attackDamage": "35/53/79",
+        "armor": 25,
+        "magicResist": 25,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 70,
+        "startMana": 30
+      },
+      "recommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918989",
+      "skillImage": "918989(1)"
+    },
+    {
+      "id": 918990,
+      "name": "绯红树怪",
+      "title": "绯红树怪",
+      "cost": 1,
+      "role": "物理术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "峡谷野怪",
+          "icon": "custom-trait-DA_Riftbeast18",
+          "type": null
+        },
+        {
+          "name": "猎人",
+          "icon": "custom-trait-DA_18_Hunter",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "刃叶",
+        "mana": "0/50",
+        "startMana": 0,
+        "maxMana": 50,
+        "description": "召唤五片锋利如剃刀的叶子，朝当前目标聚拢，造成总计340/510/770/1315 物理伤害，并施加持续4秒的20%重伤效果和1%灼烧效果。绯红霸符：【绯红树怪】每次技能施放获得22%物理加成。重伤：降低受到的治疗效果。灼烧：每秒造成目标一部分最大生命值的真实伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：",
+            "array": "[30/45/70/115]"
+          },
+          {
+            "label": "伤害：510 = 465 + 45",
+            "array": "[310/465/700/1200]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 30.0,
+              "2": 45.0,
+              "3": 70.0,
+              "4": 115.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 310.0,
+              "2": 465.0,
+              "3": 700.0,
+              "4": 1200.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "500/900/1620",
+        "attackDamage": "40/60/90",
+        "armor": 25,
+        "magicResist": 25,
+        "attackSpeed": "0.7",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 50,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        }
+      ],
+      "image": "918990",
+      "skillImage": "918990(1)"
+    },
+    {
+      "id": 918007,
+      "name": "乐芙兰",
+      "title": "诡术妖姬",
+      "cost": 2,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "永恒之森",
+          "icon": "custom-trait-DA_18_Elderwood",
+          "type": null
+        },
+        {
+          "name": "法师",
+          "icon": "custom-trait-DA_18_Spellweaver",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "镜花水月",
+        "mana": "0/40",
+        "startMana": 0,
+        "maxMana": 40,
+        "description": "被动：在玩家对战结束后，你最强的那个【乐芙兰】有10%/15%/30%/100%的几率生成你场上一个友军的1星复制品，每次参与击杀后提升4%。主动：向当前目标发射一个镜像，从而造成260/390/615/1045 魔法伤害，并对邻格的敌人们造成100/150/230/390 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "复制几率：15%",
+            "array": "[10%/15%/30%/100%]"
+          },
+          {
+            "label": "伤害：390",
+            "array": "[260/390/615/1045]"
+          },
+          {
+            "label": "次要伤害：150",
+            "array": "[100/150/230/390]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "复制几率",
+            "percent": true,
+            "starCount": 4,
+            "byStar": {
+              "1": 10.0,
+              "2": 15.0,
+              "3": 30.0,
+              "4": 100.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 260.0,
+              "2": 390.0,
+              "3": 615.0,
+              "4": 1045.0
+            }
+          },
+          {
+            "label": "次要伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 100.0,
+              "2": 150.0,
+              "3": 230.0,
+              "4": 390.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "550/990/1782",
+        "attackDamage": "30/45/68",
+        "armor": 30,
+        "magicResist": 30,
+        "attackSpeed": "0.7",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 40,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918007",
+      "skillImage": "918007(1)"
+    },
+    {
+      "id": 918010,
+      "name": "凯尔",
+      "title": "正义天使",
+      "cost": 2,
+      "role": "魔法专家",
+      "roleDesc": "专家以独特方式生成施法资源。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "日蚀骑士",
+          "icon": "custom-trait-DA_18_Solar",
+          "type": null
+        },
+        {
+          "name": "迅捷射手",
+          "icon": "custom-trait-DA_18_Rapidfire",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "太阳裁决",
+        "description": "被动：【凯尔】基于其星级获得飞升，并获得可叠加的增益。第1次飞升： 普攻造成65/97/110/115 额外魔法伤害。第2次飞升： 普攻对命中的敌人施加持续2秒的20%魔抗击碎。第3次飞升： 普攻发射冲击波，对命中的所有其他弈子造成35/35/35/45 魔法伤害。第4次飞升： 获得无限距离。每飞升3次，焰浪变得更大。魔抗击碎：降低魔法抗性",
+        "breakdown": [
+          {
+            "label": "伤害：97",
+            "array": "[65/97/110/115]"
+          },
+          {
+            "label": "次要伤害：35",
+            "array": "[35/35/35/45]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 65.0,
+              "2": 97.0,
+              "3": 110.0,
+              "4": 115.0
+            }
+          },
+          {
+            "label": "次要伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 35.0,
+              "2": 35.0,
+              "3": 35.0,
+              "4": 45.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "550/990/1782",
+        "attackDamage": "10/15/23",
+        "armor": 30,
+        "magicResist": 30,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 0,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "555",
+          "name": "大天使之杖"
+        }
+      ],
+      "image": "918010",
+      "skillImage": "918010(1)"
+    },
+    {
+      "id": 918012,
+      "name": "阿利斯塔",
+      "title": "牛头酋长",
+      "cost": 2,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "永恒之森",
+          "icon": "custom-trait-DA_18_Elderwood",
+          "type": null
+        },
+        {
+          "name": "斗士",
+          "icon": "custom-trait-DA_18_Brawler",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "凯旋怒吼",
+        "mana": "30/90",
+        "startMana": 30,
+        "maxMana": 90,
+        "description": "怒吼，回复306/376/476/872 生命值，净化限制效果，并为生命值最低的两名友军回复80/105/130/155 生命值。然后猛击当前目标，造成180/270/420/715 魔法伤害和1.5秒晕眩。",
+        "breakdown": [
+          {
+            "label": "治疗量：376 = 8% + 300",
+            "array": "[230/300/400/500]"
+          },
+          {
+            "label": "友军治疗量：105",
+            "array": "[80/105/130/155]"
+          },
+          {
+            "label": "伤害：270",
+            "array": "[180/270/420/715]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 230.0,
+              "2": 300.0,
+              "3": 400.0,
+              "4": 500.0
+            }
+          },
+          {
+            "label": "友军治疗量",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 80.0,
+              "2": 105.0,
+              "3": 130.0,
+              "4": 155.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 180.0,
+              "2": 270.0,
+              "3": 420.0,
+              "4": 715.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "950/1710/3078",
+        "attackDamage": "50/75/113",
+        "armor": 45,
+        "magicResist": 45,
+        "attackSpeed": "0.6",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 90,
+        "startMana": 30
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918012",
+      "skillImage": "918012(1)"
+    },
+    {
+      "id": 918017,
+      "name": "提莫",
+      "title": "迅捷斥候",
+      "cost": 2,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "约德尔人和朋友",
+          "icon": "custom-trait-DA_18_Sprykin",
+          "type": null
+        },
+        {
+          "name": "神谕",
+          "icon": "custom-trait-DA_18_Invoker",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "内有真菌",
+        "mana": "0/50",
+        "startMana": 0,
+        "maxMana": 50,
+        "description": "投掷2簇蘑菇，对相距最近的3个敌人造成55/82/155/240 魔法伤害。然后猛摔出一个巨型蘑菇，对目标造成135/200/310/515 魔法伤害。每次施放有10%/12%/15%/20%几率搜寻到一个额外的蘑菇，可供收集以获得额外效果。红蘑菇： 1次刷新(已搜寻到的红蘑菇：)绿蘑菇： 1小小英雄生命值(已搜寻到的绿蘑菇： )黄蘑菇： 2经验值(已搜寻到的黄蘑菇： )",
+        "breakdown": [
+          {
+            "label": "伤害：82",
+            "array": "[55/82/155/240]"
+          },
+          {
+            "label": "巨型蘑菇伤害：200",
+            "array": "[135/200/310/515]"
+          },
+          {
+            "label": "采集几率：12%",
+            "array": "[10%/12%/15%/20%]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 55.0,
+              "2": 82.0,
+              "3": 155.0,
+              "4": 240.0
+            }
+          },
+          {
+            "label": "巨型蘑菇伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 135.0,
+              "2": 200.0,
+              "3": 310.0,
+              "4": 515.0
+            }
+          },
+          {
+            "label": "采集几率",
+            "percent": true,
+            "starCount": 4,
+            "byStar": {
+              "1": 10.0,
+              "2": 12.0,
+              "3": 15.0,
+              "4": 20.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "550/990/1782",
+        "attackDamage": "35/53/79",
+        "armor": 30,
+        "magicResist": 30,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 50,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918017",
+      "skillImage": "918017(1)"
+    },
+    {
+      "id": 918019,
+      "name": "沃里克",
+      "title": "祖安怒兽",
+      "cost": 2,
+      "role": "物理战士",
+      "roleDesc": "每次攻击获得10法力值。 获得5-30%攻击速度（基于阶段）。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "黑荆棘",
+          "icon": "custom-trait-DA_18_Blackthorn",
+          "type": null
+        },
+        {
+          "name": "狂战士",
+          "icon": "custom-trait-DA_18_Slayer",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "野兽之口",
+        "mana": "0/40",
+        "startMana": 0,
+        "maxMana": 40,
+        "description": "撕咬当前目标，造成230/345/535/910 物理伤害，并治疗自身25% 造成伤害的生命值。获得持续到战斗结束的20%攻击速度。",
+        "breakdown": [
+          {
+            "label": "伤害：345",
+            "array": "[230/345/535/910]"
+          },
+          {
+            "label": "治疗量：25%",
+            "array": ""
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 230.0,
+              "2": 345.0,
+              "3": 535.0,
+              "4": 910.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "750/1350/2430",
+        "attackDamage": "45/68/101",
+        "armor": 45,
+        "magicResist": 45,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 40,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "529",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        },
+        {
+          "id": "595",
+          "name": "水银"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        }
+      ],
+      "image": "918019",
+      "skillImage": "918019(1)"
+    },
+    {
+      "id": 918051,
+      "name": "凯特琳",
+      "title": "皮城女警",
+      "cost": 2,
+      "role": "物理专家",
+      "roleDesc": "专家以独特方式生成施法资源。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "魔女",
+          "icon": "custom-trait-DA_18_Coven",
+          "type": null
+        },
+        {
+          "name": "猎人",
+          "icon": "custom-trait-DA_18_Hunter",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "爆头",
+        "mana": "0/3",
+        "startMana": 0,
+        "maxMana": 3,
+        "description": "被动：每第三次攻击会被替换为一次爆头，造成220/330/535/910 物理伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：",
+            "array": "[20/30/45/75]"
+          },
+          {
+            "label": "伤害：330 = 300 + 30",
+            "array": "[200/300/490/835]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 20.0,
+              "2": 30.0,
+              "3": 45.0,
+              "4": 75.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 200.0,
+              "2": 300.0,
+              "3": 490.0,
+              "4": 835.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "550/990/1782",
+        "attackDamage": "50/75/113",
+        "armor": 30,
+        "magicResist": 30,
+        "attackSpeed": "0.7",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 3,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        }
+      ],
+      "image": "918051",
+      "skillImage": "918051(1)"
+    },
+    {
+      "id": 918060,
+      "name": "伊莉丝",
+      "title": "蜘蛛女皇",
+      "cost": 2,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "魔女",
+          "icon": "custom-trait-DA_18_Coven",
+          "type": null
+        },
+        {
+          "name": "重装战士",
+          "icon": "custom-trait-DA_18_Vanguard",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "蜘蛛女皇",
+        "mana": "20/70",
+        "startMana": 20,
+        "maxMana": 70,
+        "description": "变身为蜘蛛，并获得375/475/725/975最大生命值。处于蜘蛛形态时的攻击造成35/50/80/110 额外魔法伤害，并治疗自身55/90/170/250 生命值。后续施放提供在4秒内持续衰减的175%攻击速度。",
+        "breakdown": [
+          {
+            "label": "蜘蛛生命值：475",
+            "array": "[375/475/725/975]"
+          },
+          {
+            "label": "伤害：50",
+            "array": "[35/50/80/110]"
+          },
+          {
+            "label": "治疗量：90",
+            "array": "[55/90/170/250]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "蜘蛛生命值",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 375.0,
+              "2": 475.0,
+              "3": 725.0,
+              "4": 975.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 35.0,
+              "2": 50.0,
+              "3": 80.0,
+              "4": 110.0
+            }
+          },
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 55.0,
+              "2": 90.0,
+              "3": 170.0,
+              "4": 250.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "900/1620/2916",
+        "attackDamage": "20/30/45",
+        "armor": 45,
+        "magicResist": 45,
+        "attackSpeed": "0.65",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 70,
+        "startMana": 20
+      },
+      "recommendedEquips": [
+        {
+          "id": "555",
+          "name": "大天使之杖"
+        },
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918060",
+      "skillImage": "918060(1)"
+    },
+    {
+      "id": 918098,
+      "name": "慎",
+      "title": "暮光之眼",
+      "cost": 2,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "地狱火",
+          "icon": "custom-trait-DA_18_Inferno",
+          "type": null
+        },
+        {
+          "name": "护卫",
+          "icon": "custom-trait-DA_18_Defender",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "忍法！气合盾",
+        "mana": "30/90",
+        "startMana": 30,
+        "maxMana": 90,
+        "description": "为【慎】提供375/450/575/725 护盾值，以及为其附近1个受到伤害的友军提供 225/300/400/500 护盾值，均持续4秒。两者接下来的3次攻击获得40%攻击速度并造成35/55/80/135 额外魔法伤害。",
+        "breakdown": [
+          {
+            "label": "自身护盾值：450",
+            "array": "[375/450/575/725]"
+          },
+          {
+            "label": "友军护盾值：300",
+            "array": "[225/300/400/500]"
+          },
+          {
+            "label": "伤害：55",
+            "array": "[35/55/80/135]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "自身护盾值",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 375.0,
+              "2": 450.0,
+              "3": 575.0,
+              "4": 725.0
+            }
+          },
+          {
+            "label": "友军护盾值",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 225.0,
+              "2": 300.0,
+              "3": 400.0,
+              "4": 500.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 35.0,
+              "2": 55.0,
+              "3": 80.0,
+              "4": 135.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "900/1620/2916",
+        "attackDamage": "50/75/113",
+        "armor": 45,
+        "magicResist": 45,
+        "attackSpeed": "0.65",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 90,
+        "startMana": 30
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918098",
+      "skillImage": "918098(1)"
+    },
+    {
+      "id": 918113,
+      "name": "瑟庄妮",
+      "title": "北地之怒",
+      "cost": 2,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "日蚀骑士",
+          "icon": "custom-trait-DA_18_Solar",
+          "type": null
+        },
+        {
+          "name": "主宰",
+          "icon": "custom-trait-DA_Juggernaut18",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "烈阳之怒",
+        "mana": "40/100",
+        "startMana": 40,
+        "maxMana": 100,
+        "description": "获得持续4秒的315/340/365/741 护盾值。然后在一个锥形范围内进行顺劈以造成90/135/205/345 魔法伤害，并沿直线进行打击，对被命中的敌人们造成120/180/270/460 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "护盾值：340 = 10% + 250",
+            "array": "[225/250/275/300]"
+          },
+          {
+            "label": "锥形伤害：135",
+            "array": "[90/135/205/345]"
+          },
+          {
+            "label": "直线伤害：180",
+            "array": "[120/180/270/460]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "护盾值",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 225.0,
+              "2": 250.0,
+              "3": 275.0,
+              "4": 300.0
+            }
+          },
+          {
+            "label": "锥形伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 90.0,
+              "2": 135.0,
+              "3": 205.0,
+              "4": 345.0
+            }
+          },
+          {
+            "label": "直线伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 120.0,
+              "2": 180.0,
+              "3": 270.0,
+              "4": 460.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "900/1620/2916",
+        "attackDamage": "50/75/113",
+        "armor": 45,
+        "magicResist": 45,
+        "attackSpeed": "0.6",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 100,
+        "startMana": 40
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918113",
+      "skillImage": "918113(1)"
+    },
+    {
+      "id": 918804,
+      "name": "芸阿娜",
+      "title": "不破之誓",
+      "cost": 2,
+      "role": "物理术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "灵魂莲华",
+          "icon": "custom-trait-DA_18_Blossom",
+          "type": null
+        },
+        {
+          "name": "裁决使",
+          "icon": "custom-trait-DA_18_Executioner",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "灵蕴拳",
+        "mana": "0/35",
+        "startMana": 0,
+        "maxMana": 35,
+        "description": "冲刺并向当前目标发射一颗法球，造成170/255/395/670 物理伤害并分裂，对附近的2名敌人造成60/89/138/235 物理伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：",
+            "array": "[10/15/25/40]"
+          },
+          {
+            "label": "伤害：255 = 240 + 15",
+            "array": "[160/240/370/630]"
+          },
+          {
+            "label": "次要伤害：89 = 35% × (240 + 15 )",
+            "array": "[160/240/370/630] + [10/15/25/40]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 10.0,
+              "2": 15.0,
+              "3": 25.0,
+              "4": 40.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 160.0,
+              "2": 240.0,
+              "3": 370.0,
+              "4": 630.0
+            }
+          },
+          {
+            "label": "次要伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 160.0,
+              "2": 240.0,
+              "3": 370.0,
+              "4": 630.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "550/990/1782",
+        "attackDamage": "42/63/95",
+        "armor": 30,
+        "magicResist": 30,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 35,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        }
+      ],
+      "image": "918804",
+      "skillImage": "918804(1)"
+    },
+    {
+      "id": 918991,
+      "name": "魔沼蛙",
+      "title": "魔沼蛙",
+      "cost": 2,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "峡谷野怪",
+          "icon": "custom-trait-DA_Riftbeast18",
+          "type": null
+        },
+        {
+          "name": "魔战士",
+          "icon": "custom-trait-DA_18_Adaptor",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "打嗝泡泡",
+        "mana": "0/45",
+        "startMana": 0,
+        "maxMana": 45,
+        "description": "【魔战士】：向当前目标吐出一团毒泡泡，在命中第一名敌人时爆炸，造成225/340/535/910 魔法伤害。半径1格内的敌人将在3秒里持续受到180/270/435/740 魔法伤害。紫霸符：每5秒，【魔沼蛙】获得30%法术加成。",
+        "breakdown": [
+          {
+            "label": "伤害：340",
+            "array": "[225/340/535/910]"
+          },
+          {
+            "label": "范围伤害：270",
+            "array": "[180/270/435/740]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 225.0,
+              "2": 340.0,
+              "3": 535.0,
+              "4": 910.0
+            }
+          },
+          {
+            "label": "范围伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 180.0,
+              "2": 270.0,
+              "3": 435.0,
+              "4": 740.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "550/990/1782",
+        "attackDamage": "30/45/68",
+        "armor": 30,
+        "magicResist": 30,
+        "attackSpeed": "0.7",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 45,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918991",
+      "skillImage": "918991(1)"
+    },
+    {
+      "id": 918992,
+      "name": "暗影狼",
+      "title": "暗影狼",
+      "cost": 2,
+      "role": "物理刺客",
+      "roleDesc": "攻击提供10法力值。 所受的来自所有敌人的伤害降低15%，当前目标除外。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "峡谷野怪",
+          "icon": "custom-trait-DA_Riftbeast18",
+          "type": null
+        },
+        {
+          "name": "狂战士",
+          "icon": "custom-trait-DA_18_Slayer",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "撕裂之爪",
+        "mana": "0/40",
+        "startMana": 0,
+        "maxMana": 40,
+        "description": "跃向3格内生命值最低的敌人，造成120/180/270/455 物理伤害。接下来的2次攻击获得175%攻击速度并造成65/100/160/275 额外物理伤害。灰霸符：获得【技能暴击】和25%暴击几率，基于已损失生命值至多提升至75%。",
+        "breakdown": [
+          {
+            "label": "伤害：",
+            "array": "[20/30/45/75]"
+          },
+          {
+            "label": "伤害：180 = 150 + 30",
+            "array": "[100/150/225/380]"
+          },
+          {
+            "label": "强化伤害：100",
+            "array": "[65/100/160/275]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 20.0,
+              "2": 30.0,
+              "3": 45.0,
+              "4": 75.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 100.0,
+              "2": 150.0,
+              "3": 225.0,
+              "4": 380.0
+            }
+          },
+          {
+            "label": "强化伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 65.0,
+              "2": 100.0,
+              "3": 160.0,
+              "4": 275.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "700/1260/2268",
+        "attackDamage": "50/75/113",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 40,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "529",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        },
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        }
+      ],
+      "image": "918992",
+      "skillImage": "918992(1)"
+    },
+    {
+      "id": 918994,
+      "name": "峡谷迅捷蟹",
+      "title": "迅捷蟹",
+      "cost": 2,
+      "role": "物理坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "峡谷野怪",
+          "icon": "custom-trait-DA_Riftbeast18",
+          "type": null
+        },
+        {
+          "name": "主宰",
+          "icon": "custom-trait-DA_Juggernaut18",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "这种快乐你懂吗？",
+        "mana": "40/100",
+        "startMana": 40,
+        "maxMana": 100,
+        "description": "被动：攻击被替换为一次舞蹈，对邻格的所有敌人造成50/75/112.5/168.75 物理伤害。主动：钻入地下，获得15%伤害减免，持续3秒，并在此期间持续回复325/400/675/850 生命值。绿霸符：当友军跌下50%生命值时，其回复15%最大生命值。",
+        "breakdown": [
+          {
+            "label": "伤害：75",
+            "array": "[50/75/112.5/168.75]"
+          },
+          {
+            "label": "治疗量：400",
+            "array": "[325/400/675/850]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 50.0,
+              "2": 75.0,
+              "3": 112.5,
+              "4": 168.75
+            }
+          },
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 4,
+            "byStar": {
+              "1": 325.0,
+              "2": 400.0,
+              "3": 675.0,
+              "4": 850.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "950/1710/3078",
+        "attackDamage": "50/75/113",
+        "armor": 45,
+        "magicResist": 45,
+        "attackSpeed": "0.65",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 100,
+        "startMana": 40
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "623",
+          "name": "薄暮法袍"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918994",
+      "skillImage": "918994(1)"
+    },
+    {
+      "id": 918009,
+      "name": "费德提克",
+      "title": "远古恐惧",
+      "cost": 3,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "绝命花妖",
+          "icon": "custom-trait-DA_FloraFatalis18",
+          "type": null
+        },
+        {
+          "name": "护卫",
+          "icon": "custom-trait-DA_18_Defender",
+          "type": null
+        },
+        {
+          "name": "法师",
+          "icon": "custom-trait-DA_18_Spellweaver",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "收获",
+        "mana": "30/90",
+        "startMana": 30,
+        "maxMana": 90,
+        "description": "使3个相距最近的敌人的魔抗降低10。然后在2秒里持续从它们身上汲取生命力，从而治疗自身410/485/850 生命值并在此期间持续对每个敌人造成共70/105/170 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "治疗量：485",
+            "array": "[410/485/850]"
+          },
+          {
+            "label": "伤害：105",
+            "array": "[70/105/170]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 410.0,
+              "2": 485.0,
+              "3": 850.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 70.0,
+              "2": 105.0,
+              "3": 170.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1000/1800/3240",
+        "attackDamage": "50/75/113",
+        "armor": 55,
+        "magicResist": 55,
+        "attackSpeed": "0.65",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 90,
+        "startMana": 30
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918009",
+      "skillImage": "918009(1)"
+    },
+    {
+      "id": 918011,
+      "name": "易",
+      "title": "无极剑圣",
+      "cost": 3,
+      "role": "物理专家",
+      "roleDesc": "专家以独特方式生成施法资源。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "灵魂莲华",
+          "icon": "custom-trait-DA_18_Blossom",
+          "type": null
+        },
+        {
+          "name": "魔战士",
+          "icon": "custom-trait-DA_18_Adaptor",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "无极剑道",
+        "mana": "0/3",
+        "startMana": 0,
+        "maxMana": 3,
+        "description": "被动：每第3次攻击为双重打击。参与击杀时，获得爆发性的移动速度。【魔战士】：双重打击提供15% 可叠加的攻击速度。",
+        "breakdown": [
+          {
+            "label": "攻击速度：15% = 12% + 3%",
+            "array": ""
+          }
+        ],
+        "starScaling": []
+      },
+      "stats": {
+        "hp": "850/1530/2754",
+        "attackDamage": "63/95/142",
+        "armor": 55,
+        "magicResist": 55,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 3,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "529",
+          "name": "汲取剑"
+        },
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        }
+      ],
+      "image": "918011",
+      "skillImage": "918011(1)"
+    },
+    {
+      "id": 918018,
+      "name": "崔丝塔娜",
+      "title": "麦林炮手",
+      "cost": 3,
+      "role": "物理射手",
+      "roleDesc": "每次攻击获得10法力值。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "花仙子",
+          "icon": "custom-trait-DA_18_Fae",
+          "type": null
+        },
+        {
+          "name": "约德尔人和朋友",
+          "icon": "custom-trait-DA_18_Sprykin",
+          "type": null
+        },
+        {
+          "name": "猎人",
+          "icon": "custom-trait-DA_18_Hunter",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "爆炸火花",
+        "mana": "0/50",
+        "startMana": 0,
+        "maxMana": 50,
+        "description": "将一个爆炸火花吸附到目标上，持续4秒。生效期间，获得无限射程和60% 攻击速度。持续时间结束后，爆炸火花会爆炸并造成由2格内的所有敌人间分摊的伤害，伤害值为175/265/420 物理伤害+施放期间每次攻击提供额外12/18/28 物理伤害。如果携带爆炸火花的敌人阵亡，那么爆炸火花会吸附至【崔丝塔娜】的新目标。",
+        "breakdown": [
+          {
+            "label": "攻击速度：60% = 40% + 20%",
+            "array": ""
+          },
+          {
+            "label": "伤害：265",
+            "array": "[175/265/420]"
+          },
+          {
+            "label": "每次攻击的额外伤害：18",
+            "array": "[12/18/28]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 175.0,
+              "2": 265.0,
+              "3": 420.0
+            }
+          },
+          {
+            "label": "每次攻击的额外伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 12.0,
+              "2": 18.0,
+              "3": 28.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "650/1170/2106",
+        "attackDamage": "55/83/124",
+        "armor": 35,
+        "magicResist": 35,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 50,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        }
+      ],
+      "image": "918018",
+      "skillImage": "918018(1)"
+    },
+    {
+      "id": 918033,
+      "name": "拉莫斯",
+      "title": "披甲龙龟",
+      "cost": 3,
+      "role": "物理坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "约德尔人和朋友",
+          "icon": "custom-trait-DA_18_Sprykin",
+          "type": null
+        },
+        {
+          "name": "护卫",
+          "icon": "custom-trait-DA_18_Defender",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "尖刺防御",
+        "mana": "30/80",
+        "startMana": 30,
+        "maxMana": 80,
+        "description": "嘲讽，从而强迫附近的敌人们攻击该弈子。获得持续4秒的400/550/700 护盾值和60护甲与魔抗。护盾被打破时，对2格内的敌人造成50/75/120 物理伤害。",
+        "breakdown": [
+          {
+            "label": "护盾值：550",
+            "array": "[400/550/700]"
+          },
+          {
+            "label": "伤害：75 = 75% + 75%",
+            "array": "[50%/75%/120%] + [50%/75%/120%]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "护盾值",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 400.0,
+              "2": 550.0,
+              "3": 700.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 50.0,
+              "2": 75.0,
+              "3": 120.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1100/1980/3564",
+        "attackDamage": "50/75/113",
+        "armor": 50,
+        "magicResist": 50,
+        "attackSpeed": "0.6",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 80,
+        "startMana": 30
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "623",
+          "name": "薄暮法袍"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918033",
+      "skillImage": "918033(1)"
+    },
+    {
+      "id": 918069,
+      "name": "卡西奥佩娅",
+      "title": "魔蛇之拥",
+      "cost": 3,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "魔女",
+          "icon": "custom-trait-DA_18_Coven",
+          "type": null
+        },
+        {
+          "name": "法师",
+          "icon": "custom-trait-DA_18_Spellweaver",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "瘟毒爆炸",
+        "mana": "0/30",
+        "startMana": 0,
+        "maxMana": 30,
+        "description": "向目标和相距最近的未中毒敌人投毒，从而在15秒内持续造成420/630/1020 魔法伤害。中毒可以叠加。",
+        "breakdown": [
+          {
+            "label": "伤害：630",
+            "array": "[420/630/1020]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 420.0,
+              "2": 630.0,
+              "3": 1020.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "650/1170/2106",
+        "attackDamage": "30/45/68",
+        "armor": 35,
+        "magicResist": 35,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 30,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918069",
+      "skillImage": "918069(1)"
+    },
+    {
+      "id": 918096,
+      "name": "克格莫",
+      "title": "深渊巨口",
+      "cost": 3,
+      "role": "物理术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "帝王斑蝶",
+          "icon": "custom-trait-DA_18_Caustic",
+          "type": null
+        },
+        {
+          "name": "魔战士",
+          "icon": "custom-trait-DA_18_Adaptor",
+          "type": null
+        },
+        {
+          "name": "神谕",
+          "icon": "custom-trait-DA_18_Invoker",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "天降重炮",
+        "mana": "15/55",
+        "startMana": 15,
+        "maxMana": 55,
+        "description": "【魔战士】：向目标和相距最近的一个其他敌人喷射酸液，造成165/250/425 物理伤害。低于50%最大生命值的敌人转而受到231/350/595 物理伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：",
+            "array": "[20/30/50]"
+          },
+          {
+            "label": "伤害：250 = 220 + 30",
+            "array": "[145/220/375]"
+          },
+          {
+            "label": "最低生命值伤害：350 = 140% × (220 + 30 )",
+            "array": "[145/220/375] + [20/30/50]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 20.0,
+              "2": 30.0,
+              "3": 50.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 145.0,
+              "2": 220.0,
+              "3": 375.0
+            }
+          },
+          {
+            "label": "最低生命值伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 145.0,
+              "2": 220.0,
+              "3": 375.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "650/1170/2106",
+        "attackDamage": "40/60/90",
+        "armor": 35,
+        "magicResist": 35,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 55,
+        "startMana": 15
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        }
+      ],
+      "image": "918096",
+      "skillImage": "918096(1)"
+    },
+    {
+      "id": 918107,
+      "name": "雷恩加尔",
+      "title": "傲之追猎者",
+      "cost": 3,
+      "role": "物理战士",
+      "roleDesc": "每次攻击获得10法力值。 获得5-30%攻击速度（基于阶段）。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "宿敌",
+          "icon": "custom-trait-DA_18_Rival",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "残忍无情",
+        "mana": "10/50",
+        "startMana": 10,
+        "maxMana": 50,
+        "description": "跳向3格内生命值百分比最低的那个敌人并刺击，从而造成255/385/650 物理伤害。然后治疗60/90/150 生命值，治疗量基于已损失的生命值至多到 120/180/300 。",
+        "breakdown": [
+          {
+            "label": "伤害：385",
+            "array": "[255/385/650]"
+          },
+          {
+            "label": "最小治疗量：90",
+            "array": "[60/90/150]"
+          },
+          {
+            "label": "最大治疗量：180",
+            "array": "[120/180/300]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 255.0,
+              "2": 385.0,
+              "3": 650.0
+            }
+          },
+          {
+            "label": "最小治疗量",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 60.0,
+              "2": 90.0,
+              "3": 150.0
+            }
+          },
+          {
+            "label": "最大治疗量",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 120.0,
+              "2": 180.0,
+              "3": 300.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "900/1620/2916",
+        "attackDamage": "60/90/135",
+        "armor": 55,
+        "magicResist": 55,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 50,
+        "startMana": 10
+      },
+      "recommendedEquips": [
+        {
+          "id": "529",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        },
+        {
+          "id": "595",
+          "name": "水银"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        }
+      ],
+      "image": "918107",
+      "skillImage": "918107(1)"
+    },
+    {
+      "id": 918120,
+      "name": "赫卡里姆",
+      "title": "战争之影",
+      "cost": 3,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "永恒之森",
+          "icon": "custom-trait-DA_18_Elderwood",
+          "type": null
+        },
+        {
+          "name": "重装战士",
+          "icon": "custom-trait-DA_18_Vanguard",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "恐惧之灵",
+        "mana": "50/110",
+        "startMana": 50,
+        "maxMana": 110,
+        "description": "获得持续3秒的50护甲与魔抗，并在此期间持续回复375/475/685 生命值。向相距最近的3名敌人派出幽魂骑兵，从而对其造成80/120/195 魔法伤害和1.5/1.5/1.75秒晕眩。",
+        "breakdown": [
+          {
+            "label": "治疗量：475",
+            "array": "[375/475/685]"
+          },
+          {
+            "label": "伤害：120",
+            "array": "[80/120/195]"
+          },
+          {
+            "label": "晕眩时长：1.5",
+            "array": "[1.5/1.5/1.75]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 375.0,
+              "2": 475.0,
+              "3": 685.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 80.0,
+              "2": 120.0,
+              "3": 195.0
+            }
+          },
+          {
+            "label": "晕眩时长",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 1.5,
+              "2": 1.5,
+              "3": 1.75
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1100/1980/3564",
+        "attackDamage": "50/75/113",
+        "armor": 50,
+        "magicResist": 50,
+        "attackSpeed": "0.65",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 110,
+        "startMana": 50
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918120",
+      "skillImage": "918120(1)"
+    },
+    {
+      "id": 918121,
+      "name": "卡兹克",
+      "title": "虚空掠夺者",
+      "cost": 3,
+      "role": "魔法刺客",
+      "roleDesc": "攻击提供10法力值。 所受的来自所有敌人的伤害降低15%，当前目标除外。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "宿敌",
+          "icon": "custom-trait-DA_18_Rival",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "品尝恐惧",
+        "mana": "0/25",
+        "startMana": 0,
+        "maxMana": 25,
+        "description": "跃向3格内相距最远的敌人，对其造成230/310/450 魔法伤害。如果其邻格没有其友军，则转而造成250/350/530 魔法伤害并获得10法力值。",
+        "breakdown": [
+          {
+            "label": "伤害：310",
+            "array": "[230/310/450]"
+          },
+          {
+            "label": "孤立无援伤害：350",
+            "array": "[250/350/530]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 230.0,
+              "2": 310.0,
+              "3": 450.0
+            }
+          },
+          {
+            "label": "孤立无援伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 250.0,
+              "2": 350.0,
+              "3": 530.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "950/1710/3078",
+        "attackDamage": "40/60/90",
+        "armor": 55,
+        "magicResist": 55,
+        "attackSpeed": "0.85",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 25,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        }
+      ],
+      "image": "918121",
+      "skillImage": "918121(1)"
+    },
+    {
+      "id": 918131,
+      "name": "黛安娜",
+      "title": "皎月女神",
+      "cost": 3,
+      "role": "魔法战士",
+      "roleDesc": "每次攻击获得10法力值。 获得5-30%攻击速度（基于阶段）。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "月蚀骑士",
+          "icon": "custom-trait-DA_18_Lunar",
+          "type": null
+        },
+        {
+          "name": "狂战士",
+          "icon": "custom-trait-DA_18_Slayer",
+          "type": null
+        },
+        {
+          "name": "重装战士",
+          "icon": "custom-trait-DA_18_Vanguard",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "苍白屏障",
+        "mana": "0/40",
+        "startMana": 0,
+        "maxMana": 40,
+        "description": "获得持续2秒的150/275/500护盾值，并放出6颗月光法球，由2格内的所有敌人分摊，每颗造成75/115/180 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：115",
+            "array": "[75/115/180]"
+          },
+          {
+            "label": "护盾值：275",
+            "array": "[150/275/500]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 75.0,
+              "2": 115.0,
+              "3": 180.0
+            }
+          },
+          {
+            "label": "护盾值",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 150.0,
+              "2": 275.0,
+              "3": 500.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "850/1530/2754",
+        "attackDamage": "30/45/68",
+        "armor": 50,
+        "magicResist": 50,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 40,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        }
+      ],
+      "image": "918131",
+      "skillImage": "918131(1)"
+    },
+    {
+      "id": 918254,
+      "name": "蔚",
+      "title": "皮城执法官",
+      "cost": 3,
+      "role": "物理坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "野兽之灵",
+          "icon": "custom-trait-DA_Primal18",
+          "type": null
+        },
+        {
+          "name": "主宰",
+          "icon": "custom-trait-DA_Juggernaut18",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "狂怒之拳",
+        "mana": "0/60",
+        "startMana": 0,
+        "maxMana": 60,
+        "description": "被动：攻击时，回复22 生命值。主动：发出一声原始怒吼，从而回复 200/265/360 生命值。然后获得85%/100%/125%攻击速度、15%伤害减免和不可阻挡效果，持续3秒。",
+        "breakdown": [
+          {
+            "label": "被动治疗量：22 = 2%",
+            "array": ""
+          },
+          {
+            "label": "治疗量：265",
+            "array": "[200/265/360]"
+          },
+          {
+            "label": "攻击速度：100%",
+            "array": "[85%/100%/125%]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 200.0,
+              "2": 265.0,
+              "3": 360.0
+            }
+          },
+          {
+            "label": "攻击速度",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 85.0,
+              "2": 100.0,
+              "3": 125.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1100/1980/3564",
+        "attackDamage": "45/68/101",
+        "armor": 50,
+        "magicResist": 50,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 60,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "623",
+          "name": "薄暮法袍"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918254",
+      "skillImage": "918254(1)"
+    },
+    {
+      "id": 918268,
+      "name": "阿兹尔",
+      "title": "沙漠皇帝",
+      "cost": 3,
+      "role": "魔法射手",
+      "roleDesc": "每次攻击获得10法力值。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "黑荆棘",
+          "icon": "custom-trait-DA_18_Blackthorn",
+          "type": null
+        },
+        {
+          "name": "裁决使",
+          "icon": "custom-trait-DA_18_Executioner",
+          "type": null
+        },
+        {
+          "name": "召唤师",
+          "icon": "custom-trait-DA_18_Summoner",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "沙兵现身",
+        "mana": "0/35",
+        "startMana": 0,
+        "maxMana": 35,
+        "description": "接下来的6次攻击获得150%攻击速度并召唤2个士兵。这些攻击会被替换为指令，来命令每个士兵进行攻击，每次攻击造成43/65/105 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：65",
+            "array": "[43/65/105]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 43.0,
+              "2": 65.0,
+              "3": 105.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "650/1170/2106",
+        "attackDamage": "30/45/68",
+        "armor": 35,
+        "magicResist": 35,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 35,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "555",
+          "name": "大天使之杖"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        }
+      ],
+      "image": "918268",
+      "skillImage": "918268(1)"
+    },
+    {
+      "id": 918993,
+      "name": "远古石甲虫",
+      "title": "石甲虫",
+      "cost": 3,
+      "role": "物理坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "峡谷野怪",
+          "icon": "custom-trait-DA_Riftbeast18",
+          "type": null
+        },
+        {
+          "name": "斗士",
+          "icon": "custom-trait-DA_18_Brawler",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "岩之摇滚",
+        "mana": "80/135",
+        "startMana": 80,
+        "maxMana": 135,
+        "description": "被动：阵亡时，分裂成两个【小型石甲虫】，每个拥有182/232/312 生命值，并且它们会立即进行嘲讽从而迫使敌人们对其进行攻击。主动：获得175/225/325 最大生命值，然后滚向目标，从而造成 223/288/423 伤害。蓝灰霸符：阵亡时，【远古石甲虫】和【小型石甲虫】为友军提供8%最大生命值护盾。",
+        "breakdown": [
+          {
+            "label": "【小型石甲虫】生命值：232 = 12% + 100",
+            "array": "[50/100/180]"
+          },
+          {
+            "label": "额外生命值：225",
+            "array": "[175/225/325]"
+          },
+          {
+            "label": "伤害：288 = 8% + 200",
+            "array": "[135/200/335]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "【小型石甲虫】生命值",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 50.0,
+              "2": 100.0,
+              "3": 180.0
+            }
+          },
+          {
+            "label": "额外生命值",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 175.0,
+              "2": 225.0,
+              "3": 325.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 135.0,
+              "2": 200.0,
+              "3": 335.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1100/1980/3564",
+        "attackDamage": "55/83/124",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.6",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 135,
+        "startMana": 80
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "623",
+          "name": "薄暮法袍"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918993",
+      "skillImage": "918993(1)"
+    },
+    {
+      "id": 918995,
+      "name": "深红锋喙鸟",
+      "title": "锋喙鸟",
+      "cost": 3,
+      "role": "物理射手",
+      "roleDesc": "每次攻击获得10法力值。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "峡谷野怪",
+          "icon": "custom-trait-DA_Riftbeast18",
+          "type": null
+        },
+        {
+          "name": "召唤师",
+          "icon": "custom-trait-DA_18_Summoner",
+          "type": null
+        },
+        {
+          "name": "迅捷射手",
+          "icon": "custom-trait-DA_18_Rapidfire",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "鸟群之家",
+        "mana": "20/60",
+        "startMana": 20,
+        "maxMana": 60,
+        "description": "在附近召唤4只不可被选取的【小锋喙鸟】，持续5.0 秒。每次【深红锋喙鸟】攻击时，【小锋喙鸟】也会攻击同一敌人，造成20/30/48 物理伤害。橙霸符：造成物理伤害时会使敌人的护甲降低2。",
+        "breakdown": [
+          {
+            "label": "持续时长：5.0",
+            "array": ""
+          },
+          {
+            "label": "伤害：30",
+            "array": "[20/30/48]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 20.0,
+              "2": 30.0,
+              "3": 48.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "650/1170/2106",
+        "attackDamage": "60/90/135",
+        "armor": 35,
+        "magicResist": 35,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 60,
+        "startMana": 20
+      },
+      "recommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        }
+      ],
+      "image": "918995",
+      "skillImage": "918995(1)"
+    },
+    {
+      "id": 918015,
+      "name": "希维尔",
+      "title": "战争女神",
+      "cost": 4,
+      "role": "物理术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "野兽之灵",
+          "icon": "custom-trait-DA_Primal18",
+          "type": null
+        },
+        {
+          "name": "猎人",
+          "icon": "custom-trait-DA_18_Hunter",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "回旋之刃",
+        "mana": "0/40",
+        "startMana": 0,
+        "maxMana": 40,
+        "description": "投掷一把巨大的十字刃，它会对当前敌人造成235/350/1150 物理伤害，并在附近敌人之间弹跳8次，每次弹跳造成42/63/460 物理伤害。当这个技能击杀了一个敌人，它会额外弹跳3/3/6次。",
+        "breakdown": [
+          {
+            "label": "伤害：",
+            "array": "[15/20/100]"
+          },
+          {
+            "label": "伤害：350 = 330 + 20",
+            "array": "[220/330/1050]"
+          },
+          {
+            "label": "弹射伤害：63 = 18% × 350",
+            "array": ""
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 15.0,
+              "2": 20.0,
+              "3": 100.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 220.0,
+              "2": 330.0,
+              "3": 1050.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "850/1530/3754",
+        "attackDamage": "50/75/113",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 40,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        }
+      ],
+      "image": "918015",
+      "skillImage": "918015(1)"
+    },
+    {
+      "id": 918016,
+      "name": "索拉卡",
+      "title": "众星之子",
+      "cost": 4,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "绝命花妖",
+          "icon": "custom-trait-DA_FloraFatalis18",
+          "type": null
+        },
+        {
+          "name": "裁决使",
+          "icon": "custom-trait-DA_18_Executioner",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "流星坠落",
+        "mana": "0/30",
+        "startMana": 0,
+        "maxMana": 30,
+        "description": "召唤一颗星星落在当前目标身上，从而造成235/355/1000 魔法伤害。如果此前曾有一颗星星落至其上，则额外召唤3颗星星，每颗造成110/165/1000 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：355",
+            "array": "[235/355/1000]"
+          },
+          {
+            "label": "次要伤害：165",
+            "array": "[110/165/1000]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 235.0,
+              "2": 355.0,
+              "3": 1000.0
+            }
+          },
+          {
+            "label": "次要伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 110.0,
+              "2": 165.0,
+              "3": 1000.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "850/1530/3754",
+        "attackDamage": "30/45/68",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 30,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918016",
+      "skillImage": "918016(1)"
+    },
+    {
+      "id": 918025,
+      "name": "莫甘娜",
+      "title": "堕落天使",
+      "cost": 4,
+      "role": "魔法战士",
+      "roleDesc": "每次攻击获得10法力值。 获得5-30%攻击速度（基于阶段）。",
+      "range": 2,
+      "traits": [
+        {
+          "name": "魔女",
+          "icon": "custom-trait-DA_18_Coven",
+          "type": null
+        },
+        {
+          "name": "神谕",
+          "icon": "custom-trait-DA_18_Invoker",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "枯萎诅咒",
+        "mana": "0/65",
+        "startMana": 0,
+        "maxMana": 65,
+        "description": "被动：获得25%全能吸血。主动：向附近3个敌人发射一道黑暗震波，造成70/105/500 魔法伤害并诅咒他们4秒。然后，生成一个半径2格的枯萎地带，持续相同时长并且每秒造成33/50/500 魔法伤害。被诅咒的敌人们受到25/38/240 ×诅咒数的额外伤害。",
+        "breakdown": [
+          {
+            "label": "初始伤害：105",
+            "array": "[70/105/500]"
+          },
+          {
+            "label": "地带伤害：50",
+            "array": "[33/50/500]"
+          },
+          {
+            "label": "额外诅咒伤害：38",
+            "array": "[25/38/240]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "初始伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 70.0,
+              "2": 105.0,
+              "3": 500.0
+            }
+          },
+          {
+            "label": "地带伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 33.0,
+              "2": 50.0,
+              "3": 500.0
+            }
+          },
+          {
+            "label": "额外诅咒伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 25.0,
+              "2": 38.0,
+              "3": 240.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1100/1980/4564",
+        "attackDamage": "45/68/101",
+        "armor": 60,
+        "magicResist": 60,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 2,
+        "mana": 65,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "555",
+          "name": "大天使之杖"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        }
+      ],
+      "image": "918025",
+      "skillImage": "918025(1)"
+    },
+    {
+      "id": 918032,
+      "name": "阿木木",
+      "title": "殇之木乃伊",
+      "cost": 4,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "地狱火",
+          "icon": "custom-trait-DA_18_Inferno",
+          "type": null
+        },
+        {
+          "name": "主宰",
+          "icon": "custom-trait-DA_Juggernaut18",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "勃然大怒",
+        "mana": "30/125",
+        "startMana": 30,
+        "maxMana": 125,
+        "description": "被动：每秒回复53/58/152 生命值并对1格内的敌人们造成12/18/150 魔法伤害。主动：对2格内的敌人造成100/150/2000 魔法伤害和1/1/6秒晕眩，如果目标处于灼烧状态则延长至1.5/1.5/9秒。灼烧：每秒造成目标一部分最大生命值的真实伤害。",
+        "breakdown": [
+          {
+            "label": "治疗量：58 = 2.5% + 25",
+            "array": "[2.5%/2.5%/4%] + [20/25/100]"
+          },
+          {
+            "label": "被动伤害：18",
+            "array": "[12/18/150]"
+          },
+          {
+            "label": "伤害：150",
+            "array": "[100/150/2000]"
+          },
+          {
+            "label": "晕眩时长：1.5",
+            "array": "[1.5/1.5/9]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "治疗量",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 2.5,
+              "2": 2.5,
+              "3": 4.0
+            }
+          },
+          {
+            "label": "被动伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 12.0,
+              "2": 18.0,
+              "3": 150.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 100.0,
+              "2": 150.0,
+              "3": 2000.0
+            }
+          },
+          {
+            "label": "晕眩时长",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 1.5,
+              "2": 1.5,
+              "3": 9.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1300/2340/5212",
+        "attackDamage": "70/105/158",
+        "armor": 60,
+        "magicResist": 60,
+        "attackSpeed": "0.7",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 125,
+        "startMana": 30
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918032",
+      "skillImage": "918032(1)"
+    },
+    {
+      "id": 918054,
+      "name": "墨菲特",
+      "title": "熔岩巨兽",
+      "cost": 4,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "黑荆棘",
+          "icon": "custom-trait-DA_18_Blackthorn",
+          "type": null
+        },
+        {
+          "name": "魔岩巨兽",
+          "icon": "custom-trait-DA_18_Battlemage",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "石化树皮",
+        "mana": "30/80",
+        "startMana": 30,
+        "maxMana": 80,
+        "description": "获得持续4秒的735/885/2000 护盾值，并进入石化状态。护盾被打破时，释放一道黑暗能量波，对2/2/3格内的敌人们造成82/123/3399 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "护盾值：885",
+            "array": "[735/885/2000]"
+          },
+          {
+            "label": "伤害：",
+            "array": "[40/60/2000]"
+          },
+          {
+            "label": "伤害：123 = 60 + 45% + 45%",
+            "array": "[30%/45%/999%] + [30%/45%/999%]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "护盾值",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 735.0,
+              "2": 885.0,
+              "3": 2000.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 40.0,
+              "2": 60.0,
+              "3": 2000.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 30.0,
+              "2": 45.0,
+              "3": 999.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1300/2340/5212",
+        "attackDamage": "70/105/158",
+        "armor": 70,
+        "magicResist": 70,
+        "attackSpeed": "0.55",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 80,
+        "startMana": 30
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918054",
+      "skillImage": "918054(1)"
+    },
+    {
+      "id": 918076,
+      "name": "奈德丽",
+      "title": "狂野女猎手",
+      "cost": 4,
+      "role": "魔法射手",
+      "roleDesc": "每次攻击获得10法力值。",
+      "range": 5,
+      "traits": [
+        {
+          "name": "野兽之灵",
+          "icon": "custom-trait-DA_Primal18",
+          "type": null
+        },
+        {
+          "name": "魔战士",
+          "icon": "custom-trait-DA_18_Adaptor",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "标枪投掷",
+        "mana": "0/45",
+        "startMana": 0,
+        "maxMana": 45,
+        "description": "【魔战士】：下3次攻击获得150%攻击速度。这些攻击被替换为标枪，造成185/275/2000 魔法伤害。第3次攻击转而瞄准相距最远且携带最少装备的那个敌人，并造成330/500/3000 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：275",
+            "array": "[185/275/2000]"
+          },
+          {
+            "label": "最终伤害：500",
+            "array": "[330/500/3000]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 185.0,
+              "2": 275.0,
+              "3": 2000.0
+            }
+          },
+          {
+            "label": "最终伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 330.0,
+              "2": 500.0,
+              "3": 3000.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "850/1530/3754",
+        "attackDamage": "35/53/79",
+        "armor": 30,
+        "magicResist": 30,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 5,
+        "mana": 45,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "555",
+          "name": "大天使之杖"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        }
+      ],
+      "image": "918076",
+      "skillImage": "918076(1)"
+    },
+    {
+      "id": 918081,
+      "name": "伊泽瑞尔",
+      "title": "探险家",
+      "cost": 4,
+      "role": "物理术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "永恒之森",
+          "icon": "custom-trait-DA_18_Elderwood",
+          "type": null
+        },
+        {
+          "name": "裁决使",
+          "icon": "custom-trait-DA_18_Executioner",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "自然之怒",
+        "mana": "0/30",
+        "startMana": 0,
+        "maxMana": 30,
+        "description": "闪烁远离当前目标，对其造成270/405/1200 物理伤害，并获得30%/30%/100% 攻击速度。每第四次施放时，会消耗来自【森林疾风】的攻击速度，并释放一道贯穿最大敌群的震波，造成385/580/2500 物理伤害，每穿过一个敌人降低25%伤害(最低为50%)。",
+        "breakdown": [
+          {
+            "label": "伤害：405",
+            "array": "[270/405/1200]"
+          },
+          {
+            "label": "攻击速度：30%",
+            "array": "[30%/30%/100%]"
+          },
+          {
+            "label": "强化伤害：580",
+            "array": "[385/580/2500]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 270.0,
+              "2": 405.0,
+              "3": 1200.0
+            }
+          },
+          {
+            "label": "攻击速度",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 30.0,
+              "2": 30.0,
+              "3": 100.0
+            }
+          },
+          {
+            "label": "强化伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 385.0,
+              "2": 580.0,
+              "3": 2500.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "850/1530/3754",
+        "attackDamage": "45/68/101",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 30,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        }
+      ],
+      "image": "918081",
+      "skillImage": "918081(1)"
+    },
+    {
+      "id": 918103,
+      "name": "阿狸",
+      "title": "九尾妖狐",
+      "cost": 4,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "灵魂莲华",
+          "icon": "custom-trait-DA_18_Blossom",
+          "type": null
+        },
+        {
+          "name": "法师",
+          "icon": "custom-trait-DA_18_Spellweaver",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "灵魄炸弹",
+        "mana": "20/100",
+        "startMana": 20,
+        "maxMana": 100,
+        "description": "对4格内被最多敌人环绕的那个区域发射一颗灵魄炸弹。它对半径3格内的敌人造成455/685/3500 魔法伤害，与中心的距离每增加1格，该伤害就会衰减21%。",
+        "breakdown": [
+          {
+            "label": "伤害：685",
+            "array": "[455/685/3500]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 455.0,
+              "2": 685.0,
+              "3": 3500.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "850/1530/3754",
+        "attackDamage": "40/60/90",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 100,
+        "startMana": 20
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918103",
+      "skillImage": "918103(1)"
+    },
+    {
+      "id": 918143,
+      "name": "婕拉",
+      "title": "荆棘之兴",
+      "cost": 4,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "荆棘之兴",
+          "icon": "custom-trait-DA_18_ZyraUniqueTrait",
+          "type": null
+        },
+        {
+          "name": "召唤师",
+          "icon": "custom-trait-DA_18_Summoner",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "狂野生长",
+        "mana": "0/45",
+        "startMana": 0,
+        "maxMana": 45,
+        "description": "在战场周围生成2/2/4株植物，它们会攻击相距最近的敌人10次。每次攻击造成35/53/225 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：53",
+            "array": "[35/53/225]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 35.0,
+              "2": 53.0,
+              "3": 225.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "850/1530/3754",
+        "attackDamage": "40/60/90",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 45,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918143",
+      "skillImage": "918143(1)"
+    },
+    {
+      "id": 918523,
+      "name": "厄斐琉斯",
+      "title": "残月之肃",
+      "cost": 4,
+      "role": "物理射手",
+      "roleDesc": "每次攻击获得10法力值。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "月蚀骑士",
+          "icon": "custom-trait-DA_18_Lunar",
+          "type": null
+        },
+        {
+          "name": "迅捷射手",
+          "icon": "custom-trait-DA_18_Rapidfire",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "月光对影",
+        "mana": "20/70",
+        "startMana": 20,
+        "maxMana": 70,
+        "description": "装备断魄，并在2秒内对目标连续挥击6次，每次造成70/105/850 物理伤害。攻势结束后，发射一道月光，造成490/735/5225 物理伤害，由半径2格内的所有敌人分摊。",
+        "breakdown": [
+          {
+            "label": "挥击：6次 = 5 + 每20%额外1次",
+            "array": ""
+          },
+          {
+            "label": "挥击伤害：105",
+            "array": "[70/105/850]"
+          },
+          {
+            "label": "月光爆炸伤害：",
+            "array": "[40/60/225]"
+          },
+          {
+            "label": "月光爆炸伤害：735 = 675 + 60",
+            "array": "[450/675/5000]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "挥击伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 70.0,
+              "2": 105.0,
+              "3": 850.0
+            }
+          },
+          {
+            "label": "月光爆炸伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 40.0,
+              "2": 60.0,
+              "3": 225.0
+            }
+          },
+          {
+            "label": "月光爆炸伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 450.0,
+              "2": 675.0,
+              "3": 5000.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "850/1530/3754",
+        "attackDamage": "60/90/135",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 70,
+        "startMana": 20
+      },
+      "recommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        }
+      ],
+      "image": "918523",
+      "skillImage": "918523(1)"
+    },
+    {
+      "id": 918875,
+      "name": "瑟提",
+      "title": "腕豪",
+      "cost": 4,
+      "role": "物理坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "灵魂莲华",
+          "icon": "custom-trait-DA_18_Blossom",
+          "type": null
+        },
+        {
+          "name": "斗士",
+          "icon": "custom-trait-DA_18_Brawler",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "蓄意轰拳",
+        "mana": "60/135",
+        "startMana": 60,
+        "maxMana": 135,
+        "description": "被动：每场战斗中首次跌至40%最大生命值以下时，获得100法力值。主动：蓄力打出一记重拳，从而快速回复394/444/2144 生命值，随后在一个大型锥形范围内造成222/297/5072 物理伤害。",
+        "breakdown": [
+          {
+            "label": "治疗量：444 = 12% + 300",
+            "array": "[250/300/2000]"
+          },
+          {
+            "label": "伤害：297 = 6% + 225",
+            "array": "[150/225/5000]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 250.0,
+              "2": 300.0,
+              "3": 2000.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 150.0,
+              "2": 225.0,
+              "3": 5000.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1200/2160/4888",
+        "attackDamage": "80/120/180",
+        "armor": 60,
+        "magicResist": 60,
+        "attackSpeed": "0.65",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 135,
+        "startMana": 60
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "623",
+          "name": "薄暮法袍"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918875",
+      "skillImage": "918875(1)"
+    },
+    {
+      "id": 918876,
+      "name": "莉莉娅",
+      "title": "含羞蓓蕾",
+      "cost": 4,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "花仙子",
+          "icon": "custom-trait-DA_18_Fae",
+          "type": null
+        },
+        {
+          "name": "护卫",
+          "icon": "custom-trait-DA_18_Defender",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "夜阑谣",
+        "mana": "40/140",
+        "startMana": 40,
+        "maxMana": 140,
+        "description": "回复350/525/800 生命值，并向附近的敌人们放出4只蝴蝶。在命中敌人时造成90/135/2000 魔法伤害并施加1.5/1.75/8秒昏睡。如果目标受到的伤害达到1000，则会醒来并额外受到10%最大生命值魔法伤害。",
+        "breakdown": [
+          {
+            "label": "治疗量：525",
+            "array": "[350/525/800]"
+          },
+          {
+            "label": "伤害：135",
+            "array": "[90/135/2000]"
+          },
+          {
+            "label": "昏睡时长：1.75",
+            "array": "[1.5/1.75/8]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 350.0,
+              "2": 525.0,
+              "3": 800.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 90.0,
+              "2": 135.0,
+              "3": 2000.0
+            }
+          },
+          {
+            "label": "昏睡时长",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 1.5,
+              "2": 1.75,
+              "3": 8.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1300/2340/5212",
+        "attackDamage": "40/60/90",
+        "armor": 60,
+        "magicResist": 60,
+        "attackSpeed": "0.65",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 140,
+        "startMana": 40
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918876",
+      "skillImage": "918876(1)"
+    },
+    {
+      "id": 918996,
+      "name": "绯红印记树怪",
+      "title": "绯红印记树怪",
+      "cost": 4,
+      "role": "物理战士",
+      "roleDesc": "每次攻击获得10法力值。 获得5-30%攻击速度（基于阶段）。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "峡谷野怪",
+          "icon": "custom-trait-DA_Riftbeast18",
+          "type": null
+        },
+        {
+          "name": "狂战士",
+          "icon": "custom-trait-DA_18_Slayer",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "猩红之怒",
+        "mana": "0/40",
+        "startMana": 0,
+        "maxMana": 40,
+        "description": "被动：当目标阵亡时，跃至下个目标，从而造成135/205/1000 物理伤害。主动：获得持续8秒的100%/100%/300%物理加成。在此期间，无视40%/40%/100% 护甲。红霸符：攻击1%灼烧敌人并治疗【绯红印记树怪】4%最大生命值。",
+        "breakdown": [
+          {
+            "label": "跃击伤害：205",
+            "array": "[135/205/1000]"
+          },
+          {
+            "label": "额外攻击伤害：100%",
+            "array": "[100%/100%/300%]"
+          },
+          {
+            "label": "无视护甲：40% = 30% + 10%",
+            "array": "[10%/10%/70%]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "跃击伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 135.0,
+              "2": 205.0,
+              "3": 1000.0
+            }
+          },
+          {
+            "label": "额外攻击伤害",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 100.0,
+              "2": 100.0,
+              "3": 300.0
+            }
+          },
+          {
+            "label": "无视护甲",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 10.0,
+              "2": 10.0,
+              "3": 70.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1100/1980/4564",
+        "attackDamage": "120/180/270",
+        "armor": 65,
+        "magicResist": 65,
+        "attackSpeed": "0.55",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 40,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "529",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        },
+        {
+          "id": "595",
+          "name": "水银"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        }
+      ],
+      "image": "918996",
+      "skillImage": "918996(1)"
+    },
+    {
+      "id": 918997,
+      "name": "苍蓝雕纹魔像",
+      "title": "苍蓝雕纹魔像",
+      "cost": 4,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "峡谷野怪",
+          "icon": "custom-trait-DA_Riftbeast18",
+          "type": null
+        },
+        {
+          "name": "重装战士",
+          "icon": "custom-trait-DA_18_Vanguard",
+          "type": null
+        },
+        {
+          "name": "神谕",
+          "icon": "custom-trait-DA_18_Invoker",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "蔚蓝冲击波",
+        "mana": "60/150",
+        "startMana": 60,
+        "maxMana": 150,
+        "description": "获得持续4秒的505/605/2130 护盾值。猛击地面，向敌人最密集的方向发出一道裂隙。被命中的敌人会被击飞0.5/0.5/8秒，受到100/150/3500 魔法伤害和10破法。蓝霸符：【苍蓝雕纹魔像】每次施放技能时，友军们就会获得2法力回复。破法：提升下一次技能施放的法力消耗。",
+        "breakdown": [
+          {
+            "label": "护盾值：605 = 10% + 475",
+            "array": "[375/475/2000]"
+          },
+          {
+            "label": "伤害：150",
+            "array": "[100/150/3500]"
+          },
+          {
+            "label": "击飞时长：0.5秒",
+            "array": "[0.5/0.5/8]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "护盾值",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 375.0,
+              "2": 475.0,
+              "3": 2000.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 100.0,
+              "2": 150.0,
+              "3": 3500.0
+            }
+          },
+          {
+            "label": "击飞时长",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 0.5,
+              "2": 0.5,
+              "3": 8.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1300/2340/5212",
+        "attackDamage": "75/113/169",
+        "armor": 60,
+        "magicResist": 60,
+        "attackSpeed": "0.6",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 150,
+        "startMana": 60
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918997",
+      "skillImage": "918997(1)"
+    },
+    {
+      "id": 918022,
+      "name": "艾希",
+      "title": "寒冰射手",
+      "cost": 5,
+      "role": "物理术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 5,
+      "traits": [
+        {
+          "name": "灵魂莲华",
+          "icon": "custom-trait-DA_18_Blossom",
+          "type": null
+        },
+        {
+          "name": "猎人",
+          "icon": "custom-trait-DA_18_Hunter",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "灵魂裂隙",
+        "mana": "20/80",
+        "startMana": 20,
+        "maxMana": 80,
+        "description": "沿敌人最多的那条直线发射一支箭矢，造成465/700/1000 物理伤害，这个伤害每命中一个敌人就会衰减80%/80%/40%(最低为20%)。如果没有命中任何敌人，则返还70%的法力值花费。这支箭矢会留下一道持续3/3/20秒的痕迹，对其中的敌人每秒造成13/19/220 +1.5%/1.5%/10%最大生命值物理伤害，并施加20%缓速效果。缓速：降低攻击速度",
+        "breakdown": [
+          {
+            "label": "伤害：700",
+            "array": "[465/700/1000]"
+          },
+          {
+            "label": "裂隙伤害：",
+            "array": "[2/3/20]"
+          },
+          {
+            "label": "裂隙伤害：19 = 16 + 3",
+            "array": "[11/16/200]"
+          },
+          {
+            "label": "裂隙最大生命值伤害：1.5%",
+            "array": "[1.5%/1.5%/10%]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 465.0,
+              "2": 700.0,
+              "3": 1000.0
+            }
+          },
+          {
+            "label": "裂隙伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 2.0,
+              "2": 3.0,
+              "3": 20.0
+            }
+          },
+          {
+            "label": "裂隙伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 11.0,
+              "2": 16.0,
+              "3": 200.0
+            }
+          },
+          {
+            "label": "裂隙最大生命值伤害",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 1.5,
+              "2": 1.5,
+              "3": 10.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "900/1620/6916",
+        "attackDamage": "75/113/169",
+        "armor": 45,
+        "magicResist": 45,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 5,
+        "mana": 80,
+        "startMana": 20
+      },
+      "recommendedEquips": [
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        }
+      ],
+      "image": "918022",
+      "skillImage": "918022(1)"
+    },
+    {
+      "id": 918044,
+      "name": "塔里克",
+      "title": "瓦洛兰之盾",
+      "cost": 5,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "宝石骑士",
+          "icon": "custom-trait-DA_Emerald18",
+          "type": null
+        },
+        {
+          "name": "重装战士",
+          "icon": "custom-trait-DA_18_Vanguard",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "翡翠辉耀",
+        "mana": "0/65",
+        "startMana": 0,
+        "maxMana": 65,
+        "description": "被动：【塔里克】或其绑定的友军首次跌到50%生命值以下时，两人身上会释放翡翠能量，为3格内的友军提供持续3/3/99秒的270/345/11300 护盾值。主动：回复275/450/3000 生命值。【塔里克】和其绑定的友军的下2次攻击造成130/200/1000 额外魔法伤害。",
+        "breakdown": [
+          {
+            "label": "护盾值：345 = 15% + 150",
+            "array": "[15%/15%/100%] + [75/150/10000]"
+          },
+          {
+            "label": "治疗量：450",
+            "array": "[275/450/3000]"
+          },
+          {
+            "label": "伤害：200",
+            "array": "[130/200/1000]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "护盾值",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 15.0,
+              "2": 15.0,
+              "3": 100.0
+            }
+          },
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 275.0,
+              "2": 450.0,
+              "3": 3000.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 130.0,
+              "2": 200.0,
+              "3": 1000.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1300/2340/8212",
+        "attackDamage": "55/83/124",
+        "armor": 70,
+        "magicResist": 70,
+        "attackSpeed": "0.75",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 65,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918044",
+      "skillImage": "918044(1)"
+    },
+    {
+      "id": 918057,
+      "name": "茂凯",
+      "title": "扭曲树精",
+      "cost": 5,
+      "role": "魔法坦克",
+      "roleDesc": "每次攻击获得5法力值。 承受伤害时获得法力值。 更容易被选取。",
+      "range": 1,
+      "traits": [
+        {
+          "name": "远古树精",
+          "icon": "custom-trait-DA_18_Maokai_UniqueTrait",
+          "type": null
+        },
+        {
+          "name": "主宰",
+          "icon": "custom-trait-DA_Juggernaut18",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "播种",
+        "mana": "30/100",
+        "startMana": 30,
+        "maxMana": 100,
+        "description": "被动：每格挡650/650/300伤害后，一株树苗会跳向附近的一名敌人并造成7%/7%/75% 魔法伤害。阵亡时，3/5/10株树苗会跳出。主动：对目标造成6%/6%/100% 魔法伤害并回复330/400/2000 +10%/10%/100%已损失生命值。",
+        "breakdown": [
+          {
+            "label": "树苗伤害：7%",
+            "array": "[7%/7%/75%]"
+          },
+          {
+            "label": "阵亡时树苗：5",
+            "array": "[3/5/10]"
+          },
+          {
+            "label": "主动伤害：6%",
+            "array": "[6%/6%/100%]"
+          },
+          {
+            "label": "治疗量：400",
+            "array": "[330/400/2000]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "树苗伤害",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 7.0,
+              "2": 7.0,
+              "3": 75.0
+            }
+          },
+          {
+            "label": "阵亡时树苗",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 3.0,
+              "2": 5.0,
+              "3": 10.0
+            }
+          },
+          {
+            "label": "主动伤害",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 6.0,
+              "2": 6.0,
+              "3": 100.0
+            }
+          },
+          {
+            "label": "治疗量",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 330.0,
+              "2": 400.0,
+              "3": 2000.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1150/2070/7726",
+        "attackDamage": "80/120/180",
+        "armor": 60,
+        "magicResist": 60,
+        "attackSpeed": "0.65",
+        "crit": 0.25,
+        "attackRange": 1,
+        "mana": 100,
+        "startMana": 30
+      },
+      "recommendedEquips": [
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "597",
+          "name": "狂徒铠甲"
+        },
+        {
+          "id": "581",
+          "name": "石像鬼石板甲"
+        },
+        {
+          "id": "31012",
+          "name": "振奋盔甲"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "609",
+          "name": "巨龙之爪"
+        },
+        {
+          "id": "579",
+          "name": "棘刺背心"
+        },
+        {
+          "id": "583",
+          "name": "日炎斗篷"
+        },
+        {
+          "id": "616",
+          "name": "圣盾使的誓约"
+        }
+      ],
+      "image": "918057",
+      "skillImage": "918057(1)"
+    },
+    {
+      "id": 918085,
+      "name": "凯南",
+      "title": "狂暴之心",
+      "cost": 5,
+      "role": "魔法刺客",
+      "roleDesc": "攻击提供10法力值。 所受的来自所有敌人的伤害降低15%，当前目标除外。",
+      "range": 2,
+      "traits": [
+        {
+          "name": "地狱火",
+          "icon": "custom-trait-DA_18_Inferno",
+          "type": null
+        },
+        {
+          "name": "裁决使",
+          "icon": "custom-trait-DA_18_Executioner",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "火焰风暴",
+        "mana": "0/40",
+        "startMana": 0,
+        "maxMana": 40,
+        "description": "蓄力，每有一名被灼烧的敌人便获得15%法术加成。随后，获得持续2.5秒的230/300/3000 护盾值，然后冲刺穿过附近的一群敌人，对每个敌人造成80/120/1500 魔法伤害。冲刺后，释放一场半径2格的火焰风暴，在2秒内持续造成共计475/715/5000 魔法伤害，由所有被命中的敌人均摊。",
+        "breakdown": [
+          {
+            "label": "护盾值：300",
+            "array": "[230/300/3000]"
+          },
+          {
+            "label": "伤害：120",
+            "array": "[80/120/1500]"
+          },
+          {
+            "label": "火焰风暴伤害：715",
+            "array": "[475/715/5000]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "护盾值",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 230.0,
+              "2": 300.0,
+              "3": 3000.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 80.0,
+              "2": 120.0,
+              "3": 1500.0
+            }
+          },
+          {
+            "label": "火焰风暴伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 475.0,
+              "2": 715.0,
+              "3": 5000.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1200/2160/7888",
+        "attackDamage": "50/75/113",
+        "armor": 60,
+        "magicResist": 60,
+        "attackSpeed": "0.85",
+        "crit": 0.25,
+        "attackRange": 2,
+        "mana": 40,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "611",
+          "name": "离子火花"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        }
+      ],
+      "image": "918085",
+      "skillImage": "918085(1)"
+    },
+    {
+      "id": 918099,
+      "name": "拉克丝",
+      "title": "光辉女郎",
+      "cost": 5,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 5,
+      "traits": [
+        {
+          "name": "自然之力！大元素使",
+          "icon": "custom-trait-DA_18_LuxUniqueTrait",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "终极闪光",
+        "mana": "20/70",
+        "startMana": 20,
+        "maxMana": 70,
+        "description": "被动：施放时，所有与【拉克丝】拥有同一羁绊的己方弈子获得3/3/100 法力值。主动：向最大的敌群发射一道激光，造成375/565/6500 魔法伤害，每命中一个敌人，该伤害衰减25%/25%/10%。",
+        "breakdown": [
+          {
+            "label": "法力值：3",
+            "array": "[3/3/100]"
+          },
+          {
+            "label": "伤害：565",
+            "array": "[375/565/6500]"
+          },
+          {
+            "label": "伤害衰减：25%",
+            "array": "[25%/25%/10%]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "法力值",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 3.0,
+              "2": 3.0,
+              "3": 100.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 375.0,
+              "2": 565.0,
+              "3": 6500.0
+            }
+          },
+          {
+            "label": "伤害衰减",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 25.0,
+              "2": 25.0,
+              "3": 10.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "900/1620/6916",
+        "attackDamage": "40/60/90",
+        "armor": 40,
+        "magicResist": 40,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 5,
+        "mana": 70,
+        "startMana": 20
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918099",
+      "skillImage": "918099(1)"
+    },
+    {
+      "id": 918119,
+      "name": "德莱文",
+      "title": "荣耀行刑官",
+      "cost": 5,
+      "role": "物理射手",
+      "roleDesc": "每次攻击获得10法力值。",
+      "range": 5,
+      "traits": [
+        {
+          "name": "赏金猎人",
+          "icon": "custom-trait-DA_DravenUniqueTrait18",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "冷血追命",
+        "mana": "0/110",
+        "startMana": 0,
+        "maxMana": 110,
+        "description": "被动：对距离内的随机敌人进行攻击并对其施加一层流血效果，在12秒里持续造成共150/225/3000 物理伤害。每次攻击还有12% 几率造成50%/50%/900%额外物理伤害并转而施加2层流血效果。主动：朝流血层数最多的敌人投掷两把巨斧。对被命中的敌人造成100/150/400 物理伤害并消耗其流血效果，即刻造成剩余伤害。巨斧随后返回，对命中的敌人造成30/45/100 物理伤害。如果没有命中任何敌人，则返还50%的法力值花费。",
+        "breakdown": [
+          {
+            "label": "流血伤害：225",
+            "array": "[150/225/3000]"
+          },
+          {
+            "label": "往程巨斧伤害：150",
+            "array": "[100/150/400]"
+          },
+          {
+            "label": "返程巨斧伤害：45",
+            "array": "[30/45/100]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "流血伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 150.0,
+              "2": 225.0,
+              "3": 3000.0
+            }
+          },
+          {
+            "label": "往程巨斧伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 100.0,
+              "2": 150.0,
+              "3": 400.0
+            }
+          },
+          {
+            "label": "返程巨斧伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 30.0,
+              "2": 45.0,
+              "3": 100.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "900/1620/6916",
+        "attackDamage": "48/72/108",
+        "armor": 45,
+        "magicResist": 45,
+        "attackSpeed": "0.85",
+        "crit": 0.25,
+        "attackRange": 5,
+        "mana": 110,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        }
+      ],
+      "image": "918119",
+      "skillImage": "918119(1)"
+    },
+    {
+      "id": 918150,
+      "name": "纳尔",
+      "title": "迷失之牙",
+      "cost": 5,
+      "role": "物理专家",
+      "roleDesc": "专家以独特方式生成施法资源。",
+      "range": 2,
+      "traits": [
+        {
+          "name": "永恒之森",
+          "icon": "custom-trait-DA_18_Elderwood",
+          "type": null
+        },
+        {
+          "name": "约德尔人和朋友",
+          "icon": "custom-trait-DA_18_Sprykin",
+          "type": null
+        },
+        {
+          "name": "斗士",
+          "icon": "custom-trait-DA_18_Brawler",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "狂怒基因",
+        "mana": "0/70",
+        "startMana": 0,
+        "maxMana": 70,
+        "description": "被动：每秒获得5/5/50怒气并且每次攻击提供5/5/20怒气。主动：变形为【巨型纳尔】并跃至3格内最大的敌群。然后，对2/2/10格内的敌人们造成100/150/2000 物理伤害，将其护甲和魔抗降低15/20/250 ，并令其晕眩1/1/15秒。【巨型纳尔】获得400/600/15000生命值，并将其技能替换为“抓投”。抓投：抓住目标并将其投向相距最远的那个敌人，对主要目标造成380/570/9000 物理伤害，并对途经的敌人造成135/205/4500 物理伤害。如果目标是最后存活的1名敌人，则转而将其抛出战场。",
+        "breakdown": [
+          {
+            "label": "跃击伤害: 150",
+            "array": "[100/150/2000]"
+          },
+          {
+            "label": "双抗削减：20",
+            "array": "[15/20/250]"
+          },
+          {
+            "label": "变形生命值：600",
+            "array": "[400/600/15000]"
+          },
+          {
+            "label": "伤害：570",
+            "array": "[380/570/9000]"
+          },
+          {
+            "label": "次要伤害：205",
+            "array": "[135/205/4500]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "跃击伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 100.0,
+              "2": 150.0,
+              "3": 2000.0
+            }
+          },
+          {
+            "label": "双抗削减",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 15.0,
+              "2": 20.0,
+              "3": 250.0
+            }
+          },
+          {
+            "label": "变形生命值",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 400.0,
+              "2": 600.0,
+              "3": 15000.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 380.0,
+              "2": 570.0,
+              "3": 9000.0
+            }
+          },
+          {
+            "label": "次要伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 135.0,
+              "2": 205.0,
+              "3": 4500.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "900/1620/6916",
+        "attackDamage": "100/150/225",
+        "armor": 55,
+        "magicResist": 55,
+        "attackSpeed": "0.9",
+        "crit": 0.25,
+        "attackRange": 2,
+        "mana": 70,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "529",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "535",
+          "name": "无尽之刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "519",
+          "name": "锐利之刃"
+        },
+        {
+          "id": "31010",
+          "name": "海妖之怒"
+        },
+        {
+          "id": "617",
+          "name": "强袭者的链枷"
+        },
+        {
+          "id": "624",
+          "name": "红霸符"
+        },
+        {
+          "id": "539",
+          "name": "鬼索的狂暴之刃"
+        }
+      ],
+      "image": "918150",
+      "skillImage": "918150(1)"
+    },
+    {
+      "id": 918427,
+      "name": "艾翁",
+      "title": "翠神",
+      "cost": 5,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 3,
+      "traits": [
+        {
+          "name": "翠神",
+          "icon": "custom-trait-DA_18_Greenfather",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "种豆得瓜",
+        "mana": "50/80",
+        "startMana": 50,
+        "maxMana": 80,
+        "description": "被动：来自这个技能的护盾值可以通过技能暴击来产生暴击。主动：为2/2/10名友军提供185/350/3000 护盾和10%/15%/100%伤害增幅，持续6秒。随后对其邻格的敌人造成155/235/2000 魔法伤害。施放6次后，该技能还会为目标提供100%可叠加的攻击速度。",
+        "breakdown": [
+          {
+            "label": "护盾值：350",
+            "array": "[185/350/3000]"
+          },
+          {
+            "label": "伤害增幅：15%",
+            "array": "[10%/15%/100%]"
+          },
+          {
+            "label": "伤害：235",
+            "array": "[155/235/2000]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "护盾值",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 185.0,
+              "2": 350.0,
+              "3": 3000.0
+            }
+          },
+          {
+            "label": "伤害增幅",
+            "percent": true,
+            "starCount": 3,
+            "byStar": {
+              "1": 10.0,
+              "2": 15.0,
+              "3": 100.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 155.0,
+              "2": 235.0,
+              "3": 2000.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1000/1800/7240",
+        "attackDamage": "60/90/135",
+        "armor": 55,
+        "magicResist": 55,
+        "attackSpeed": "0.8",
+        "crit": 0.25,
+        "attackRange": 3,
+        "mana": 80,
+        "startMana": 50
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918427",
+      "skillImage": "918427(1)"
+    },
+    {
+      "id": 918955,
+      "name": "拉露恩",
+      "title": "拉露恩",
+      "cost": 5,
+      "role": "魔法术师",
+      "roleDesc": "每次攻击获得7法力值。 获得2法力回复。",
+      "range": 4,
+      "traits": [
+        {
+          "name": "月华神女",
+          "icon": "custom-trait-DA_AluneUniqueTrait18",
+          "type": null
+        },
+        {
+          "name": "月蚀骑士",
+          "icon": "custom-trait-DA_18_Lunar",
+          "type": null
+        },
+        {
+          "name": "法师",
+          "icon": "custom-trait-DA_18_Spellweaver",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "月之降临",
+        "mana": "0/35",
+        "startMana": 0,
+        "maxMana": 35,
+        "description": "向3个最近的敌人降下9枚月光碎片，每枚造成58/88/500 魔法伤害。满月时，月曜降临，造成由所有敌人分摊的2350/3600/7500 魔法伤害。",
+        "breakdown": [
+          {
+            "label": "伤害：88",
+            "array": "[58/88/500]"
+          },
+          {
+            "label": "满月伤害：3600",
+            "array": "[2350/3600/7500]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 58.0,
+              "2": 88.0,
+              "3": 500.0
+            }
+          },
+          {
+            "label": "满月伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 2350.0,
+              "2": 3600.0,
+              "3": 7500.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "900/1620/6916",
+        "attackDamage": "40/60/90",
+        "armor": 45,
+        "magicResist": 45,
+        "attackSpeed": "0.85",
+        "crit": 0.25,
+        "attackRange": 4,
+        "mana": 35,
+        "startMana": 0
+      },
+      "recommendedEquips": [
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        },
+        {
+          "id": "525",
+          "name": "朔极之矛"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "567",
+          "name": "蓝霸符"
+        },
+        {
+          "id": "621",
+          "name": "适应性头盔"
+        },
+        {
+          "id": "565",
+          "name": "珠光护手"
+        },
+        {
+          "id": "610",
+          "name": "海克斯科技枪刃"
+        },
+        {
+          "id": "561",
+          "name": "莫雷洛秘典"
+        },
+        {
+          "id": "553",
+          "name": "班克斯的魔法帽"
+        },
+        {
+          "id": "31008",
+          "name": "虚空之杖"
+        },
+        {
+          "id": "619",
+          "name": "纳什之牙"
+        }
+      ],
+      "image": "918955",
+      "skillImage": "918955(1)"
+    },
+    {
+      "id": 918998,
+      "name": "远古巨龙",
+      "title": "远古巨龙",
+      "cost": 5,
+      "role": "物理战士",
+      "roleDesc": "每次攻击获得10法力值。 获得5-30%攻击速度（基于阶段）。",
+      "range": 2,
+      "traits": [
+        {
+          "name": "顶级掠食者",
+          "icon": "custom-trait-DA_18_ApexPredator",
+          "type": null
+        },
+        {
+          "name": "峡谷野怪",
+          "icon": "custom-trait-DA_Riftbeast18",
+          "type": null
+        }
+      ],
+      "skill": {
+        "name": "绝伦火热",
+        "mana": "20/60",
+        "startMana": 20,
+        "maxMana": 60,
+        "description": "被动：普攻对目标邻格的敌人们造成75%/75%/100%伤害。主动：变成免疫伤害状态并飞到空中。在返程时，对所有敌人造成1.25/1.25/99秒晕眩，获得15%/15%/100%全能吸血，并对他们施加持续3/3/99秒的【引燃】。被【引燃】的敌人每秒受到2%/2%/20%最大生命值的物理伤害。将该技能替换为【烈焰吐息】并立刻施放它。烈焰吐息：对贯穿目标的一条敌人最多的直线喷吐火焰，从而造成305/465/7200 物理伤害，每经过1名敌人该伤害衰减20%(最低至20%)。对那些敌人施加持续3/3/99秒的【引燃】。远古巨龙霸符： 对低于12%生命值的敌人造成伤害时会将其处决。",
+        "breakdown": [
+          {
+            "label": "伤害：",
+            "array": "[20/30/200]"
+          },
+          {
+            "label": "伤害：465 = 435 + 30",
+            "array": "[285/435/7000]"
+          }
+        ],
+        "starScaling": [
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 20.0,
+              "2": 30.0,
+              "3": 200.0
+            }
+          },
+          {
+            "label": "伤害",
+            "percent": false,
+            "starCount": 3,
+            "byStar": {
+              "1": 285.0,
+              "2": 435.0,
+              "3": 7000.0
+            }
+          }
+        ]
+      },
+      "stats": {
+        "hp": "1800/3240/9832",
+        "attackDamage": "125/188/281",
+        "armor": 75,
+        "magicResist": 75,
+        "attackSpeed": "0.5",
+        "crit": 0.25,
+        "attackRange": 2,
+        "mana": 60,
+        "startMana": 20
+      },
+      "recommendedEquips": [
+        {
+          "id": "529",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        }
+      ],
+      "roleRecommendedEquips": [
+        {
+          "id": "529x",
+          "name": "汲取剑"
+        },
+        {
+          "id": "618",
+          "name": "斯特拉克的挑战护手"
+        },
+        {
+          "id": "613",
+          "name": "泰坦的坚决"
+        },
+        {
+          "id": "595",
+          "name": "水银"
+        },
+        {
+          "id": "521",
+          "name": "巨人捕手"
+        },
+        {
+          "id": "577",
+          "name": "正义之手"
+        },
+        {
+          "id": "615",
+          "name": "夜之锋刃"
+        },
+        {
+          "id": "551",
+          "name": "最后的轻语"
+        }
+      ],
+      "image": "918998",
+      "skillImage": "918998(1)"
+    }
+  ]
+}

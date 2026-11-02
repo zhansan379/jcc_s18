@@ -1,0 +1,2663 @@
+{
+  "烧起来.png": {
+    "hexId": "DA_18_InfernoTraitAugment",
+    "resource": "DA_18_InfernoTraitAugment.png",
+    "datajHexId": 10771,
+    "rarity": "白银",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的1费和2费【地狱火】弈子获得20%攻击力和法术强度。这些弈子中，在上场对战中造成最高伤害的弈子将会获得双倍此加成。获得1个【韦鲁斯】和1个【阿卡丽】。"
+  },
+  "C位的觉悟.png": {
+    "hexId": "DA_FindYourCenter",
+    "resource": "DA_FindYourCenter.png",
+    "datajHexId": 10048,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "在战斗开始时处在前排中心的那个己方弈子获得15%伤害增幅和25%最大生命值。"
+  },
+  "D个痛快！.png": {
+    "hexId": "DA_RollingForDays",
+    "resource": "DA_RollingForDays.png",
+    "datajHexId": 1134,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得10次免费商店刷新。"
+  },
+  "一一二三.png": {
+    "hexId": "DA_18_OnesTwosThree",
+    "resource": "DA_18_OnesTwosThree.png",
+    "datajHexId": 1479,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得2个1费弈子，1个2费弈子和1个3费弈子。"
+  },
+  "一，二，五！.png": {
+    "hexId": "DA_18_OneTwoFive",
+    "resource": "DA_18_OneTwoFive.png",
+    "datajHexId": 1650,
+    "rarity": "白银",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得1件随机基础装备、2金币和1个随机5费弈子。"
+  },
+  "不拘一格.png": {
+    "hexId": "DA_YoungAndWildAndFree",
+    "resource": "DA_YoungAndWildAndFree.png",
+    "datajHexId": 1712,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "选秀环节期间，你可自由移动。获得5金币。"
+  },
+  "人生切片.png": {
+    "hexId": "DA_SliceOfLife",
+    "resource": "DA_SliceOfLife.png",
+    "datajHexId": 10495,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "每个阶段两次，获得一个随机弈子。它的费用会在每个阶段提升。这个效果会在收到1个5费弈子后结束。"
+  },
+  "仙灵报恩.png": {
+    "hexId": "DA_18_WispRebatePlus",
+    "resource": "DA_18_WispRebatePlus.png",
+    "datajHexId": 10766,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "你每次购买【自然仙灵】，都会获得2金币。立刻获得4金币。"
+  },
+  "仙灵报恩+.png": {
+    "hexId": "DA_18_WispRebatePlusPlus",
+    "resource": "DA_18_WispRebatePlusPlus.png",
+    "datajHexId": 20766,
+    "rarity": "白银",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "你每次购买【自然仙灵】，都会获得2金币。立刻获得8金币。"
+  },
+  "休眠锻炉.png": {
+    "hexId": "DA_LatentForge",
+    "resource": "DA_LatentForge.png",
+    "datajHexId": 1093,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在8场玩家对战回合后，获得1个【神器锻造器】。"
+  },
+  "假人化.png": {
+    "hexId": "DA_Dummify",
+    "resource": "DA_Dummify.png",
+    "datajHexId": 10236,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "失去你棋盘上和备战席的所有弈子。获得1个【训练假人】，其生命值为失去的所有弈子总生命值的60%。【训练假人】每阶段获得1150生命值。获得1个随机【非坦克】2星2费弈子。"
+  },
+  "别再错过.png": {
+    "hexId": "DA_MissedConnections",
+    "resource": "DA_MissedConnections.png",
+    "datajHexId": 1625,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得每个1费弈子各1个。"
+  },
+  "博弈开启.png": {
+    "hexId": "DA_KickStart",
+    "resource": "DA_KickStart.png",
+    "datajHexId": 10586,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机2星2费弈子和1金币。"
+  },
+  "双子守护神.png": {
+    "hexId": "DA_TwinGuardians",
+    "resource": "DA_TwinGuardians.png",
+    "datajHexId": 10632,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "如果你的第一排有且只有2个弈子，为他们提供100生命值、35护甲和35魔抗。"
+  },
+  "变形重组器.png": {
+    "hexId": "DA_Recombobulator",
+    "resource": "DA_Recombobulator.png",
+    "datajHexId": 2127,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "你棋盘上的弈子们永久变形为1个比自身高1费的随机弈子(最高5费)。获得2个【装备拆卸器】和3次免费刷新。"
+  },
+  "后期专家.png": {
+    "hexId": "DA_LateGameSpecialist",
+    "resource": "DA_LateGameSpecialist.png",
+    "datajHexId": 1147,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "在你到达9级时，提供27金币。"
+  },
+  "团队建设.png": {
+    "hexId": "DA_TeamBuilding",
+    "resource": "DA_TeamBuilding.png",
+    "datajHexId": 1646,
+    "rarity": "白银",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "获得1个【次级英雄复制器】。在5个玩家对战回合后获得另一个。\n<tftitemrules>这个物品允许你能复制一个3费或以下的弈子。</tftitemrules>"
+  },
+  "基础装备自助餐.png": {
+    "hexId": "DA_ComponentBuffet",
+    "resource": "DA_ComponentBuffet.png",
+    "datajHexId": 1718,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "每当你将要获得1个基础装备时，转而获得1个【基础装备锻造器】。获得1个随机的基础装备。这个锻造器提供4个选项。"
+  },
+  "小小福袋.png": {
+    "hexId": "DA_SmallGrabBag",
+    "resource": "DA_SmallGrabBag.png",
+    "datajHexId": 10631,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "提供2件随机基础装备。"
+  },
+  "应急护甲 I.png": {
+    "hexId": "DA_MakeshiftArmorI",
+    "resource": "DA_MakeshiftArmorI.png",
+    "datajHexId": 1023,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "没有携带任何装备的弈子们获得30护甲和魔法抗性。"
+  },
+  "弈子配送.png": {
+    "hexId": "DA_ChampDelivery",
+    "resource": "DA_ChampDelivery.png",
+    "datajHexId": 10751,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得3个2费弈子。在6个回合后，再获得3个。"
+  },
+  "弈子配送+.png": {
+    "hexId": "DA_ChampDeliveryPlus",
+    "resource": "DA_ChampDeliveryPlus.png",
+    "datajHexId": 10752,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得3个3费弈子。在6个回合后，再获得3个。"
+  },
+  "弈子配送++.png": {
+    "hexId": "DA_ChampDeliveryPlusPlus",
+    "resource": "DA_ChampDeliveryPlusPlus.png",
+    "datajHexId": 10753,
+    "rarity": "白银",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得3个4费弈子。在6个回合后，再获得3个。"
+  },
+  "弑君突刺.png": {
+    "hexId": "DA_Kingslayer",
+    "resource": "DA_Kingslayer.png",
+    "datajHexId": 10196,
+    "rarity": "白银",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "在赢下玩家对战回合后，获得1金币。如果这位玩家之前的生命值多于你的生命值，则转而获得6金币。获得1金币。"
+  },
+  "强化之能量.png": {
+    "hexId": "DA_AugmentedPower",
+    "resource": "DA_AugmentedPower.png",
+    "datajHexId": 20224,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "你的下一个强化符文级别提高一级。"
+  },
+  "战时补给：反曲之弓.png": {
+    "hexId": "DA_BackupBows",
+    "resource": "DA_BackupBows.png",
+    "datajHexId": 10583,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【反曲之弓】。在你的弈子们攻击1000次后，额外获得2个。"
+  },
+  "战时补给：女神之泪.png": {
+    "hexId": "DA_FlowingTears",
+    "resource": "DA_FlowingTears.png",
+    "datajHexId": 10581,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【女神之泪】。在你的弈子们消耗7000法力值后，额外获得2个。"
+  },
+  "战时补给：巨人腰带.png": {
+    "hexId": "DA_ExtraBuckles",
+    "resource": "DA_ExtraBuckles.png",
+    "datajHexId": 10579,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【巨人腰带】。在你的弈子们承受75000伤害后，额外获得2个。"
+  },
+  "战时补给：暴风大剑.png": {
+    "hexId": "DA_CarveAPath",
+    "resource": "DA_CarveAPath.png",
+    "datajHexId": 10582,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【暴风大剑】。在你的弈子们造成65000物理伤害后，额外获得2个。"
+  },
+  "手气不错.png": {
+    "hexId": "DA_FeelingLucky",
+    "resource": "DA_FeelingLucky.png",
+    "datajHexId": 10614,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得12金币，然后抛掷1枚硬币。如果硬币正面朝上，额外获得4金币。"
+  },
+  "拥抱 I.png": {
+    "hexId": "DA_GroupHugI",
+    "resource": "DA_GroupHugI.png",
+    "datajHexId": 10615,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "战斗开始时：弈子为其他邻格弈子提供7护甲和魔法抗性。这个效果可以叠加。"
+  },
+  "拳击课程.png": {
+    "hexId": "DA_BoxingLessons",
+    "resource": "DA_BoxingLessons.png",
+    "datajHexId": 10573,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "战斗开始时，前排每有1个弈子，你的队伍获得30生命值。"
+  },
+  "星界赐福 I.png": {
+    "hexId": "DA_CelestialBlessingI",
+    "resource": "DA_CelestialBlessingI.png",
+    "datajHexId": 2022,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的队伍获得12%全能吸血。溢出的治疗量会转化为护盾，最高可达到200护盾值。"
+  },
+  "有用之材 I.png": {
+    "hexId": "DA_18_GoodForSomethingI",
+    "resource": "DA_18_GoodForSomethingI.png",
+    "datajHexId": 1789,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "未携带装备的弈子们在阵亡时有40%几率掉落1金币。"
+  },
+  "残留魔力.png": {
+    "hexId": "DA_18_ResidualMagic",
+    "resource": "DA_18_ResidualMagic.png",
+    "datajHexId": 10744,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "你的队伍获得60生命值。你每次购买【自然仙灵】，都会将该加成提升10。"
+  },
+  "残留魔力+.png": {
+    "hexId": "DA_18_ResidualMagicPlus",
+    "resource": "DA_18_ResidualMagicPlus.png",
+    "datajHexId": 20744,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "你的队伍获得75生命值。你每次购买【自然仙灵】，都会将该加成提升10。"
+  },
+  "残留魔力++.png": {
+    "hexId": "DA_18_ResidualMagicPlusPlus",
+    "resource": "DA_18_ResidualMagicPlusPlus.png",
+    "datajHexId": 30744,
+    "rarity": "白银",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "你的队伍获得90生命值。你每次购买【自然仙灵】，都会将该加成提升10。"
+  },
+  "治疗法球 I.png": {
+    "hexId": "DA_HealingOrbsI",
+    "resource": "DA_HealingOrbsI.png",
+    "datajHexId": 1634,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "当1名敌人阵亡时，1名附近的友军治疗250生命值。"
+  },
+  "游神的盟友.png": {
+    "hexId": "DA_18_CaretakersAlly",
+    "resource": "DA_18_CaretakersAlly.png",
+    "datajHexId": 1478,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "立刻获得1个随机2费弈子。在你每次升级时，再次获得1个相同弈子。"
+  },
+  "潘朵拉的装备 I.png": {
+    "hexId": "DA_PandorasItemsI",
+    "resource": "DA_PandorasItemsI.png",
+    "datajHexId": 1007,
+    "rarity": "白银",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "回合开始时：你备战席上的装备会随机变化。\n获得1件随机基础装备。"
+  },
+  "潘朵拉的备战席.png": {
+    "hexId": "DA_PandorasBench",
+    "resource": "DA_PandorasBench.png",
+    "datajHexId": 1148,
+    "rarity": "白银",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "在每个回合开始时，处在备战席最右侧3个栏位的弈子变为随机的同费用弈子。获得1金币。"
+  },
+  "灌铅骰子.png": {
+    "hexId": "DA_LoadedDice",
+    "resource": "DA_LoadedDice.png",
+    "datajHexId": 10746,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "你在投掷骰子或抛掷硬币时总能更幸运。\n投掷1个骰子，获得与点数相等的金币。然后抛掷1枚硬币，如果硬币正面朝上，获得1金币。"
+  },
+  "锻造挚友.png": {
+    "hexId": "DA_ForgeAFriend",
+    "resource": "DA_ForgeAFriend.png",
+    "datajHexId": 10571,
+    "rarity": "白银",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "你购买的下个1费弈子变为3星。获得5金币。"
+  },
+  "玻璃大炮 I.png": {
+    "hexId": "DA_GlassCannon_Silver",
+    "resource": "DA_GlassCannon_Silver.png",
+    "datajHexId": 10253,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "在后排开始战斗的弈子，在战斗开始时的生命值为80%，但会获得16%伤害增幅。"
+  },
+  "电火花 I.png": {
+    "hexId": "DA_ElectrochargeI",
+    "resource": "DA_ElectrochargeI.png",
+    "datajHexId": 10708,
+    "rarity": "白银",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "友军每受到4次攻击，会对附近的敌人造成25-80的(基于当前阶段)魔法伤害(1秒冷却)。"
+  },
+  "白银命运.png": {
+    "hexId": "DA_SilverDestiny",
+    "resource": "DA_SilverDestiny.png",
+    "datajHexId": 10494,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机白银阶强化符文和2金币。"
+  },
+  "白银命运+.png": {
+    "hexId": "DA_SilverDestinyPlus",
+    "resource": "DA_SilverDestinyPlus.png",
+    "datajHexId": 20494,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得1个随机白银阶强化符文和4金币。  "
+  },
+  "白银命运++.png": {
+    "hexId": "DA_SilverDestinyPlusPlus",
+    "resource": "DA_SilverDestinyPlusPlus.png",
+    "datajHexId": 30494,
+    "rarity": "白银",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得1个随机白银阶强化符文和7金币。  "
+  },
+  "窃贼帮派.png": {
+    "hexId": "DA_BandOfThieves",
+    "resource": "DA_BandOfThieves.png",
+    "datajHexId": 1068,
+    "rarity": "白银",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1个【窃贼手套】。"
+  },
+  "精心打造.png": {
+    "hexId": "DA_CraftedCrafting",
+    "resource": "DA_CraftedCrafting.png",
+    "datajHexId": 10214,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "每当你打造一件成装时，获得2次刷新。"
+  },
+  "纵深 I.png": {
+    "hexId": "DA_VerticalityI",
+    "resource": "DA_VerticalityI.png",
+    "datajHexId": 10750,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "每有1名拥有相同羁绊的友军，这些弈子们就会获得1.5%物理加成、1.5%法术加成、1.5护甲和1.5魔法抗性。"
+  },
+  "耐心是一种美德.png": {
+    "hexId": "DA_PatienceIsAVirtue",
+    "resource": "DA_PatienceIsAVirtue.png",
+    "datajHexId": 10011,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "立刻获得5次刷新。每回合，如果你在上一回合未购买任何弈子，则会获得1次免费刷新。"
+  },
+  "联合作战.png": {
+    "hexId": "DA_StandUnited",
+    "resource": "DA_StandUnited.png",
+    "datajHexId": 1019,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "在你的队伍之中，每有一个已激活的非唯一羁绊，你的弈子就会获得1.5%物理加成和1.5%法术加成。"
+  },
+  "腐蚀.png": {
+    "hexId": "DA_Corrosion",
+    "resource": "DA_Corrosion.png",
+    "datajHexId": 10252,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "前两排的敌人每4秒损失2护甲和魔抗。"
+  },
+  "节外生枝.png": {
+    "hexId": "DA_18_BranchingOut",
+    "resource": "DA_18_BranchingOut.png",
+    "datajHexId": 1158,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机纹章。"
+  },
+  "节外生枝+.png": {
+    "hexId": "DA_18_BranchingOutPlus",
+    "resource": "DA_18_BranchingOutPlus.png",
+    "datajHexId": 4158,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得1个随机纹章和1个【装备重铸器】。"
+  },
+  "装备百宝袋 I.png": {
+    "hexId": "DA_ItemGrabBag",
+    "resource": "DA_ItemGrabBag.png",
+    "datajHexId": 1006,
+    "rarity": "白银",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "提供1件随机成装。"
+  },
+  "认知税.png": {
+    "hexId": "DA_CognitiveTax",
+    "resource": "DA_CognitiveTax.png",
+    "datajHexId": 10584,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得8金币和1经验值。"
+  },
+  "认知税+.png": {
+    "hexId": "DA_CognitiveTaxPlus",
+    "resource": "DA_CognitiveTaxPlus.png",
+    "datajHexId": 10585,
+    "rarity": "白银",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得12金币和3经验值。"
+  },
+  "资本利得 I.png": {
+    "hexId": "DA_CapitalGainsI",
+    "resource": "DA_CapitalGainsI.png",
+    "datajHexId": 10755,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "储存相当于你获得利息的金币。在3-3回合，获得相当于你100%已储存金币的金币。立刻获得1金币。"
+  },
+  "轻量魔法投掷.png": {
+    "hexId": "DA_SlightlyMagicRoll",
+    "resource": "DA_SlightlyMagicRoll.png",
+    "datajHexId": 10559,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "投掷一个骰子。基于投出的点数获得奖励。"
+  },
+  "进攻宣告.png": {
+    "hexId": "DA_CalledShot",
+    "resource": "DA_CalledShot.png",
+    "datajHexId": 10004,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "将你的连胜数设为+4。获得4金币。"
+  },
+  "远征.png": {
+    "hexId": "DA_Expedition",
+    "resource": "DA_Expedition.png",
+    "datajHexId": 10707,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在每回合开始时，失去备战席最右侧栏位的弈子。当你通过这种方式失去的弈子总价值达到33金币时，获得强力奖励。立刻获得1个3费弈子。 "
+  },
+  "连败连胜才能连鸡.png": {
+    "hexId": "DA_QuickStreaks",
+    "resource": "DA_QuickStreaks.png",
+    "datajHexId": 10756,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "你现在赢得或输掉对战后，增加的连胜或连败数翻倍。获得2金币。"
+  },
+  "部分飞升.png": {
+    "hexId": "DA_PartialAscension",
+    "resource": "DA_PartialAscension.png",
+    "datajHexId": 1021,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "在战斗开始12秒后，你的弈子们会获得20%伤害增幅。"
+  },
+  "银汤匙.png": {
+    "hexId": "DA_SilverSpoon",
+    "resource": "DA_SilverSpoon.png",
+    "datajHexId": 1714,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得10经验值。"
+  },
+  "集中火力.png": {
+    "hexId": "DA_FocusedFire",
+    "resource": "DA_FocusedFire.png",
+    "datajHexId": null,
+    "rarity": "白银",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的队伍获得10%物理加成。每5秒，他们额外获得5%。"
+  },
+  "高塔.png": {
+    "hexId": "DA_TheTower",
+    "resource": "DA_TheTower.png",
+    "datajHexId": 10587,
+    "rarity": "白银",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1个巨大的【训练假人】。每4秒，电击距离最近的3名敌人，造成5%最大生命值真实伤害。"
+  },
+  "高瞻远瞩.png": {
+    "hexId": "DA_FutureFocused",
+    "resource": "DA_FutureFocused.png",
+    "datajHexId": 10754,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "你失去20玩家生命值，但在5个玩家对战回合后，获得3个4费弈子和5金币。"
+  },
+  "黑铁资产.png": {
+    "hexId": "DA_IronAssets",
+    "resource": "DA_IronAssets.png",
+    "datajHexId": 1701,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【基础装备锻造器】和3金币。"
+  },
+  "太阳的抉择.png": {
+    "hexId": "DA_18_SolarTraitAugment",
+    "resource": "DA_18_SolarTraitAugment.png",
+    "datajHexId": 20777,
+    "rarity": "白银",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【蕾欧娜】、1个【凯尔】和1个【瑟庄妮】。【蕾欧娜】每回合获得70永久最大生命值，每登场1名不同的3星弈子，该加成还会提升10。"
+  },
+  "世纪和解.png": {
+    "hexId": "DA_18_RivalsAugment",
+    "resource": "DA_18_RivalsAugment.png",
+    "datajHexId": 20762,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "你可以同时登场【雷恩加尔】和【卡兹克】且不触发【宿敌】羁绊的负面效果。他们会在彼此施放技能时获得加成。获得1个【雷恩加尔】和1个【卡兹克】。"
+  },
+  "兽性本能.png": {
+    "hexId": "DA_18_PrimalAugment_Nidalee",
+    "resource": "DA_18_PrimalAugment_Nidalee.png",
+    "datajHexId": 30764,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "【野兽之灵】额外提供一种【兽灵赐福】。立刻获得1个【蔚】，在3个回合后，获得1个【奈德丽】。"
+  },
+  "兽性本能_2.png": {
+    "hexId": "DA_18_PrimalAugment_Sivir",
+    "resource": "DA_18_PrimalAugment_Sivir.png",
+    "datajHexId": 20764,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "【野兽之灵】额外提供一种【兽灵赐福】。立刻获得1个【蔚】，在3个回合后，获得1个【希维尔】。"
+  },
+  "兽性本能+.png": {
+    "hexId": "DA_18_PrimalAugmentPlus_Nidalee",
+    "resource": "DA_18_PrimalAugmentPlus_Nidalee.png",
+    "datajHexId": 40764,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "【野兽之灵】额外提供一种【兽灵赐福】。获得1个【蔚】和1个【奈德丽】。"
+  },
+  "兽性本能+_2.png": {
+    "hexId": "DA_18_PrimalAugmentPlus_Sivir",
+    "resource": "DA_18_PrimalAugmentPlus_Sivir.png",
+    "datajHexId": 40764,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "【野兽之灵】额外提供一种【兽灵赐福】。获得1个【蔚】和1个【希维尔】。"
+  },
+  "女巫使魔.png": {
+    "hexId": "DA_18_CovenTraitAugment",
+    "resource": "DA_18_CovenTraitAugment.png",
+    "datajHexId": 20769,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "当你选择继续收集【魔女精粹】而非兑换时，治疗2玩家生命值。获得1个【卡蜜尔】、1个【伊莉丝】和1个【凯特琳】。"
+  },
+  "巨化术.png": {
+    "hexId": "DA_18_FaeTraitAugment",
+    "resource": "DA_18_FaeTraitAugment.png",
+    "datajHexId": 20763,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "【花仙子】弈子的【皮克斯仙灵】体型变大，并提供50%额外物理加成和法术加成。【花仙子】弈子们立刻获得18%物理加成和法术加成。获得1个【霞】和1个【洛】。"
+  },
+  "日月同辉.png": {
+    "hexId": "DA_18_LunarTraitAugment",
+    "resource": "DA_18_LunarTraitAugment.png",
+    "datajHexId": 20780,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "每登场1个不同的【日蚀骑士】弈子，你的【月蚀骑士】弈子们获得100生命值和8%伤害增幅。获得1个【蕾欧娜】、1个【凯尔】和1个【黛安娜】。"
+  },
+  "日月同辉+.png": {
+    "hexId": "DA_18_LunarTraitAugmentPlus",
+    "resource": "DA_18_LunarTraitAugmentPlus.png",
+    "datajHexId": 30780,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "每登场1个不同的【日蚀骑士】弈子，你的【月蚀骑士】弈子们获得100生命值和8%伤害增幅。获得1个【蕾欧娜】、1个【凯尔】和1个【厄斐琉斯】。"
+  },
+  "欧米茄之怪.png": {
+    "hexId": "DA_18_RiftbeastTraitAugment",
+    "resource": "DA_18_RiftbeastTraitAugment.png",
+    "datajHexId": 20767,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你现在可以选择第二个被【阿尔法印记】标记的【峡谷野兽】。【阿尔法印记】【峡谷野怪】获得8%最大生命值和8%攻击速度。获得1个【峡谷迅捷蟹】、1个【绯红树怪】和1个【苍蓝哨戒】。"
+  },
+  "毛茸茸小朋友.png": {
+    "hexId": "DA_18_SprykinAugment",
+    "resource": "DA_18_SprykinAugment.png",
+    "datajHexId": 20770,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "当【约德尔人和他们的毛茸茸大朋友】羁绊激活时，获得第二个【毛茸茸大朋友】召唤物，但仅有原来的45%强度。获得1个【提莫】、1个【维迦】和1个【可酷伯】。"
+  },
+  "绽灵花的约定.png": {
+    "hexId": "DA_18_BlossomTraitAugment",
+    "resource": "DA_18_BlossomTraitAugment.png",
+    "datajHexId": 10777,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "当你购买1个【自然仙灵】时，获得1个随机【灵魂莲华】弈子(基于【自然仙灵】的费用)。获得1个【芸阿娜】、1个【约里克】和1个【卡尔玛】。"
+  },
+  "自然庇护所.png": {
+    "hexId": "DA_18_ElderwoodTraitAugment",
+    "resource": "DA_18_ElderwoodTraitAugment.png",
+    "datajHexId": 20768,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "战斗开始时：位于【永恒之森】植物邻格的弈子们获得15%攻击速度，并且每2秒治疗其2%最大生命值。获得1个【阿利斯塔】、1个【奥恩】和1个【霞】。"
+  },
+  "致命丽花.png": {
+    "hexId": "DA_18_FloraFatalisAugment",
+    "resource": "DA_18_FloraFatalisAugment.png",
+    "datajHexId": 20760,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "获得1个【绝命花妖纹章】。携带该纹章的弈子通过【绝命花妖】获得70%额外加成。获得3金币。"
+  },
+  "装备提炼.png": {
+    "hexId": "DA_BlackthornTraitAugment",
+    "resource": "DA_BlackthornTraitAugment.png",
+    "datajHexId": 20761,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "你接下来3次在【黑荆棘格】内献祭1个弈子时，1件该弈子身上的随机基础装备会被复制给你。获得1个【阿兹尔】和1个【雷克塞】。"
+  },
+  "黑暗仪式.png": {
+    "hexId": "DA_18_CovenTraitAugment_LootToAP",
+    "resource": "DA_18_CovenTraitAugment_LootToAP.png",
+    "datajHexId": 20778,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "将【魔女精粹】兑换为奖励时，不再提供战利品，而是为【魔女】弈子们提供法术加成。获得1个【卡蜜尔】、1个【伊莉丝】和1个【凯特琳】。"
+  },
+  "8级D干的传说.png": {
+    "hexId": "DA_EpicRolldown",
+    "resource": "DA_EpicRolldown.png",
+    "datajHexId": 20626,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "在你到达8级时，获得20次商店刷新。\n<tftitemrules>2023【符文大陆传说】全球总决赛</tftitemrules>"
+  },
+  "DD街区.png": {
+    "hexId": "DA_TradeSector",
+    "resource": "DA_TradeSector.png",
+    "datajHexId": 2069,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "每回合获得1次商店刷新。获得2金币。"
+  },
+  "DD街区+.png": {
+    "hexId": "DA_TradeSectorPlus",
+    "resource": "DA_TradeSectorPlus.png",
+    "datajHexId": 3069,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "每回合获得1次商店刷新。获得8金币。"
+  },
+  "一波带走俩.png": {
+    "hexId": "DA_SpeedyDoubleKill",
+    "resource": "DA_SpeedyDoubleKill.png",
+    "datajHexId": 20675,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【鬼索的狂暴之刃】。当2名玩家淘汰后，获得40金币。\n<tftitemrules>2021【命运之轮】全球总决赛</tftitemrules>"
+  },
+  "三幻神.png": {
+    "hexId": "DA_LegionOfThrees",
+    "resource": "DA_LegionOfThrees.png",
+    "datajHexId": 20628,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机纹章。你的3费弈子们和携带着纹章的友军获得150生命值和12%攻击速度。\n<tftitemrules>2021【光明与黑暗】全球总决赛</tftitemrules>"
+  },
+  "三相庇护.png": {
+    "hexId": "DA_InfinityProtection",
+    "resource": "DA_InfinityProtection.png",
+    "datajHexId": 20612,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "立刻获得3金币。在阶段3-7时，获得1件【三相之力】。【三相之力】为同一排的己方弈子们提供一个12%生命值护盾。\n<tftitemrules>2023【怪兽来袭】全球总决赛</tftitemrules>"
+  },
+  "不侦察，不变阵.png": {
+    "hexId": "DA_NoScoutNoPivot",
+    "resource": "DA_NoScoutNoPivot.png",
+    "datajHexId": 20216,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "参与玩家对战回合后，弈子无法再回到备战席或出售。在玩家对战回合后，你的队伍获得1%生命值、1%物理加成和法术加成。"
+  },
+  "专属定制.png": {
+    "hexId": "DA_ExclusiveCustomization",
+    "resource": "DA_ExclusiveCustomization.png",
+    "datajHexId": 20141,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1个【幸运装备宝箱】和1个【装备拆卸器】和7金币。"
+  },
+  "便携锻炉.png": {
+    "hexId": "DA_PortableForge",
+    "resource": "DA_PortableForge.png",
+    "datajHexId": 3093,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "在4件神器中选择1件。神器是可以提供独特效果的强力装备。"
+  },
+  "值得等待.png": {
+    "hexId": "DA_WorththeWait",
+    "resource": "DA_WorththeWait.png",
+    "datajHexId": 20021,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机1费弈子。每回合开始时都会获得该弈子的又一个1星复制体，持续至本局游戏结束。 "
+  },
+  "挑个好伙计！.png": {
+    "hexId": "DA_ConstructACompanion",
+    "resource": "DA_ConstructACompanion.png",
+    "datajHexId": 10571,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "你购买的下个1费弈子变为3星。获得2金币。"
+  },
+  "利落保镖.png": {
+    "hexId": "DA_BodyguardTraining",
+    "resource": "DA_BodyguardTraining.png",
+    "datajHexId": 20616,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "己方弈子们获得15护甲和魔抗，该加成会提升2x玩家等级。\n<tftitemrules>2022【双城之战】全球总决赛</tftitemrules>"
+  },
+  "前线地基.png": {
+    "hexId": "DA_FrontlineFoundation",
+    "resource": "DA_FrontlineFoundation.png",
+    "datajHexId": 30706,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个2星1费坦克弈子，以及一个与其职业相匹配的纹章。"
+  },
+  "剑之工匠.png": {
+    "hexId": "DA_Swordsmith",
+    "resource": "DA_Swordsmith.png",
+    "datajHexId": 20630,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得2件由【暴风大剑】合成的随机成装。"
+  },
+  "单身板甲.png": {
+    "hexId": "DA_SoloPlate",
+    "resource": "DA_SoloPlate.png",
+    "datajHexId": 20593,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "获得1个【石像鬼石板甲】。如果己方弈子在战斗开始时是所在排的唯一弈子并携带了【石像鬼石板甲】，该弈子获得17%最大生命值。"
+  },
+  "厨神阿福.png": {
+    "hexId": "DA_URF",
+    "resource": "DA_URF.png",
+    "datajHexId": 30668,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1个【金铲铲】。携带了【金铲铲】或【金锅锅】系装备的弈子们获得20%攻击速度和3法力回复。"
+  },
+  "双城赢家.png": {
+    "hexId": "DA_ArcaneViktory",
+    "resource": "DA_ArcaneViktory.png",
+    "datajHexId": 20619,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "在战斗开始8秒后，晕眩所有敌方弈子1.5秒。在战斗18秒后，重复该效果。\n<tftitemrules>2024云顶之弈澳门公开赛</tftitemrules>"
+  },
+  "双排.png": {
+    "hexId": "DA_18_DuoQueue",
+    "resource": "DA_18_DuoQueue.png",
+    "datajHexId": 20041,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得2个随机5费弈子和2件相同的随机基础装备。"
+  },
+  "反响.png": {
+    "hexId": "DA_Replication",
+    "resource": "DA_Replication.png",
+    "datajHexId": 20015,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "在3件基础装备中选择1件。在接下来的2回合，获得1件该基础装备。"
+  },
+  "发条增速器.png": {
+    "hexId": "DA_ClockworkAccelerator",
+    "resource": "DA_ClockworkAccelerator.png",
+    "datajHexId": 20031,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的队伍在战斗中每过3秒就会获得10%攻击速度。"
+  },
+  "后排蓝图.png": {
+    "hexId": "DA_BacklineBlueprint",
+    "resource": "DA_BacklineBlueprint.png",
+    "datajHexId": 30705,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得一名3费非坦克弈子，以及一个与其最后列出羁绊相匹配的纹章。"
+  },
+  "后期收益.png": {
+    "hexId": "DA_LateGameScaling",
+    "resource": "DA_LateGameScaling.png",
+    "datajHexId": 20661,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "每个玩家战斗回合开始时，获得2经验值。你的5费弈子获得12%生命值和12%攻击速度。\n<tftitemrules>2025【赛博之城】全球总决赛</tftitemrules>"
+  },
+  "四之力.png": {
+    "hexId": "DA_18_FOURcing",
+    "resource": "DA_18_FOURcing.png",
+    "datajHexId": 20742,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得一个随机4费弈子。该弈子每携带1件装备，你的队伍获得100生命值。"
+  },
+  "大百宝袋.png": {
+    "hexId": "DA_18_BigGrabBag",
+    "resource": "DA_18_BigGrabBag.png",
+    "datajHexId": 2184,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得3件随机基础装备、2金币和1个【装备重铸器】"
+  },
+  "好事成双.png": {
+    "hexId": "DA_DoubleTrouble",
+    "resource": "DA_DoubleTrouble.png",
+    "datajHexId": 2133,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "如果你恰好登场了相同英雄的2个弈子，那么他们都会获得25%物理加成和法术加成、25护甲和魔法抗性。当你将弈子升至3星时，获得该英雄的1个2星弈子。<br><tftitemrules>当前版本已禁用</tftitemrules>"
+  },
+  "存心失利.png": {
+    "hexId": "DA_CalculatedLoss",
+    "resource": "DA_CalculatedLoss.png",
+    "datajHexId": 1002,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在你输掉战斗之后，获得2金币和1次免费的商店刷新。"
+  },
+  "宝宝学院.png": {
+    "hexId": "DA_EarlyLearnings",
+    "resource": "DA_EarlyLearnings.png",
+    "datajHexId": 20625,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "你的队伍获得3%物理加成和法术加成。在每场玩家对战回合结束后，该加成提升1%。1费弈子们获得双倍该加成。"
+  },
+  "应急护甲 II.png": {
+    "hexId": "DA_MakeshiftArmorII",
+    "resource": "DA_MakeshiftArmorII.png",
+    "datajHexId": 2023,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "没有携带任何装备的弈子们获得50护甲和魔法抗性。"
+  },
+  "应急护盾.png": {
+    "hexId": "DA_PlotArmor",
+    "resource": "DA_PlotArmor.png",
+    "datajHexId": 20489,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的队伍获得8护甲和魔法抗性。在生命值降至50%以下时，这个加成提升至40，持续至战斗结束。"
+  },
+  "征战之路.png": {
+    "hexId": "DA_Warpath",
+    "resource": "DA_Warpath.png",
+    "datajHexId": 20208,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个2星2费弈子。在造成80玩家伤害后，获得1个装有高费弈子们和装备的宝箱。"
+  },
+  "心之钢.png": {
+    "hexId": "DA_HeartOfSteel",
+    "resource": "DA_HeartOfSteel.png",
+    "datajHexId": 20578,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【坚定之心】。【坚定之心】的携带者每存活10秒，【坚定之心】就会额外获得18永久最大生命值。<br><tftitemrules>该强化云顶当前版本暂时禁用。</tftitemrules>"
+  },
+  "恶意货币化.png": {
+    "hexId": "DA_MaliciousMonetization",
+    "resource": "DA_MaliciousMonetization.png",
+    "datajHexId": 20258,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得6金币。接下来2个回合，敌方弈子会在阵亡时掉落2金币。"
+  },
+  "意外之礼.png": {
+    "hexId": "DA_BonusGift",
+    "resource": "DA_BonusGift.png",
+    "datajHexId": 20775,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "每当你开启1个战利品法球时，你有25%几率获得1个灰色战利品法球。获得1个灰色战利品法球。"
+  },
+  "意外之礼+.png": {
+    "hexId": "DA_BonusGiftPlus",
+    "resource": "DA_BonusGiftPlus.png",
+    "datajHexId": 30775,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "每当你开启1个战利品法球时，你有25%几率获得1个灰色战利品法球。获得2个灰色战利品法球。"
+  },
+  "成吨的属性.png": {
+    "hexId": "DA_TonsOfStatsI",
+    "resource": "DA_TonsOfStatsI.png",
+    "datajHexId": 2705,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的队伍获得44生命值、4%物理加成、4%法术加成、4护甲、4魔法抗性、4%攻击速度和4法力值。 "
+  },
+  "打捞桶.png": {
+    "hexId": "DA_SalvageBin",
+    "resource": "DA_SalvageBin.png",
+    "datajHexId": 1008,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "立刻获得1件随机成装，并在8个玩家对战回合之后提供1个基础装备。出售弈子会将其携带的成装拆分成基础装备(冠冕系装备和纹章除外)。"
+  },
+  "打捞桶+.png": {
+    "hexId": "DA_SalvageBinPlus",
+    "resource": "DA_SalvageBinPlus.png",
+    "datajHexId": 2008,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "立刻获得1件随机成装，并在4个玩家对战回合后提供1个基础装备。出售弈子会将其携带的成装拆分成基础装备(冠冕系装备和纹章除外)。"
+  },
+  "扩展包.png": {
+    "hexId": "DA_BoosterPack",
+    "resource": "DA_BoosterPack.png",
+    "datajHexId": 10731,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得价值12金币的随机弈子。（保证至少一个3费弈子！）"
+  },
+  "扩展包+.png": {
+    "hexId": "DA_BoosterPackPlus",
+    "resource": "DA_BoosterPackPlus.png",
+    "datajHexId": 20731,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得价值18金币的随机弈子。（保证至少一个4费弈子！）"
+  },
+  "扩展包++.png": {
+    "hexId": "DA_BoosterPackPlusPlus",
+    "resource": "DA_BoosterPackPlusPlus.png",
+    "datajHexId": 30731,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得价值26金币的随机弈子。（保证至少一个5费弈子！）"
+  },
+  "承诺之护.png": {
+    "hexId": "DA_PromisedProtection",
+    "resource": "DA_PromisedProtection.png",
+    "datajHexId": 20577,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "获得1个【圣盾使的誓约】。【圣盾使的誓约】为其携带者提供自所有来源的20%额外法力值和175最大生命值。 "
+  },
+  "投资策略 I.png": {
+    "hexId": "DA_InvestmentStrategyI",
+    "resource": "DA_InvestmentStrategyI.png",
+    "datajHexId": 20217,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "你每获得1利息，你的弈子们获得9永久最大生命值。立刻获得3金币。"
+  },
+  "拥抱 II.png": {
+    "hexId": "DA_GroupHugII",
+    "resource": "DA_GroupHugII.png",
+    "datajHexId": 10616,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "战斗开始时：弈子为其他邻格弈子提供10护甲和魔法抗性。这个效果可以叠加。"
+  },
+  "挑战者的优雅.png": {
+    "hexId": "DA_ChallengersGrace",
+    "resource": "DA_ChallengersGrace.png",
+    "datajHexId": 20649,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "在战斗开始时，友军会获得30%攻击速度，持续4秒。在参与击杀后，友军向他们的下一个目标冲刺，并再次获得此加成。"
+  },
+  "挖角.png": {
+    "hexId": "DA_Pilfer",
+    "resource": "DA_Pilfer.png",
+    "datajHexId": 20013,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "每回合，获得你在上场对战中首先击杀的那个弈子的1个1星复制体。当你通过这种方式获得的弈子总价值达到21金币时，获得1个【窃贼手套】。"
+  },
+  "救赎盔甲.png": {
+    "hexId": "DA_SpiritOfRedemption",
+    "resource": "DA_SpiritOfRedemption.png",
+    "datajHexId": 20575,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "获得1个【振奋盔甲】。每5秒，【振奋盔甲】会为1格内的友军治疗9%已损失生命值。"
+  },
+  "新纪元.png": {
+    "hexId": "DA_Epoch",
+    "resource": "DA_Epoch.png",
+    "datajHexId": 3896,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "立刻以及每阶段开始时，获得4经验值和2次免费刷新。"
+  },
+  "新纪元+.png": {
+    "hexId": "DA_EpochPlus",
+    "resource": "DA_EpochPlus.png",
+    "datajHexId": 3896,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "立刻以及每阶段开始时，获得8经验值和2次免费刷新。"
+  },
+  "时间跳跃.png": {
+    "hexId": "DA_TimeSkip",
+    "resource": "DA_TimeSkip.png",
+    "datajHexId": 20498,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在接下来的3个回合中禁用你的商店。然后获得32经验值。"
+  },
+  "星界赐福 II.png": {
+    "hexId": "DA_CelestialBlessingII",
+    "resource": "DA_CelestialBlessingII.png",
+    "datajHexId": 2022,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的队伍获得18%全能吸血。溢出的治疗量会转化为护盾，最高可达到400护盾值。"
+  },
+  "是我，宝贝！.png": {
+    "hexId": "DA_ItsMeBaby",
+    "resource": "DA_ItsMeBaby.png",
+    "datajHexId": 20783,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "棋盘的右下角出现1个【冠军格】。在其中的弈子获得15%伤害增幅和15%攻击速度，并且其每参与5次击杀就会掉落1金币。\n<tftitemrules>2026【英雄联盟传奇】全球总决赛</tftitemrules>"
+  },
+  "杖之工匠.png": {
+    "hexId": "DA_Staffsmith",
+    "resource": "DA_Staffsmith.png",
+    "datajHexId": 20629,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得2个由【无用大棒】合成的随机成装。"
+  },
+  "治疗法球 II.png": {
+    "hexId": "DA_HealingOrbsII",
+    "resource": "DA_HealingOrbsII.png",
+    "datajHexId": 2634,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "当1名敌人阵亡时，1名附近的友军治疗575生命值。"
+  },
+  "泪流成河.png": {
+    "hexId": "DA_CryMeARiver",
+    "resource": "DA_CryMeARiver.png",
+    "datajHexId": 20471,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "获得1个【女神之泪】。你的队伍获得1法力回复。对战开始12秒后，该数值提升至3。"
+  },
+  "清晰头脑.png": {
+    "hexId": "DA_ClearMind",
+    "resource": "DA_ClearMind.png",
+    "datajHexId": 1011,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "如果在一个玩家对战回合结束时你的备战席没有任何弈子，则获得3经验。"
+  },
+  "游神的眷顾.png": {
+    "hexId": "DA_CaretakersFavor",
+    "resource": "DA_CaretakersFavor.png",
+    "datajHexId": 2478,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在你到达5、6、7和8级时，获得1个【基础装备锻造器】。\n<tftitemrules>【基础装备锻造器】提供4个选项。</tftitemrules>"
+  },
+  "源计划上行链路.png": {
+    "hexId": "DA_CyberneticUplink_Gold",
+    "resource": "DA_CyberneticUplink_Gold.png",
+    "datajHexId": 2110,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的弈子们只要携带了1件装备，就会获得100生命值和2法力回复。获得1个【女神之泪】。"
+  },
+  "源计划植入.png": {
+    "hexId": "DA_CyberneticImplants_Gold",
+    "resource": "DA_CyberneticImplants_Gold.png",
+    "datajHexId": 2018,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的弈子们只要携带了1件装备，就会获得100生命值和15%物理加成。获得1个【暴风大剑】。"
+  },
+  "潘朵拉的装备 II.png": {
+    "hexId": "DA_PandorasItemsII",
+    "resource": "DA_PandorasItemsII.png",
+    "datajHexId": 2007,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "回合开始时：你备战席上的装备会随机变化。\n获得2件随机基础装备和4金币。"
+  },
+  "炽天使之拥.png": {
+    "hexId": "DA_SeraphimsStaff",
+    "resource": "DA_SeraphimsStaff.png",
+    "datajHexId": 20586,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "获得1个【大天使之杖】。如果【大天使之杖】的携带者拥有110%或以上的法术加成，那么【大天使之杖】还会为其额外提供2法力回复。"
+  },
+  "爆炸式增长.png": {
+    "hexId": "DA_ExplosiveGrowth",
+    "resource": "DA_ExplosiveGrowth.png",
+    "datajHexId": 20027,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "立刻以及接下来的3个回合开始时，获得7经验值。"
+  },
+  "爆炸式增长+.png": {
+    "hexId": "DA_ExplosiveGrowthPlus",
+    "resource": "DA_ExplosiveGrowthPlus.png",
+    "datajHexId": 30027,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "立刻以及接下来的3个回合开始时，获得9经验值。"
+  },
+  "物尽其用.png": {
+    "hexId": "DA_Slammin",
+    "resource": "DA_Slammin.png",
+    "datajHexId": 2917,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得3金币。在每场玩家对战回合结束时，如果你的备战席没有任何装备(消耗品除外)，获得2经验值。"
+  },
+  "物尽其用+.png": {
+    "hexId": "DA_SlamminPlus",
+    "resource": "DA_SlamminPlus.png",
+    "datajHexId": 3917,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "立刻获得4金币和10经验值。在每场玩家对战回合结束时，如果你的备战席没有任何装备(消耗品除外)，获得2经验值。"
+  },
+  "独自升级.png": {
+    "hexId": "DA_SoloLeveling",
+    "resource": "DA_SoloLeveling.png",
+    "datajHexId": 20496,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在接下来的5个战斗回合，你的小队规模为1，但你登场的那个弈子拥有巨幅提升过的各属性。该弈子的每次击杀都会使你获得1经验值。在此之后，获得2件基础装备。"
+  },
+  "玻璃大炮 II.png": {
+    "hexId": "DA_GlassCannon_Gold",
+    "resource": "DA_GlassCannon_Gold.png",
+    "datajHexId": 20253,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "在后排开始战斗的弈子，在战斗开始时的生命值为80%，但会获得25%伤害增幅。"
+  },
+  "珠光莲花 I.png": {
+    "hexId": "DA_JeweledLotus_I",
+    "resource": "DA_JeweledLotus_I.png",
+    "datajHexId": 2128,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的队伍获得15%暴击几率和<TFTKeyword>技能暴击</TFTKeyword>。\n<tftitemrules>【技能暴击】：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。</tftitemrules>"
+  },
+  "生日聚会.png": {
+    "hexId": "DA_BirthdayReunion",
+    "resource": "DA_BirthdayReunion.png",
+    "datajHexId": 20624,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机2星2费弈子。在6级时，获得1件随机基础装备。在9级时，获得1个随机2星5费弈子。\n<tftitemrules>2024【画中灵】全球总决赛</tftitemrules>"
+  },
+  "电火花 II.png": {
+    "hexId": "DA_ElectrochargeII",
+    "resource": "DA_ElectrochargeII.png",
+    "datajHexId": 20708,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "友军每受到4次攻击，就会对附近的敌人造成50-140(基于当前阶段)魔法伤害(1秒冷却)。"
+  },
+  "砍价高手.png": {
+    "hexId": "DA_HardBargain",
+    "resource": "DA_HardBargain.png",
+    "datajHexId": 20480,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "你无法选择你的选秀奖励。每次选秀回合获得额外的6玩家生命值和8金币。\n<tftitemrules>若你没有选择选秀奖励，你会获得一个未被选择的弈子和其携带的装备。</tftitemrules>"
+  },
+  "等待得值.png": {
+    "hexId": "DA_18_WeightTheWorth",
+    "resource": "DA_18_WeightTheWorth.png",
+    "datajHexId": 20758,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "你首次将1个弈子升至3星时，在剩余游戏时间内的每回合都会获得1个其1星复制体。将与该弈子相同的弈子再次升至3星时，还会提供更多的1星复制体。获得1个【次级英雄复制器】。"
+  },
+  "纵深 II.png": {
+    "hexId": "DA_VerticalityII",
+    "resource": "DA_VerticalityII.png",
+    "datajHexId": 20750,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "每有1名拥有相同羁绊的友军，这些弈子们就会获得2.5%物理加成、2.5%法术加成、2护甲和2魔法抗性。"
+  },
+  "纷乱头脑.png": {
+    "hexId": "DA_ClutteredMind",
+    "resource": "DA_ClutteredMind.png",
+    "datajHexId": 2189,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "立即获得4个1费弈子。如果玩家对战回合结束时你的备战席已满，提供3经验。"
+  },
+  "终身黄铜 I.png": {
+    "hexId": "DA_BronzeForLifeI",
+    "resource": "DA_BronzeForLifeI.png",
+    "datajHexId": 10242,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "每拥有1个黄铜级羁绊，你的队伍获得2.5%伤害增幅。"
+  },
+  "耐心学习.png": {
+    "hexId": "DA_PatientStudy",
+    "resource": "DA_PatientStudy.png",
+    "datajHexId": 3158,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在与玩家的战斗后，如果你赢了则获得2经验，如果你输了则获得3经验。"
+  },
+  "花到上头.png": {
+    "hexId": "DA_Hustler",
+    "resource": "DA_Hustler.png",
+    "datajHexId": 1003,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "你不再获得利息，但会在每个玩家对战回合开始时获得3金币。立刻获得3金币。\n<tftitemrules>利息是你每储存</tftitemrules> 10<tftitemrules>金币时获得的额外金币。</tftitemrules>"
+  },
+  "英勇福袋.png": {
+    "hexId": "DA_HeroicGrabBag",
+    "resource": "DA_HeroicGrabBag.png",
+    "datajHexId": 2804,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得2个【次级英雄复制器】。获得6金币。"
+  },
+  "英勇福袋+.png": {
+    "hexId": "DA_HeroicGrabBagPlus",
+    "resource": "DA_HeroicGrabBagPlus.png",
+    "datajHexId": 3804,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得2个【次级英雄复制器】。获得8金币。"
+  },
+  "英勇福袋++.png": {
+    "hexId": "DA_HeroicGrabBagPlusPlus",
+    "resource": "DA_HeroicGrabBagPlusPlus.png",
+    "datajHexId": 4804,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得2个【次级英雄复制器】。获得14金币。"
+  },
+  "获得21金币.png": {
+    "hexId": "DA_GainGold",
+    "resource": "DA_GainGold.png",
+    "datajHexId": 20654,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得21金币。"
+  },
+  "蔓延之根.png": {
+    "hexId": "DA_SpreadingRoots",
+    "resource": "DA_SpreadingRoots.png",
+    "datajHexId": 20633,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机纹章。在3场玩家对战回合后，获得另一个。"
+  },
+  "蔓延之根+.png": {
+    "hexId": "DA_SpreadingRootsPlus",
+    "resource": "DA_SpreadingRootsPlus.png",
+    "datajHexId": 20681,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得2个随机纹章和2金币。"
+  },
+  "认知过载.png": {
+    "hexId": "DA_CognitiveOverload",
+    "resource": "DA_CognitiveOverload.png",
+    "datajHexId": 20613,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得7金币、1个2星1费弈子、1个2费弈子、2个3费弈子、1经验值以及1次商店刷新。"
+  },
+  "贪财.png": {
+    "hexId": "DA_MoneyHungry_NotBroken",
+    "resource": "DA_MoneyHungry_NotBroken.png",
+    "datajHexId": 20701,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "立刻获得7金币，然后在每个阶段开始时获得7金币。拾取金币会令你的小小英雄变大。"
+  },
+  "贪财+.png": {
+    "hexId": "DA_MoneyHungryPlus",
+    "resource": "DA_MoneyHungryPlus.png",
+    "datajHexId": 30701,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "立刻获得13金币，然后在每个阶段开始时获得7金币。拾取金币会令你的小小英雄变大。"
+  },
+  "资本利得 II.png": {
+    "hexId": "DA_CapitalGainsII",
+    "resource": "DA_CapitalGainsII.png",
+    "datajHexId": 20755,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "储存相当于你获得利息的金币。在3-3回合，获得相当于你125%已储存金币的金币。立刻获得3金币。"
+  },
+  "金色炊具.png": {
+    "hexId": "DA_CookingPot",
+    "resource": "DA_CookingPot.png",
+    "datajHexId": 20225,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在每回合开始时，所有持有【金锅锅】或【金铲铲】装备的友军都会为相距最近的弈子提供70永久生命值。获得1个【金锅锅】。"
+  },
+  "金霖龙.png": {
+    "hexId": "DA_TheGoldenDragon",
+    "resource": "DA_TheGoldenDragon.png",
+    "datajHexId": 20651,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得1个【大亨之铠】。携带【大亨之铠】的弈子们占用+1个弈子栏位，但获得600生命值和15%伤害减免。\n<tftitemrules>【大亨之铠】提供金币，以及战斗力。</tftitemrules>\n<tftitemrules>2022【巨龙之境】全球总决赛</tftitemrules>"
+  },
+  "镀金钢铁.png": {
+    "hexId": "DA_GildedSteel",
+    "resource": "DA_GildedSteel.png",
+    "datajHexId": 20698,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得2个5费弈子。如果你登场了至少一个5费弈子，你的1至4费弈子们获得8%伤害减免。\n<tftitemrules>2025【天下无双格斗大赛】全球总决赛</tftitemrules>"
+  },
+  "顶尖构筑.png": {
+    "hexId": "DA_MaxBuild",
+    "resource": "DA_MaxBuild.png",
+    "datajHexId": 20759,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得10次免费商店刷新。当你到达9级时，获得3次免费商店刷新和1个【英雄复制器】。\n<tftitemrules>2020【银河战争】全球总决赛</tftitemrules>"
+  },
+  "飞升.png": {
+    "hexId": "DA_Ascension",
+    "resource": "DA_Ascension.png",
+    "datajHexId": 2021,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "在战斗开始12秒后，你的弈子们会获得35%伤害增幅。"
+  },
+  "高级贷款.png": {
+    "hexId": "DA_AdvancedLoan",
+    "resource": "DA_AdvancedLoan.png",
+    "datajHexId": 30584,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得20金币。你的下一个强化符文阶位降低一级。"
+  },
+  "高级贷款+.png": {
+    "hexId": "DA_AdvancedLoanPlus",
+    "resource": "DA_AdvancedLoanPlus.png",
+    "datajHexId": 20584,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得33金币。你的下一个强化符文阶位降低一阶。"
+  },
+  "魔法投掷.png": {
+    "hexId": "DA_MagicRoll",
+    "resource": "DA_MagicRoll.png",
+    "datajHexId": 20205,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "投掷3个骰子，基于总点数获得奖励。"
+  },
+  "黄金命运.png": {
+    "hexId": "DA_GoldDestiny",
+    "resource": "DA_GoldDestiny.png",
+    "datajHexId": 20477,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机黄金阶强化符文和3金币。  "
+  },
+  "黄金命运+.png": {
+    "hexId": "DA_GoldDestinyPlus",
+    "resource": "DA_GoldDestinyPlus.png",
+    "datajHexId": 20478,
+    "rarity": "黄金",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得1个随机黄金阶强化符文和5金币。"
+  },
+  "纺织魔法.png": {
+    "hexId": "DA_WovenMagic",
+    "resource": "DA_WovenMagic.png",
+    "datajHexId": 20673,
+    "rarity": "黄金",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1件随机基础装备。你的弈子们每消耗2200法力值，就会提供1件额外基础装备(最大：<TFTAttribute attributeId=\"TFTCalculationAttributes.GenericCalc1\"/>/3)。"
+  },
+  "四费增援.png": {
+    "hexId": "TFT11_Augment_Reinfourcement",
+    "resource": "TFT11_Augment_Reinfourcement.png",
+    "datajHexId": 1895,
+    "rarity": "黄金",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "你用金币购买的下一个4费弈子将立刻升到2星。获得7金币。<br><tftitemrules>该强化云顶已移除，金铲铲正常。</tftitemrules>"
+  },
+  "创世神.png": {
+    "hexId": "DA_18_LuxAugmentII",
+    "resource": "DA_18_LuxAugmentII.png",
+    "datajHexId": 30782,
+    "rarity": "棱彩",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "开启1个武器库，并在3个羁绊选项中选择1个。获得1个该羁绊的【拉克丝】和1个【朔极之矛】。\n<dim>你棋盘上的羁绊会更有可能出现在该武器库中。【拉克丝】为她选定的羁绊提供+2计数。</dim>"
+  },
+  "1个霸符，2个霸符.png": {
+    "hexId": "DA_OneBuffTwoBuff",
+    "resource": "DA_OneBuffTwoBuff.png",
+    "datajHexId": 30186,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1个【红霸符】、1个【蓝霸符】和1个【英雄复制器】。"
+  },
+  "上进心.png": {
+    "hexId": "DA_UpwardMobility",
+    "resource": "DA_UpwardMobility.png",
+    "datajHexId": 30028,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "购买经验值的费用减少1。每当你升级时，获得2生命值和2次商店刷新。"
+  },
+  "值得等待 II.png": {
+    "hexId": "DA_WorththeWaitII",
+    "resource": "DA_WorththeWaitII.png",
+    "datajHexId": 30021,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得2个相同的随机2费弈子。每回合开始时都会获得该弈子的另一个1星副本，持续至本局游戏结束。"
+  },
+  "光明圣物.png": {
+    "hexId": "DA_RadiantRelic",
+    "resource": "DA_RadiantRelic.png",
+    "datajHexId": 3132,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1",
+      "3-2",
+      "4-2"
+    ],
+    "desc": "从5件光明武器中选择1件。获得1个【装备拆卸器】。"
+  },
+  "光明无赖.png": {
+    "hexId": "DA_RadiantRascal",
+    "resource": "DA_RadiantRascal.png",
+    "datajHexId": 3627,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1件【光明版窃贼手套】。携带者每一回合会随机佩戴2件光明装备。"
+  },
+  "加冕礼.png": {
+    "hexId": "DA_Coronation",
+    "resource": "DA_Coronation.png",
+    "datajHexId": 30179,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1个【金铲铲冠冕】。【金铲铲冠冕】、【金锅锅冠冕】和【金锅铲冠冕】为携带者提供20%攻击速度、25%物理加成和30%法术加成。"
+  },
+  "升级咯！.png": {
+    "hexId": "DA_LevelUp",
+    "resource": "DA_LevelUp.png",
+    "datajHexId": 3008,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在你购买经验值时，获得额外2经验值。立刻获得10经验值。"
+  },
+  "可大可小.png": {
+    "hexId": "DA_Min_Max",
+    "resource": "DA_Min_Max.png",
+    "datajHexId": 30637,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得1个【金制拆卸器】、4件随机基础装备和4金币。"
+  },
+  "坚守防线.png": {
+    "hexId": "DA_HoldTheLine",
+    "resource": "DA_HoldTheLine.png",
+    "datajHexId": 30521,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "战斗开始时，你的前排每有1个弈子，后两排的弈子们就会获得11%法术加成和11%物理加成。"
+  },
+  "基础装备大冒险.png": {
+    "hexId": "DA_ComponentQuest",
+    "resource": "DA_ComponentQuest.png",
+    "datajHexId": 30747,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1件随机基础装备和1金币。下7次你赢得玩家对战回合时，获得1件不同的随机基础装备。在此之后，获得1金币。"
+  },
+  "大买特买.png": {
+    "hexId": "DA_ShoppingSpree",
+    "resource": "DA_ShoppingSpree.png",
+    "datajHexId": 4069,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在你升级时，获得相当于你等级数+1的商店刷新次数。获得6金币。"
+  },
+  "更要命的帽子.png": {
+    "hexId": "DA_DeadlierCaps",
+    "resource": "DA_DeadlierCaps.png",
+    "datajHexId": 20502,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【灭世者的死亡之帽】。【灭世者的死亡之帽】提供1法力回复，并且它的携带者每参与1次击杀，它就会永久获得1%法术加成。"
+  },
+  "更要命的战刃.png": {
+    "hexId": "DA_DeadlierBlades",
+    "resource": "DA_DeadlierBlades.png",
+    "datajHexId": 20503,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【死亡之刃】。【死亡之刃】的携带者每参与击杀一次，【死亡之刃】就会永久获得1%物理加成。"
+  },
+  "大剑溢流.png": {
+    "hexId": "DA_SwordOverflow",
+    "resource": "DA_SwordOverflow.png",
+    "datajHexId": 30182,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得4个【暴风大剑】。你的【暴风大剑】提供+4%攻击速度。"
+  },
+  "大而有力.png": {
+    "hexId": "DA_GiantAndMighty",
+    "resource": "DA_GiantAndMighty.png",
+    "datajHexId": 30034,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "己方队伍体型变大，获得225生命值和10%最大生命值。"
+  },
+  "奢侈品订购.png": {
+    "hexId": "DA_LuxurySubscription",
+    "resource": "DA_LuxurySubscription.png",
+    "datajHexId": 30680,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得1个包裹，包含1个5费弈子、1个2星1费弈子和5金币。\n在接下来的2个阶段开始时，再次获得该包裹。"
+  },
+  "对冲基金.png": {
+    "hexId": "DA_HedgeFund",
+    "resource": "DA_HedgeFund.png",
+    "datajHexId": 1713,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得22金币。你的最大利息提升至10金币。"
+  },
+  "幸运手套.png": {
+    "hexId": "DA_LuckyGloves",
+    "resource": "DA_LuckyGloves.png",
+    "datajHexId": 2276,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "【窃贼手套】总会为你的弈子们提供理想的装备。获得2个【拳套】和4金币。"
+  },
+  "幸运手套+.png": {
+    "hexId": "DA_LuckyGlovesPlus",
+    "resource": "DA_LuckyGlovesPlus.png",
+    "datajHexId": 3276,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "【窃贼手套】总会为你的弈子们提供理想的装备。立刻获得2个【拳套】，然后在4场玩家对战后获得另一个。"
+  },
+  "弈子套娃.png": {
+    "hexId": "DA_NestingDollsPlus",
+    "resource": "DA_NestingDollsPlus.png",
+    "datajHexId": 30772,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "当1个弈子在战斗中阵亡后，召唤1个降低1星的复制体，其生命值只有60%。获得3次免费刷新。<br><tftitemrules>该强化云顶已移除，金铲铲正常。</tftitemrules>"
+  },
+  "弈子套娃_2.png": {
+    "hexId": "DA_NestingDollsPlusPlus",
+    "resource": "DA_NestingDollsPlusPlus.png",
+    "datajHexId": 30772,
+    "rarity": "棱彩",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "当1个弈子在战斗中阵亡后，召唤1个降低1星的复制体，其生命值只有60%。获得3次免费刷新。<br><tftitemrules>该强化云顶已移除，金铲铲正常。</tftitemrules>"
+  },
+  "意料之中的意外.png": {
+    "hexId": "DA_ExpectedUnexpectedness",
+    "resource": "DA_ExpectedUnexpectedness.png",
+    "datajHexId": 30205,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "现在以及下2个阶段开始时，投掷3个骰子。根据总点数获得各种奖励。"
+  },
+  "投资+.png": {
+    "hexId": "DA_InvestedPlus",
+    "resource": "DA_InvestedPlus.png",
+    "datajHexId": 20009,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得26金币。在每个回合开始时，超过50金币后，每拥有10金币就会获得1次商店刷新(最多80金币)。"
+  },
+  "投资++.png": {
+    "hexId": "DA_InvestedPlusPlus",
+    "resource": "DA_InvestedPlusPlus.png",
+    "datajHexId": 30009,
+    "rarity": "棱彩",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得45金币。在每个回合开始时，超过50金币后，每拥有10金币就会获得1次商店刷新(最多80金币)。"
+  },
+  "投资策略 II.png": {
+    "hexId": "DA_InvestmentStrategy",
+    "resource": "DA_InvestmentStrategy.png",
+    "datajHexId": 30217,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "你每获得1利息，你的弈子们获得12永久最大生命值。你的最大利息增加2。立刻获得6金币。"
+  },
+  "摇钱树.png": {
+    "hexId": "DA_MoneyMonsoon",
+    "resource": "DA_MoneyMonsoon.png",
+    "datajHexId": 20642,
+    "rarity": "棱彩",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "立刻并在剩余游戏时间内每回合获得7金币。"
+  },
+  "星界赐福 III.png": {
+    "hexId": "DA_CelestialBlessingIII",
+    "resource": "DA_CelestialBlessingIII.png",
+    "datajHexId": 3022,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的队伍获得25%全能吸血。溢出的治疗量会转化为护盾，最高可达到1000护盾值。"
+  },
+  "棱彩命运.png": {
+    "hexId": "DA_PrismaticDestiny",
+    "resource": "DA_PrismaticDestiny.png",
+    "datajHexId": 30491,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机的棱彩阶强化符文和2金币。"
+  },
+  "棱彩命运+.png": {
+    "hexId": "DA_PrismaticDestinyPlus",
+    "resource": "DA_PrismaticDestinyPlus.png",
+    "datajHexId": 30655,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得1个随机的棱彩阶强化符文和7金币。"
+  },
+  "来个好伙计.png": {
+    "hexId": "DA_BuildABud",
+    "resource": "DA_BuildABud.png",
+    "datajHexId": 3852,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机3星1费英雄。获得9金币。"
+  },
+  "棱彩门票.png": {
+    "hexId": "DA_PrismaticTicket",
+    "resource": "DA_PrismaticTicket.png",
+    "datajHexId": 3065,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "每次商店刷新时，你都有45%几率获得1次免费刷新。"
+  },
+  "正义报复.png": {
+    "hexId": "DA_Retribution",
+    "resource": "DA_Retribution.png",
+    "datajHexId": 30613,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得2个【正义之手】。携带【正义之手】的友军获得<TFTKeyword>技能暴击</TFTKeyword>和15%暴击几率。\n<tftitemrules>【技能暴击】：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。</tftitemrules>"
+  },
+  "水乳交融.png": {
+    "hexId": "DA_WeStickTogether",
+    "resource": "DA_WeStickTogether.png",
+    "datajHexId": 20733,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机羁绊的纹章和1个【成装锻造器】。拥有该羁绊的友军获得30%攻击速度。\n<tftitemrules>2025【双城之战2】全球总决赛</tftitemrules>"
+  },
+  "法杖溢流.png": {
+    "hexId": "DA_WandOverflow",
+    "resource": "DA_WandOverflow.png",
+    "datajHexId": 30181,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得4个【无用大棒】。你的【无用大棒】提供+5%攻击速度。"
+  },
+  "活体锻炉.png": {
+    "hexId": "DA_LivingForge",
+    "resource": "DA_LivingForge.png",
+    "datajHexId": 3270,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "立刻以及每10场玩家对战回合后，获得1个【神器锻造器】。"
+  },
+  "混沌召唤.png": {
+    "hexId": "DA_CallToChaos",
+    "resource": "DA_CallToChaos.png",
+    "datajHexId": 3851,
+    "rarity": "棱彩",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得1个强大的随机奖励。"
+  },
+  "潘朵拉的装备 III.png": {
+    "hexId": "DA_PandorasItemsIII",
+    "resource": "DA_PandorasItemsIII.png",
+    "datajHexId": 3007,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "回合开始时：你备战席上的装备会随机变化。\n获得1件光明武器。"
+  },
+  "灵活.png": {
+    "hexId": "DA_Flexible",
+    "resource": "DA_Flexible.png",
+    "datajHexId": 40006,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机纹章。在每个阶段开始时，获得1个随机纹章。你的队伍每携带一个纹章，就会获得30生命值。"
+  },
+  "灵魂唤醒.png": {
+    "hexId": "DA_SoulAwakening",
+    "resource": "DA_SoulAwakening.png",
+    "datajHexId": 30599,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "战斗开始时：己方每秒获得1.5%物理加成和法术加成，持续10秒。在最大层数时，造成12%额外真实伤害。"
+  },
+  "珍藏财宝 III.png": {
+    "hexId": "DA_BuriedTreasuresIII",
+    "resource": "DA_BuriedTreasuresIII.png",
+    "datajHexId": 3486,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "立刻以及接下来的6个回合开始时，获得1件随机基础装备。"
+  },
+  "珠光莲花 II.png": {
+    "hexId": "DA_JeweledLotus_II",
+    "resource": "DA_JeweledLotus_II.png",
+    "datajHexId": 3128,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的队伍获得25%暴击几率、10%暴击伤害和<TFTKeyword>技能暴击</TFTKeyword>。\n<tftitemrules>【技能暴击】：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。</tftitemrules>"
+  },
+  "甜点.png": {
+    "hexId": "DA_SweetTreats",
+    "resource": "DA_SweetTreats.png",
+    "datajHexId": 30665,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1个【神器锻造器】。你的弈子们每携带1件装备，你的队伍就会获得16生命值。"
+  },
+  "生日礼物.png": {
+    "hexId": "DA_BirthdayPresent",
+    "resource": "DA_BirthdayPresent.png",
+    "datajHexId": 2294,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "在你每次升级时获得1个2星弈子和1金币。这个弈子的费用位阶是你的等级减4(最大值：5费)。"
+  },
+  "男爵幻域.png": {
+    "hexId": "DA_BaronsLair",
+    "resource": "DA_BaronsLair.png",
+    "datajHexId": 30617,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1件随机【坦克】装备。在战斗开始8秒后，你的队伍每秒获得4%额外物理加成和法术加成，持续至战斗结束。\n<tftitemrules>2025云顶之弈巴黎公开赛</tftitemrules>"
+  },
+  "硬性承诺.png": {
+    "hexId": "DA_HardCommit",
+    "resource": "DA_HardCommit.png",
+    "datajHexId": 40008,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机纹章。立刻以及每阶段开始时，获得该羁绊的1个1星弈子，且该弈子的费用相当于当前阶段数(最多为5)，并获得3金币。"
+  },
+  "神力天铸.png": {
+    "hexId": "DA_ForgedInStrength",
+    "resource": "DA_ForgedInStrength.png",
+    "datajHexId": 30627,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1件随机神器。当你降至35生命值时，额外获得1件随机神器、1件随机成装，以及2件随机基础装备。\n<tftitemrules>2023【强音争霸】全球总决赛</tftitemrules>"
+  },
+  "窃贼帮派 II.png": {
+    "hexId": "DA_BandOfThievesII",
+    "resource": "DA_BandOfThievesII.png",
+    "datajHexId": 1068,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得2个【窃贼手套】。在5场玩家对战回合后，获得另一个。"
+  },
+  "窃贼帮派 II+.png": {
+    "hexId": "DA_BandOfThievesIIPlus",
+    "resource": "DA_BandOfThievesIIPlus.png",
+    "datajHexId": 30678,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得2个【窃贼手套】。在5场玩家对战回合后，获得另一个。"
+  },
+  "窃贼帮派 II++.png": {
+    "hexId": "DA_BandOfThievesIIPlusPlus",
+    "resource": "DA_BandOfThievesIIPlusPlus.png",
+    "datajHexId": 30679,
+    "rarity": "棱彩",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得2个【窃贼手套】。在3场玩家对战回合后，获得另一个。"
+  },
+  "纵深 III.png": {
+    "hexId": "DA_VerticalityIII",
+    "resource": "DA_VerticalityIII.png",
+    "datajHexId": 30750,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "每有1名拥有相同羁绊的友军，这些弈子们就会获得4%物理加成、4%法术加成、3.5护甲和3.5魔法抗性。"
+  },
+  "终身黄铜 II.png": {
+    "hexId": "DA_BronzeForLifeII",
+    "resource": "DA_BronzeForLifeII.png",
+    "datajHexId": 20242,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "每拥有1个黄铜级羁绊，你的队伍获得2.5%伤害增幅和2.5护甲与魔法抗性。"
+  },
+  "绝境反击.png": {
+    "hexId": "DA_ComebackStory",
+    "resource": "DA_ComebackStory.png",
+    "datajHexId": 20643,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "每损失1玩家生命值，你的队伍获得4生命值和0.3%攻击速度。"
+  },
+  "成吨的属性！.png": {
+    "hexId": "DA_TonsOfStatsII",
+    "resource": "DA_TonsOfStatsII.png",
+    "datajHexId": 2705,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "你的队伍获得88生命值、8%物理加成、8%法术加成、8护甲、8魔法抗性、8%攻击速度和8法力值。 "
+  },
+  "羁绊天梯.png": {
+    "hexId": "DA_TraitLadder",
+    "resource": "DA_TraitLadder.png",
+    "datajHexId": 30749,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机纹章。在1场玩家对战回合中登场2个非唯一羁绊后，获得1个奖励。此后提高获得奖励所需的羁绊数，以及奖励的大小。"
+  },
+  "羁绊树.png": {
+    "hexId": "DA_TheTraitTree",
+    "resource": "DA_TheTraitTree.png",
+    "datajHexId": 30634,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得3个随机纹章和2金币。"
+  },
+  "羁绊树+.png": {
+    "hexId": "DA_TheTraitTreePlus",
+    "resource": "DA_TheTraitTreePlus.png",
+    "datajHexId": 30682,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得3个随机纹章、1个【装备重铸器】和4金币。"
+  },
+  "腰带溢流.png": {
+    "hexId": "DA_BeltOverflow",
+    "resource": "DA_BeltOverflow.png",
+    "datajHexId": 30180,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得4个【巨人腰带】。你的【巨人腰带】提供+85额外生命值。"
+  },
+  "诅咒冠冕.png": {
+    "hexId": "DA_CursedCrown",
+    "resource": "DA_CursedCrown.png",
+    "datajHexId": 3269,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1",
+      "3-2"
+    ],
+    "desc": "获得+2最大队伍规模，但你在输掉一场玩家对战回合后会承受2倍的玩家伤害。"
+  },
+  "贸易中心.png": {
+    "hexId": "DA_CommerceCore",
+    "resource": "DA_CommerceCore.png",
+    "datajHexId": 30656,
+    "rarity": "棱彩",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "立刻获得16次免费商店刷新，并在剩余游戏时间内每回合获得3次免费商店刷新。"
+  },
+  "遥遥领先.png": {
+    "hexId": "DA_GoingLong",
+    "resource": "DA_GoingLong.png",
+    "datajHexId": 3809,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "你不再获得利息。立刻获得10金币。在每场玩家对战后，获得4经验值。\n<tftitemrules>利息是你每储存</tftitemrules>10<tftitemrules>金币时获得的额外金币。</tftitemrules>"
+  },
+  "金蛋.png": {
+    "hexId": "DA_GoldenEgg",
+    "resource": "DA_GoldenEgg.png",
+    "datajHexId": 3137,
+    "rarity": "棱彩",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得1个大金蛋，需要11个回合来孵化，在孵化时提供大量战利品。赢下玩家对战回合后会使孵化倒计时加快1个额外回合。"
+  },
+  "金鳞精萃.png": {
+    "hexId": "DA_ShimmerscaleEssence",
+    "resource": "DA_ShimmerscaleEssence.png",
+    "datajHexId": 30045,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个【投机者之刃】。在6场玩家对战回合后，获得1个【大亨之铠】。"
+  },
+  "锅铲厨房.png": {
+    "hexId": "DA_TacticiansKitchen",
+    "resource": "DA_TacticiansKitchen.png",
+    "datajHexId": 30187,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得1个随机纹章。在3个回合后，获得1个【金锅铲冠冕】。"
+  },
+  "锻造器套娃.png": {
+    "hexId": "DA_NestingAnvils",
+    "resource": "DA_NestingAnvils.png",
+    "datajHexId": 30757,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得1个【神器锻造器】。在你开启它之后，获得1个【基础装备锻造器】。开启这个【基础装备锻造器】后，又获得6金币。"
+  },
+  "锻造器套娃+.png": {
+    "hexId": "DA_NestingAnvilsPlus",
+    "resource": "DA_NestingAnvilsPlus.png",
+    "datajHexId": 40757,
+    "rarity": "棱彩",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得1个【神器锻造器】。在你开启它之后，获得1个【基础装备锻造器】。开启这个【基础装备锻造器】后，又获得8金币。"
+  },
+  "阿福的百宝袋.png": {
+    "hexId": "DA_UrfsGrabBag",
+    "resource": "DA_UrfsGrabBag.png",
+    "datajHexId": 2185,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1个【金铲铲】、3件随机基础装备和5金币。"
+  },
+  "黄金赌约.png": {
+    "hexId": "DA_GoldenGamble",
+    "resource": "DA_GoldenGamble.png",
+    "datajHexId": 20721,
+    "rarity": "棱彩",
+    "rounds": [
+      "2-1"
+    ],
+    "desc": "获得2金币，并抛掷1枚硬币。如果硬币正面朝上，获得1个【光明版幸运装备宝箱】。如果硬币反面朝上，获得2个【成装锻造器】。"
+  },
+  "黄金赌约+.png": {
+    "hexId": "DA_GoldenGamblePlus",
+    "resource": "DA_GoldenGamblePlus.png",
+    "datajHexId": 20722,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2"
+    ],
+    "desc": "获得3金币，并抛掷1枚硬币。如果硬币正面朝上，获得1个【光明版幸运装备宝箱】。如果硬币反面朝上，获得2个【成装锻造器】。"
+  },
+  "黄金赌约++.png": {
+    "hexId": "DA_GoldenGamblePlusPlus",
+    "resource": "DA_GoldenGamblePlusPlus.png",
+    "datajHexId": 20723,
+    "rarity": "棱彩",
+    "rounds": [
+      "4-2"
+    ],
+    "desc": "获得6金币，并抛掷1枚硬币。如果硬币正面朝上，获得1个【光明版幸运装备宝箱】。如果硬币反面朝上，获得2个【成装锻造器】。"
+  },
+  "交给运气.png": {
+    "hexId": "TFT9_Augment_RollTheDice",
+    "resource": "TFT9_Augment_RollTheDice.png",
+    "datajHexId": 3627,
+    "rarity": "棱彩",
+    "rounds": [
+      "3-2",
+      "4-2"
+    ],
+    "desc": "获得1个【光明窃贼手套】。每回合装备2件随机的临时光明武器。<br><tftitemrules>该强化云顶已移除，金铲铲正常。</tftitemrules>"
+  }
+}

@@ -1,0 +1,2919 @@
+{
+  "meta": {
+    "source": "h5-data-cn-18.json（HTML 的「羁绊」标签页为空）",
+    "set": "S18",
+    "count": 36,
+    "extracted_at": "2026-11-02",
+    "statParseNote": "breakpoints[].stats 由文本中的【AD】【AP】等标记解析而来，抽不出就为空数组",
+    "statParsedBreakpoints": 91
+  },
+  "traits": [
+    {
+      "key": "DA_18_Blossom",
+      "name": "灵魂莲华",
+      "type": "种族",
+      "code": "EI",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 3,
+          "effect": "【自然仙灵】得到升级，12%【AD】【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 12.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 12.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 12.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 12.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 5,
+          "effect": "商店每次都会刷新出【自然仙灵】，30%【AD】【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 30.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 30.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 30.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 30.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 7,
+          "effect": "在购买1个【自然仙灵】后，获得4金币，50%【AD】【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 50.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 50.0,
+              "percent": true
+            },
+            {
+              "kind": "gold",
+              "value": 4
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 50.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 50.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 9,
+          "effect": "每回合你可以购买2个【自然仙灵】，55%【AD】【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 55.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 55.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 55.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 55.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 4,
+          "unitCount": 11,
+          "effect": "自然之力！！！【自然仙灵】的力量满溢而出，100%【AD】【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 100.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 100.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 100.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 100.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 8,
+      "units": [
+        "卡尔玛",
+        "约里克",
+        "芸阿娜",
+        "易",
+        "瑟提",
+        "阿狸",
+        "艾希",
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_18_Inferno",
+      "name": "地狱火",
+      "type": "种族",
+      "code": "EJ",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "1%灼烧效果，33%重伤效果",
+          "effects": [
+            {
+              "kind": "dot",
+              "type": "burn",
+              "value": 1.0,
+              "percent": true
+            },
+            {
+              "kind": "debuff",
+              "type": "wound",
+              "value": 33.0,
+              "percent": true
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 2,
+          "unitCount": 3,
+          "effect": "在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。",
+          "effects": [
+            {
+              "kind": "slot",
+              "scope": "shop",
+              "value": 1
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 3,
+          "unitCount": 5,
+          "effect": "引燃2个商店栏位，施加3%灼烧效果",
+          "effects": [
+            {
+              "kind": "dot",
+              "type": "burn",
+              "value": 3.0,
+              "percent": true
+            },
+            {
+              "kind": "slot",
+              "scope": "shop",
+              "value": 2
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 3,
+          "unitCount": 7,
+          "effect": "引燃4个商店栏位，施加4%灼烧效果",
+          "effects": [
+            {
+              "kind": "dot",
+              "type": "burn",
+              "value": 4.0,
+              "percent": true
+            },
+            {
+              "kind": "slot",
+              "scope": "shop",
+              "value": 4
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 6,
+      "units": [
+        "阿卡丽",
+        "韦鲁斯",
+        "慎",
+        "阿木木",
+        "凯南",
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_18_Sprykin",
+      "name": "约德尔人和朋友",
+      "type": "种族",
+      "code": "EK",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 3,
+          "effect": "【骑乘者】获得<br>15%【HP】和15%【AS】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 15.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 15.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 15.0,
+              "percent": true
+            },
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 15.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 5,
+          "effect": "40%【HP】 35%【AS】，和50%【毛茸茸大朋友】的技能加成会作用于你的【约德尔人和朋友】弈子们。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 40.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 35.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 40.0,
+              "percent": true
+            },
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 35.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 7,
+          "effect": "55%【HP】 55%【AS】，和100%【毛茸茸大朋友】的技能加成会作用于你的【约德尔人和朋友】弈子们。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 55.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 55.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 55.0,
+              "percent": true
+            },
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 55.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 6,
+      "units": [
+        "可酷伯",
+        "维迦",
+        "提莫",
+        "拉莫斯",
+        "崔丝塔娜",
+        "纳尔"
+      ]
+    },
+    {
+      "key": "DA_18_Elderwood",
+      "name": "永恒之森",
+      "type": "种族",
+      "code": "EL",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 3,
+          "effect": "获得一棵【石皮树】和一株【生命花】",
+          "effects": [
+            {
+              "kind": "unit",
+              "name": "石皮树"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 2,
+          "unitCount": 5,
+          "effect": "第二棵【石皮树】，并且【石皮树】获得200生命值",
+          "effects": [
+            {
+              "kind": "unit",
+              "name": "石皮树"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 3,
+          "unitCount": 7,
+          "effect": "以及【深林守卫】",
+          "effects": [
+            {
+              "kind": "unit",
+              "name": "深林守卫"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 3,
+          "unitCount": 9,
+          "effect": "植物升至2星",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "plant_star",
+              "value": 2
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 4,
+          "unitCount": 11,
+          "effect": "自然之力！！！植物升至3星，森林拥有了它自己的生命",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "plant_star",
+              "value": 3
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 8,
+      "units": [
+        "奥恩",
+        "霞",
+        "乐芙兰",
+        "阿利斯塔",
+        "赫卡里姆",
+        "伊泽瑞尔",
+        "纳尔",
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_18_Blackthorn",
+      "name": "黑荆棘",
+      "type": "种族",
+      "code": "EM",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "175【HP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 175.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 175.0,
+              "percent": false
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "350【HP】；属性加成提升30%",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 350.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 350.0,
+              "percent": false
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 6,
+          "effect": "600【HP】；额外加成再提升50%",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 600.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 600.0,
+              "percent": false
+            }
+          ]
+        }
+      ],
+      "unitCount": 6,
+      "units": [
+        "维迦",
+        "雷克塞",
+        "沃里克",
+        "阿兹尔",
+        "墨菲特",
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_18_Coven",
+      "name": "魔女",
+      "type": "种族",
+      "code": "EN",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 3,
+          "effect": "每次击杀+2【魔女精粹】，每次失败+22【魔女精粹】",
+          "effects": [
+            {
+              "kind": "resource",
+              "name": "魔女精粹",
+              "value": 2,
+              "trigger": "kill"
+            },
+            {
+              "kind": "resource",
+              "name": "魔女精粹",
+              "value": 22,
+              "trigger": "loss"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "每次击杀+2【魔女精粹】，每次失败+28【魔女精粹】",
+          "effects": [
+            {
+              "kind": "resource",
+              "name": "魔女精粹",
+              "value": 2,
+              "trigger": "kill"
+            },
+            {
+              "kind": "resource",
+              "name": "魔女精粹",
+              "value": 28,
+              "trigger": "loss"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 2,
+          "unitCount": 5,
+          "effect": "每次击杀+3【魔女精粹】，每次失败+35【魔女精粹】",
+          "effects": [
+            {
+              "kind": "resource",
+              "name": "魔女精粹",
+              "value": 3,
+              "trigger": "kill"
+            },
+            {
+              "kind": "resource",
+              "name": "魔女精粹",
+              "value": 35,
+              "trigger": "loss"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 3,
+          "unitCount": 7,
+          "effect": "每次击杀+10【魔女精粹】，每次失败+60【魔女精粹】",
+          "effects": [
+            {
+              "kind": "resource",
+              "name": "魔女精粹",
+              "value": 10,
+              "trigger": "kill"
+            },
+            {
+              "kind": "resource",
+              "name": "魔女精粹",
+              "value": 60,
+              "trigger": "loss"
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 6,
+      "units": [
+        "卡蜜尔",
+        "伊莉丝",
+        "凯特琳",
+        "卡西奥佩娅",
+        "莫甘娜",
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_Riftbeast18",
+      "name": "峡谷野怪",
+      "type": "种族",
+      "code": "EO",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 3,
+          "effect": "使用【阿尔法印记】为1个【峡谷野怪】提供它独特的霸符。",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "alpha_mark",
+              "note": "为峡谷野怪提供独特霸符"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 2,
+          "unitCount": 5,
+          "effect": "每过3场对战，你的下一次商店会被【峡谷野怪】占领。",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "shop_occupy",
+              "value": 3,
+              "note": "商店被峡谷野怪占领"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 3,
+          "unitCount": 7,
+          "effect": "战斗开始时及之后每5秒，【峡谷野怪】成长并获得<br>5%【AD】 5%【AP】 6%【AS】<br>+5【ARMOR】 +5【MR】 +50【HP】 +1【MANAREGEN】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 5.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 5.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 6.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 5.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 5.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 50.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 1.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 5.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 5.0,
+              "percent": true
+            },
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 6.0,
+              "percent": true
+            },
+            {
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 5.0,
+              "percent": false
+            },
+            {
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 5.0,
+              "percent": false
+            },
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 50.0,
+              "percent": false
+            },
+            {
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 1.0,
+              "percent": false
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 10,
+          "effect": "自然之力！！！+2最大队伍规模",
+          "effects": [
+            {
+              "kind": "teamSize",
+              "value": 2
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 10,
+      "units": [
+        "绯红树怪",
+        "苍蓝哨戒",
+        "暗影狼",
+        "峡谷迅捷蟹",
+        "魔沼蛙",
+        "远古石甲虫",
+        "深红锋喙鸟",
+        "苍蓝雕纹魔像",
+        "绯红印记树怪",
+        "远古巨龙"
+      ]
+    },
+    {
+      "key": "DA_18_Rival",
+      "name": "宿敌",
+      "type": "种族",
+      "code": "EP",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "仅在登场了1个【宿敌】时激活。<br>【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "rival_rule",
+              "note": "宿敌收集参与击杀数，互相提供技能加成"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 1,
+          "unitCount": 1,
+          "effect": "【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。<br>参与击杀会使【卡兹克】进化，永久为他提供你从【裁决使】、【迅捷射手】、【狂战士】或【法师】中选择的一项羁绊。<br>每参与8次击杀，【雷恩加尔】提供2/3/5金币。在参与30次击杀后，你的队伍获得5%物理加成，此后每次参与击杀再提升0.2%【AD】。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 0.2,
+              "percent": true,
+              "scope": "per_instance"
+            },
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 5.0,
+              "percent": true
+            },
+            {
+              "kind": "mechanic",
+              "key": "rival_rule",
+              "note": "宿敌收集参与击杀数，互相提供技能加成"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 0.2,
+              "percent": true
+            },
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 5.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 2,
+          "effect": "【宿敌】可以同时登场，并且他们的技能可以为彼此提供加成。",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "rival_rule",
+              "note": "宿敌收集参与击杀数，互相提供技能加成"
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 2,
+      "units": [
+        "雷恩加尔",
+        "卡兹克"
+      ]
+    },
+    {
+      "key": "DA_18_Fae",
+      "name": "花仙子",
+      "type": "种族",
+      "code": "EQ",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "4.5% 【AD】【AP】和3%治疗强度。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 4.5,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 4.5,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "HEALPOWER",
+              "statKey": "healPower",
+              "value": 3.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 4.5,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 4.5,
+              "percent": true
+            },
+            {
+              "stat": "HEALPOWER",
+              "statKey": "healPower",
+              "value": 3.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 4,
+          "effect": "7% 【AD】【AP】和5%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 7.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 7.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "HEALPOWER",
+              "statKey": "healPower",
+              "value": 5.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 7.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 7.0,
+              "percent": true
+            },
+            {
+              "stat": "HEALPOWER",
+              "statKey": "healPower",
+              "value": 5.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 5,
+      "units": [
+        "霞",
+        "洛",
+        "崔丝塔娜",
+        "莉莉娅",
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_Primal18",
+      "name": "野兽之灵",
+      "type": "种族",
+      "code": "ER",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "选择一个【兽灵赐福】。",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "spirit_blessing",
+              "note": "选择兽灵赐福"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 3,
+          "unitCount": 4,
+          "effect": "选择第二个【兽灵赐福】。",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "spirit_blessing",
+              "note": "选择兽灵赐福"
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 4,
+      "units": [
+        "蔚",
+        "奈德丽",
+        "希维尔",
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_FloraFatalis18",
+      "name": "绝命花妖",
+      "type": "种族",
+      "code": "ES",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 1,
+          "effect": "10法力值",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "MANA",
+              "statKey": "mana",
+              "value": 10.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "MANA",
+              "statKey": "mana",
+              "value": 10.0,
+              "percent": false
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 2,
+          "effect": "并治疗生命值最低的友军7%最大生命值。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 7.0,
+              "percent": true,
+              "scope": "max"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 7.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 2,
+      "units": [
+        "费德提克",
+        "索拉卡"
+      ]
+    },
+    {
+      "key": "DA_18_Solar",
+      "name": "日蚀骑士",
+      "type": "种族",
+      "code": "ET",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 3,
+          "effect": "你的弈子们获得5%最大生命值护盾，并造成8%额外魔法伤害。每有1个不同的3星弈子，获得额外加成：<br>1：每有1个3星弈子，提升1%护盾强度和魔法伤害。<br>3：15%【AS】和12【ARMOR】【MR】<br>5：将40%额外魔法伤害转换为真实伤害。<br>8：在战斗期间内每过4秒，1个3星弈子飞升至4星。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 15.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 12.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 12.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 5.0,
+              "percent": true,
+              "scope": "max"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 15.0,
+              "percent": true
+            },
+            {
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 12.0,
+              "percent": false
+            },
+            {
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 12.0,
+              "percent": false
+            },
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 5.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 4,
+      "units": [
+        "蕾欧娜",
+        "凯尔",
+        "瑟庄妮",
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_18_Lunar",
+      "name": "月蚀骑士",
+      "type": "种族",
+      "code": "EU",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "7%【AS】，7%【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 7.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 7.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 7.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 7.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 3,
+          "effect": "10%【AS】，12%【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 10.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 12.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 10.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 12.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "14%【AS】，16%【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 14.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 16.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 14.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 16.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 5,
+          "effect": "18%【AS】，20%【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 18.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 20.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 18.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 20.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 4,
+      "units": [
+        "黛安娜",
+        "厄斐琉斯",
+        "拉露恩",
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_18_Eclipse",
+      "name": "日月双蚀",
+      "type": "种族",
+      "code": "EV",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "战斗开始8秒后，【日月双蚀】处决最低生命值的敌人，每3.5秒重复一次。",
+          "effects": [
+            {
+              "kind": "execute",
+              "interval": 3.5
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 7,
+      "units": [
+        "蕾欧娜",
+        "凯尔",
+        "瑟庄妮",
+        "黛安娜",
+        "厄斐琉斯",
+        "拉露恩",
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_18_Caustic",
+      "name": "帝王斑蝶",
+      "type": "种族",
+      "code": "EW",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "【帝王斑蝶】的伤害会对敌人施加持续4秒的30%魔抗击碎与护甲击碎。<br>魔抗击碎：降低魔抗值<br>护甲击碎：降低护甲值。",
+          "effects": [
+            {
+              "kind": "debuff",
+              "type": "shred_mr",
+              "value": 30.0,
+              "percent": true,
+              "duration": 4
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 1,
+      "units": [
+        "克格莫"
+      ]
+    },
+    {
+      "key": "DA_18_Battlemage",
+      "name": "魔岩巨兽",
+      "type": "种族",
+      "code": "EX",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "每成为1名敌人的目标，【魔岩巨兽】获得10护甲和魔法抗性。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 10.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 10.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 10.0,
+              "percent": false
+            },
+            {
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 10.0,
+              "percent": false
+            }
+          ]
+        }
+      ],
+      "unitCount": 1,
+      "units": [
+        "墨菲特"
+      ]
+    },
+    {
+      "key": "DA_Emerald18",
+      "name": "宝石骑士",
+      "type": "种族",
+      "code": "EY",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "partner_binding",
+              "note": "把友军拖到塔里克身上配对"
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 1,
+      "units": [
+        "塔里克"
+      ]
+    },
+    {
+      "key": "DA_18_Maokai_UniqueTrait",
+      "name": "远古树精",
+      "type": "种族",
+      "code": "EZ",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "每当3格内的1名敌人阵亡时，你最强大的那个【远古树精】弈子获得30永久最大生命值。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 30.0,
+              "percent": false,
+              "permanent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 30.0,
+              "percent": false
+            }
+          ]
+        }
+      ],
+      "unitCount": 1,
+      "units": [
+        "茂凯"
+      ]
+    },
+    {
+      "key": "DA_18_ZyraUniqueTrait",
+      "name": "荆棘之兴",
+      "type": "种族",
+      "code": "Ea",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "你的队伍获得5%伤害减免，在6株或更多【婕拉】的植物存活时，该数值提升至10%。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 5.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 5.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 1,
+      "units": [
+        "婕拉"
+      ]
+    },
+    {
+      "key": "DA_18_Greenfather",
+      "name": "翠神",
+      "type": "种族",
+      "code": "Eb",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "你最强大的那个【艾翁】在施放技能时获得1颗种子，且每场对战额外获得3颗。【艾翁】可消耗5颗种子在你的棋盘上培育1个格子，为格内的住民提供加成。",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "seed_planting",
+              "note": "获得种子，培育格子提供加成"
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 1,
+      "units": [
+        "艾翁"
+      ]
+    },
+    {
+      "key": "DA_AluneUniqueTrait18",
+      "name": "月华神女",
+      "type": "种族",
+      "code": "Ec",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "你最强大的那个【拉露恩】在每一次施放技能后，推进一次【月相】。当【月相】在弦月或以下时，你的队伍获得5%伤害减免。在弦月之上时，你的队伍获得7%伤害增幅。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "DA",
+              "statKey": "damageAmp",
+              "value": 7.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 5.0,
+              "percent": true
+            },
+            {
+              "kind": "mechanic",
+              "key": "moon_phase",
+              "note": "施放推进月相，改变团队增益"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "DA",
+              "statKey": "damageAmp",
+              "value": 7.0,
+              "percent": true
+            },
+            {
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 5.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 1,
+      "units": [
+        "拉露恩"
+      ]
+    },
+    {
+      "key": "DA_DravenUniqueTrait18",
+      "name": "赏金猎人",
+      "type": "种族",
+      "code": "Ed",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "选择1个【悬赏令】。你最强大的那个【德莱文】可以推进【悬赏令】进度以获取其奖励。在完成1个【悬赏令】后，可以选择另一个。",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "bounty_contract",
+              "note": "选择悬赏令，德莱文推进进度"
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 1,
+      "units": [
+        "德莱文"
+      ]
+    },
+    {
+      "key": "DA_18_LuxUniqueTrait",
+      "name": "自然之力！大元素使",
+      "type": "种族",
+      "code": "Ee",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "在备战席或棋盘上拥有1个【大元素使】时，会将你商店中所有其他【大元素使】转换为和这个【大元素使】相同的羁绊。<br>自然之力！！！【大元素使】为选定的羁绊提供+2计数。",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "elementalist_convert",
+              "note": "商店大元素使转换为同一羁绊"
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 1,
+      "units": [
+        "拉克丝"
+      ]
+    },
+    {
+      "key": "DA_18_ApexPredator",
+      "name": "顶级掠食者",
+      "type": "种族",
+      "code": "Ef",
+      "breakpoints": [
+        {
+          "style": 3,
+          "unitCount": 1,
+          "effect": "【远古巨龙】占用2个弈子栏位，并提供+2【峡谷野怪】羁绊。",
+          "effects": [
+            {
+              "kind": "slot",
+              "scope": "board",
+              "value": 2
+            },
+            {
+              "kind": "counter",
+              "trait": "峡谷野怪",
+              "value": 2
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 1,
+      "units": [
+        "远古巨龙"
+      ]
+    },
+    {
+      "key": "DA_18_Spellweaver",
+      "name": "法师",
+      "type": "职业",
+      "code": "Eg",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "+10%【AP】，每次施放+1%【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 10.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 1.0,
+              "percent": true,
+              "scope": "per_instance"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 10.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 1.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "+30%【AP】，每次施放+1%【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 30.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 1.0,
+              "percent": true,
+              "scope": "per_instance"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 30.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 1.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 6,
+          "effect": "+55%【AP】，每次施放+2%【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 55.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 2.0,
+              "percent": true,
+              "scope": "per_instance"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 55.0,
+              "percent": true
+            },
+            {
+              "stat": "AP",
+              "statKey": "abilityPower",
+              "value": 2.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 7,
+      "units": [
+        "卡尔玛",
+        "维迦",
+        "乐芙兰",
+        "卡西奥佩娅",
+        "费德提克",
+        "阿狸",
+        "拉露恩"
+      ]
+    },
+    {
+      "key": "DA_18_Adaptor",
+      "name": "魔战士",
+      "type": "职业",
+      "code": "Eh",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "25% 【AD】 或 【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 25.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 25.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 3,
+          "effect": "35% 【AD】 或 【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 35.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 35.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 4,
+          "effect": "50% 【AD】 或 【AP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 50.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 50.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 5,
+      "units": [
+        "阿卡丽",
+        "魔沼蛙",
+        "克格莫",
+        "易",
+        "奈德丽"
+      ]
+    },
+    {
+      "key": "DA_18_Slayer",
+      "name": "狂战士",
+      "type": "职业",
+      "code": "Ei",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "12%额外伤害",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "DA",
+              "statKey": "damageAmp",
+              "value": 12.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "DA",
+              "statKey": "damageAmp",
+              "value": 12.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "25%额外伤害",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "DA",
+              "statKey": "damageAmp",
+              "value": 25.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "DA",
+              "statKey": "damageAmp",
+              "value": 25.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 6,
+          "effect": "40%额外伤害",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "DA",
+              "statKey": "damageAmp",
+              "value": 40.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "DA",
+              "statKey": "damageAmp",
+              "value": 40.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 6,
+      "units": [
+        "卡蜜尔",
+        "阿卡丽",
+        "暗影狼",
+        "沃里克",
+        "黛安娜",
+        "绯红印记树怪"
+      ]
+    },
+    {
+      "key": "DA_18_Brawler",
+      "name": "斗士",
+      "type": "职业",
+      "code": "Ej",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "25%【HP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 25.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 25.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "40%【HP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 40.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 40.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 6,
+          "effect": "65%【HP】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 65.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 65.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 6,
+      "units": [
+        "可酷伯",
+        "雷克塞",
+        "阿利斯塔",
+        "远古石甲虫",
+        "瑟提",
+        "纳尔"
+      ]
+    },
+    {
+      "key": "DA_18_Rapidfire",
+      "name": "迅捷射手",
+      "type": "职业",
+      "code": "Ek",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "每次攻击+3%【AS】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 3.0,
+              "percent": true,
+              "scope": "per_instance"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 3.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 3,
+          "effect": "每次攻击+5%【AS】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 5.0,
+              "percent": true,
+              "scope": "per_instance"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 5.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "每次攻击+7%【AS】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 7.0,
+              "percent": true,
+              "scope": "per_instance"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 7.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 5,
+          "effect": "每次攻击+10%【AS】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 10.0,
+              "percent": true,
+              "scope": "per_instance"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AS",
+              "statKey": "attackSpeed",
+              "value": 10.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 5,
+      "units": [
+        "霞",
+        "韦鲁斯",
+        "凯尔",
+        "深红锋喙鸟",
+        "厄斐琉斯"
+      ]
+    },
+    {
+      "key": "DA_18_Hunter",
+      "name": "猎人",
+      "type": "职业",
+      "code": "El",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "20%【AD】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 20.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 20.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 3,
+          "effect": "30%【AD】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 30.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 30.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "45%【AD】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 45.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 45.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 5,
+          "effect": "60%【AD】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 60.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "AD",
+              "statKey": "attackDamage",
+              "value": 60.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 5,
+      "units": [
+        "绯红树怪",
+        "凯特琳",
+        "崔丝塔娜",
+        "希维尔",
+        "艾希"
+      ]
+    },
+    {
+      "key": "DA_18_Executioner",
+      "name": "裁决使",
+      "type": "职业",
+      "code": "Em",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "【裁决使】获得<TFTKeyword>【技能暴击】</TFTKeyword>和15%暴击几率。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "CRIT",
+              "statKey": "critChance",
+              "value": 15.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "CRIT",
+              "statKey": "critChance",
+              "value": 15.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 3,
+          "effect": "此外，敌人会流血，在3秒内受到25%额外真实伤害。",
+          "effects": [
+            {
+              "kind": "dot",
+              "type": "bleed",
+              "note": "敌人流血，3 秒内受到额外真实伤害"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 3,
+          "unitCount": 4,
+          "effect": "流血伤害提升至35%。",
+          "effects": [
+            {
+              "kind": "dot",
+              "type": "bleed",
+              "note": "敌人流血，3 秒内受到额外真实伤害"
+            }
+          ],
+          "stats": []
+        }
+      ],
+      "unitCount": 5,
+      "units": [
+        "芸阿娜",
+        "阿兹尔",
+        "索拉卡",
+        "伊泽瑞尔",
+        "凯南"
+      ]
+    },
+    {
+      "key": "DA_18_Summoner",
+      "name": "召唤师",
+      "type": "职业",
+      "code": "Eo",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "强化召唤物",
+          "effects": [
+            {
+              "kind": "mechanic",
+              "key": "summon_buff",
+              "note": "强化召唤物"
+            }
+          ],
+          "stats": []
+        },
+        {
+          "style": 3,
+          "unitCount": 3,
+          "effect": "每种效果加成提升50%",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "SUMMON",
+              "statKey": "summonEffect",
+              "value": 50.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "SUMMON",
+              "statKey": "summonEffect",
+              "value": 50.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 4,
+      "units": [
+        "约里克",
+        "深红锋喙鸟",
+        "阿兹尔",
+        "婕拉"
+      ]
+    },
+    {
+      "key": "DA_18_Vanguard",
+      "name": "重装战士",
+      "type": "职业",
+      "code": "Ep",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "18%最大生命值",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 18.0,
+              "percent": true,
+              "scope": "max"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 18.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "30%最大生命值",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 30.0,
+              "percent": true,
+              "scope": "max"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 30.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 6,
+          "effect": "40%最大生命值。当拥有护盾时，获得5%伤害减免。",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 5.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "HP",
+              "statKey": "health",
+              "value": 40.0,
+              "percent": true,
+              "scope": "max"
+            }
+          ],
+          "stats": [
+            {
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 5.0,
+              "percent": true
+            },
+            {
+              "stat": "HP",
+              "statKey": "health",
+              "value": 40.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 6,
+      "units": [
+        "洛",
+        "伊莉丝",
+        "赫卡里姆",
+        "黛安娜",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ]
+    },
+    {
+      "key": "DA_18_Defender",
+      "name": "护卫",
+      "type": "职业",
+      "code": "Eq",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "25 【ARMOR】【MR】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 25.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 25.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 25.0,
+              "percent": false
+            },
+            {
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 25.0,
+              "percent": false
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "60 【ARMOR】【MR】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 60.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 60.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 60.0,
+              "percent": false
+            },
+            {
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 60.0,
+              "percent": false
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 6,
+          "effect": "115 【ARMOR】【MR】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 115.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 115.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "ARMOR",
+              "statKey": "armor",
+              "value": 115.0,
+              "percent": false
+            },
+            {
+              "stat": "MR",
+              "statKey": "magicResist",
+              "value": 115.0,
+              "percent": false
+            }
+          ]
+        }
+      ],
+      "unitCount": 6,
+      "units": [
+        "奥恩",
+        "蕾欧娜",
+        "慎",
+        "拉莫斯",
+        "费德提克",
+        "莉莉娅"
+      ]
+    },
+    {
+      "key": "DA_Juggernaut18",
+      "name": "主宰",
+      "type": "职业",
+      "code": "Er",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "4%【DR】 或 20%【DR】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 4.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 20.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 4.0,
+              "percent": true
+            },
+            {
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 20.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "6%【DR】 或 30%【DR】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 6.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 30.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 6.0,
+              "percent": true
+            },
+            {
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 30.0,
+              "percent": true
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 6,
+          "effect": "8%【DR】 或 42%【DR】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 8.0,
+              "percent": true
+            },
+            {
+              "kind": "stat",
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 42.0,
+              "percent": true
+            }
+          ],
+          "stats": [
+            {
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 8.0,
+              "percent": true
+            },
+            {
+              "stat": "DR",
+              "statKey": "damageReduction",
+              "value": 42.0,
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "unitCount": 7,
+      "units": [
+        "洛",
+        "约里克",
+        "瑟庄妮",
+        "峡谷迅捷蟹",
+        "蔚",
+        "阿木木",
+        "茂凯"
+      ]
+    },
+    {
+      "key": "DA_18_Invoker",
+      "name": "神谕",
+      "type": "职业",
+      "code": "Es",
+      "breakpoints": [
+        {
+          "style": 1,
+          "unitCount": 2,
+          "effect": "1【MANAREGEN】 | 3【MANAREGEN】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 1.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 3.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 1.0,
+              "percent": false
+            },
+            {
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 3.0,
+              "percent": false
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 3,
+          "effect": "1【MANAREGEN】 | 4【MANAREGEN】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 1.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 4.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 1.0,
+              "percent": false
+            },
+            {
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 4.0,
+              "percent": false
+            }
+          ]
+        },
+        {
+          "style": 2,
+          "unitCount": 4,
+          "effect": "2【MANAREGEN】 | 6【MANAREGEN】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 2.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 6.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 2.0,
+              "percent": false
+            },
+            {
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 6.0,
+              "percent": false
+            }
+          ]
+        },
+        {
+          "style": 3,
+          "unitCount": 5,
+          "effect": "2【MANAREGEN】 | 8【MANAREGEN】",
+          "effects": [
+            {
+              "kind": "stat",
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 2.0,
+              "percent": false
+            },
+            {
+              "kind": "stat",
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 8.0,
+              "percent": false
+            }
+          ],
+          "stats": [
+            {
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 2.0,
+              "percent": false
+            },
+            {
+              "stat": "MANAREGEN",
+              "statKey": "manaRegen",
+              "value": 8.0,
+              "percent": false
+            }
+          ]
+        }
+      ],
+      "unitCount": 5,
+      "units": [
+        "苍蓝哨戒",
+        "提莫",
+        "克格莫",
+        "莫甘娜",
+        "苍蓝雕纹魔像"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "note": "推荐器的默认节奏参数，不是 s18db 的数据事实。按版本、段位、打法调整；改动后建议用真实截图回归。",
+  "level_timing": [
+    {"stage": "2-1", "level": 4},
+    {"stage": "3-2", "level": 6},
+    {"stage": "4-1", "level": 7},
+    {"stage": "4-5", "level": 8},
+    {"stage": "5-1", "level": 9}
+  ],
+  "hp_danger": 35,
+  "hp_low": 45,
+  "roll_gold": 30,
+  "interest_cap": 5,
+  "min_named_ratio": 0.6,
+  "weights": {
+    "core_units": 0.3,
+    "units": 0.15,
+    "traits": 0.2,
+    "items": 0.08,
+    "shop": 0.1,
+    "meta": 0.08,
+    "economy": 0.04,
+    "augments": 0.05
+  }
+}

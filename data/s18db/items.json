@@ -1,0 +1,4398 @@
+{
+  "meta": {
+    "source": "h5-data-cn-18.json（HTML 的「装备」标签页为空）",
+    "set": "S18",
+    "count": 151,
+    "extracted_at": "2026-11-02",
+    "statNote": "stats 由站点 effectAttr（成装）或 effect（散件）里的【AD】+10% 标记解析",
+    "statParsed": 131,
+    "recipeNote": "recipe 来自项目原有 data/EquipmentData.json，按中文名/别名对齐到站点 equipId",
+    "recipeCount": 55
+  },
+  "items": [
+    {
+      "id": 20002,
+      "name": "死亡之蔑",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cy",
+      "effect": "携带者受到伤害的50%会转而在4秒内逐渐承受。<br><tftitemrules>唯一 - 每个弈子仅可装备1件</tftitemrules><br><tftitemrules>该装备云顶已移除，金铲铲正常。</tftitemrules>",
+      "effectAttr": "【AD】+25%【DIST】【AS】+15%【DIST】【ARMOR】+40【DIST】【SV】+25%",
+      "key": "DA_Artifact_DeathsDefiance",
+      "effectText": "携带者受到伤害的50%会转而在4秒内逐渐承受。\n唯一 - 每个弈子仅可装备1件\n该装备云顶已移除，金铲铲正常。",
+      "effectAttrText": "【AD】+25%【DIST】【AS】+15%【DIST】【ARMOR】+40【DIST】【SV】+25%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 25.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 40.0,
+          "percent": false
+        },
+        {
+          "stat": "SV",
+          "statKey": "omnivamp",
+          "value": 25.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 20003,
+      "name": "魔蕴",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cm",
+      "effect": "在战斗中首次施放技能后，在5秒内持续回复共110法力值。<br><tftitemrules>唯一 - 每个弈子仅可装备1件</tftitemrules>",
+      "effectAttr": "【AD】+15%【DIST】【AP】+15%【DIST】【MANAREGEN】+1",
+      "key": "DA_Artifact_Manazane",
+      "effectText": "在战斗中首次施放技能后，在5秒内持续回复共110法力值。\n唯一 - 每个弈子仅可装备1件",
+      "effectAttrText": "【AD】+15%【DIST】【AP】+15%【DIST】【MANAREGEN】+1",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 15.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 20004,
+      "name": "三相之力",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cz",
+      "effect": "<tftitemrules>成吨的一切！</tftitemrules>",
+      "effectAttr": "【AD】+30%【DIST】【AP】+30%【DIST】【AS】+30%【DIST】【ARMOR】+30【DIST】【HP】+300【DIST】【MR】+30",
+      "key": "DA_Artifact_InfinityForce",
+      "effectText": "成吨的一切！",
+      "effectAttrText": "【AD】+30%【DIST】【AP】+30%【DIST】【AS】+30%【DIST】【ARMOR】+30【DIST】【HP】+300【DIST】【MR】+30",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 30.0,
+          "percent": false
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 30.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 20009,
+      "name": "金币收集者",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DA",
+      "effect": "攻击和技能会处决生命值低于最大生命值12%的目标。处决有33%几率掉落1金币。<br><tftitemrules>唯一 - 每个弈子仅可装备1件</tftitemrules>",
+      "effectAttr": "【AD】+35%【DIST】【CRIT】+20%",
+      "key": "DA_Artifact_GoldCollector",
+      "effectText": "攻击和技能会处决生命值低于最大生命值12%的目标。处决有33%几率掉落1金币。\n唯一 - 每个弈子仅可装备1件",
+      "effectAttrText": "【AD】+35%【DIST】【CRIT】+20%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 35.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 20010,
+      "name": "中娅悖论",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DB",
+      "effect": "每场战斗仅触发一次：当携带者降至40%生命值时，进入持续3秒的免疫伤害状态和不可被选取状态。<br><tftitemrules>唯一 - 每个弈子仅可装备1件</tftitemrules>",
+      "effectAttr": "【AP】+25%【DIST】【ARMOR】+25【DIST】【MR】+25",
+      "key": "DA_Artifact_ZhonyasParadox",
+      "effectText": "每场战斗仅触发一次：当携带者降至40%生命值时，进入持续3秒的免疫伤害状态和不可被选取状态。\n唯一 - 每个弈子仅可装备1件",
+      "effectAttrText": "【AP】+25%【DIST】【ARMOR】+25【DIST】【MR】+25",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 25.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 25.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 25.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 20011,
+      "name": "碎舰者",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DC",
+      "effect": "战斗开始时：如果邻格内没有友军，获得400生命值、10%物理加成和10%法术加成。",
+      "effectAttr": "【ARMOR】+60【DIST】【MR】+60",
+      "key": "DA_Artifact_Hullcrusher",
+      "effectText": "战斗开始时：如果邻格内没有友军，获得400生命值、10%物理加成和10%法术加成。",
+      "effectAttrText": "【ARMOR】+60【DIST】【MR】+60",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 60.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 60.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 20017,
+      "name": "大亨之铠",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DE",
+      "effect": "在承受伤害时提供1护甲、1魔抗和5生命值，这个效果至多叠加至35次。<br>在满层时，提供【GOLD】1金币并且每11秒继续提供【GOLD】1金币。<br><tftitemrules>唯一 - 每位弈子仅可装备1件</tftitemrules>",
+      "effectAttr": "【HP】+300",
+      "key": "DA_Artifact_MogulsMail",
+      "effectText": "在承受伤害时提供1护甲、1魔抗和5生命值，这个效果至多叠加至35次。\n在满层时，提供【GOLD】1金币并且每11秒继续提供【GOLD】1金币。\n唯一 - 每位弈子仅可装备1件",
+      "effectAttrText": "【HP】+300",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 20044,
+      "name": "黎明核心",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Ct",
+      "effect": "携带者的最大法力值缩减10。后续的技能施放会使最大法力值缩减5%，直至最小值15。",
+      "effectAttr": "【AD】+20%【DIST】【AP】+20%【DIST】【MANAREGEN】+1",
+      "key": "DA_Artifact_Dawncore",
+      "effectText": "携带者的最大法力值缩减10。后续的技能施放会使最大法力值缩减5%，直至最小值15。",
+      "effectAttrText": "【AD】+20%【DIST】【AP】+20%【DIST】【MANAREGEN】+1",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 20.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 20101,
+      "name": "投机者之刃",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DF",
+      "effect": "获得1%x你金币存款的额外攻击速度（在30金币时达到最大值）。<br>每次攻击有6%几率掉落1金币。<br><tftitemrules>唯一 - 每位英雄仅可装备1件</tftitemrules>",
+      "effectAttr": "【AS】+55%",
+      "key": "DA_Artifact_GamblersBlade",
+      "effectText": "获得1%x你金币存款的额外攻击速度（在30金币时达到最大值）。\n每次攻击有6%几率掉落1金币。\n唯一 - 每位英雄仅可装备1件",
+      "effectAttrText": "【AS】+55%",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 55.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 30002,
+      "name": "飞升护符",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DG",
+      "effect": "在22秒后，获得100%最大生命值、12法力回复和120%伤害增幅，持续到战斗环节结束。",
+      "effectAttr": "【AD】+20%【DIST】【AP】+20%【DIST】【HP】+450",
+      "key": "DA_Item_Artifact_TalismanOfAscension",
+      "effectText": "在22秒后，获得100%最大生命值、12法力回复和120%伤害增幅，持续到战斗环节结束。",
+      "effectAttrText": "【AD】+20%【DIST】【AP】+20%【DIST】【HP】+450",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 450.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 30004,
+      "name": "鱼骨头",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DH",
+      "effect": "携带者的攻击会瞄准随机的敌人。获得+2攻击距离。",
+      "effectAttr": "【AD】+25%【DIST】【AS】+25%",
+      "key": "DA_Artifact_Fishbones",
+      "effectText": "携带者的攻击会瞄准随机的敌人。获得+2攻击距离。",
+      "effectAttrText": "【AD】+25%【DIST】【AS】+25%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 25.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 25.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 30006,
+      "name": "视界专注",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DI",
+      "effect": "将一名敌人眩晕时会引发闪电对其进行打击，造成相当于其30%最大生命值的魔法伤害。<br><tftitemrules>该装备金铲铲已移除，云顶正常。</tftitemrules>",
+      "effectAttr": "【ARMOR】+20【DIST】【HP】+250【DIST】【MR】+20【DIST】【MANAREGEN】+2",
+      "key": "DA_Artifact_HorizonFocus",
+      "effectText": "将一名敌人眩晕时会引发闪电对其进行打击，造成相当于其30%最大生命值的魔法伤害。\n该装备金铲铲已移除，云顶正常。",
+      "effectAttrText": "【ARMOR】+20【DIST】【HP】+250【DIST】【MR】+20【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 20.0,
+          "percent": false
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 250.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 20.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 30007,
+      "name": "连指手套",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DJ",
+      "effect": "将携带者缩小，为其提供移动速度提升并免疫缓速、灼烧、以及重伤。<br><tftitemrules>缓速：降低攻击速度。</tftitemrules><tftitemrules>灼烧：每秒造成目标一部分最大生命值的真实伤害。</tftitemrules><tftitemrules>重伤：降低受到的治疗效果。</tftitemrules>",
+      "effectAttr": "【AS】+65%【DIST】【DA】+15%",
+      "key": "DA_Artifact_Mittens",
+      "effectText": "将携带者缩小，为其提供移动速度提升并免疫缓速、灼烧、以及重伤。\n缓速：降低攻击速度。灼烧：每秒造成目标一部分最大生命值的真实伤害。重伤：降低受到的治疗效果。",
+      "effectAttrText": "【AS】+65%【DIST】【DA】+15%",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 65.0,
+          "percent": true
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 15.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 30009,
+      "name": "疾射火炮",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DK",
+      "effect": "获得+1攻击距离，并且这个距离会在携带者每击败一个敌人时提升1。",
+      "effectAttr": "【AS】+55%【DIST】【DA】+5%",
+      "key": "DA_Artifact_RapidFireCannon",
+      "effectText": "获得+1攻击距离，并且这个距离会在携带者每击败一个敌人时提升1。",
+      "effectAttrText": "【AS】+55%【DIST】【DA】+5%",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 55.0,
+          "percent": true
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 5.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 30011,
+      "name": "卢登的激荡",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DS",
+      "effect": "在击杀目标时，会对与目标相距最近的两个敌人造成魔法伤害，伤害值为过量伤害的100%外加130。",
+      "effectAttr": "【AD】+55%【DIST】【AP】+55%",
+      "key": "DA_Artifact_LudensTempest",
+      "effectText": "在击杀目标时，会对与目标相距最近的两个敌人造成魔法伤害，伤害值为过量伤害的100%外加130。",
+      "effectAttrText": "【AD】+55%【DIST】【AP】+55%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 55.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 55.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 30012,
+      "name": "密银黎明",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DL",
+      "effect": "为携带者提供免疫晕眩，并且携带者的攻击可以使目标晕眩0.8秒。<br>携带者的攻击速度被锁定在0.5。",
+      "effectAttr": "【AD】+150%【DIST】【ARMOR】+30【DIST】【MR】+30【DIST】【SV】+30%",
+      "key": "DA_Artifact_SilvermereDawn",
+      "effectText": "为携带者提供免疫晕眩，并且携带者的攻击可以使目标晕眩0.8秒。\n携带者的攻击速度被锁定在0.5。",
+      "effectAttrText": "【AD】+150%【DIST】【ARMOR】+30【DIST】【MR】+30【DIST】【SV】+30%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 150.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 30.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 30.0,
+          "percent": false
+        },
+        {
+          "stat": "SV",
+          "statKey": "omnivamp",
+          "value": 30.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 30013,
+      "name": "暗行者之爪",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Qm",
+      "effect": "在击杀一个目标后，摆脱负面效果并冲刺到4格内相距最远的那个目标处。下两次暴击攻击造成50%额外暴击伤害。<br><tftitemrules>该装备云顶已移除，金铲铲正常。</tftitemrules>",
+      "effectAttr": "【AD】+35%【DIST】【CRIT】+45%【DIST】【HP】+300",
+      "key": "TFT_Item_Artifact_ProwlersClaw",
+      "effectText": "在击杀一个目标后，摆脱负面效果并冲刺到4格内相距最远的那个目标处。下两次暴击攻击造成50%额外暴击伤害。\n该装备云顶已移除，金铲铲正常。",
+      "effectAttrText": "【AD】+35%【DIST】【CRIT】+45%【DIST】【HP】+300",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 35.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 45.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 30016,
+      "name": "枯萎珠宝",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DN",
+      "effect": "造成魔法伤害时会将目标的魔抗削减3。如果目标的魔抗是0，则转而为携带者提供4法力值。<br><tftitemrules>技能伤害每0.5秒仅能在每个敌人身上触发一次此效果。</tftitemrules>",
+      "effectAttr": "【AP】+30%【DIST】【MANAREGEN】+2",
+      "key": "DA_Artifact_BlightingJewel",
+      "effectText": "造成魔法伤害时会将目标的魔抗削减3。如果目标的魔抗是0，则转而为携带者提供4法力值。\n技能伤害每0.5秒仅能在每个敌人身上触发一次此效果。",
+      "effectAttrText": "【AP】+30%【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 30.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 30017,
+      "name": "智慧末刃",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DO",
+      "effect": "攻击造成25/45/65/85/100额外魔法伤害。治疗携带者，数额为造成所有魔法伤害的25%。<br><tftitemrules>此伤害基于阶段提升。</tftitemrules>",
+      "effectAttr": "【HP】+300【DIST】【ARMOR】+20【DIST】【MR】+20【DIST】【AS】+25%",
+      "key": "DA_Artifact_WitsEnd",
+      "effectText": "攻击造成25/45/65/85/100额外魔法伤害。治疗携带者，数额为造成所有魔法伤害的25%。\n此伤害基于阶段提升。",
+      "effectAttrText": "【HP】+300【DIST】【ARMOR】+20【DIST】【MR】+20【DIST】【AS】+25%",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 20.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 20.0,
+          "percent": false
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 25.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 30018,
+      "name": "禁忌雕像",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "FM",
+      "effect": "护盾效果会将其40%的护盾值转化为最大生命值作为替代。",
+      "effectAttr": "【HP】+500【DIST】【MANAREGEN】+2",
+      "key": "DA_Artifact_ForbiddenIdol",
+      "effectText": "护盾效果会将其40%的护盾值转化为最大生命值作为替代。",
+      "effectAttrText": "【HP】+500【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 500.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 30019,
+      "name": "巫妖之祸",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DP",
+      "effect": "携带者在每次技能施放后的第一次攻击造成250/350/500/600/700额外魔法伤害。<br><tftitemrules>这个伤害基于阶段而提升。</tftitemrules>",
+      "effectAttr": "【AP】+55%【DIST】【AS】+10%",
+      "key": "DA_Artifact_LichBane",
+      "effectText": "携带者在每次技能施放后的第一次攻击造成250/350/500/600/700额外魔法伤害。\n这个伤害基于阶段而提升。",
+      "effectAttrText": "【AP】+55%【DIST】【AS】+10%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 55.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 10.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 30020,
+      "name": "光盾徽章",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DQ",
+      "effect": "每3秒，为生命值百分比最低的那个友军提供护盾，护盾值相当于携带者70%的护甲与魔抗总和，持续5秒。<br>阵亡时，将这个护盾效果提供给所有友军。",
+      "effectAttr": "【ARMOR】+55【DIST】【MR】+55",
+      "key": "DA_Artifact_LightshieldCrest",
+      "effectText": "每3秒，为生命值百分比最低的那个友军提供护盾，护盾值相当于携带者70%的护甲与魔抗总和，持续5秒。\n阵亡时，将这个护盾效果提供给所有友军。",
+      "effectAttrText": "【ARMOR】+55【DIST】【MR】+55",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 55.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 55.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 30021,
+      "name": "探索者的护臂",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "DR",
+      "effect": "参与击杀后会使携带者的护甲、魔抗和法术加成提升20。",
+      "effectAttr": "【AP】+25%【DIST】【ARMOR】+10【DIST】【MR】+10【DIST】【SV】+20%",
+      "key": "DA_Artifact_SeekersArmguard",
+      "effectText": "参与击杀后会使携带者的护甲、魔抗和法术加成提升20。",
+      "effectAttrText": "【AP】+25%【DIST】【ARMOR】+10【DIST】【MR】+10【DIST】【SV】+20%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 25.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 10.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 10.0,
+          "percent": false
+        },
+        {
+          "stat": "SV",
+          "statKey": "omnivamp",
+          "value": 20.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 31004,
+      "name": "烁刃",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cu",
+      "effect": "攻击提供4%可叠加的攻击速度。每3次攻击还会提供2%物理加成和2%法术加成。",
+      "effectAttr": "【AP】+10%【DIST】【AS】+20%",
+      "key": "DA_Artifact_NavoriFlickerblade",
+      "effectText": "攻击提供4%可叠加的攻击速度。每3次攻击还会提供2%物理加成和2%法术加成。",
+      "effectAttrText": "【AP】+10%【DIST】【AS】+20%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 20.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 31005,
+      "name": "斯塔缇克电刃",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cv",
+      "effect": "每第3次攻击对6名敌人造成15+携带者35%法术加成的额外魔法伤害。",
+      "effectAttr": "【AP】+25%【DIST】【AS】+40%",
+      "key": "DA_Artifact_StatikkShiv",
+      "effectText": "每第3次攻击对6名敌人造成15+携带者35%法术加成的额外魔法伤害。",
+      "effectAttrText": "【AP】+25%【DIST】【AS】+40%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 25.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 40.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 31006,
+      "name": "巨型九头蛇",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cw",
+      "effect": "攻击对目标和邻格敌人造成相当于携带者最大生命值2%外加4%物理加成的额外物理伤害。",
+      "effectAttr": "【AD】+20%【DIST】【AS】+20%【DIST】【HP】+300",
+      "key": "DA_Artifact_TitanicHydra",
+      "effectText": "攻击对目标和邻格敌人造成相当于携带者最大生命值2%外加4%物理加成的额外物理伤害。",
+      "effectAttrText": "【AD】+20%【DIST】【AS】+20%【DIST】【HP】+300",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 31007,
+      "name": "顽强不屈",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cx",
+      "effect": "携带者的移动速度大幅降低。<br>获得15%最大生命值、不可阻挡效果，并将当前目标拉到近战距离。",
+      "effectAttr": "【ARMOR】+20【DIST】【HP】+500【DIST】【MR】+20",
+      "key": "DA_Artifact_TheIndomitable",
+      "effectText": "携带者的移动速度大幅降低。\n获得15%最大生命值、不可阻挡效果，并将当前目标拉到近战距离。",
+      "effectAttrText": "【ARMOR】+20【DIST】【HP】+500【DIST】【MR】+20",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 20.0,
+          "percent": false
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 500.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 20.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 32345,
+      "name": "虚空护手",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cn",
+      "effect": "战斗开始时：储存30%最大生命值并且每秒储存额外的2.5%。阵亡时，释放相当于生命值储量的魔法伤害，分摊给4格内的敌人们。<br><tftitemrules>唯一 - 每个弈子仅可装备1件</tftitemrules>",
+      "effectAttr": "【HP】+300【DIST】【DR】+10%",
+      "key": "DA_Artifact_VoidGauntlet",
+      "effectText": "战斗开始时：储存30%最大生命值并且每秒储存额外的2.5%。阵亡时，释放相当于生命值储量的魔法伤害，分摊给4格内的敌人们。\n唯一 - 每个弈子仅可装备1件",
+      "effectAttrText": "【HP】+300【DIST】【DR】+10%",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        },
+        {
+          "stat": "DR",
+          "statKey": "damageReduction",
+          "value": 10.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 32346,
+      "name": "黎明圣盾",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Co",
+      "effect": "每2.5秒，从1格内的敌人处偷取3护甲，并治疗相当于携带者20%护甲值的生命值。<br>如果还携带了【黄昏圣盾】，则转而每1.25秒触发这件装备的效果。<br><tftitemrules>治疗效果基于阶段提升。</tftitemrules>",
+      "effectAttr": "【ARMOR】+50【DIST】【HP】+400",
+      "key": "DA_Artifact_AegisOfDawn",
+      "effectText": "每2.5秒，从1格内的敌人处偷取3护甲，并治疗相当于携带者20%护甲值的生命值。\n如果还携带了【黄昏圣盾】，则转而每1.25秒触发这件装备的效果。\n治疗效果基于阶段提升。",
+      "effectAttrText": "【ARMOR】+50【DIST】【HP】+400",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 50.0,
+          "percent": false
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 400.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 32347,
+      "name": "恶火小斧",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cp",
+      "effect": "攻击造成相当于携带者最大生命值3%的额外物理伤害。每损失1%生命值，获得1.5%攻击速度。",
+      "effectAttr": "【HP】+400【DIST】【SV】+20%",
+      "key": "DA_Artifact_HellfireHatchet",
+      "effectText": "攻击造成相当于携带者最大生命值3%的额外物理伤害。每损失1%生命值，获得1.5%攻击速度。",
+      "effectAttrText": "【HP】+400【DIST】【SV】+20%",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 400.0,
+          "percent": false
+        },
+        {
+          "stat": "SV",
+          "statKey": "omnivamp",
+          "value": 20.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 32349,
+      "name": "黄昏圣盾",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cq",
+      "effect": "每2.5秒，从1格内的敌人处偷取3魔抗，并造成相当于携带者18%魔抗值的魔法伤害。<br>如果还携带了【黎明圣盾】，则转而每1.25秒触发这件装备的效果。<br><tftitemrules>造成的伤害基于阶段提升。</tftitemrules>",
+      "effectAttr": "【HP】+400【DIST】【MR】+70",
+      "key": "DA_Artifact_AegisOfDusk",
+      "effectText": "每2.5秒，从1格内的敌人处偷取3魔抗，并造成相当于携带者18%魔抗值的魔法伤害。\n如果还携带了【黎明圣盾】，则转而每1.25秒触发这件装备的效果。\n造成的伤害基于阶段提升。",
+      "effectAttrText": "【HP】+400【DIST】【MR】+70",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 400.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 70.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 32351,
+      "name": "永恒契约",
+      "type": "奥恩神器",
+      "typeRaw": "aoen",
+      "code": "Cs",
+      "effect": "战斗开始时：与生命值最高的那个友方弈子形成一个契约，如果其阵亡，则获得10法力回复和40%法术强度。<br>当该友军使用其技能时，获得10法力值。每6秒，为该友军提供护盾值，数额相当于携带者的200%法术强度。",
+      "effectAttr": "【AP】+35%【DIST】【MANAREGEN】+1",
+      "key": "DA_Artifact_EternalPact",
+      "effectText": "战斗开始时：与生命值最高的那个友方弈子形成一个契约，如果其阵亡，则获得10法力回复和40%法术强度。\n当该友军使用其技能时，获得10法力值。每6秒，为该友军提供护盾值，数额相当于携带者的200%法术强度。",
+      "effectAttrText": "【AP】+35%【DIST】【MANAREGEN】+1",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 35.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 519,
+      "name": "锐利之刃",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "BV",
+      "effect": "<tftitemrules>将完美的安宁和平静带给携带者——和所有面对它的人。</tftitemrules>",
+      "effectAttr": "【AD】+55%【DIST】【DA】+10%",
+      "key": "DA_Deathblade",
+      "effectText": "将完美的安宁和平静带给携带者——和所有面对它的人。",
+      "effectAttrText": "【AD】+55%【DIST】【DA】+10%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 55.0,
+          "percent": true
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 10.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "暴风大剑",
+          "id": 501
+        },
+        {
+          "name": "暴风大剑",
+          "id": 501
+        }
+      ]
+    },
+    {
+      "id": 521,
+      "name": "巨人捕手",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "BW",
+      "effect": "对抗坦克时获得15%额外伤害增幅。",
+      "effectAttr": "【AD】+15%【DIST】【AP】+15%【DIST】【AS】+15%【DIST】【DA】+15%",
+      "key": "DA_GiantSlayer",
+      "effectText": "对抗坦克时获得15%额外伤害增幅。",
+      "effectAttrText": "【AD】+15%【DIST】【AP】+15%【DIST】【AS】+15%【DIST】【DA】+15%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 15.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "暴风大剑",
+          "id": 501
+        },
+        {
+          "name": "反曲之弓",
+          "id": 502
+        }
+      ]
+    },
+    {
+      "id": 525,
+      "name": "朔极之矛",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "BY",
+      "effect": "每次普攻提供5额外法力值。",
+      "effectAttr": "【AD】+15%【DIST】【AP】+15%【DIST】【MANAREGEN】+1",
+      "key": "DA_SpearOfShojin",
+      "effectText": "每次普攻提供5额外法力值。",
+      "effectAttrText": "【AD】+15%【DIST】【AP】+15%【DIST】【MANAREGEN】+1",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 15.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "暴风大剑",
+          "id": 501
+        },
+        {
+          "name": "女神之泪",
+          "id": 504
+        }
+      ]
+    },
+    {
+      "id": 529,
+      "name": "汲取剑",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Ba",
+      "effect": "每场战斗仅触发一次：在50%生命值时，获得一个护盾，护盾值相当于携带者30%的最大生命值，至多持续5秒。",
+      "effectAttr": "【AD】+18%【DIST】【AP】+18%【DIST】【MR】+20【DIST】【SV】+20%",
+      "key": "DA_Bloodthirster",
+      "effectText": "每场战斗仅触发一次：在50%生命值时，获得一个护盾，护盾值相当于携带者30%的最大生命值，至多持续5秒。",
+      "effectAttrText": "【AD】+18%【DIST】【AP】+18%【DIST】【MR】+20【DIST】【SV】+20%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 18.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 18.0,
+          "percent": true
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 20.0,
+          "percent": false
+        },
+        {
+          "stat": "SV",
+          "statKey": "omnivamp",
+          "value": 20.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "暴风大剑",
+          "id": 501
+        },
+        {
+          "name": "负极斗篷",
+          "id": 506
+        }
+      ]
+    },
+    {
+      "id": 535,
+      "name": "无尽之刃",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bc",
+      "effect": "获得<TFTKeyword>技能暴击</TFTKeyword>。<br><tftitemrules>技能暴击：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。</tftitemrules>",
+      "effectAttr": "【AD】+35%【DIST】【CRIT】+35%",
+      "key": "DA_InfinityEdge",
+      "effectText": "获得技能暴击。\n技能暴击：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。",
+      "effectAttrText": "【AD】+35%【DIST】【CRIT】+35%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 35.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 35.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "暴风大剑",
+          "id": 501
+        },
+        {
+          "name": "拳套",
+          "id": 509
+        }
+      ]
+    },
+    {
+      "id": 539,
+      "name": "鬼索的狂暴之刃",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Be",
+      "effect": "每秒获得7%可叠加的攻击速度。",
+      "effectAttr": "【AP】+10%【DIST】【AS】+10%",
+      "key": "DA_GuinsoosRageblade",
+      "effectText": "每秒获得7%可叠加的攻击速度。",
+      "effectAttrText": "【AP】+10%【DIST】【AS】+10%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 10.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "反曲之弓",
+          "id": 502
+        },
+        {
+          "name": "无用大棒",
+          "id": 503
+        }
+      ]
+    },
+    {
+      "id": 551,
+      "name": "最后的轻语",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bj",
+      "effect": "普攻和技能伤害都会对目标施加持续3秒的30%<TFTKeyword>护甲击碎</TFTKeyword>。这个效果不会叠加。<br><tftitemrules>护甲击碎：降低护甲值</tftitemrules>",
+      "effectAttr": "【AD】+15%【DIST】【AS】+20%【DIST】【CRIT】+20%",
+      "key": "DA_LastWhisper",
+      "effectText": "普攻和技能伤害都会对目标施加持续3秒的30%护甲击碎。这个效果不会叠加。\n护甲击碎：降低护甲值",
+      "effectAttrText": "【AD】+15%【DIST】【AS】+20%【DIST】【CRIT】+20%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "反曲之弓",
+          "id": 502
+        },
+        {
+          "name": "拳套",
+          "id": 509
+        }
+      ]
+    },
+    {
+      "id": 553,
+      "name": "班克斯的魔法帽",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bk",
+      "effect": "<tftitemrules>这顶不起眼的帽子可以帮助你创造，或毁灭，这个世界本身。</tftitemrules>",
+      "effectAttr": "【AP】+55%【DIST】【DA】+15%",
+      "key": "DA_RabadonsDeathcap",
+      "effectText": "这顶不起眼的帽子可以帮助你创造，或毁灭，这个世界本身。",
+      "effectAttrText": "【AP】+55%【DIST】【DA】+15%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 55.0,
+          "percent": true
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 15.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "无用大棒",
+          "id": 503
+        },
+        {
+          "name": "无用大棒",
+          "id": 503
+        }
+      ]
+    },
+    {
+      "id": 555,
+      "name": "大天使之杖",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bl",
+      "effect": "战斗开始：在战斗期间，每5秒获得20法术加成。",
+      "effectAttr": "【AP】+30%【DIST】【MANAREGEN】+1",
+      "key": "DA_ArchangelsStaff",
+      "effectText": "战斗开始：在战斗期间，每5秒获得20法术加成。",
+      "effectAttrText": "【AP】+30%【DIST】【MANAREGEN】+1",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 30.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "无用大棒",
+          "id": 503
+        },
+        {
+          "name": "女神之泪",
+          "id": 504
+        }
+      ]
+    },
+    {
+      "id": 561,
+      "name": "莫雷洛秘典",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bo",
+      "effect": "攻击和技能的伤害对敌人们造成持续10秒的1%<TFTKeyword>灼烧</TFTKeyword>效果和33%<TFTKeyword>重伤</TFTKeyword>效果。<br><tftitemrules>灼烧：每秒造成目标一部分最大生命值的真实伤害</tftitemrules><tftitemrules>重伤：降低受到的治疗效果</tftitemrules>",
+      "effectAttr": "【AP】+20%【DIST】【HP】+150【DIST】【MANAREGEN】+1",
+      "key": "DA_Morellonomicon",
+      "effectText": "攻击和技能的伤害对敌人们造成持续10秒的1%灼烧效果和33%重伤效果。\n灼烧：每秒造成目标一部分最大生命值的真实伤害重伤：降低受到的治疗效果",
+      "effectAttrText": "【AP】+20%【DIST】【HP】+150【DIST】【MANAREGEN】+1",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 150.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "无用大棒",
+          "id": 503
+        },
+        {
+          "name": "巨人腰带",
+          "id": 507
+        }
+      ]
+    },
+    {
+      "id": 565,
+      "name": "珠光护手",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bp",
+      "effect": "获得<TFTKeyword>技能暴击</TFTKeyword>。<br><tftitemrules>技能暴击：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。</tftitemrules>",
+      "effectAttr": "【AP】+35%【DIST】【CRIT】+35%",
+      "key": "DA_JeweledGauntlet",
+      "effectText": "获得技能暴击。\n技能暴击：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。",
+      "effectAttrText": "【AP】+35%【DIST】【CRIT】+35%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 35.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 35.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "无用大棒",
+          "id": 503
+        },
+        {
+          "name": "拳套",
+          "id": 509
+        }
+      ]
+    },
+    {
+      "id": 567,
+      "name": "蓝霸符",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bq",
+      "effect": "从所有来源中获得10%额外物理加成和法术加成。",
+      "effectAttr": "【AD】+15%【DIST】【AP】+15%【DIST】【MANAREGEN】+5",
+      "key": "DA_BlueBuff",
+      "effectText": "从所有来源中获得10%额外物理加成和法术加成。",
+      "effectAttrText": "【AD】+15%【DIST】【AP】+15%【DIST】【MANAREGEN】+5",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 15.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "女神之泪",
+          "id": 504
+        },
+        {
+          "name": "女神之泪",
+          "id": 504
+        }
+      ]
+    },
+    {
+      "id": 577,
+      "name": "正义之手",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bu",
+      "effect": "获得2个效果：• 18%物理加成和18%法术加成。• 12%全能吸血。<br>生命值高于50%时，物理加成和法术加成翻倍。生命值低于50%时，全能吸血翻倍。",
+      "effectAttr": "【CRIT】+20%【DIST】【MANAREGEN】+1",
+      "key": "DA_HandOfJustice",
+      "effectText": "获得2个效果：• 18%物理加成和18%法术加成。• 12%全能吸血。\n生命值高于50%时，物理加成和法术加成翻倍。生命值低于50%时，全能吸血翻倍。",
+      "effectAttrText": "【CRIT】+20%【DIST】【MANAREGEN】+1",
+      "stats": [
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "女神之泪",
+          "id": 504
+        },
+        {
+          "name": "拳套",
+          "id": 509
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "name": "棘刺背心",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bv",
+      "effect": "获得6%最大生命值。<br>减免来自攻击的5%伤害。在被任一攻击命中时，对邻格所有敌人造成100<magicDamage>魔法伤害</magicDamage>。<br><tftitemrules>冷却时间：</tftitemrules>2<tftitemrules>秒</tftitemrules>",
+      "effectAttr": "【ARMOR】+50",
+      "key": "DA_BrambleVest",
+      "effectText": "获得6%最大生命值。\n减免来自攻击的5%伤害。在被任一攻击命中时，对邻格所有敌人造成100魔法伤害。\n冷却时间：2秒",
+      "effectAttrText": "【ARMOR】+50",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 50.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "锁子甲",
+          "id": 505
+        },
+        {
+          "name": "锁子甲",
+          "id": 505
+        }
+      ]
+    },
+    {
+      "id": 581,
+      "name": "石像鬼石板甲",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bw",
+      "effect": "每有一个敌人以携带者为目标，携带者就会获得10护甲和10魔抗。",
+      "effectAttr": "【ARMOR】+25【DIST】【HP】+100【DIST】【MR】+25",
+      "key": "DA_GargoyleStoneplate",
+      "effectText": "每有一个敌人以携带者为目标，携带者就会获得10护甲和10魔抗。",
+      "effectAttrText": "【ARMOR】+25【DIST】【HP】+100【DIST】【MR】+25",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 25.0,
+          "percent": false
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 100.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 25.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "锁子甲",
+          "id": 505
+        },
+        {
+          "name": "负极斗篷",
+          "id": 506
+        }
+      ]
+    },
+    {
+      "id": 583,
+      "name": "日炎斗篷",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bx",
+      "effect": "获得8%最大生命值。<br>每过2秒，对2格内的一名敌人施加持续10秒的1%<TFTKeyword>灼烧</TFTKeyword>效果和33%<TFTKeyword>重伤</TFTKeyword>效果。<br><tftitemrules>灼烧：每秒造成目标一部分最大生命值的真实伤害</tftitemrules><tftitemrules>重伤：降低受到的治疗效果。</tftitemrules>",
+      "effectAttr": "【ARMOR】+20【DIST】【HP】+150",
+      "key": "DA_SunfireCape",
+      "effectText": "获得8%最大生命值。\n每过2秒，对2格内的一名敌人施加持续10秒的1%灼烧效果和33%重伤效果。\n灼烧：每秒造成目标一部分最大生命值的真实伤害重伤：降低受到的治疗效果。",
+      "effectAttrText": "【ARMOR】+20【DIST】【HP】+150",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 20.0,
+          "percent": false
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 150.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "锁子甲",
+          "id": 505
+        },
+        {
+          "name": "巨人腰带",
+          "id": 507
+        }
+      ]
+    },
+    {
+      "id": 595,
+      "name": "水银",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "CB",
+      "effect": "战斗开始时：获得持续18秒的控制免疫效果。<br>每秒获得3%可叠加的攻击速度。",
+      "effectAttr": "【AS】+15%【DIST】【CRIT】+20%【DIST】【MR】+20",
+      "key": "DA_Quicksilver",
+      "effectText": "战斗开始时：获得持续18秒的控制免疫效果。\n每秒获得3%可叠加的攻击速度。",
+      "effectAttrText": "【AS】+15%【DIST】【CRIT】+20%【DIST】【MR】+20",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 20.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "负极斗篷",
+          "id": 506
+        },
+        {
+          "name": "拳套",
+          "id": 509
+        }
+      ]
+    },
+    {
+      "id": 597,
+      "name": "狂徒铠甲",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "CC",
+      "effect": "获得18%最大生命值。",
+      "effectAttr": "【HP】+500",
+      "key": "DA_WarmogsArmor",
+      "effectText": "获得18%最大生命值。",
+      "effectAttrText": "【HP】+500",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 500.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "巨人腰带",
+          "id": 507
+        },
+        {
+          "name": "巨人腰带",
+          "id": 507
+        }
+      ]
+    },
+    {
+      "id": 607,
+      "name": "秘法手套",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "CE",
+      "effect": "每回合：装备2件随机装备<br><tftitemrules>[需要用掉3个装备格。]</tftitemrules>",
+      "effectAttr": "【CRIT】+20%【DIST】【HP】+150",
+      "key": "DA_ThiefsGloves",
+      "effectText": "每回合：装备2件随机装备\n[需要用掉3个装备格。]",
+      "effectAttrText": "【CRIT】+20%【DIST】【HP】+150",
+      "stats": [
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 150.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "拳套",
+          "id": 509
+        },
+        {
+          "name": "拳套",
+          "id": 509
+        }
+      ]
+    },
+    {
+      "id": 608,
+      "name": "金铲铲冠冕",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "CF",
+      "effect": "你的队伍获得+1最大队伍规模。在你赢下战斗时，有10%几率掉落1金币。<br><tftitemrules>“……英雄的心……”</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_TacticiansCrown",
+      "effectText": "你的队伍获得+1最大队伍规模。在你赢下战斗时，有10%几率掉落1金币。\n“……英雄的心……”",
+      "effectAttrText": "",
+      "stats": [],
+      "recipe": [
+        {
+          "name": "金铲铲",
+          "id": 508
+        },
+        {
+          "name": "金铲铲",
+          "id": 508
+        }
+      ]
+    },
+    {
+      "id": 609,
+      "name": "巨龙之爪",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bz",
+      "effect": "获得6%最大生命值。每2秒，回复2.5%最大生命值。",
+      "effectAttr": "【MR】+60",
+      "key": "DA_DragonsClaw",
+      "effectText": "获得6%最大生命值。每2秒，回复2.5%最大生命值。",
+      "effectAttrText": "【MR】+60",
+      "stats": [
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 60.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "负极斗篷",
+          "id": 506
+        },
+        {
+          "name": "负极斗篷",
+          "id": 506
+        }
+      ]
+    },
+    {
+      "id": 610,
+      "name": "海克斯科技枪刃",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "BX",
+      "effect": "为生命值百分比最低的友军提供相当于造成伤害值20%的治疗。",
+      "effectAttr": "【AD】+20%【DIST】【AP】+20%【DIST】【MANAREGEN】+1【DIST】【SV】+15%",
+      "key": "DA_HextechGunblade",
+      "effectText": "为生命值百分比最低的友军提供相当于造成伤害值20%的治疗。",
+      "effectAttrText": "【AD】+20%【DIST】【AP】+20%【DIST】【MANAREGEN】+1【DIST】【SV】+15%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "SV",
+          "statKey": "omnivamp",
+          "value": 15.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "暴风大剑",
+          "id": 501
+        },
+        {
+          "name": "无用大棒",
+          "id": 503
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "name": "离子火花",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bn",
+      "effect": "对2格内的敌人们施加30%<TFTKeyword>魔抗击碎</TFTKeyword>。在敌人施放一次技能时，对该敌人造成相当于其150%法力值消耗的魔法伤害。<br><tftitemrules>魔抗击碎：降低魔法抗性</tftitemrules>",
+      "effectAttr": "【AP】+15%【DIST】【HP】+250【DIST】【MR】+35",
+      "key": "DA_IonicSpark",
+      "effectText": "对2格内的敌人们施加30%魔抗击碎。在敌人施放一次技能时，对该敌人造成相当于其150%法力值消耗的魔法伤害。\n魔抗击碎：降低魔法抗性",
+      "effectAttrText": "【AP】+15%【DIST】【HP】+250【DIST】【MR】+35",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 250.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 35.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "无用大棒",
+          "id": 503
+        },
+        {
+          "name": "负极斗篷",
+          "id": 506
+        }
+      ]
+    },
+    {
+      "id": 613,
+      "name": "泰坦的坚决",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bg",
+      "effect": "在攻击或承受伤害时获得2%物理加成和法术加成，至多可叠加25次。<br>在叠满层数后，获得10%伤害增幅，并获得不可阻挡效果。",
+      "effectAttr": "【AS】+10%【DIST】【ARMOR】+20",
+      "key": "DA_TitansResolve",
+      "effectText": "在攻击或承受伤害时获得2%物理加成和法术加成，至多可叠加25次。\n在叠满层数后，获得10%伤害增幅，并获得不可阻挡效果。",
+      "effectAttrText": "【AS】+10%【DIST】【ARMOR】+20",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 20.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "反曲之弓",
+          "id": 502
+        },
+        {
+          "name": "锁子甲",
+          "id": 505
+        }
+      ]
+    },
+    {
+      "id": 615,
+      "name": "夜之锋刃",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "BZ",
+      "effect": "在40%生命值时，短暂变为不可被选取状态、摆脱负面效果并回复15%已损失生命值。",
+      "effectAttr": "【AD】+10%【DIST】【AP】+10%【DIST】【AS】+15%【DIST】【ARMOR】+20",
+      "key": "DA_EdgeOfNight",
+      "effectText": "在40%生命值时，短暂变为不可被选取状态、摆脱负面效果并回复15%已损失生命值。",
+      "effectAttrText": "【AD】+10%【DIST】【AP】+10%【DIST】【AS】+15%【DIST】【ARMOR】+20",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 20.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "暴风大剑",
+          "id": 501
+        },
+        {
+          "name": "锁子甲",
+          "id": 505
+        }
+      ]
+    },
+    {
+      "id": 616,
+      "name": "圣盾使的誓约",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Br",
+      "effect": "战斗开始时：获得20法力值。<br>生命值达到40%时，获得15法力值和相当于20%最大生命值的护盾值。",
+      "effectAttr": "【ARMOR】+25【DIST】【MR】+25【DIST】【MANAREGEN】+1",
+      "key": "DA_ProtectorsVow",
+      "effectText": "战斗开始时：获得20法力值。\n生命值达到40%时，获得15法力值和相当于20%最大生命值的护盾值。",
+      "effectAttrText": "【ARMOR】+25【DIST】【MR】+25【DIST】【MANAREGEN】+1",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 25.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 25.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "女神之泪",
+          "id": 504
+        },
+        {
+          "name": "锁子甲",
+          "id": 505
+        }
+      ]
+    },
+    {
+      "id": 617,
+      "name": "强袭者的链枷",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "CD",
+      "effect": "暴击提供持续5秒的5%伤害增幅，可叠加至多4次。",
+      "effectAttr": "【AS】+10%【DIST】【CRIT】+20%【DIST】【HP】+150【DIST】【DA】+10%",
+      "key": "DA_StrikersFlail",
+      "effectText": "暴击提供持续5秒的5%伤害增幅，可叠加至多4次。",
+      "effectAttrText": "【AS】+10%【DIST】【CRIT】+20%【DIST】【HP】+150【DIST】【DA】+10%",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 150.0,
+          "percent": false
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 10.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "巨人腰带",
+          "id": 507
+        },
+        {
+          "name": "拳套",
+          "id": 509
+        }
+      ]
+    },
+    {
+      "id": 618,
+      "name": "斯特拉克的挑战护手",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bb",
+      "effect": "在60%生命值时，获得相当于携带者40%最大生命值的护盾值，在4秒内快速衰减。",
+      "effectAttr": "【AD】+45%【DIST】【HP】+300",
+      "key": "DA_SteraksGage",
+      "effectText": "在60%生命值时，获得相当于携带者40%最大生命值的护盾值，在4秒内快速衰减。",
+      "effectAttrText": "【AD】+45%【DIST】【HP】+300",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 45.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "暴风大剑",
+          "id": 501
+        },
+        {
+          "name": "巨人腰带",
+          "id": 507
+        }
+      ]
+    },
+    {
+      "id": 619,
+      "name": "纳什之牙",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bi",
+      "effect": "每次普攻提供2额外法力值，如果暴击则提升至4额外法力值。",
+      "effectAttr": "【AP】+15%【DIST】【AS】+10%【DIST】【CRIT】+20%【DIST】【HP】+150",
+      "key": "DA_NashorsTooth",
+      "effectText": "每次普攻提供2额外法力值，如果暴击则提升至4额外法力值。",
+      "effectAttrText": "【AP】+15%【DIST】【AS】+10%【DIST】【CRIT】+20%【DIST】【HP】+150",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 150.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "反曲之弓",
+          "id": 502
+        },
+        {
+          "name": "巨人腰带",
+          "id": 507
+        }
+      ]
+    },
+    {
+      "id": 620,
+      "name": "冕卫",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bm",
+      "effect": "战斗开始时：获得持续8秒的相当于25%最大生命值的护盾值。在护盾到期时，获得20%法术加成。",
+      "effectAttr": "【HP】+100【DIST】【AP】+20【DIST】【ARMOR】+20",
+      "key": "DA_Crownguard",
+      "effectText": "战斗开始时：获得持续8秒的相当于25%最大生命值的护盾值。在护盾到期时，获得20%法术加成。",
+      "effectAttrText": "【HP】+100【DIST】【AP】+20【DIST】【ARMOR】+20",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 100.0,
+          "percent": false
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 20.0,
+          "percent": false
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 20.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "无用大棒",
+          "id": 503
+        },
+        {
+          "name": "锁子甲",
+          "id": 505
+        }
+      ]
+    },
+    {
+      "id": 621,
+      "name": "适应性头盔",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bs",
+      "effect": "从所有来源中获得额外的15%法力值。携带者获得基于其角色定位的一个额外加成：<br>坦克和战士：获得30护甲和魔抗。<br>其它角色定位：获得10%物理加成和法术加成。",
+      "effectAttr": "【MR】+20【DIST】【MANAREGEN】+3",
+      "key": "DA_AdaptiveHelm",
+      "effectText": "从所有来源中获得额外的15%法力值。携带者获得基于其角色定位的一个额外加成：\n坦克和战士：获得30护甲和魔抗。\n其它角色定位：获得10%物理加成和法术加成。",
+      "effectAttrText": "【MR】+20【DIST】【MANAREGEN】+3",
+      "stats": [
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 20.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "女神之泪",
+          "id": 504
+        },
+        {
+          "name": "负极斗篷",
+          "id": 506
+        }
+      ]
+    },
+    {
+      "id": 623,
+      "name": "薄暮法袍",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "CA",
+      "effect": "2格内的敌人们会被施加30%<TFTKeyword>护甲击碎</TFTKeyword>。在战斗的最初15秒获得15护甲和魔抗。<br><tftitemrules>护甲击碎：降低护甲值</tftitemrules>",
+      "effectAttr": "【HP】+250【DIST】【MR】+20",
+      "key": "DA_Evenshroud",
+      "effectText": "2格内的敌人们会被施加30%护甲击碎。在战斗的最初15秒获得15护甲和魔抗。\n护甲击碎：降低护甲值",
+      "effectAttrText": "【HP】+250【DIST】【MR】+20",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 250.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 20.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "负极斗篷",
+          "id": 506
+        },
+        {
+          "name": "巨人腰带",
+          "id": 507
+        }
+      ]
+    },
+    {
+      "id": 624,
+      "name": "红霸符",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bd",
+      "effect": "攻击和技能的伤害对敌人们造成持续5秒的1%<TFTKeyword>灼烧</TFTKeyword>效果和33%<TFTKeyword>重伤</TFTKeyword>效果。<br><tftitemrules>灼烧：每秒造成目标一部分最大生命值的真实伤害</tftitemrules><tftitemrules>重伤：降低受到的治疗效果</tftitemrules>",
+      "effectAttr": "【AS】+45%【DIST】【DA】+3%",
+      "key": "DA_RedBuff",
+      "effectText": "攻击和技能的伤害对敌人们造成持续5秒的1%灼烧效果和33%重伤效果。\n灼烧：每秒造成目标一部分最大生命值的真实伤害重伤：降低受到的治疗效果",
+      "effectAttrText": "【AS】+45%【DIST】【DA】+3%",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 45.0,
+          "percent": true
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 3.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "反曲之弓",
+          "id": 502
+        },
+        {
+          "name": "反曲之弓",
+          "id": 502
+        }
+      ]
+    },
+    {
+      "id": 625,
+      "name": "坚定之心",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "By",
+      "effect": "获得5%伤害减免。在高于50%生命值时，转而获得15%伤害减免。",
+      "effectAttr": "【ARMOR】+20【DIST】【CRIT】+20%【DIST】【HP】+250",
+      "key": "DA_SteadfastHeart",
+      "effectText": "获得5%伤害减免。在高于50%生命值时，转而获得15%伤害减免。",
+      "effectAttrText": "【ARMOR】+20【DIST】【CRIT】+20%【DIST】【HP】+250",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 20.0,
+          "percent": false
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 250.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "锁子甲",
+          "id": 505
+        },
+        {
+          "name": "拳套",
+          "id": 509
+        }
+      ]
+    },
+    {
+      "id": 31002,
+      "name": "金锅锅冠冕",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "CG",
+      "effect": "你的队伍获得+1最大队伍规模。<br>在携带者阵亡时，有10%几率掉落1金币。<br><tftitemrules>充满了某位哲学家的智慧……</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_TacticiansShield",
+      "effectText": "你的队伍获得+1最大队伍规模。\n在携带者阵亡时，有10%几率掉落1金币。\n充满了某位哲学家的智慧……",
+      "effectAttrText": "",
+      "stats": [],
+      "recipe": [
+        {
+          "name": "金锅锅",
+          "id": 31000
+        },
+        {
+          "name": "金锅锅",
+          "id": 31000
+        }
+      ]
+    },
+    {
+      "id": 31003,
+      "name": "金锅铲冠冕",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "CH",
+      "effect": "你的队伍获得最大队伍规模+1。<br>在战斗10秒后，有10%几率掉落1金币。<br><tftitemrules>……外加几分运气。</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_TacticiansCape",
+      "effectText": "你的队伍获得最大队伍规模+1。\n在战斗10秒后，有10%几率掉落1金币。\n……外加几分运气。",
+      "effectAttrText": "",
+      "stats": [],
+      "recipe": [
+        {
+          "name": "金铲铲",
+          "id": 508
+        },
+        {
+          "name": "金锅锅",
+          "id": 31000
+        }
+      ]
+    },
+    {
+      "id": 31008,
+      "name": "虚空之杖",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bf",
+      "effect": "攻击和技能伤害都会对目标施加持续5秒的30%<TFTKeyword>魔抗击碎</TFTKeyword>。这个效果不会叠加。<br><tftitemrules>魔抗击碎：降低魔法抗性</tftitemrules>",
+      "effectAttr": "【AP】+35%【DIST】【AS】+15%【DIST】【MANAREGEN】+1",
+      "key": "DA_VoidStaff",
+      "effectText": "攻击和技能伤害都会对目标施加持续5秒的30%魔抗击碎。这个效果不会叠加。\n魔抗击碎：降低魔法抗性",
+      "effectAttrText": "【AP】+35%【DIST】【AS】+15%【DIST】【MANAREGEN】+1",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 35.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 15.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "反曲之弓",
+          "id": 502
+        },
+        {
+          "name": "女神之泪",
+          "id": 504
+        }
+      ]
+    },
+    {
+      "id": 31010,
+      "name": "海妖之怒",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bh",
+      "effect": "每次攻击提供3.5%可叠加物理加成，最多叠加15次。攻击15次后，获得15%攻击速度。",
+      "effectAttr": "【AD】+10%【DIST】【AS】+10%【DIST】【MR】+20",
+      "key": "DA_KrakensFury",
+      "effectText": "每次攻击提供3.5%可叠加物理加成，最多叠加15次。攻击15次后，获得15%攻击速度。",
+      "effectAttrText": "【AD】+10%【DIST】【AS】+10%【DIST】【MR】+20",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 20.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "反曲之弓",
+          "id": 502
+        },
+        {
+          "name": "负极斗篷",
+          "id": 506
+        }
+      ]
+    },
+    {
+      "id": 31012,
+      "name": "振奋盔甲",
+      "type": "成装",
+      "typeRaw": "common",
+      "code": "Bt",
+      "effect": "每秒回复2%已损失生命值。",
+      "effectAttr": "【HP】+300【DIST】【DR】+10%【DIST】【MANAREGEN】+2",
+      "key": "DA_SpiritVisage",
+      "effectText": "每秒回复2%已损失生命值。",
+      "effectAttrText": "【HP】+300【DIST】【DR】+10%【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        },
+        {
+          "stat": "DR",
+          "statKey": "damageReduction",
+          "value": 10.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "女神之泪",
+          "id": 504
+        },
+        {
+          "name": "巨人腰带",
+          "id": 507
+        }
+      ]
+    },
+    {
+      "id": 32544,
+      "name": "阿尔法印记",
+      "type": "道具",
+      "typeRaw": "daoju",
+      "code": "Mr",
+      "effect": "选择1个【峡谷野怪】使其获得它独特的霸符，成为【阿尔法之怪】！",
+      "effectAttr": "",
+      "key": "DA_Riftbeast18_Selector",
+      "effectText": "选择1个【峡谷野怪】使其获得它独特的霸符，成为【阿尔法之怪】！",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 32545,
+      "name": "毛绒绒大朋友",
+      "type": "道具",
+      "typeRaw": "daoju",
+      "code": "Ms",
+      "effect": "约德尔标识，非游戏道具",
+      "effectAttr": "",
+      "key": "DA_CUSTOM_1",
+      "effectText": "约德尔标识，非游戏道具",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 32546,
+      "name": "毛绒绒大朋友",
+      "type": "道具",
+      "typeRaw": "daoju",
+      "code": "MT",
+      "effect": "约德尔标识，非游戏道具",
+      "effectAttr": "",
+      "key": "DA_CUSTOM_2",
+      "effectText": "约德尔标识，非游戏道具",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 1519,
+      "name": "光明版锐利之刃",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "DT",
+      "effect": "<tftitemrules>它在敌人面前发光。或在朋友面前。或在任何活着的东西面前，真的。</tftitemrules>",
+      "effectAttr": "【AD】+100%【DIST】【DA】+20%",
+      "key": "DA_DeathbladeRadiant",
+      "effectText": "它在敌人面前发光。或在朋友面前。或在任何活着的东西面前，真的。",
+      "effectAttrText": "【AD】+100%【DIST】【DA】+20%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 100.0,
+          "percent": true
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 20.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1521,
+      "name": "光明版巨人捕手",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "DU",
+      "effect": "对抗坦克时获得30%额外伤害增幅。",
+      "effectAttr": "【AD】+30%【DIST】【AP】+30%【DIST】【AS】+30%【DIST】【DA】+30%",
+      "key": "DA_GiantSlayer_Radiant",
+      "effectText": "对抗坦克时获得30%额外伤害增幅。",
+      "effectAttrText": "【AD】+30%【DIST】【AP】+30%【DIST】【AS】+30%【DIST】【DA】+30%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 30.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1523,
+      "name": "光明版海克斯科技枪刃",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "DV",
+      "effect": "为生命值百分比最低的友军提供相当于造成伤害40%的治疗。",
+      "effectAttr": "【AD】+40%【DIST】【AP】+40%【DIST】【MANAREGEN】+2【DIST】【SV】+30%",
+      "key": "DA_HextechGunbladeRadiant",
+      "effectText": "为生命值百分比最低的友军提供相当于造成伤害40%的治疗。",
+      "effectAttrText": "【AD】+40%【DIST】【AP】+40%【DIST】【MANAREGEN】+2【DIST】【SV】+30%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 40.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 40.0,
+          "percent": true
+        },
+        {
+          "stat": "SV",
+          "statKey": "omnivamp",
+          "value": 30.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1525,
+      "name": "光明版朔极之矛",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "DW",
+      "effect": "每次攻击提供10 <TFTRadiantItemBonus>额外法力值</TFTRadiantItemBonus>。",
+      "effectAttr": "【AD】+30%【DIST】【AP】+30%【DIST】【MANAREGEN】+2",
+      "key": "DA_SpearOfShojinRadiant",
+      "effectText": "每次攻击提供10 额外法力值。",
+      "effectAttrText": "【AD】+30%【DIST】【AP】+30%【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 30.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1527,
+      "name": "光明版夜之锋刃",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "DX",
+      "effect": "在40%生命值时，短暂变为不可被选取状态、摆脱负面效果并<TFTRadiantItemBonus>治疗所有已损失生命值</TFTRadiantItemBonus>。",
+      "effectAttr": "【AD】+30%【DIST】【AP】+30%【DIST】【AS】+30%【DIST】【ARMOR】+40",
+      "key": "DA_EdgeOfNightRadiant",
+      "effectText": "在40%生命值时，短暂变为不可被选取状态、摆脱负面效果并治疗所有已损失生命值。",
+      "effectAttrText": "【AD】+30%【DIST】【AP】+30%【DIST】【AS】+30%【DIST】【ARMOR】+40",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 40.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1529,
+      "name": "光明版汲取剑",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "DY",
+      "effect": "每场战斗仅触发1次：在50%生命值时，获得一个护盾，护盾值相当于携带者60%的最大生命值，至多持续5秒。",
+      "effectAttr": "【AD】+40%【DIST】【AP】+40%【DIST】【MR】+40【DIST】【SV】+40%",
+      "key": "DA_BloodthirsterRadiant",
+      "effectText": "每场战斗仅触发1次：在50%生命值时，获得一个护盾，护盾值相当于携带者60%的最大生命值，至多持续5秒。",
+      "effectAttrText": "【AD】+40%【DIST】【AP】+40%【DIST】【MR】+40【DIST】【SV】+40%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 40.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 40.0,
+          "percent": true
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 40.0,
+          "percent": false
+        },
+        {
+          "stat": "SV",
+          "statKey": "omnivamp",
+          "value": 40.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1535,
+      "name": "光明版无尽之刃",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Da",
+      "effect": "获得<TFTKeyword>技能暴击</TFTKeyword>。<br><tftitemrules>技能暴击：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。</tftitemrules>",
+      "effectAttr": "【AD】+75%【DIST】【CRIT】+75%",
+      "key": "DA_InfinityEdgeRadiant",
+      "effectText": "获得技能暴击。\n技能暴击：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。",
+      "effectAttrText": "【AD】+75%【DIST】【CRIT】+75%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 75.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 75.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1539,
+      "name": "光明版鬼索的狂暴之刃",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dc",
+      "effect": "每秒获得16<TFTRadiantItemBonus>%</TFTRadiantItemBonus>可叠加的攻击速度。",
+      "effectAttr": "【AP】+20%【DIST】【AS】+25%",
+      "key": "DA_GuinsoosRagebladeRadiant",
+      "effectText": "每秒获得16%可叠加的攻击速度。",
+      "effectAttrText": "【AP】+20%【DIST】【AS】+25%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 25.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1543,
+      "name": "光明版泰坦的坚决",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "De",
+      "effect": "在攻击或承受伤害时获得4%物理加成和4%法术加成，至多可叠加25次。<br>在叠满层数后，获得20%伤害增幅，并获得控制免疫效果。",
+      "effectAttr": "【AS】+20%【DIST】【ARMOR】+40",
+      "key": "DA_TitansResolve_Radiant",
+      "effectText": "在攻击或承受伤害时获得4%物理加成和4%法术加成，至多可叠加25次。\n在叠满层数后，获得20%伤害增幅，并获得控制免疫效果。",
+      "effectAttrText": "【AS】+20%【DIST】【ARMOR】+40",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 40.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1551,
+      "name": "光明版最后的轻语",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dh",
+      "effect": "攻击和技能伤害都会对目标施加持续<TFTRadiantItemBonus>至战斗环节结束</TFTRadiantItemBonus>的30%<TFTKeyword>护甲击碎</TFTKeyword>。这个效果不会叠加。<br><tftitemrules>护甲击碎：降低护甲值</tftitemrules>",
+      "effectAttr": "【AD】+45%【DIST】【AS】+40%【DIST】【CRIT】+40%",
+      "key": "DA_LastWhisperRadiant",
+      "effectText": "攻击和技能伤害都会对目标施加持续至战斗环节结束的30%护甲击碎。这个效果不会叠加。\n护甲击碎：降低护甲值",
+      "effectAttrText": "【AD】+45%【DIST】【AS】+40%【DIST】【CRIT】+40%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 45.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 40.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 40.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1553,
+      "name": "光明版班克斯的魔法帽",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Di",
+      "effect": "<tftitemrules>它见证过——并释放过——奇迹和灾难。</tftitemrules>",
+      "effectAttr": "【AP】+100%【DIST】【DA】+30%",
+      "key": "DA_RabadonsDeathcap_Radiant",
+      "effectText": "它见证过——并释放过——奇迹和灾难。",
+      "effectAttrText": "【AP】+100%【DIST】【DA】+30%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 100.0,
+          "percent": true
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 30.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1555,
+      "name": "光明版大天使之杖",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dj",
+      "effect": "战斗开始：在战斗期间，每5秒获得40<TFTRadiantItemBonus>%</TFTRadiantItemBonus>法术加成。",
+      "effectAttr": "【AP】+60%【DIST】【MANAREGEN】+2",
+      "key": "DA_ArchangelsStaffRadiant",
+      "effectText": "战斗开始：在战斗期间，每5秒获得40%法术加成。",
+      "effectAttrText": "【AP】+60%【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 60.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1559,
+      "name": "光明版离子火花",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dl",
+      "effect": "对2格内的敌人们施加30%<TFTKeyword>魔抗击碎</TFTKeyword>。在敌人施放一次技能时，对该敌人造成相当于其300%法力值消耗的魔法伤害。<br><tftitemrules>魔抗击碎：降低魔法抗性</tftitemrules>",
+      "effectAttr": "【AP】+30%【DIST】【HP】+500【DIST】【MR】+70",
+      "key": "DA_IonicSparkRadiant",
+      "effectText": "对2格内的敌人们施加30%魔抗击碎。在敌人施放一次技能时，对该敌人造成相当于其300%法力值消耗的魔法伤害。\n魔抗击碎：降低魔法抗性",
+      "effectAttrText": "【AP】+30%【DIST】【HP】+500【DIST】【MR】+70",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 500.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 70.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1561,
+      "name": "光明版莫雷洛秘典",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dm",
+      "effect": "攻击和技能的伤害对敌人们造成持续10秒的2<TFTRadiantItemBonus>%</TFTRadiantItemBonus>灼烧效果和33%重伤效果。<br><tftitemrules>灼烧：每秒造成目标一部分最大生命值的真实伤害</tftitemrules><tftitemrules>重伤：降低受到的治疗效果</tftitemrules>",
+      "effectAttr": "【AP】+35%【DIST】【HP】+300【DIST】【MANAREGEN】+2",
+      "key": "DA_MorellonomiconRadiant",
+      "effectText": "攻击和技能的伤害对敌人们造成持续10秒的2%灼烧效果和33%重伤效果。\n灼烧：每秒造成目标一部分最大生命值的真实伤害重伤：降低受到的治疗效果",
+      "effectAttrText": "【AP】+35%【DIST】【HP】+300【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 35.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1565,
+      "name": "光明版珠光护手",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dn",
+      "effect": "获得<TFTKeyword>技能暴击</TFTKeyword>。<br><tftitemrules>技能暴击：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。</tftitemrules>",
+      "effectAttr": "【AP】+75%【DIST】【CRIT】+75%",
+      "key": "DA_JeweledGauntletRadiant",
+      "effectText": "获得技能暴击。\n技能暴击：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。",
+      "effectAttrText": "【AP】+75%【DIST】【CRIT】+75%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 75.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 75.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1567,
+      "name": "光明版蓝霸符",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Do",
+      "effect": "从所有来源获得20%额外物理加成和法术加成。",
+      "effectAttr": "【AD】+25%【DIST】【AP】+25%【DIST】【MANAREGEN】+10",
+      "key": "DA_BlueBuffRadiant",
+      "effectText": "从所有来源获得20%额外物理加成和法术加成。",
+      "effectAttrText": "【AD】+25%【DIST】【AP】+25%【DIST】【MANAREGEN】+10",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 25.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 25.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1577,
+      "name": "光明版正义之手",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Ds",
+      "effect": "获得2个效果：• 35%物理加成和35%法术加成。• 25%全能吸血。<br>生命值高于50%时，物理加成和法术加成翻倍。生命值低于50%时，全能吸血翻倍。",
+      "effectAttr": "【CRIT】+40%【DIST】【MANAREGEN】+2",
+      "key": "DA_HandOfJusticeRadiant",
+      "effectText": "获得2个效果：• 35%物理加成和35%法术加成。• 25%全能吸血。\n生命值高于50%时，物理加成和法术加成翻倍。生命值低于50%时，全能吸血翻倍。",
+      "effectAttrText": "【CRIT】+40%【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 40.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1579,
+      "name": "光明版棘刺背心",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dt",
+      "effect": "获得12%最大生命值。<br>使来自攻击的伤害降低10%。在被任一攻击命中时，对邻格所有敌人造成200魔法伤害。<br><tftitemrules>冷却时间：</tftitemrules>2<tftitemrules>秒</tftitemrules>",
+      "effectAttr": "【ARMOR】+100",
+      "key": "DA_BrambleVestRadiant",
+      "effectText": "获得12%最大生命值。\n使来自攻击的伤害降低10%。在被任一攻击命中时，对邻格所有敌人造成200魔法伤害。\n冷却时间：2秒",
+      "effectAttrText": "【ARMOR】+100",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 100.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1581,
+      "name": "光明版石像鬼石板甲",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Du",
+      "effect": "每有一个敌人以携带者为目标，携带者就会获得20护甲和20魔抗。",
+      "effectAttr": "【HP】+400【DIST】【ARMOR】+50【DIST】【MR】+50",
+      "key": "DA_GargoyleStoneplate_Radiant",
+      "effectText": "每有一个敌人以携带者为目标，携带者就会获得20护甲和20魔抗。",
+      "effectAttrText": "【HP】+400【DIST】【ARMOR】+50【DIST】【MR】+50",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 400.0,
+          "percent": false
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 50.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 50.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1583,
+      "name": "光明版日炎斗篷",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dv",
+      "effect": "获得16%最大生命值。<br>每过2秒，对2格内的一名敌人施加持续10秒的2<TFTRadiantItemBonus>%</TFTRadiantItemBonus><TFTKeyword>灼烧</TFTKeyword>效果和33%<TFTKeyword>重伤</TFTKeyword>效果。<br><tftitemrules>灼烧：每秒造成目标一部分最大生命值的真实伤害</tftitemrules><tftitemrules>重伤：降低受到的治疗效果。</tftitemrules>",
+      "effectAttr": "【ARMOR】+40【DIST】【HP】+300",
+      "key": "DA_SunfireCape_Radiant",
+      "effectText": "获得16%最大生命值。\n每过2秒，对2格内的一名敌人施加持续10秒的2%灼烧效果和33%重伤效果。\n灼烧：每秒造成目标一部分最大生命值的真实伤害重伤：降低受到的治疗效果。",
+      "effectAttrText": "【ARMOR】+40【DIST】【HP】+300",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 40.0,
+          "percent": false
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1595,
+      "name": "光明版水银",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dz",
+      "effect": "战斗开始时：获得持续45秒的控制免疫效果。<br>每秒获得6%可叠加的攻击速度。",
+      "effectAttr": "【AS】+40%【DIST】【CRIT】+40%【DIST】【MR】+40",
+      "key": "DA_QuicksilverRadiant",
+      "effectText": "战斗开始时：获得持续45秒的控制免疫效果。\n每秒获得6%可叠加的攻击速度。",
+      "effectAttrText": "【AS】+40%【DIST】【CRIT】+40%【DIST】【MR】+40",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 40.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 40.0,
+          "percent": true
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 40.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1597,
+      "name": "光明版狂徒铠甲",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "EA",
+      "effect": "获得36%最大生命值。",
+      "effectAttr": "【HP】+1200",
+      "key": "DA_WarmogsArmorRadiant",
+      "effectText": "获得36%最大生命值。",
+      "effectAttrText": "【HP】+1200",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 1200.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1607,
+      "name": "光明版秘法手套",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "EC",
+      "effect": "每回合：装备2件随机<TFTRadiantItemBonus>光明版</TFTRadiantItemBonus>装备<br><tftitemrules>[需要用掉3个装备格。]</tftitemrules>",
+      "effectAttr": "【CRIT】+20%【DIST】【HP】+150",
+      "key": "DA_ThiefsGlovesRadiant",
+      "effectText": "每回合：装备2件随机光明版装备\n[需要用掉3个装备格。]",
+      "effectAttrText": "【CRIT】+20%【DIST】【HP】+150",
+      "stats": [
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 150.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1616,
+      "name": "光明版圣盾使的誓约",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dp",
+      "effect": "战斗开始时：获得40法力值。<br>生命值达到40%时，获得30<TFTRadiantItemBonus>法力值</TFTRadiantItemBonus>和相当于<TFTRadiantItemBonus>最大生命值</TFTRadiantItemBonus>50%的护盾值。",
+      "effectAttr": "【ARMOR】+50【DIST】【MR】+50【DIST】【MANAREGEN】+2",
+      "key": "DA_ProtectorsVowRadiant",
+      "effectText": "战斗开始时：获得40法力值。\n生命值达到40%时，获得30法力值和相当于最大生命值50%的护盾值。",
+      "effectAttrText": "【ARMOR】+50【DIST】【MR】+50【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 50.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 50.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1617,
+      "name": "光明版强袭者的链枷",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "EB",
+      "effect": "暴击提供持续5秒的10%伤害增幅，可叠加至多4次。",
+      "effectAttr": "【AS】+20%【DIST】【CRIT】+40%【DIST】【HP】+300【DIST】【DA】+20%",
+      "key": "DA_StrikersFlailRadiant",
+      "effectText": "暴击提供持续5秒的10%伤害增幅，可叠加至多4次。",
+      "effectAttrText": "【AS】+20%【DIST】【CRIT】+40%【DIST】【HP】+300【DIST】【DA】+20%",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 40.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 20.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1618,
+      "name": "光明版斯特拉克的挑战护手",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "DZ",
+      "effect": "在60%生命值时，获得相当于携带者80%最大生命值的护盾值，在6秒内快速衰减。",
+      "effectAttr": "【AD】+90%【DIST】【HP】+600",
+      "key": "DA_SteraksGageRadiant",
+      "effectText": "在60%生命值时，获得相当于携带者80%最大生命值的护盾值，在6秒内快速衰减。",
+      "effectAttrText": "【AD】+90%【DIST】【HP】+600",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 90.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 600.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1619,
+      "name": "光明版纳什之牙",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dg",
+      "effect": "每次普攻提供4额外法力值，如果暴击则提升至6额外法力值。",
+      "effectAttr": "【AP】+30%【DIST】【AS】+20%【DIST】【CRIT】+40%【DIST】【HP】+300",
+      "key": "DA_NashorsToothRadiant",
+      "effectText": "每次普攻提供4额外法力值，如果暴击则提升至6额外法力值。",
+      "effectAttrText": "【AP】+30%【DIST】【AS】+20%【DIST】【CRIT】+40%【DIST】【HP】+300",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 30.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 40.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 300.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1620,
+      "name": "光明版冕卫",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dk",
+      "effect": "战斗开始时：获得持续8秒的相当于50<TFTRadiantItemBonus>%</TFTRadiantItemBonus>最大生命值的护盾值。在护盾到期时，获得50<TFTRadiantItemBonus>%法术加成</TFTRadiantItemBonus>。",
+      "effectAttr": "【AP】+40%【DIST】【ARMOR】+40【DIST】【HP】+200",
+      "key": "DA_CrownguardRadiant",
+      "effectText": "战斗开始时：获得持续8秒的相当于50%最大生命值的护盾值。在护盾到期时，获得50%法术加成。",
+      "effectAttrText": "【AP】+40%【DIST】【ARMOR】+40【DIST】【HP】+200",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 40.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 40.0,
+          "percent": false
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 200.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1621,
+      "name": "光明版适应性头盔",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dq",
+      "effect": "从所有来源中获得额外的30%法力值。携带者获得基于其角色定位的一个额外加成：<br>坦克和战士：获得80护甲和魔抗。<br>其它角色定位：获得35%物理加成和法术加成。",
+      "effectAttr": "【MR】+40【DIST】【MANAREGEN】+6",
+      "key": "DA_AdaptiveHelm_Radiant",
+      "effectText": "从所有来源中获得额外的30%法力值。携带者获得基于其角色定位的一个额外加成：\n坦克和战士：获得80护甲和魔抗。\n其它角色定位：获得35%物理加成和法术加成。",
+      "effectAttrText": "【MR】+40【DIST】【MANAREGEN】+6",
+      "stats": [
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 40.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1623,
+      "name": "光明版薄暮法袍",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dy",
+      "effect": "3格内的敌人们会被施加30%<TFTKeyword>护甲击碎</TFTKeyword>。在战斗的最初20<TFTRadiantItemBonus>秒</TFTRadiantItemBonus>获得50<TFTRadiantItemBonus>护甲和魔抗</TFTRadiantItemBonus>。<br><tftitemrules>护甲击碎：降低护甲值</tftitemrules>",
+      "effectAttr": "【HP】+500【DIST】【MR】+40",
+      "key": "DA_EvenshroudRadiant",
+      "effectText": "3格内的敌人们会被施加30%护甲击碎。在战斗的最初20秒获得50护甲和魔抗。\n护甲击碎：降低护甲值",
+      "effectAttrText": "【HP】+500【DIST】【MR】+40",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 500.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 40.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 1624,
+      "name": "光明版红霸符",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Db",
+      "effect": "攻击和技能的伤害对敌人们造成持续5秒的2<TFTRadiantItemBonus>%</TFTRadiantItemBonus><TFTKeyword>灼烧</TFTKeyword>效果和33%<TFTKeyword>重伤</TFTKeyword>效果。<br><tftitemrules>灼烧：每秒造成目标一部分最大生命值的真实伤害</tftitemrules><tftitemrules>重伤：降低受到的治疗效果</tftitemrules>",
+      "effectAttr": "【AS】+80%【DIST】【DA】+6%",
+      "key": "DA_RedBuffRadiant",
+      "effectText": "攻击和技能的伤害对敌人们造成持续5秒的2%灼烧效果和33%重伤效果。\n灼烧：每秒造成目标一部分最大生命值的真实伤害重伤：降低受到的治疗效果",
+      "effectAttrText": "【AS】+80%【DIST】【DA】+6%",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 80.0,
+          "percent": true
+        },
+        {
+          "stat": "DA",
+          "statKey": "damageAmp",
+          "value": 6.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 1625,
+      "name": "光明版坚定之心",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dw",
+      "effect": "获得10%伤害减免。在高于50%生命值时，转而获得30%伤害减免。",
+      "effectAttr": "【HP】+500【DIST】【ARMOR】+40【DIST】【CRIT】+40%",
+      "key": "DA_SteadfastHeartRadiant",
+      "effectText": "获得10%伤害减免。在高于50%生命值时，转而获得30%伤害减免。",
+      "effectAttrText": "【HP】+500【DIST】【ARMOR】+40【DIST】【CRIT】+40%",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 500.0,
+          "percent": false
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 40.0,
+          "percent": false
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 40.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 30044,
+      "name": "光明版巨龙之爪",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dx",
+      "effect": "获得28%最大生命值。<br>每2秒，回复5%最大生命值。",
+      "effectAttr": "【MR】+120",
+      "key": "DA_DragonsClawRadiant",
+      "effectText": "获得28%最大生命值。\n每2秒，回复5%最大生命值。",
+      "effectAttrText": "【MR】+120",
+      "stats": [
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 120.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 31009,
+      "name": "光明版虚空之杖",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dd",
+      "effect": "攻击和技能伤害都会对目标施加持续<TFTRadiantItemBonus>至战斗环节结束</TFTRadiantItemBonus>的30%<TFTKeyword>魔抗击碎</TFTKeyword>。这个效果不会叠加。<br><tftitemrules>魔抗击碎：降低魔法抗性</tftitemrules>",
+      "effectAttr": "【AP】+75%【DIST】【AS】+30%【DIST】【MANAREGEN】+2",
+      "key": "DA_VoidStaffRadiant",
+      "effectText": "攻击和技能伤害都会对目标施加持续至战斗环节结束的30%魔抗击碎。这个效果不会叠加。\n魔抗击碎：降低魔法抗性",
+      "effectAttrText": "【AP】+75%【DIST】【AS】+30%【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 75.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 30.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 31011,
+      "name": "光明版海妖之怒",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Df",
+      "effect": "每次普攻提供7<TFTRadiantItemBonus>%</TFTRadiantItemBonus>可叠加物理加成，最多叠加15次。攻击15次后，获得30%攻击速度。",
+      "effectAttr": "【AD】+20%【DIST】【AS】+20%【DIST】【MR】+40",
+      "key": "DA_KrakensFury_Radiant",
+      "effectText": "每次普攻提供7%可叠加物理加成，最多叠加15次。攻击15次后，获得30%攻击速度。",
+      "effectAttrText": "【AD】+20%【DIST】【AS】+20%【DIST】【MR】+40",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 40.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 31013,
+      "name": "光明版振奋盔甲",
+      "type": "光明装",
+      "typeRaw": "guangming",
+      "code": "Dr",
+      "effect": "每秒回复4<TFTRadiantItemBonus>%</TFTRadiantItemBonus>已损失生命值。",
+      "effectAttr": "【HP】+700【DIST】【DR】+18%【DIST】【MANAREGEN】+4",
+      "key": "DA_SpiritVisage_Radiant",
+      "effectText": "每秒回复4%已损失生命值。",
+      "effectAttrText": "【HP】+700【DIST】【DR】+18%【DIST】【MANAREGEN】+4",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 700.0,
+          "percent": false
+        },
+        {
+          "stat": "DR",
+          "statKey": "damageReduction",
+          "value": 18.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 33044,
+      "name": "生命药水",
+      "type": "other",
+      "typeRaw": "other",
+      "code": "FQ",
+      "effect": "携带者的生命值降至50%时，在3秒内治疗750生命值。<br><tftitemrules>[单次使用 - 这个装备会在战斗中激活后被摧毁。]</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_HealthPotion18",
+      "effectText": "携带者的生命值降至50%时，在3秒内治疗750生命值。\n[单次使用 - 这个装备会在战斗中激活后被摧毁。]",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 33046,
+      "name": "光明版爆破药水",
+      "type": "other",
+      "typeRaw": "other",
+      "code": "HP",
+      "effect": "战斗开始8秒后，击飞4格范围内的敌人2秒。<br><tftitemrules>[单次使用 - 这个装备会在战斗中激活后被摧毁。]</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_BlastPotion18_Radiant",
+      "effectText": "战斗开始8秒后，击飞4格范围内的敌人2秒。\n[单次使用 - 这个装备会在战斗中激活后被摧毁。]",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 33051,
+      "name": "光明版法力药水",
+      "type": "other",
+      "typeRaw": "other",
+      "code": "Mm",
+      "effect": "携带者获得10法力值。施放技能时，在5秒内回复自身80法力值，回复友军10法力值。<br><tftitemrules>[单次使用 - 这个装备会在战斗中激活后被摧毁。]</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_ManaPotion18_Radiant",
+      "effectText": "携带者获得10法力值。施放技能时，在5秒内回复自身80法力值，回复友军10法力值。\n[单次使用 - 这个装备会在战斗中激活后被摧毁。]",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 33053,
+      "name": "爆破药水",
+      "type": "other",
+      "typeRaw": "other",
+      "code": "Mo",
+      "effect": "战斗开始8秒后，击飞3格范围内的敌人1.75秒。<br><tftitemrules>[单次使用 - 这个装备会在战斗中激活后被摧毁。]</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_BlastPotion18",
+      "effectText": "战斗开始8秒后，击飞3格范围内的敌人1.75秒。\n[单次使用 - 这个装备会在战斗中激活后被摧毁。]",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 33054,
+      "name": "光明版生命药水",
+      "type": "other",
+      "typeRaw": "other",
+      "code": "Mp",
+      "effect": "携带者的生命值降至50%时，在3秒内治疗自身850生命值，治疗友军150生命值。<br><tftitemrules>[单次使用 - 这个装备会在战斗中激活后被摧毁。]</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_HealthPotion18_Radiant",
+      "effectText": "携带者的生命值降至50%时，在3秒内治疗自身850生命值，治疗友军150生命值。\n[单次使用 - 这个装备会在战斗中激活后被摧毁。]",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 33055,
+      "name": "法力药水",
+      "type": "other",
+      "typeRaw": "other",
+      "code": "Mq",
+      "effect": "携带者获得10法力值。施放技能时，在5秒内回复70法力值。<br><tftitemrules>[单次使用 - 这个装备会在战斗中激活后被摧毁。]</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_ManaPotion18",
+      "effectText": "携带者获得10法力值。施放技能时，在5秒内回复70法力值。\n[单次使用 - 这个装备会在战斗中激活后被摧毁。]",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 501,
+      "name": "暴风之剑",
+      "type": "散件",
+      "typeRaw": "part",
+      "code": "BL",
+      "effect": "【AD】+10%",
+      "effectAttr": "",
+      "key": "DA_Component_BFSword",
+      "effectText": "【AD】+10%",
+      "effectAttrText": "",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 10.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 502,
+      "name": "反曲之弓",
+      "type": "散件",
+      "typeRaw": "part",
+      "code": "BM",
+      "effect": "【AS】+10%",
+      "effectAttr": "",
+      "key": "DA_Component_RecurveBow",
+      "effectText": "【AS】+10%",
+      "effectAttrText": "",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 10.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "name": "无用大棒",
+      "type": "散件",
+      "typeRaw": "part",
+      "code": "BN",
+      "effect": "【AP】+10%",
+      "effectAttr": "",
+      "key": "DA_Component_NeedlesslyLargeRod",
+      "effectText": "【AP】+10%",
+      "effectAttrText": "",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 10.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "name": "女神之泪",
+      "type": "散件",
+      "typeRaw": "part",
+      "code": "BO",
+      "effect": "【MANAREGEN】+1",
+      "effectAttr": "",
+      "key": "DA_Component_TearOfTheGoddess",
+      "effectText": "【MANAREGEN】+1",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 505,
+      "name": "锁子甲",
+      "type": "散件",
+      "typeRaw": "part",
+      "code": "BP",
+      "effect": "【ARMOR】+20",
+      "effectAttr": "",
+      "key": "DA_Component_ChainVest",
+      "effectText": "【ARMOR】+20",
+      "effectAttrText": "",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 20.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 506,
+      "name": "负极斗篷",
+      "type": "散件",
+      "typeRaw": "part",
+      "code": "BQ",
+      "effect": "【MR】+20",
+      "effectAttr": "",
+      "key": "DA_Component_NegatronCloak",
+      "effectText": "【MR】+20",
+      "effectAttrText": "",
+      "stats": [
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 20.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 507,
+      "name": "巨人腰带",
+      "type": "散件",
+      "typeRaw": "part",
+      "code": "BR",
+      "effect": "【HP】+150",
+      "effectAttr": "",
+      "key": "DA_Component_GiantsBelt",
+      "effectText": "【HP】+150",
+      "effectAttrText": "",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 150.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 508,
+      "name": "金铲铲",
+      "type": "散件",
+      "typeRaw": "part",
+      "code": "BT",
+      "effect": "<tftitemrules>它必须做点什么...</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_Component_Spatula",
+      "effectText": "它必须做点什么...",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 509,
+      "name": "拳套",
+      "type": "散件",
+      "typeRaw": "part",
+      "code": "BS",
+      "effect": "【CRIT】+20%",
+      "effectAttr": "",
+      "key": "DA_Component_SparringGloves",
+      "effectText": "【CRIT】+20%",
+      "effectAttrText": "",
+      "stats": [
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": 31000,
+      "name": "金锅锅",
+      "type": "散件",
+      "typeRaw": "part",
+      "code": "BU",
+      "effect": "<tftitemrules>.……不然它怎么会在这里？</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_Component_FryingPan",
+      "effectText": ".……不然它怎么会在这里？",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 32311,
+      "name": "幸运装备宝箱",
+      "type": "remove",
+      "typeRaw": "remove",
+      "code": "ED",
+      "effect": "用在一个弈子身上即可开启一个武器库，包含为其特别定制的装备。<br><tftitemrules>这些装备都是基于该弈子的推荐装备。</tftitemrules>",
+      "effectAttr": "",
+      "key": "DA_LuckyItemChest",
+      "effectText": "用在一个弈子身上即可开启一个武器库，包含为其特别定制的装备。\n这些装备都是基于该弈子的推荐装备。",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 32312,
+      "name": "光明版幸运装备宝箱",
+      "type": "remove",
+      "typeRaw": "remove",
+      "code": "EE",
+      "effect": "用在一个弈子身上即可开启一个特别适合该弈子的<TFTRadiantItemBonus>光明</TFTRadiantItemBonus>武器库。<br><rules>这些装备都是基于弈子的推荐装备。</rules>",
+      "effectAttr": "",
+      "key": "TFT_Consumable_RecommendedArmoryRadiant",
+      "effectText": "用在一个弈子身上即可开启一个特别适合该弈子的光明武器库。\n这些装备都是基于弈子的推荐装备。",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 32314,
+      "name": "打捞术",
+      "type": "remove",
+      "typeRaw": "remove",
+      "code": "EF",
+      "effect": "你备战席的任何弈子都会被移除装备，且这些装备会被拆解。<Set18CharmUpgrade>获得</Set18CharmUpgrade>2<Set18CharmUpgrade>金币。</Set18CharmUpgrade>",
+      "effectAttr": "",
+      "key": "DA_SalvagerUpgrade18",
+      "effectText": "你备战席的任何弈子都会被移除装备，且这些装备会被拆解。获得2金币。",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 33037,
+      "name": "幻影纹章",
+      "type": "remove",
+      "typeRaw": "remove",
+      "code": "EH",
+      "effect": "获得1个你层级最高羁绊的临时的纹章。",
+      "effectAttr": "",
+      "key": "DA_PhantomEmblem18",
+      "effectText": "获得1个你层级最高羁绊的临时的纹章。",
+      "effectAttrText": "",
+      "stats": []
+    },
+    {
+      "id": 33019,
+      "name": "灵魂莲华纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi",
+      "code": "CK",
+      "effect": "携带者获得【灵魂莲华】羁绊。",
+      "effectAttr": "【HP】+250【DIST】【AD】+10%【DIST】【AP】+10%",
+      "key": "DA_18_EmblemBlossom",
+      "effectText": "携带者获得【灵魂莲华】羁绊。",
+      "effectAttrText": "【HP】+250【DIST】【AD】+10%【DIST】【AP】+10%",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 250.0,
+          "percent": false
+        },
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 10.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金铲铲",
+          "id": 508
+        },
+        {
+          "name": "无用大棒",
+          "id": 503
+        }
+      ]
+    },
+    {
+      "id": 33020,
+      "name": "月蚀骑士纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi",
+      "code": "CL",
+      "effect": "携带者获得【月蚀骑士】羁绊。",
+      "effectAttr": "【AS】+20%【DIST】【MANAREGEN】+3",
+      "key": "DA_18_EmblemLunar",
+      "effectText": "携带者获得【月蚀骑士】羁绊。",
+      "effectAttrText": "【AS】+20%【DIST】【MANAREGEN】+3",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 20.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金铲铲",
+          "id": 508
+        },
+        {
+          "name": "女神之泪",
+          "id": 504
+        }
+      ]
+    },
+    {
+      "id": 33021,
+      "name": "约德尔人和朋友纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi",
+      "code": "CM",
+      "effect": "携带者获得【约德尔人和朋友】羁绊。<br>如果携带者骑乘着【毛茸茸大朋友】，获得额外【AS】20%【ARMOR】15【MR】15",
+      "effectAttr": "【AS】+10%【DIST】【ARMOR】+15【DIST】【MR】+15",
+      "key": "DA_18_EmblemSprykin",
+      "effectText": "携带者获得【约德尔人和朋友】羁绊。\n如果携带者骑乘着【毛茸茸大朋友】，获得额外【AS】20%【ARMOR】15【MR】15",
+      "effectAttrText": "【AS】+10%【DIST】【ARMOR】+15【DIST】【MR】+15",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 15.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 15.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金铲铲",
+          "id": 508
+        },
+        {
+          "name": "负极斗篷",
+          "id": 506
+        }
+      ]
+    },
+    {
+      "id": 33022,
+      "name": "花仙子纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi",
+      "code": "CN",
+      "effect": "携带者获得【花仙子】羁绊。",
+      "effectAttr": "【HP】+200【DIST】【AD】+10%【DIST】【AP】+10%",
+      "key": "DA_18_EmblemFae",
+      "effectText": "携带者获得【花仙子】羁绊。",
+      "effectAttrText": "【HP】+200【DIST】【AD】+10%【DIST】【AP】+10%",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 200.0,
+          "percent": false
+        },
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 10.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 10.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金铲铲",
+          "id": 508
+        },
+        {
+          "name": "暴风大剑",
+          "id": 501
+        }
+      ]
+    },
+    {
+      "id": 33023,
+      "name": "地狱火纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi",
+      "code": "CO",
+      "effect": "携带者获得【地狱火】羁绊。",
+      "effectAttr": "【AS】+40%",
+      "key": "DA_18_EmblemInferno",
+      "effectText": "携带者获得【地狱火】羁绊。",
+      "effectAttrText": "【AS】+40%",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 40.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金铲铲",
+          "id": 508
+        },
+        {
+          "name": "反曲之弓",
+          "id": 502
+        }
+      ]
+    },
+    {
+      "id": 33024,
+      "name": "永恒之森纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi",
+      "code": "CP",
+      "effect": "携带者获得【永恒之森】羁绊。",
+      "effectAttr": "【AS】+25%【DIST】【ARMOR】+25【DIST】【MR】+25",
+      "key": "DA_18_EmblemElderwood",
+      "effectText": "携带者获得【永恒之森】羁绊。",
+      "effectAttrText": "【AS】+25%【DIST】【ARMOR】+25【DIST】【MR】+25",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 25.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 25.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 25.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金铲铲",
+          "id": 508
+        },
+        {
+          "name": "锁子甲",
+          "id": 505
+        }
+      ]
+    },
+    {
+      "id": 33025,
+      "name": "黑荆棘纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi",
+      "code": "CQ",
+      "effect": "携带者获得【黑荆棘】羁绊。",
+      "effectAttr": "【HP】+250【DIST】【AD】+15%【DIST】【AP】+15%",
+      "key": "DA_18_EmblemBlackthorn",
+      "effectText": "携带者获得【黑荆棘】羁绊。",
+      "effectAttrText": "【HP】+250【DIST】【AD】+15%【DIST】【AP】+15%",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 250.0,
+          "percent": false
+        },
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 15.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 15.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金铲铲",
+          "id": 508
+        },
+        {
+          "name": "巨人腰带",
+          "id": 507
+        }
+      ]
+    },
+    {
+      "id": 33026,
+      "name": "野兽之灵纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi",
+      "code": "CR",
+      "effect": "携带者获得【野兽之灵】羁绊。",
+      "effectAttr": "【AS】+35%【DIST】【HP】+250【DIST】【CRIT】+20%",
+      "key": "DA_18_EmblemPrimal",
+      "effectText": "携带者获得【野兽之灵】羁绊。",
+      "effectAttrText": "【AS】+35%【DIST】【HP】+250【DIST】【CRIT】+20%",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 35.0,
+          "percent": true
+        },
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 250.0,
+          "percent": false
+        },
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金铲铲",
+          "id": 508
+        },
+        {
+          "name": "拳套",
+          "id": 509
+        }
+      ]
+    },
+    {
+      "id": 33035,
+      "name": "魔女纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi2",
+      "code": "Ca",
+      "effect": "携带者获得【魔女】羁绊。",
+      "effectAttr": "【HP】+150",
+      "key": "DA_18_EmblemCoven",
+      "effectText": "携带者获得【魔女】羁绊。",
+      "effectAttrText": "【HP】+150",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 150.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 33036,
+      "name": "绝命花妖纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi2",
+      "code": "Cj",
+      "effect": "携带者获得【绝命花妖】羁绊。",
+      "effectAttr": "【HP】+250【DIST】【MANAREGEN】+2",
+      "key": "DA_18_EmblemFloraFatalis",
+      "effectText": "携带者获得【绝命花妖】羁绊。",
+      "effectAttrText": "【HP】+250【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 250.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 33038,
+      "name": "护卫纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi2",
+      "code": "Ck",
+      "effect": "携带者获得【护卫】羁绊。<br>战斗开始时：每有1名友军在开战时位于前排，获得6%攻击速度。",
+      "effectAttr": "【ARMOR】+30【DIST】【MR】+30",
+      "key": "DA_18_EmblemDefender",
+      "effectText": "携带者获得【护卫】羁绊。\n战斗开始时：每有1名友军在开战时位于前排，获得6%攻击速度。",
+      "effectAttrText": "【ARMOR】+30【DIST】【MR】+30",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 30.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 30.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 33039,
+      "name": "主宰纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi2",
+      "code": "Cl",
+      "effect": "携带者获得【主宰】羁绊。<br>每当1个【主宰】阵亡，获得10法力值。",
+      "effectAttr": "【HP】+250",
+      "key": "DA_18_EmblemJuggernaut",
+      "effectText": "携带者获得【主宰】羁绊。\n每当1个【主宰】阵亡，获得10法力值。",
+      "effectAttrText": "【HP】+250",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 250.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 33047,
+      "name": "绝命花妖纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhi2",
+      "code": "QA",
+      "effect": "携带者获得【绝命花妖】羁绊。<br><TFTRadiantItemBonus>通过【绝命花妖】获得</TFTRadiantItemBonus> 70% <TFTRadiantItemBonus>额外加成。</TFTRadiantItemBonus>",
+      "effectAttr": "【HP】+250【DIST】【MANAREGEN】+2",
+      "key": "DA_18_EmblemFloraFatalisAugment",
+      "effectText": "携带者获得【绝命花妖】羁绊。\n通过【绝命花妖】获得 70% 额外加成。",
+      "effectAttrText": "【HP】+250【DIST】【MANAREGEN】+2",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 250.0,
+          "percent": false
+        }
+      ]
+    },
+    {
+      "id": 33027,
+      "name": "裁决使纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhiJgg",
+      "code": "CS",
+      "effect": "携带者获得【裁决使】羁绊。<br>伤害会处决最大生命值低于8%的敌人。",
+      "effectAttr": "【CRIT】+20%【DIST】【CRITMULT】+8%",
+      "key": "DA_18_EmblemExecutioner",
+      "effectText": "携带者获得【裁决使】羁绊。\n伤害会处决最大生命值低于8%的敌人。",
+      "effectAttrText": "【CRIT】+20%【DIST】【CRITMULT】+8%",
+      "stats": [
+        {
+          "stat": "CRIT",
+          "statKey": "critChance",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "CRITMULT",
+          "statKey": "critDamage",
+          "value": 8.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金锅锅",
+          "id": 31000
+        },
+        {
+          "name": "拳套",
+          "id": 509
+        }
+      ]
+    },
+    {
+      "id": 33028,
+      "name": "斗士纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhiJgg",
+      "code": "CT",
+      "effect": "携带者获得【斗士】羁绊。<br>攻击造成携带者2.5%最大生命值的魔法伤害。",
+      "effectAttr": "【HP】+150",
+      "key": "DA_18_EmblemBrawler",
+      "effectText": "携带者获得【斗士】羁绊。\n攻击造成携带者2.5%最大生命值的魔法伤害。",
+      "effectAttrText": "【HP】+150",
+      "stats": [
+        {
+          "stat": "HP",
+          "statKey": "health",
+          "value": 150.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金锅锅",
+          "id": 31000
+        },
+        {
+          "name": "巨人腰带",
+          "id": 507
+        }
+      ]
+    },
+    {
+      "id": 33029,
+      "name": "神谕纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhiJgg",
+      "code": "CU",
+      "effect": "携带者获得【神谕】羁绊。<br>施放技能时，获得相当于8%消耗法力值的法术加成。",
+      "effectAttr": "【MANAREGEN】+2",
+      "key": "DA_18_EmblemInvoker",
+      "effectText": "携带者获得【神谕】羁绊。\n施放技能时，获得相当于8%消耗法力值的法术加成。",
+      "effectAttrText": "【MANAREGEN】+2",
+      "stats": [],
+      "recipe": [
+        {
+          "name": "金锅锅",
+          "id": 31000
+        },
+        {
+          "name": "女神之泪",
+          "id": 504
+        }
+      ]
+    },
+    {
+      "id": 33030,
+      "name": "迅捷射手纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhiJgg",
+      "code": "CV",
+      "effect": "携带者获得【迅捷射手】羁绊。<br>攻击造成目标1%最大生命值的真实伤害",
+      "effectAttr": "【AS】+20%",
+      "key": "DA_18_EmblemRapidfire",
+      "effectText": "携带者获得【迅捷射手】羁绊。\n攻击造成目标1%最大生命值的真实伤害",
+      "effectAttrText": "【AS】+20%",
+      "stats": [
+        {
+          "stat": "AS",
+          "statKey": "attackSpeed",
+          "value": 20.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金锅锅",
+          "id": 31000
+        },
+        {
+          "name": "反曲之弓",
+          "id": 502
+        }
+      ]
+    },
+    {
+      "id": 33031,
+      "name": "法师纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhiJgg",
+      "code": "CW",
+      "effect": "携带者获得【法师】羁绊。<br>每当1名友军施放其技能时，获得2法力值。",
+      "effectAttr": "【AP】+25%",
+      "key": "DA_18_EmblemSpellweaver",
+      "effectText": "携带者获得【法师】羁绊。\n每当1名友军施放其技能时，获得2法力值。",
+      "effectAttrText": "【AP】+25%",
+      "stats": [
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 25.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金锅锅",
+          "id": 31000
+        },
+        {
+          "name": "无用大棒",
+          "id": 503
+        }
+      ]
+    },
+    {
+      "id": 33032,
+      "name": "重装战士纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhiJgg",
+      "code": "CX",
+      "effect": "携带者获得【重装战士】羁绊。<br>如果携带者在玩家对战回合中，战斗开始后存活22秒及以上，获得1玩家生命值。",
+      "effectAttr": "【ARMOR】+25【DIST】【MR】+25",
+      "key": "DA_18_EmblemVanguard",
+      "effectText": "携带者获得【重装战士】羁绊。\n如果携带者在玩家对战回合中，战斗开始后存活22秒及以上，获得1玩家生命值。",
+      "effectAttrText": "【ARMOR】+25【DIST】【MR】+25",
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 25.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 25.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金锅锅",
+          "id": 31000
+        },
+        {
+          "name": "锁子甲",
+          "id": 505
+        }
+      ]
+    },
+    {
+      "id": 33033,
+      "name": "猎人纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhiJgg",
+      "code": "CY",
+      "effect": "携带者获得【猎人】羁绊。<br>参与击杀提供15%物理加成。",
+      "effectAttr": "【AD】+25%",
+      "key": "DA_18_EmblemHunter",
+      "effectText": "携带者获得【猎人】羁绊。\n参与击杀提供15%物理加成。",
+      "effectAttrText": "【AD】+25%",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 25.0,
+          "percent": true
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金锅锅",
+          "id": 31000
+        },
+        {
+          "name": "暴风大剑",
+          "id": 501
+        }
+      ]
+    },
+    {
+      "id": 33034,
+      "name": "狂战士纹章",
+      "type": "纹章",
+      "typeRaw": "zhuanzhiJgg",
+      "code": "CZ",
+      "effect": "携带者获得【狂战士】羁绊。<br>每回复300生命值，获得3%伤害增幅。",
+      "effectAttr": "【AD】+20%【DIST】【AP】+20%【DIST】【ARMOR】+20【DIST】【MR】+20",
+      "key": "DA_18_EmblemSlayer",
+      "effectText": "携带者获得【狂战士】羁绊。\n每回复300生命值，获得3%伤害增幅。",
+      "effectAttrText": "【AD】+20%【DIST】【AP】+20%【DIST】【ARMOR】+20【DIST】【MR】+20",
+      "stats": [
+        {
+          "stat": "AD",
+          "statKey": "attackDamage",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "AP",
+          "statKey": "abilityPower",
+          "value": 20.0,
+          "percent": true
+        },
+        {
+          "stat": "ARMOR",
+          "statKey": "armor",
+          "value": 20.0,
+          "percent": false
+        },
+        {
+          "stat": "MR",
+          "statKey": "magicResist",
+          "value": 20.0,
+          "percent": false
+        }
+      ],
+      "recipe": [
+        {
+          "name": "金锅锅",
+          "id": 31000
+        },
+        {
+          "name": "负极斗篷",
+          "id": 506
+        }
+      ]
+    }
+  ]
+}
